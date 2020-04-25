@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Toggle from "./toggle"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -67,6 +68,7 @@ const Layout = ({ location, title, children }) => {
           [about]
         </Link>
         {` `}
+        <Toggle />
       </h3>
     )
   }
@@ -75,8 +77,11 @@ const Layout = ({ location, title, children }) => {
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: rhythm(24),
+        maxWidth: rhythm(28),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        transition: 'color 0.4s ease-out, background 0.4s ease-out',
+        backgroundColor: 'var(--bg)',
+        color: 'var(--textNormal)',
       }}
     >
       <header>{header}</header>

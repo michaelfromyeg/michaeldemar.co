@@ -1,8 +1,11 @@
 import React, { useState } from "react"
+import Headroom from "react-headroom"
+import Typist from "react-typist"
 
 import SEO from "../components/seo"
 import Arrow from "../components/arrow"
-import Typist from "react-typist"
+import Toggle from "../components/toggle"
+import Test from "../components/test"
 
 import logo from "../../content/assets/mjd-logo-black.svg"
 import { rhythm, scale } from "../utils/typography"
@@ -26,33 +29,60 @@ const Index = () => {
   ]
 
   return (
-    <div className="header">
-      <SEO title="Home" />
-      <img src={logo} alt="Michael's logo" className="background-logo" />
-      <h1
-        style={{
-          ...scale(1.5),
-          marginBottom: rhythm(1.5),
-          marginTop: 0,
-        }}
-        className="title-text"
-      >
-        Hi, I'm
-        <Typist
-          className="typist"
-          onTypingDone={onComplete}
-          stdTypingDelay="0"
-          key={index}
+    <>
+      <div className="header">
+        <Headroom
+          style={{
+            background: "rgba(0, 0, 0, 0.1)",
+            boxShadow: "1px 1px 1px rgba(0,0,0,0.25)",
+          }}
         >
-          <span>
-            {`>`}
-            {strings[index]}
-          </span>
-          <Typist.Backspace count={strings[index].length} delay={2500} />
-        </Typist>
-      </h1>
-      <Arrow></Arrow>
-    </div>
+          <h1
+            style={{
+              margin: 0,
+              color: "rgb(252, 253, 254)",
+            }}
+          >
+            michaeldemar.co
+          </h1>
+          <Toggle />
+        </Headroom>
+        <SEO title="Home" />
+        <img src={logo} alt="Michael's logo" className="background-logo" />
+        <h1
+          style={{
+            ...scale(1.5),
+            marginBottom: rhythm(1.5),
+            marginTop: 0,
+          }}
+          className="title-text"
+        >
+          Hi, I'm
+          <Typist
+            className="typist"
+            onTypingDone={onComplete}
+            stdTypingDelay="0"
+            key={index}
+          >
+            <span>
+              {`>`}
+              {strings[index]}
+            </span>
+            <Typist.Backspace count={strings[index].length} delay={2500} />
+          </Typist>
+        </h1>
+        <Arrow></Arrow>
+        <Test />
+        <Test />
+        <Test />
+        <Test />
+        <Test />
+        <Test />
+        <Test />
+        <Test />
+        <Test />
+      </div>
+    </>
   )
 }
 
