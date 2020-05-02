@@ -2,6 +2,7 @@
 title: 10 newsletters to make your inbox more interesting
 date: "2019-03-05"
 description: "I have an addiction to e-mail newsletters. So I thought I’d put it to good use and share some of my favourites. Here are ten newsletters to brighten up your dreary inbox."
+type: "blog"
 ---
 
 I have an addiction to e-mail newsletters. So I thought I’d put it to good use and share some of my favourites. Here are ten newsletters to brighten up your dreary inbox.

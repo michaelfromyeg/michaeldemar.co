@@ -4,7 +4,6 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -19,11 +18,7 @@ const BlogIndex = ({ data, location }) => {
         return (
           <article key={node.fields.slug}>
             <header>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
+              <h3>
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
                 </Link>
@@ -53,7 +48,8 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC },
+                      filter: {frontmatter: {type: {eq: "blog"}}}) {
       edges {
         node {
           excerpt

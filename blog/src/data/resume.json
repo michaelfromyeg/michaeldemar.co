@@ -1,0 +1,309 @@
+{
+  "experience": {
+    "list": [
+      {
+        "title": "Backend Developer",
+        "company": "Code The Change Foundation",
+        "companyUrl": "http://codethechange.ca/",
+        "githubUrl": "https://github.com/CodetheChangeFoundation/alp",
+        "location": "Vancouver, BC",
+        "startDate": "Aug 2019",
+        "endDate": "Present",
+        "description": [
+          "Developed a web application for a local non-profit to manage network of 1000+ volunteers along with a team of five other upper year students.",
+          "Created RESTful API using Azure functions and Node.js, built React components, wrote queries for MSSQL database, conducted code review, and created documentation to transfer completed project to client."
+        ],
+        "technologies": ["Node", "Azure", "MSSQL", "React", "CSS"]
+      },
+      {
+        "title": "Registrar and CTO",
+        "company": "The Seminar on United Nations and International Affairs (SUNIA)",
+        "companyUrl": "https://www.sunia.ca/",
+        "githubUrl": "https://github.com/suniacamp",
+        "location": "Edmonton, AB",
+        "startDate": "Jan 2017",
+        "endDate": "Present",
+        "description": [
+          "Utilized clasp, Google's Apps Script command line utility, and TypeScript to create backend for storing, updating, and contacting 150+ registrants.",
+          "Interfaced with marketing team to create modern, welcoming emails using HTML, CSS, and vanilla JavaScript.",
+          "Worked with Slack API to develop in-house tools and bots that increased workplace efficiency.",
+          "Created generative recursion algorithm in Python to place 75 students per week into groups to minimize student overlap, and prevent counsellors from being in groups with known students, saving future registrars >20 hours of work annually.",
+          "Acted as webmaster for SquareSpace site."
+        ],
+        "technologies": ["TypeScript", "clasp", "JavaScript", "Python", "CSS"]
+      },
+      {
+        "title": "Undergraduate Teaching Assistant",
+        "company": "The University of British Columbia",
+        "companyUrl": "https://www.cs.ubc.ca/",
+        "location": "Vancouver, BC",
+        "startDate": "Jan 2020",
+        "endDate": "Present",
+        "description": [
+          "Serving as core course TA, assisting with lecture, lab work, grading and more, with introductory Python course, CPSC 103.",
+          "In previous semester, supported student lab work in introductory functional programming course, CPSC 107."
+        ],
+        "technologies": ["Racket", "Functional Programming", "Teaching"]
+      },
+      {
+        "title": "Program Coordinator",
+        "company": "Metro Continuing Education",
+        "companyUrl": "https://www.metrocontinuingeducation.ca/",
+        "location": "Edmonton, AB",
+        "startDate": "July 2017",
+        "endDate": "July 2019",
+        "description": [
+          "Ran week-long camps teaching children aged 8 to 11 programming basics in Unity.",
+          "Created programming for and subsequently ran day camps for children whose families were new to Canada, with a focus on English literacy."
+        ],
+        "technologies": ["Unity", "Communication", "Teaching"]
+      }
+    ]
+  },
+  "projects": {
+    "list": [
+      {
+        "name": "RapViz",
+        "title": "Fullstack Developer",
+        "devpostUrl": "https://devpost.com/software/rapviz-breakdown-your-favourite-lyricist-s-rhyme-schemes",
+        "githubUrl": "https://github.com/michaelfromyeg/BestBuy-ARPro",
+        "projectUrl": "https://rapviz.appspot.com/",
+        "location": "Vancouver, BC",
+        "startDate": "Feb 2020",
+        "endDate": "Feb 2020",
+        "description": [
+          "Developed web application to visualize rhyme schemes in song lyrics or poems. Developed React frontend, rhyme analysis algorithm, Flask RESTful API, Spotify API integration, and deployed to GCP within 36 hours.",
+          "Project earned second place prize at BizHacks 2020 against 50+ teams."
+        ],
+        "technologies": ["React", "Flask", "Google Cloud Platform", "Spotify Web SDK", "Genius API"]
+      },
+      {
+        "name": "Best Buy AR Pro",
+        "title": "Android App Developer",
+        "devpostUrl": "",
+        "githubUrl": "https://github.com/michaelfromyeg/BestBuy-ARPro",
+        "projectUrl": "",
+        "location": "Vancouver, BC",
+        "startDate": "Feb 2020",
+        "endDate": "Feb 2020",
+        "description": [
+          "As part of a team of two, created minified Best Buy Android app clone and extended functionality to include AR feature to allow users to ‘see’ Best Buy products in their own living room, to exact dimensions.",
+          "Project earned second place prize at BizHacks 2020 against 50+ teams."
+        ],
+        "technologies": ["Android", "Java", "ARCore"]
+      },
+      {
+        "name": "Massive Volunteering Site",
+        "title": "Fullstack Developer",
+        "devpostUrl": "",
+        "githubUrl": "https://github.com/michaelfromyeg/Massive-Volunteering",
+        "projectUrl": "",
+        "location": "Edmonton, AB",
+        "startDate": "Jan 2018",
+        "endDate": "Aug 2019",
+        "description": [
+          "Web application developed for client, a club at my former high school called Massive Volunteering, which showcases volunteer experiences from around the Edmonton area and shares them with their followers.",
+          "Created frontend and backend for website which allows students and organization's to access and post volunteer experiences."
+        ],
+        "technologies": ["Python", "Flask", "mySQL"]
+      }
+    ]
+  },
+  "activities": {
+    "list": [
+      {
+        "title": "First Year Comittee Member",
+        "organization": "Science Undergrad Society",
+        "url": "https://sus.ubc.ca/",
+        "location": "Vancouver, BC",
+        "startDate": "Sep 2019",
+        "endDate": "April 2020",
+        "description": [
+          "Coordinated events which seek to improve the experience of a first-year student in the Faculty of Science at UBC.",
+          "Assisted with marketing events through creating blurbs and graphics, and distributing them via a variety of digital channels.",
+          "Led logistics committee for community event in which our committee served hot chocolate to over 300+ UBC students and staff."
+        ],
+        "skills": ["Leadership", "Event Planning", "Logistics", "Graphic Design", "Marketing"]
+      },
+      {
+        "title": "Branch President",
+        "organization": "Orchard Commons Residence Assoication",
+        "url": "https://rha.housing.ubc.ca/residence-councils/orchard-commons-residence-association/",
+        "location": "Vancouver, BC",
+        "startDate": "Sep 2019",
+        "endDate": "April 2020",
+        "description": [
+          "Directed events with the goal of improving first-year experience in residence.", 
+          "Distributed promotional materials, organized logistics, and created welcoming and inclusive environment."
+        ],
+        "skills": ["Leadership", "Reslife", "Graphic Design"]
+      },
+      {
+        "title": "Youth Councillor",
+        "organization": "The City of Edmonton Youth Council",
+        "url": "https://www.ceyc.ca/",
+        "location": "Edmonton, AB",
+        "startDate": "Aug 2018",
+        "endDate": "Aug 2019",
+        "description": [
+          "Provided meaningful input to our municipal government and took action on local issues.",
+          "Acted as member of the Urban & Regional Planning Committee."
+        ],
+        "skills": ["Leadership", "Municipal Affairs", "Governance"]
+      },
+      {
+        "title": "Student Senator",
+        "organization": "Edmonton Public School Board",
+        "url": "https://sites.google.com/epsb.ca/studentsenate",
+        "location": "Edmonton, AB",
+        "startDate": "Sep 2017",
+        "endDate": "June 2019",
+        "description": [
+          "Served on EPSB Student Senate for two-terms, engaging students across the district on issues that mattered to them, and pursuing project work based on their insight.",
+          "Responsible for graphic design of time management themed brochures in first-year. Assisted with senate proceedings in second-year as vice-chair."
+        ],
+        "skills": ["Leadership", "Graphic Design", "Consultation"]
+      },
+      {
+        "title": "Director of Student Programming",
+        "organization": "The Canadian Student Leadership Conference (CSLC) 2018",
+        "url": "https://mediazilla.com/Ppfxjhfe6",
+        "location": "Edmonton, AB",
+        "startDate": "Dec 2016",
+        "endDate": "Oct 2018",
+        "description": [
+          "Managed horizontal communication across five high schools and booked workshops, keynotes, and activities for a week-long conference of 1000 student-leaders across Canada."
+        ],
+        "skills": ["Communication", "Leadership"]
+      }
+    ]
+  },
+  "education": {
+    "list": [
+      {
+        "institution": "The University of British Colubmia (UBC)",
+        "institutionUrl": "https://cs.ubc.ca/",
+        "location": "Vancouver, BC",
+        "degree": "B.Sc. Candidate for Computer Science and Mathematics",
+        "grade": "91% (as of May 2020)",
+        "startDate": "Fall 2019",
+        "endDate": "Spring 2023",
+        "courses": [
+          "CPSC 110",
+          "MATH 100",
+          "PHYS 117",
+          "BIOL 111",
+          "LING 100",
+          "DSCI 100",
+          "MATH 101",
+          "CPSC 210",
+          "CPSC 121",
+          "PHYS 118",
+          "ATSC 113 (current)",
+          "POLI 110 (current)"
+        ]
+      },
+      {
+        "institution": "McNally Composite High School",
+        "institutionUrl": "https://mcnally.epsb.ca/",
+        "location": "Edmonton, AB",
+        "degree": "IB Diploma and Alberta Education Diploma",
+        "grade": "41/45 (IB), 98.3% (Alberta Education)",
+        "startDate": "Fall 2016",
+        "endDate": "Spring 2019",
+        "courses": [
+          "Chemistry HL",
+          "English HL",
+          "History HL",
+          "Mathematics SL",
+          "French B SL",
+          "Physics SL",
+          "Computer Science SL (Additional)"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "languages": [
+      "Java",
+      "Python",
+      "JavaScript",
+      "C++",
+      "TypeScript",
+      "R",
+      "Go"
+    ],
+    "frameworks": [
+      "Flask",
+      "React.js",
+      "Node.js",
+      "Swing",
+      "JavaFX",
+      "tidyverse",
+      "caret"
+    ],
+    "tools": [
+      "Git",
+      "Docker",
+      "Kubernetes",
+      "Agile",
+      "Adobe Creative Cloud",
+      "Photoshop",
+      "Illustrator",
+      "Figma"
+    ]
+  },
+  "awards": {
+    "list": [
+      {
+        "name": "Michael A. Strembitsky Gold Medallist",
+        "organization": "Edmonton Public Schools",
+        "url": "https://epsb.ca/media/epsb/schools/goingtoschool/studentawards/2019MichaelStrembitskyWinnersGuide.pdf",
+        "date": "Jun 2019",
+        "details": "I was nominated by McNally High School for Michael A. Strembitsky award, which recognises accomplishments in academics and leadership, on behalf of McNally. All Edmonton high schools choose one nominee. Out of the the 19 nominees, I was awarded the gold medallion ($2,000)."
+      },
+      {
+        "name": "Djavad Mowafaghian Presidential Scholar Award",
+        "organization": "The University of British Columbia",
+        "url": "https://support.ubc.ca/successstories/djavad-mowafaghian-presidential-scholar-award/",
+        "date": "Apr 2019",
+        "details": "In recognition for achievements both inside and outside of the classroom, I was awarded the Djavad Mowafaghian Presidential Scholar Award from UBC. The award is worth $80,000 and is tenable at the university over the course of my four years of undergraduate studies."
+      },
+      {
+        "name": "Class Valedictorian",
+        "organization": "McNally Composite High School",
+        "url": "https://www.youtube.com/watch?v=epCD2rq24tE",
+        "date": "May 2019",
+        "details": "Graduated at the top of my class, with a 98% percentage average on my Alberta Education diploma and a 41/45 on my IB diploma."
+      },
+      {
+        "name": "TD Award of Merit",
+        "organization": "TD Community Leadership Scholarships",
+        "url": "",
+        "date": "Mar 2019",
+        "details": "From a field of 2700 applicants, I was selected as one of 59 finalists to be interviewed for the TD Community Leadership Scholarship, which recognises significant contributions to one's community."
+      },
+      {
+        "name": "ATB Loran Finalist",
+        "organization": "Loran Foundation",
+        "url": "https://loranscholar.ca/2019-loran-finalists/",
+        "date": "Jan 2019",
+        "details": "The Loran received 5,089 applications for the Loran Award. Their volunteers assessed and interviewed 518 students across the country in order to identify 88 graduating high school and Cegep students. I was thankfully selected as one of the finalists and had the opportunity to attend the National Selections in Toronto. The distinction included $5,000 to recognize my efforts in leadership."
+      }
+    ]
+  },
+  "contact": {
+    "githubUrl": "https://github.com/michaelfromyeg",
+    "linkedinUrl": "https://www.linkedin.com/in/michaelfromyeg/",
+    "instagramUrl": "https://www.instagram.com/michaelfromyeg/",
+    "facebookUrl": "https://www.facebook.com/michaelfromyeg",
+    "youtubeUrl": "https://www.youtube.com/channel/UCohoNm6NqDAetXX6MiaV_RQ?view_as=subscriber",
+    "mailUrl": "mailto:michaelfromyeg@gmail.com",
+    "twitterUrl": "https://twitter.com/michaelfromyeg",
+    "phone": "(780) 680-9634"
+  },
+  "address": {
+    "line1": "6363 Agronomy Road",
+    "line2": "Vancouver, BC  V6T 1Z4"
+  }
+}

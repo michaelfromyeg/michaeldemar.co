@@ -55,7 +55,6 @@ const Layout = ({ location, title, children }) => {
           to={`/blog`}
         >
           [blog]
-
         </Link>
         {` `}
         <Link
@@ -79,9 +78,9 @@ const Layout = ({ location, title, children }) => {
         marginRight: `auto`,
         maxWidth: rhythm(28),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        transition: 'color 0.4s ease-out, background 0.4s ease-out',
-        backgroundColor: 'var(--bg)',
-        color: 'var(--textNormal)',
+        transition: "color 0.4s ease-out, background 0.4s ease-out",
+        backgroundColor: "var(--bg)",
+        color: "var(--textNormal)",
       }}
     >
       <header>{header}</header>

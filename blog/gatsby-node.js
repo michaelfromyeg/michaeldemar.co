@@ -4,6 +4,9 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
+  // TODO: refactor so that each of blog/portfolio/design is handled separately, and then merged w/ 'everything'
+  // right now the left/right navigation is not very good because it includes all nodes
+
   const blogPost = path.resolve(`./src/templates/post.js`)
   const result = await graphql(
     `

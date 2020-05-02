@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
-const DesignIndex = ({ data, location }) => {
+const ProjectsIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
 
@@ -44,7 +44,7 @@ const DesignIndex = ({ data, location }) => {
   )
 }
 
-export default DesignIndex
+export default ProjectsIndex
 
 export const pageQuery = graphql`
   query {
@@ -54,7 +54,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC },
-                      filter: {frontmatter: {type: {eq: "design"}}}) {
+                      filter: {frontmatter: {type: {eq: "project"}}}) {
       edges {
         node {
           excerpt

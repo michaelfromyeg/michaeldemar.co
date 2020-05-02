@@ -2,6 +2,7 @@
 title: Ikigai
 date: "2019-05-06"
 description: "I recently figured out where and what I want to study for the next for years. Here's how."
+type: "blog"
 ---
 
 Some of my readers may know that I recently decided what I’ll be doing past high school: studying computer science. This is very exciting as I now feel much more focused and fulfilled. I do find now that it is strange sitting in English classes and the like and trying to stay as motivated as I was. I now know that this subject won’t be consequential to my life. However, I still enjoy all of my classes and have loved my school year so far.
