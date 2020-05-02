@@ -211,6 +211,11 @@ a.no-opacity:hover {
   border-left: 2.5px solid var(--text-title);
   padding-left: 15px;
   padding-top: 10px;
+  cursor: pointer;
+}
+
+.Collapsible:hover {
+  cursor: pointer;
 }
 
 h2.section-title {
@@ -246,7 +251,7 @@ div.tech, div.course {
 
 div.tech:hover, div.course:hover {
   opacity: 1;
-  box-shadow: 3px -1px 2px 1px rgba(0, 0, 0, 0.2);
+  /*box-shadow: 3px -1px 2px 1px rgba(0, 0, 0, 0.2);*/
 }
 
 /* Bullet points */
@@ -278,7 +283,8 @@ div.item {
   margin-bottom: -13px;
   width: 10px;
   height: 10px;
-  background-color: var(--text-normal);
+  /*background-color: var(--text-normal);*/
+  background-color: white;
   border-radius: 50%;
   border: 0.1rem solid var(--color-b);
 }

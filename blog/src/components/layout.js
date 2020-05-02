@@ -62,11 +62,32 @@ const Layout = ({ location, title, children }) => {
             boxShadow: `none`,
             color: `inherit`,
           }}
+          to={`/projects`}
+        >
+          [projects]
+        </Link>
+        {` `}
+        <Link
+          style={{
+            boxShadow: `none`,
+            color: `inherit`,
+          }}
+          to={`/design`}
+        >
+          [design]
+        </Link>
+        {` `}
+        <Link
+          style={{
+            boxShadow: `none`,
+            color: `inherit`,
+          }}
           to={`/about`}
         >
           [about]
         </Link>
         {` `}
+        <br />
         <Toggle />
       </h3>
     )

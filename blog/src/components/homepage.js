@@ -60,6 +60,14 @@ const Homepage = () => {
             [blog]
           </Link>
           {` `}
+          <Link className="headroom-nav" to={`/projects`}>
+            [projects]
+          </Link>
+          {` `}
+          <Link className="headroom-nav" to={`/design`}>
+            [design]
+          </Link>
+          {` `}
           <Link className="headroom-nav" to={`/about`}>
             [about]
           </Link>
@@ -72,7 +80,7 @@ const Homepage = () => {
           alt="Michael's logo"
           className="background-logo shadow"
         />
-        <a href="#redirects" onClick={scrollTo}>
+        {/* <a href="#redirects" onClick={scrollTo}> */}
           <h1
             style={{
               ...scale(1.5),
@@ -96,7 +104,7 @@ const Homepage = () => {
             </Typist>
           </h1>
           <Arrow />
-        </a>
+        {/* </a> */ }
       </div>
 
       <div id="redirects"></div>
