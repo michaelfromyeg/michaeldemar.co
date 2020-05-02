@@ -1,22 +1,36 @@
-# michaeldemar.co — v3!
-Personal website built using Gatsby, React, and GraphQL
+# michaeldemar.co—v4!
+This is my personal website built using Gatsby, which is in turn built on top of React and GraphQL. While this website has a lot of bells and whistles it *definitely* **doesn't** need, I was having a lot of fun experimenting and wanted to try to learn a few things! Gatsby is something I'd seen from a while ago and it has tons of really cool features. You'll also be able to see I was really experimenting with CSS and I think it turned out pretty okay!
 
-## inspiration
+Hope you enjoy. 
 
-here are some other personal websites that are think are really great!
+## Run the project locally
 
-## how did you—
+### Requirements
 
-- how did I create a blog with Gatsby?
-- how did I style the logo on the front header?
-- how did I create the arrow animation?
-- how did I get the main navbar to act like that?
-- how did I make my logo?
+### Step-by-step
 
-## get it running on your machine
+### Want to use it as a template?
+While I won't make the current version available as a template (as it has all of my stuff on it), I think in the future I might look to release a handy Gatsby starter for personal websites. A plug-and-play kinda deal.
 
-### prereqs
+## For the future
 
-### tech stack
+- The structure is really bad, I need to use CSS modules. Thankfully this is easy to do with Gatsby.
+- I need to post more content!
+- I need to get more of my personal projects online so I can share them! Good thing I'm stuck inside all summer...
 
-## things i'd like to add
+## Inspiration
+There really is an art to personal websites. Here are some websites that inspired me when I was still planning mine out. They are really great projects by really great developers!
+
+(fill this in!)
+
+## FAQ
+- Why Gatsby?
+
+### How did you—
+These are just a bunch of tricks I hope developers stumbling across this find useful. If I'm missing something, feel free to ask me!
+
+- ...create a blog with Gatsby?
+- ...style the logo on the front header?
+- ...create the arrow animation?
+- ...get the main navbar to act like that?
+- ...I make my logo?
