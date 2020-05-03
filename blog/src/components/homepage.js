@@ -33,11 +33,11 @@ const Homepage = () => {
     "excited to meet you!",
   ]
 
-  const scrollTo = e => {
+  /*const scrollTo = e => {
     e.preventDefault()
     let target = document.getElementById("redirects")
     target.scrollIntoView({ behaviour: "smooth", inline: "nearest" })
-  }
+  }*/
 
   return (
     <>

@@ -40,8 +40,10 @@
     "typeface-montserrat": "0.0.75",
     "typography": "^0.16.19",
     "typography-theme-anonymous": "^0.15.10",
+    "typography-theme-noriega": "^0.16.19",
     "typography-theme-stern-grove": "^0.16.19",
-    "typography-theme-wordpress-2016": "^0.16.19"
+    "typography-theme-wordpress-2016": "^0.16.19",
+    "uifx": "^2.0.7"
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",

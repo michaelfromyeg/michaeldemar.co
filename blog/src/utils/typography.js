@@ -2,20 +2,23 @@ import Typography from 'typography'
 import anonymousTheme from 'typography-theme-anonymous'
 
 anonymousTheme.overrideThemeStyles = () => ({
+  // fix transition timing
   a: {
-    color: 'var(--textLink)',
+    color: 'var(--text-link)',
+    textDecoration: 'none',
   },
-  // gatsby-remark-autolink-headers - don't underline when hidden
-  'a.anchor': {
-    boxShadow: 'none',
+  'body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, img, div, button': {
+    color: 'var(--text-normal)',
+    margin: 0,
+    lineHeight: 1,
   },
-  // gatsby-remark-autolink-headers - use theme colours for the link icon
-  'a.anchor svg[aria-hidden="true"]': {
-    stroke: 'var(--textLink)',
+  'a:hover': {
+    opacity: 0.7,
+    textDecoration: 'none',
   },
-  hr: {
-    background: 'var(--hr)',
-  },
+  'a.gatsby-resp-image-link:hover': {
+    color: 'white',
+  }
 })
 
 const typography = new Typography(anonymousTheme)

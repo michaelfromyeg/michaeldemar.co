@@ -14,28 +14,19 @@ body::-webkit-scrollbar {
 
 body {
   -ms-overflow-style: none;
-}
-
-/* Reset default stylings */
-
-body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, img {
-  color: var(--text-normal);
-  margin: 0;
-  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--bg);
 }
 
 /* Lightmode/Darkmode */
 
-body, body.light {
-  background-color: var(--bg);
-  transition: 0.4s ease-out;
+body.light {
   /* Change/default style to lightmode */
   --bg: white;
   --text-normal: #222;
   --text-title: #222;
   --text-link: darkslategray;
   --text-background: rgb(230, 230, 230);
-  --accent-red: #BC2131;
   --hr: hsla(0, 0%, 0%, 0.2);
   --logo-shadow: rgb(0, 0, 0);
   --color-a: hsl(0, 100%, 50%);
@@ -43,7 +34,6 @@ body, body.light {
 }
 
 body.dark {
-  -webkit-font-smoothing: antialiased;
   /* Change style to darkmode */
   --bg: darkslategray;
   --text-normal: rgba(255, 255, 255, 0.88);
@@ -65,6 +55,7 @@ div.bio {
 }
 
 /* TODO: make this better, this will mess up more images */
+
 div.gatsby-image-wrapper {
   margin-top: 1rem;
 }
@@ -161,18 +152,18 @@ img.shadow:hover {
 .button {
   --x: 50%;
   --y: 50%;
-  padding: 1em 2em;
+  padding: 0.5em 1em;
   color: black;
   cursor: pointer;
   outline: none;
   border-radius: 100px;
   text-align: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   border: 2px solid transparent;
   /* offwhite: #F5F5F5*/
   background: linear-gradient(white, white) padding-box, radial-gradient(farthest-corner at var(--x) var(--y), var(--color-a), var(--color-b)) border-box;
-  transition: color 0.5s ease;
+  transition: 0.4s ease-in-out;
 }
 
 /* TODO: implement this with a pretty transition
@@ -227,8 +218,7 @@ h3.entry-title {
   margin-bottom: 0.5rem;
   color: var(--text-title);
   text-decoration: none;
-  transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 h3.entry-title:hover {
@@ -246,7 +236,7 @@ div.tech, div.course {
   opacity: 0.5;
   margin-right: 5px;
   margin-top: 5px;
-  transition: 0.5s;
+  transition: 0.4s ease-in-out;
 }
 
 div.tech:hover, div.course:hover {
@@ -300,10 +290,7 @@ div.item:hover {
 /*
 h3.entry-title {
   color: var(--text-title);
-  transition: color 5s ease-in-out;
-	-moz-transition: color 5s ease-in-out;
   text-decoration: none;
-  transition-timing-function: ease;
 }
 
 h3.entry-title:hover {

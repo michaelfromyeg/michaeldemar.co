@@ -24,7 +24,7 @@
         "startDate": "Jan 2017",
         "endDate": "Present",
         "description": [
-          "Utilized clasp, Google's Apps Script command line utility, and TypeScript to create backend for storing, updating, and contacting 150+ registrants.",
+          "Utilized clasp (Command Line Apps Script, from Google) and TypeScript to create backend for storing, updating, and contacting 150+ registrants.",
           "Interfaced with marketing team to create modern, welcoming emails using HTML, CSS, and vanilla JavaScript.",
           "Worked with Slack API to develop in-house tools and bots that increased workplace efficiency.",
           "Created generative recursion algorithm in Python to place 75 students per week into groups to minimize student overlap, and prevent counsellors from being in groups with known students, saving future registrars >20 hours of work annually.",
@@ -43,7 +43,7 @@
           "Serving as core course TA, assisting with lecture, lab work, grading and more, with introductory Python course, CPSC 103.",
           "In previous semester, supported student lab work in introductory functional programming course, CPSC 107."
         ],
-        "technologies": ["Racket", "Functional Programming", "Teaching"]
+        "technologies": ["Racket", "Python", "Communication", "Teaching"]
       },
       {
         "title": "Program Coordinator",
@@ -73,7 +73,7 @@
         "endDate": "Feb 2020",
         "description": [
           "Developed web application to visualize rhyme schemes in song lyrics or poems. Developed React frontend, rhyme analysis algorithm, Flask RESTful API, Spotify API integration, and deployed to GCP within 36 hours.",
-          "Project earned second place prize at BizHacks 2020 against 50+ teams."
+          "Project earned finalist nod in the Entertainment Track at Hacktech, Caltech's annual hackathon."
         ],
         "technologies": ["React", "Flask", "Google Cloud Platform", "Spotify Web SDK", "Genius API"]
       },
