@@ -1,17 +1,25 @@
-import React from "react"
+import React, { useState } from "react"
 import resume from "../data/resume.json"
 import Collapsible from "react-collapsible"
+import { Link } from "gatsby"
 
 const Education = () => {
   const education = resume.education.list
+
+  // TODO: figure out how to implement this nicely
+  const [open, setOpen] = useState(false)
+  const changeAll = () => {
+    setOpen(true)
+  }
+
   return (
     <div className="section">
-      <h2 className="section-title">Education</h2>
+      <h2 className="section-title">
+        Education🍎
+      </h2>
+      {/*<button className="change-all" onClick={changeAll} style={{ color: 'black', display: 'inline', marginLeft: '1rem' }}>+</button>*/}
       <h5 className="section-redirect" style={{ fontStyle: "oblique" }}>
-        See more{" "}
-        <a href="/blog" target="_blank" rel="noopener noreferrer">
-          here
-        </a>
+        Learn more about my time at UBC <Link to="/blog">here</Link>
       </h5>
       {education.map((edu, i) => {
         const character = ``
@@ -24,7 +32,11 @@ const Education = () => {
           </>
         )
         return (
-          <Collapsible trigger={triggerTitle} transitionTime={200}>
+          <Collapsible
+            trigger={triggerTitle}
+            transitionTime={200}
+            easing="ease-out"
+          >
             <div className="entry" key={i}>
               <h5>
                 {edu.location}—{edu.startDate} to {edu.endDate}

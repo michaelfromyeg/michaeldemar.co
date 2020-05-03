@@ -1,14 +1,15 @@
 import React from "react"
 import resume from "../data/resume.json"
 import Collapsible from "react-collapsible"
+import { Link } from "gatsby"
 
 const Activities = () => {
   const activities = resume.activities.list
 
   return (
     <>
-      <h2 className="section-title">Activities</h2>
-      <h5 className="section-redirect" style={{ fontStyle: "oblique" }}>See more <a href="/blog" target="_blank" rel="noopener noreferrer">here</a></h5>
+      <h2 className="section-title">Activities🏃‍♂️</h2>
+      <h5 className="section-redirect" style={{ fontStyle: "oblique" }}>Read more about ways I'm getting involved <Link to="/blog">here</Link></h5>
       <div className="section">
         {activities.map((activity, i) => {
           let character = ``;

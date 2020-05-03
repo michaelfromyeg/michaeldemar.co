@@ -18,7 +18,7 @@ const Redirects = () => {
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: rhythm(32),
+        maxWidth: rhythm(24),
       }}
     >
       <h2 className="redirects-title">Hey there, welcome to my website!</h2>
@@ -33,17 +33,17 @@ const Redirects = () => {
 
       <div className="redirect-wrapper">
         <Link className="no-opacity" to="/blog">
-          <button onMouseMove={colorButton} class="button">
+          <button onMouseMove={colorButton} className="button">
             Blog
           </button>
         </Link>
         <Link className="no-opacity" to="/projects">
-          <button onMouseMove={colorButton} class="button">
+          <button onMouseMove={colorButton} className="button">
             Projects
           </button>
         </Link>
         <Link className="no-opacity" to="/design">
-          <button onMouseMove={colorButton} class="button">
+          <button onMouseMove={colorButton} className="button">
             Graphic Design
           </button>
         </Link>

@@ -11,6 +11,7 @@ import Experience from "./experience"
 import Projects from "./projects"
 import Activities from "./activities"
 import Redirects from "./redirects"
+import IndexFooter from "./indexFooter"
 
 import logo from "../../content/assets/mjd-logo-black.svg"
 import { rhythm, scale } from "../utils/typography"
@@ -81,30 +82,30 @@ const Homepage = () => {
           className="background-logo shadow"
         />
         {/* <a href="#redirects" onClick={scrollTo}> */}
-          <h1
-            style={{
-              ...scale(1.5),
-              marginBottom: rhythm(1.5),
-              marginTop: 0,
-            }}
-            className="title-text"
+        <h1
+          style={{
+            ...scale(1.5),
+            marginBottom: rhythm(1.5),
+            marginTop: 0,
+          }}
+          className="title-text"
+        >
+          Hi, I'm
+          <Typist
+            className="typist"
+            onTypingDone={onComplete}
+            stdTypingDelay={0}
+            key={index}
           >
-            Hi, I'm
-            <Typist
-              className="typist"
-              onTypingDone={onComplete}
-              stdTypingDelay={0}
-              key={index}
-            >
-              <span>
-                {`>`}
-                {strings[index]}
-              </span>
-              <Typist.Backspace count={strings[index].length} delay={2500} />
-            </Typist>
-          </h1>
-          <Arrow />
-        {/* </a> */ }
+            <span>
+              {`>`}
+              {strings[index]}
+            </span>
+            <Typist.Backspace count={strings[index].length} delay={2500} />
+          </Typist>
+        </h1>
+        <Arrow />
+        {/* </a> */}
       </div>
 
       <div id="redirects"></div>
@@ -121,9 +122,10 @@ const Homepage = () => {
         }}
       >
         <Education />
-        <Experience />
+        <Experience  />
         <Projects />
-        <Activities />
+        <Activities  />
+        <IndexFooter />
       </div>
     </>
   )

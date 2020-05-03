@@ -202,11 +202,6 @@ a.no-opacity:hover {
   border-left: 2.5px solid var(--text-title);
   padding-left: 15px;
   padding-top: 10px;
-  cursor: pointer;
-}
-
-.Collapsible:hover {
-  cursor: pointer;
 }
 
 h2.section-title {
@@ -219,10 +214,12 @@ h3.entry-title {
   color: var(--text-title);
   text-decoration: none;
   transition: 0.4s ease-in-out;
+  cursor: pointer;
 }
 
 h3.entry-title:hover {
   color: var(--color-b);
+  cursor: pointer;
 }
 
 /* Styling the list of technologies/courses/skills/etc */
