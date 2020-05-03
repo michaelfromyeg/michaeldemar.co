@@ -9,7 +9,7 @@ const Toggle = () => {
 
   useEffect(() => {
     click = new UIfx(mp3File)
-  })
+  }, [])
 
   return (
     <ThemeToggler>
