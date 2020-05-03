@@ -8,7 +8,7 @@ const Projects = () => {
 
   return (
     <>
-      <h2 className="section-title">Projects🏗️</h2>
+      <h2 className="section-title">Projects<span role="img" aria-label="Construction">🏗️</span></h2>
       <h5 className="section-redirect" style={{ fontStyle: "oblique" }}>
         I also give each project a write-up! Read more about them{" "}
         <Link to="/projects">here</Link>

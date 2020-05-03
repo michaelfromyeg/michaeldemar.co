@@ -97,10 +97,8 @@ const Homepage = () => {
             stdTypingDelay={0}
             key={index}
           >
-            <span>
-              {`>`}
-              {strings[index]}
-            </span>
+            {`>`}
+            {strings[index]}
             <Typist.Backspace count={strings[index].length} delay={2500} />
           </Typist>
         </h1>
@@ -122,9 +120,9 @@ const Homepage = () => {
         }}
       >
         <Education />
-        <Experience  />
+        <Experience />
         <Projects />
-        <Activities  />
+        <Activities />
         <IndexFooter />
       </div>
     </>

@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import resume from "../data/resume.json"
 import Collapsible from "react-collapsible"
 import { Link } from "gatsby"
@@ -7,15 +7,15 @@ const Education = () => {
   const education = resume.education.list
 
   // TODO: figure out how to implement this nicely
-  const [open, setOpen] = useState(false)
-  const changeAll = () => {
-    setOpen(true)
-  }
+  // const [open, setOpen] = useState(false)
+  // const changeAll = () => {
+  //   setOpen(true)
+  // }
 
   return (
     <div className="section">
       <h2 className="section-title">
-        Education🍎
+        Education<span role="img" aria-label="apple">🍎</span>
       </h2>
       {/*<button className="change-all" onClick={changeAll} style={{ color: 'black', display: 'inline', marginLeft: '1rem' }}>+</button>*/}
       <h5 className="section-redirect" style={{ fontStyle: "oblique" }}>

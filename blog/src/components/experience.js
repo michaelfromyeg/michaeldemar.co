@@ -8,7 +8,7 @@ const Experience = () => {
 
   return (
     <>
-      <h2 className="section-title">Experience👨‍💻</h2>
+      <h2 className="section-title">Experience<span role="img" aria-label="Hacker man">👨‍💻</span></h2>
       <h5 className="section-redirect" style={{ fontStyle: "oblique" }}>
         Read about my experiences in-depth <Link to="/blog">here</Link>
       </h5>
