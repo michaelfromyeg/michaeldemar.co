@@ -4,7 +4,7 @@
 [![GitHub repository size](https://img.shields.io/github/repo-size/michaelfromyeg/michaelfromyeg.github.io.svg)](https://michaeldemar.co)
 
 
-This is my personal website built using Gatsby, which is in turn built on top of React and GraphQL. While this website has a lot of bells and whistles it *definitely* **doesn't** need, I was having a lot of fun experimenting and wanted to try to learn a few things! Gatsby is something I'd seen from a while ago and it has tons of really cool features. You'll also be able to see I was really experimenting with CSS and I think it turned out pretty okay! The site includes my blog, grahp
+This is my personal website built using Gatsby, which is in turn built on top of React and GraphQL. While this website has a lot of bells and whistles it *definitely* **doesn't** need, I was having a lot of fun experimenting and wanted to try to learn a few things! Gatsby is something I'd seen from a while ago and it has tons of really cool features. You'll also be able to see I was really experimenting with CSS and I think it turned out pretty okay!
 
 Hope you enjoy. 
 
