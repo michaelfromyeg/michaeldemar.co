@@ -19,7 +19,7 @@ const Redirects = () => {
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: rhythm(24),
+        maxWidth: rhythm(22),
       }}
     >
       <h2 className="redirects-title">Hey there, welcome to my website!</h2>
