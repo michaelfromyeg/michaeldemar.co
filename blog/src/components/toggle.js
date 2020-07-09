@@ -2,12 +2,13 @@ import React from "react"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import UIfx from 'uifx';
 import mp3File from "../../content/assets/click.mp3"
-const tick = new UIfx(mp3File, {
-  volume: 0.3,
-  throttleMs: 100
-});
+
 
 const Toggle = () => {
+  const tick = new UIfx(mp3File, {
+    volume: 0.3,
+    throttleMs: 100
+  });
   return (
     <ThemeToggler>
       {({ theme, toggleTheme }) => (
