@@ -24,7 +24,7 @@ const EverythingIndex = ({ data, location }) => {
                   marginBottom: rhythm(1 / 4),
                 }}
               >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                <Link style={{ boxShadow: `none` }} className={"post"} to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>

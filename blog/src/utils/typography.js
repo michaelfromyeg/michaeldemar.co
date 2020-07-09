@@ -13,8 +13,8 @@ anonymousTheme.overrideThemeStyles = () => ({
     lineHeight: 1,
   },
   'a:hover': {
-    opacity: 0.7,
     textDecoration: 'none',
+    color: 'var(--text-link)',
   },
   'a.gatsby-resp-image-link:hover': {
     color: 'white',

@@ -2,18 +2,34 @@
   "experience": {
     "list": [
       {
-        "title": "Backend Developer",
-        "company": "Code The Change Foundation",
-        "companyUrl": "http://codethechange.ca/",
-        "githubUrl": "https://github.com/CodetheChangeFoundation/alp",
-        "location": "Vancouver, BC",
-        "startDate": "Aug 2019",
+        "title": "Software Engineer Intern",
+        "company": "Artesian Software",
+        "companyUrl": "https://artesiansoft.com/",
+        "githubUrl": "",
+        "location": "Calgary, AB",
+        "startDate": "Feb 2020",
         "endDate": "Present",
         "description": [
-          "Developed a web application for a local non-profit to manage network of 1000+ volunteers along with a team of five other upper year students.",
-          "Created RESTful API using Azure functions and Node.js, built React components, wrote queries for MSSQL database, conducted code review, and created documentation to transfer completed project to client."
+          "Implemented Node.js services to process customer transactions via the Stripe API, manage user survey data, and interface with PostgreSQL database.",
+          "Created and styled frontend using React and CSS modules.",
+          "Wrote unit tests using Mocha and Chai to mock API endpoints.",
+          "View my work by heading to https://app.shieldscore.com/."
         ],
-        "technologies": ["Node", "Azure", "MSSQL", "React", "CSS"]
+        "technologies": ["React", "Node", "PostgreSQL", "AWS", "Docker", "CSS", "Mocha", "Chai"]
+      },
+      {
+        "title": "Undergraduate Teaching Assistant",
+        "company": "The University of British Columbia",
+        "companyUrl": "https://www.cs.ubc.ca/",
+        "githubUrl": "",
+        "location": "Vancouver, BC",
+        "startDate": "Jan 2020",
+        "endDate": "Present",
+        "description": [
+          "Conducted labs, graded assessments, developed course readings, and communicated student needs to professor. Ran a project group with 15 students, guiding them from proposal to completion.",
+          "Taught introductory computer science courses based in Racket (2019W) and Python (2020S); moving to a data science course (2020W) done with R."
+        ],
+        "technologies": ["Racket", "Python", "Communication", "Teaching"]
       },
       {
         "title": "Registrar and CTO",
@@ -31,88 +47,75 @@
           "Acted as webmaster for SquareSpace site."
         ],
         "technologies": ["TypeScript", "clasp", "JavaScript", "Python", "CSS"]
-      },
-      {
-        "title": "Undergraduate Teaching Assistant",
-        "company": "The University of British Columbia",
-        "companyUrl": "https://www.cs.ubc.ca/",
-        "location": "Vancouver, BC",
-        "startDate": "Jan 2020",
-        "endDate": "Present",
-        "description": [
-          "Serving as core course TA, assisting with lecture, lab work, grading and more, with introductory Python course, CPSC 103.",
-          "In previous semester, supported student lab work in introductory functional programming course, CPSC 107."
-        ],
-        "technologies": ["Racket", "Python", "Communication", "Teaching"]
-      },
-      {
-        "title": "Program Coordinator",
-        "company": "Metro Continuing Education",
-        "companyUrl": "https://www.metrocontinuingeducation.ca/",
-        "location": "Edmonton, AB",
-        "startDate": "July 2017",
-        "endDate": "July 2019",
-        "description": [
-          "Ran week-long camps teaching children aged 8 to 11 programming basics in Unity.",
-          "Created programming for and subsequently ran day camps for children whose families were new to Canada, with a focus on English literacy."
-        ],
-        "technologies": ["Unity", "Communication", "Teaching"]
       }
     ]
   },
   "projects": {
     "list": [
       {
+        "name": "weNote",
+        "title": "Co-Founder & CEO",
+        "devpostUrl": "",
+        "githubUrl": "https://github.com/Jdvdb/weNote",
+        "projectUrl": "https://wenote.ca",
+        "location": "Edmonton, AB",
+        "startDate": "April 2020",
+        "endDate": "Present",
+        "description": [
+          "Learn more about weNote at https://wenote.ca.",
+          "Accepted into Startup Edmonton Student Summer Program, a pre-seed program to assist college entrepreneurs get their start-up off the ground."
+        ],
+        "technologies": ["React", "TypeScript", "Golang", "MongoDB", "Docker", "PyTorch"]
+      },
+      {
+        "name": "Volunteer Tracker Web App",
+        "title": "Backend Developer",
+        "devpostUrl": "",
+        "githubUrl": "https://github.com/CodetheChangeFoundation/alp",
+        "projectUrl": "",
+        "location": "Vancouver, BC",
+        "startDate": "May 2020",
+        "endDate": "May 2020",
+        "description": [
+          "Developed a web application for a local non-profit to manage network of 1000+ volunteers along with a team of five other upper year students.",
+          "Created RESTful API using Azure functions and Node, built React components, wrote queries for MSSQL database, conducted code review.",
+          "Created documentation to transfer completed project to client."
+        ],
+        "technologies": ["React", "Node", "MS SQL", "Azure", "Technical Writing"]
+      },
+      {
         "name": "RapViz",
         "title": "Fullstack Developer",
         "devpostUrl": "https://devpost.com/software/rapviz-breakdown-your-favourite-lyricist-s-rhyme-schemes",
-        "githubUrl": "https://github.com/michaelfromyeg/BestBuy-ARPro",
+        "githubUrl": "https://github.com/michaelfromyeg/RapViz",
         "projectUrl": "https://rapviz.appspot.com/",
         "location": "Vancouver, BC",
-        "startDate": "Feb 2020",
-        "endDate": "Feb 2020",
+        "startDate": "Mar 2020",
+        "endDate": "Mar 2020",
         "description": [
           "Developed web application to visualize rhyme schemes in song lyrics or poems. Developed React frontend, rhyme analysis algorithm, Flask RESTful API, Spotify API integration, and deployed to GCP within 36 hours.",
           "Project earned finalist nod in the Entertainment Track at Hacktech, Caltech's annual hackathon."
         ],
         "technologies": ["React", "Flask", "Google Cloud Platform", "Spotify Web SDK", "Genius API"]
-      },
-      {
-        "name": "Best Buy AR Pro",
-        "title": "Android App Developer",
-        "devpostUrl": "",
-        "githubUrl": "https://github.com/michaelfromyeg/BestBuy-ARPro",
-        "projectUrl": "",
-        "location": "Vancouver, BC",
-        "startDate": "Feb 2020",
-        "endDate": "Feb 2020",
-        "description": [
-          "As part of a team of two, created minified Best Buy Android app clone and extended functionality to include AR feature to allow users to ‘see’ Best Buy products in their own living room, to exact dimensions.",
-          "Project earned second place prize at BizHacks 2020 against 50+ teams."
-        ],
-        "technologies": ["Android", "Java", "ARCore"]
-      },
-      {
-        "name": "Massive Volunteering Site",
-        "title": "Fullstack Developer",
-        "devpostUrl": "",
-        "githubUrl": "https://github.com/michaelfromyeg/Massive-Volunteering",
-        "projectUrl": "",
-        "location": "Edmonton, AB",
-        "startDate": "Jan 2018",
-        "endDate": "Aug 2019",
-        "description": [
-          "Web application developed for client, a club at my former high school called Massive Volunteering, which showcases volunteer experiences from around the Edmonton area and shares them with their followers.",
-          "Created frontend and backend for website which allows students and organization's to access and post volunteer experiences."
-        ],
-        "technologies": ["Python", "Flask", "mySQL"]
       }
     ]
   },
   "activities": {
     "list": [
       {
-        "title": "First Year Comittee Member",
+        "title": "External Tools Developer",
+        "organization": "nwPlus",
+        "url": "https://nwplus.io",
+        "location": "Vancouver, BC",
+        "startDate": "April 2020",
+        "endDate": "Present",
+        "description": [
+          "Developing the websites to advertise and coordinate Western Canada's largest hackathon."
+        ],
+        "skills": ["Vue", "Firebase", "Leadership", "Communication", "Logistics"]
+      },
+      {
+        "title": "First Year Committee Member",
         "organization": "Science Undergrad Society",
         "url": "https://sus.ubc.ca/",
         "location": "Vancouver, BC",
@@ -127,7 +130,7 @@
       },
       {
         "title": "Branch President",
-        "organization": "Orchard Commons Residence Assoication",
+        "organization": "Orchard Commons Residence Association",
         "url": "https://rha.housing.ubc.ca/residence-councils/orchard-commons-residence-association/",
         "location": "Vancouver, BC",
         "startDate": "Sep 2019",
@@ -136,56 +139,18 @@
           "Directed events with the goal of improving first-year experience in residence.", 
           "Distributed promotional materials, organized logistics, and created welcoming and inclusive environment."
         ],
-        "skills": ["Leadership", "Reslife", "Graphic Design"]
-      },
-      {
-        "title": "Youth Councillor",
-        "organization": "The City of Edmonton Youth Council",
-        "url": "https://www.ceyc.ca/",
-        "location": "Edmonton, AB",
-        "startDate": "Aug 2018",
-        "endDate": "Aug 2019",
-        "description": [
-          "Provided meaningful input to our municipal government and took action on local issues.",
-          "Acted as member of the Urban & Regional Planning Committee."
-        ],
-        "skills": ["Leadership", "Municipal Affairs", "Governance"]
-      },
-      {
-        "title": "Student Senator",
-        "organization": "Edmonton Public School Board",
-        "url": "https://sites.google.com/epsb.ca/studentsenate",
-        "location": "Edmonton, AB",
-        "startDate": "Sep 2017",
-        "endDate": "June 2019",
-        "description": [
-          "Served on EPSB Student Senate for two-terms, engaging students across the district on issues that mattered to them, and pursuing project work based on their insight.",
-          "Responsible for graphic design of time management themed brochures in first-year. Assisted with senate proceedings in second-year as vice-chair."
-        ],
-        "skills": ["Leadership", "Graphic Design", "Consultation"]
-      },
-      {
-        "title": "Director of Student Programming",
-        "organization": "The Canadian Student Leadership Conference (CSLC) 2018",
-        "url": "https://mediazilla.com/Ppfxjhfe6",
-        "location": "Edmonton, AB",
-        "startDate": "Dec 2016",
-        "endDate": "Oct 2018",
-        "description": [
-          "Managed horizontal communication across five high schools and booked workshops, keynotes, and activities for a week-long conference of 1000 student-leaders across Canada."
-        ],
-        "skills": ["Communication", "Leadership"]
+        "skills": ["Leadership", "Residence Life", "Graphic Design"]
       }
     ]
   },
   "education": {
     "list": [
       {
-        "institution": "The University of British Colubmia (UBC)",
+        "institution": "The University of British Columbia (UBC)",
         "institutionUrl": "https://cs.ubc.ca/",
         "location": "Vancouver, BC",
-        "degree": "B.Sc. Candidate for Computer Science and Mathematics",
-        "grade": "91% (as of May 2020)",
+        "degree": "B.Sc. Candidate for Honours Computer Science (Co-op)",
+        "grade": "4.0 (93%)",
         "startDate": "Fall 2019",
         "endDate": "Spring 2023",
         "courses": [
@@ -199,8 +164,7 @@
           "CPSC 210",
           "CPSC 121",
           "PHYS 118",
-          "ATSC 113 (current)",
-          "POLI 110 (current)"
+          "ATSC 113"
         ]
       },
       {
@@ -245,7 +209,6 @@
     "tools": [
       "Git",
       "Docker",
-      "Kubernetes",
       "Agile",
       "Adobe Creative Cloud",
       "Photoshop",
@@ -256,18 +219,25 @@
   "awards": {
     "list": [
       {
-        "name": "Michael A. Strembitsky Gold Medallist",
-        "organization": "Edmonton Public Schools",
-        "url": "https://epsb.ca/media/epsb/schools/goingtoschool/studentawards/2019MichaelStrembitskyWinnersGuide.pdf",
-        "date": "Jun 2019",
-        "details": "I was nominated by McNally High School for Michael A. Strembitsky award, which recognises accomplishments in academics and leadership, on behalf of McNally. All Edmonton high schools choose one nominee. Out of the the 19 nominees, I was awarded the gold medallion ($2,000)."
+        "name": "Science Scholar/Dean's Honour List",
+        "organization": "The University of British Columbia",
+        "url": "http://www.calendar.ubc.ca/vancouver/index.cfm?tree=12,215,410,1458",
+        "date": "May 2020",
+        "details": "Awarded to students with a standing of 90% or better in the previous Winter session (i.e., Fall and Winter semesters)."
       },
       {
         "name": "Djavad Mowafaghian Presidential Scholar Award",
         "organization": "The University of British Columbia",
         "url": "https://support.ubc.ca/successstories/djavad-mowafaghian-presidential-scholar-award/",
-        "date": "Apr 2019",
+        "date": "Sep 2019",
         "details": "In recognition for achievements both inside and outside of the classroom, I was awarded the Djavad Mowafaghian Presidential Scholar Award from UBC. The award is worth $80,000 and is tenable at the university over the course of my four years of undergraduate studies."
+      },
+      {
+        "name": "Michael A. Strembitsky Gold Medalist",
+        "organization": "Edmonton Public Schools",
+        "url": "https://epsb.ca/media/epsb/schools/goingtoschool/studentawards/2019MichaelStrembitskyWinnersGuide.pdf",
+        "date": "Jun 2019",
+        "details": "I was nominated by McNally High School for Michael A. Strembitsky award, which recognizes accomplishments in academics and leadership, on behalf of McNally. All Edmonton high schools choose one nominee. Out of the the 19 nominees, I was awarded the gold medallion ($2,000)."
       },
       {
         "name": "Class Valedictorian",
@@ -281,7 +251,7 @@
         "organization": "TD Community Leadership Scholarships",
         "url": "",
         "date": "Mar 2019",
-        "details": "From a field of 2700 applicants, I was selected as one of 59 finalists to be interviewed for the TD Community Leadership Scholarship, which recognises significant contributions to one's community."
+        "details": "From a field of 2700 applicants, I was selected as one of 59 finalists to be interviewed for the TD Community Leadership Scholarship, which recognizes significant contributions to one's community."
       },
       {
         "name": "ATB Loran Finalist",

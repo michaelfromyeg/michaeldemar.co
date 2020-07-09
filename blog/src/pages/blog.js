@@ -19,7 +19,7 @@ const BlogIndex = ({ data, location }) => {
           <article key={node.fields.slug}>
             <header>
               <h3>
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+              <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>

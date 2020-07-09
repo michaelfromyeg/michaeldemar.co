@@ -91,11 +91,26 @@ h1.headroom-text {
   color: var(--text-title);
 }
 
+a {
+  transition: 0.4s ease-in-out;
+}
+
+a:hover {
+  color: var(--color-b);
+  opacity: 1;
+}
+
 a.headroom-nav {
   text-decoration: none;
   box-shadow: none;
   color: inherit;
   color: var(--text-title);
+  transition: 0.4s ease;
+}
+
+a.headroom-nav:hover {
+  color: var(--color-a);
+  opacity: 1;
 }
 
 /* Homepage text */

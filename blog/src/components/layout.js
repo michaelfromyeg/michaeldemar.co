@@ -18,6 +18,7 @@ const Layout = ({ location, title, children }) => {
         }}
       >
         <Link
+          className="headroom-nav"
           style={{
             boxShadow: `none`,
             color: `inherit`,
@@ -38,6 +39,7 @@ const Layout = ({ location, title, children }) => {
         {title}
         {` `}
         <Link
+          className="headroom-nav"
           style={{
             boxShadow: `none`,
             color: `inherit`,
@@ -48,6 +50,7 @@ const Layout = ({ location, title, children }) => {
         </Link>
         {` `}
         <Link
+          className="headroom-nav"
           style={{
             boxShadow: `none`,
             color: `inherit`,
@@ -58,6 +61,7 @@ const Layout = ({ location, title, children }) => {
         </Link>
         {` `}
         <Link
+          className="headroom-nav"
           style={{
             boxShadow: `none`,
             color: `inherit`,
@@ -68,6 +72,7 @@ const Layout = ({ location, title, children }) => {
         </Link>
         {` `}
         <Link
+          className="headroom-nav"
           style={{
             boxShadow: `none`,
             color: `inherit`,
@@ -78,6 +83,7 @@ const Layout = ({ location, title, children }) => {
         </Link>
         {` `}
         <Link
+          className="headroom-nav"
           style={{
             boxShadow: `none`,
             color: `inherit`,
