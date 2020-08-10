@@ -1,0 +1,21 @@
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 954px) {
+    .posts {
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        grid-auto-rows: auto;
+        gap: 0 1.5em;
+    }
+}
+
+.redirects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

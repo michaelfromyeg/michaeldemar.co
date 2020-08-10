@@ -1,0 +1,330 @@
+{
+    "experience": {
+        "list": [
+            {
+                "title": "Software Engineer Intern",
+                "company": "Artesian Software",
+                "companyUrl": "https://artesiansoft.com/",
+                "githubUrl": "",
+                "location": "Calgary, AB",
+                "startDate": "Feb 2020",
+                "endDate": "Present",
+                "description": [
+                    "Implemented Node.js services to process customer transactions via the Stripe API, manage user survey data, and interface with PostgreSQL database.",
+                    "Created and styled frontend using React and CSS modules.",
+                    "Wrote unit tests using Mocha and Chai to mock API endpoints.",
+                    "View my work by heading to https://app.shieldscore.com/."
+                ],
+                "technologies": [
+                    "React",
+                    "Node",
+                    "PostgreSQL",
+                    "AWS",
+                    "Docker",
+                    "CSS",
+                    "Mocha",
+                    "Chai"
+                ]
+            },
+            {
+                "title": "Undergraduate Teaching Assistant",
+                "company": "The University of British Columbia",
+                "companyUrl": "https://www.cs.ubc.ca/",
+                "githubUrl": "",
+                "location": "Vancouver, BC",
+                "startDate": "Jan 2020",
+                "endDate": "Present",
+                "description": [
+                    "Conducted labs, graded assessments, developed course readings, and communicated student needs to professor. Ran a project group with 15 students, guiding them from proposal to completion.",
+                    "Taught introductory computer science courses based in Racket (2019W) and Python (2020S); moving to a data science course (2020W) done with R."
+                ],
+                "technologies": [
+                    "Racket",
+                    "Python",
+                    "Communication",
+                    "Teaching"
+                ]
+            },
+            {
+                "title": "Registrar and CTO",
+                "company": "The Seminar on United Nations and International Affairs (SUNIA)",
+                "companyUrl": "https://www.sunia.ca/",
+                "githubUrl": "https://github.com/suniacamp",
+                "location": "Edmonton, AB",
+                "startDate": "Jan 2017",
+                "endDate": "Present",
+                "description": [
+                    "Utilized clasp (Command Line Apps Script, from Google) and TypeScript to create backend for storing, updating, and contacting 150+ registrants.",
+                    "Interfaced with marketing team to create modern, welcoming emails using HTML, CSS, and vanilla JavaScript.",
+                    "Worked with Slack API to develop in-house tools and bots that increased workplace efficiency.",
+                    "Created generative recursion algorithm in Python to place 75 students per week into groups to minimize student overlap, and prevent counsellors from being in groups with known students, saving future registrars >20 hours of work annually.",
+                    "Acted as webmaster for SquareSpace site."
+                ],
+                "technologies": [
+                    "TypeScript",
+                    "clasp",
+                    "JavaScript",
+                    "Python",
+                    "CSS"
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "list": [
+            {
+                "name": "weNote",
+                "title": "Co-Founder & CEO",
+                "devpostUrl": "",
+                "githubUrl": "https://github.com/Jdvdb/weNote",
+                "projectUrl": "https://wenote.ca",
+                "location": "Edmonton, AB",
+                "startDate": "April 2020",
+                "endDate": "Present",
+                "description": [
+                    "Learn more about weNote at https://wenote.ca.",
+                    "Accepted into Startup Edmonton Student Summer Program, a pre-seed program to assist college entrepreneurs get their start-up off the ground."
+                ],
+                "technologies": [
+                    "React",
+                    "TypeScript",
+                    "Golang",
+                    "MongoDB",
+                    "Docker",
+                    "PyTorch"
+                ]
+            },
+            {
+                "name": "Volunteer Tracker Web App",
+                "title": "Backend Developer",
+                "devpostUrl": "",
+                "githubUrl": "https://github.com/CodetheChangeFoundation/alp",
+                "projectUrl": "",
+                "location": "Vancouver, BC",
+                "startDate": "May 2020",
+                "endDate": "May 2020",
+                "description": [
+                    "Developed a web application for a local non-profit to manage network of 1000+ volunteers along with a team of five other upper year students.",
+                    "Created RESTful API using Azure functions and Node, built React components, wrote queries for MSSQL database, conducted code review.",
+                    "Created documentation to transfer completed project to client."
+                ],
+                "technologies": [
+                    "React",
+                    "Node",
+                    "MS SQL",
+                    "Azure",
+                    "Technical Writing"
+                ]
+            },
+            {
+                "name": "RapViz",
+                "title": "Fullstack Developer",
+                "devpostUrl": "https://devpost.com/software/rapviz-breakdown-your-favourite-lyricist-s-rhyme-schemes",
+                "githubUrl": "https://github.com/michaelfromyeg/RapViz",
+                "projectUrl": "https://rapviz.appspot.com/",
+                "location": "Vancouver, BC",
+                "startDate": "Mar 2020",
+                "endDate": "Mar 2020",
+                "description": [
+                    "Developed web application to visualize rhyme schemes in song lyrics or poems. Developed React frontend, rhyme analysis algorithm, Flask RESTful API, Spotify API integration, and deployed to GCP within 36 hours.",
+                    "Project earned finalist nod in the Entertainment Track at Hacktech, Caltech's annual hackathon."
+                ],
+                "technologies": [
+                    "React",
+                    "Flask",
+                    "Google Cloud Platform",
+                    "Spotify Web SDK",
+                    "Genius API"
+                ]
+            }
+        ]
+    },
+    "activities": {
+        "list": [
+            {
+                "title": "External Tools Developer",
+                "organization": "nwPlus",
+                "url": "https://nwplus.io",
+                "location": "Vancouver, BC",
+                "startDate": "April 2020",
+                "endDate": "Present",
+                "description": [
+                    "Developing the websites to advertise and coordinate Western Canada's largest hackathon."
+                ],
+                "skills": [
+                    "Vue",
+                    "Firebase",
+                    "Leadership",
+                    "Communication",
+                    "Logistics"
+                ]
+            },
+            {
+                "title": "First Year Committee Member",
+                "organization": "Science Undergrad Society",
+                "url": "https://sus.ubc.ca/",
+                "location": "Vancouver, BC",
+                "startDate": "Sep 2019",
+                "endDate": "April 2020",
+                "description": [
+                    "Coordinated events which seek to improve the experience of a first-year student in the Faculty of Science at UBC.",
+                    "Assisted with marketing events through creating blurbs and graphics, and distributing them via a variety of digital channels.",
+                    "Led logistics committee for community event in which our committee served hot chocolate to over 300+ UBC students and staff."
+                ],
+                "skills": [
+                    "Leadership",
+                    "Event Planning",
+                    "Logistics",
+                    "Graphic Design",
+                    "Marketing"
+                ]
+            },
+            {
+                "title": "Branch President",
+                "organization": "Orchard Commons Residence Association",
+                "url": "https://rha.housing.ubc.ca/residence-councils/orchard-commons-residence-association/",
+                "location": "Vancouver, BC",
+                "startDate": "Sep 2019",
+                "endDate": "April 2020",
+                "description": [
+                    "Directed events with the goal of improving first-year experience in residence.",
+                    "Distributed promotional materials, organized logistics, and created welcoming and inclusive environment."
+                ],
+                "skills": ["Leadership", "Residence Life", "Graphic Design"]
+            }
+        ]
+    },
+    "education": {
+        "list": [
+            {
+                "institution": "The University of British Columbia (UBC)",
+                "institutionUrl": "https://cs.ubc.ca/",
+                "location": "Vancouver, BC",
+                "degree": "B.Sc. Candidate for Honours Computer Science (Co-op)",
+                "grade": "4.0 (93%)",
+                "startDate": "Fall 2019",
+                "endDate": "Spring 2023",
+                "courses": [
+                    "CPSC 110",
+                    "MATH 100",
+                    "PHYS 117",
+                    "BIOL 111",
+                    "LING 100",
+                    "DSCI 100",
+                    "MATH 101",
+                    "CPSC 210",
+                    "CPSC 121",
+                    "PHYS 118",
+                    "ATSC 113"
+                ]
+            },
+            {
+                "institution": "McNally Composite High School",
+                "institutionUrl": "https://mcnally.epsb.ca/",
+                "location": "Edmonton, AB",
+                "degree": "IB Diploma and Alberta Education Diploma",
+                "grade": "41/45 (IB), 98.3% (Alberta Education)",
+                "startDate": "Fall 2016",
+                "endDate": "Spring 2019",
+                "courses": [
+                    "Chemistry HL",
+                    "English HL",
+                    "History HL",
+                    "Mathematics SL",
+                    "French B SL",
+                    "Physics SL",
+                    "Computer Science SL (Additional)"
+                ]
+            }
+        ]
+    },
+    "skills": {
+        "languages": [
+            "Java",
+            "Python",
+            "JavaScript",
+            "C++",
+            "TypeScript",
+            "R",
+            "Go"
+        ],
+        "frameworks": [
+            "Flask",
+            "React.js",
+            "Node.js",
+            "Swing",
+            "JavaFX",
+            "tidyverse",
+            "caret"
+        ],
+        "tools": [
+            "Git",
+            "Docker",
+            "Agile",
+            "Adobe Creative Cloud",
+            "Photoshop",
+            "Illustrator",
+            "Figma"
+        ]
+    },
+    "awards": {
+        "list": [
+            {
+                "name": "Science Scholar/Dean's Honour List",
+                "organization": "The University of British Columbia",
+                "url": "http://www.calendar.ubc.ca/vancouver/index.cfm?tree=12,215,410,1458",
+                "date": "May 2020",
+                "details": "Awarded to students with a standing of 90% or better in the previous Winter session (i.e., Fall and Winter semesters)."
+            },
+            {
+                "name": "Djavad Mowafaghian Presidential Scholar Award",
+                "organization": "The University of British Columbia",
+                "url": "https://support.ubc.ca/successstories/djavad-mowafaghian-presidential-scholar-award/",
+                "date": "Sep 2019",
+                "details": "In recognition for achievements both inside and outside of the classroom, I was awarded the Djavad Mowafaghian Presidential Scholar Award from UBC. The award is worth $80,000 and is tenable at the university over the course of my four years of undergraduate studies."
+            },
+            {
+                "name": "Michael A. Strembitsky Gold Medalist",
+                "organization": "Edmonton Public Schools",
+                "url": "https://epsb.ca/media/epsb/schools/goingtoschool/studentawards/2019MichaelStrembitskyWinnersGuide.pdf",
+                "date": "Jun 2019",
+                "details": "I was nominated by McNally High School for Michael A. Strembitsky award, which recognizes accomplishments in academics and leadership, on behalf of McNally. All Edmonton high schools choose one nominee. Out of the the 19 nominees, I was awarded the gold medallion ($2,000)."
+            },
+            {
+                "name": "Class Valedictorian",
+                "organization": "McNally Composite High School",
+                "url": "https://www.youtube.com/watch?v=epCD2rq24tE",
+                "date": "May 2019",
+                "details": "Graduated at the top of my class, with a 98% percentage average on my Alberta Education diploma and a 41/45 on my IB diploma."
+            },
+            {
+                "name": "TD Award of Merit",
+                "organization": "TD Community Leadership Scholarships",
+                "url": "",
+                "date": "Mar 2019",
+                "details": "From a field of 2700 applicants, I was selected as one of 59 finalists to be interviewed for the TD Community Leadership Scholarship, which recognizes significant contributions to one's community."
+            },
+            {
+                "name": "ATB Loran Finalist",
+                "organization": "Loran Foundation",
+                "url": "https://loranscholar.ca/2019-loran-finalists/",
+                "date": "Jan 2019",
+                "details": "The Loran received 5,089 applications for the Loran Award. Their volunteers assessed and interviewed 518 students across the country in order to identify 88 graduating high school and Cegep students. I was thankfully selected as one of the finalists and had the opportunity to attend the National Selections in Toronto. The distinction included $5,000 to recognize my efforts in leadership."
+            }
+        ]
+    },
+    "contact": {
+        "githubUrl": "https://github.com/michaelfromyeg",
+        "linkedinUrl": "https://www.linkedin.com/in/michaelfromyeg/",
+        "instagramUrl": "https://www.instagram.com/michaelfromyeg/",
+        "facebookUrl": "https://www.facebook.com/michaelfromyeg",
+        "youtubeUrl": "https://www.youtube.com/channel/UCohoNm6NqDAetXX6MiaV_RQ?view_as=subscriber",
+        "mailUrl": "mailto:michaelfromyeg@gmail.com",
+        "twitterUrl": "https://twitter.com/michaelfromyeg",
+        "phone": "(780) 680-9634"
+    },
+    "address": {
+        "line1": "6363 Agronomy Road",
+        "line2": "Vancouver, BC  V6T 1Z4"
+    }
+}

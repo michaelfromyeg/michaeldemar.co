@@ -1,4 +1,7 @@
 {
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "cSpell.words": [
     "ATSC",
     "CPSC",
@@ -20,15 +23,14 @@
     "TA'd",
     "UBC's",
     "devpost",
+    "frontmatter",
     "hackathon",
     "hackathons",
     "linkedin",
     "mailto",
     "michaelfromyeg",
     "tidyverse",
-    "youtube"
-  ],
-  "cSpell.ignoreWords": [
+    "youtube",
     "ubc"
-  ]
+  ],
 }

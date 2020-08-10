@@ -1,0 +1,38 @@
+.post {
+    background-color: var(--bg);
+    border-radius: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    background-color: black; /* fallback color */
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 20px;
+    height: 150px;
+}
+
+.post .image img {
+    transition: all 0.3s !important;
+    transform: scale(1);
+}
+
+.post:hover .image img {
+    transform: scale(1.1);
+}
+
+.title,
+.date,
+.excerpt {
+    margin: 0 20px;
+}
+
+.more {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: right;
+}
