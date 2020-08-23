@@ -12,7 +12,7 @@ import Projects from './resume/Projects'
 import Activities from './resume/Activities'
 import Redirects from '../global/Redirects'
 import IndexFooter from './Footer'
-
+//'../../../content/assets/mjd-logo-black.svg'
 import logo from '../../../content/assets/mjd-logo-black.svg'
 import { rhythm, scale } from '../../utils/typography'
 
