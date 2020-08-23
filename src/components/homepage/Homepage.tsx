@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Typist from 'react-typist'
 
 import SEO from '../global/SEO'
-import Arrow from './arrow'
+import Arrow from './Arrow'
 import Links, { Locations } from '../global/Links'
 
 import Education from './resume/Education'
