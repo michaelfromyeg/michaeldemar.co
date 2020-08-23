@@ -3,7 +3,7 @@ title: Massive Volunteering
 date: '2018-09-15'
 description: I assisted managing a student volunteer club in high school. Here's some example advertising I created.
 type: 'design'
-featuredImage: 'mcnally.jpg'
+featuredImage: 'logo-facebook-banner.jpg'
 ---
 
 I assisted managing a student volunteer club in high school. Here's some example advertising I created.

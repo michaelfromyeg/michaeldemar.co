@@ -3,7 +3,7 @@ title: Science Undergrad Society First Year Committee (SUS FYC)
 date: '2020-04-30'
 description: 'I joined SUS FYC in my first-year at UBC. Here are some cool things I made planning events with them!'
 type: 'design'
-featuredImage: 'mcnally.jpg'
+featuredImage: 'glow-dj.jpg'
 ---
 
 I joined SUS FYC in my first-year at UBC. Here are some cool things I made planning events with them!

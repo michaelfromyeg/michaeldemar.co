@@ -3,7 +3,7 @@ title: Student Senate Brochures
 date: '2019-03-05'
 description: "In grade 11 and 12 I served on my school board's Student Senate. In grade 11, I did graphic design work for my committee; I created brochures about time management."
 type: 'design'
-featuredImage: 'mcnally.jpg'
+featuredImage: 'finding-time1.png'
 ---
 
 In grade 11 and 12 I served on my school board's Student Senate. In grade 11, I did graphic design work for my committee; I created brochures about time management.

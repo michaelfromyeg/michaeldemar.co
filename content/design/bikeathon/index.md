@@ -3,7 +3,7 @@ title: McNally's Bike-a-thon
 date: '2018-05-24'
 description: "McNally's Bike-a-thon is an annual fundraiser for Kids With Cancer. Here are a couple of designs I made for the initiative and for my team!"
 type: 'design'
-featuredImage: 'mcnally.jpg'
+featuredImage: 'blood-sweat-gears-01.jpg'
 ---
 
 McNally's Bike-a-thon is an annual fundraiser for Kids With Cancer. Here are a couple of designs I made for the initiative and for my team!

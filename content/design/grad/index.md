@@ -3,7 +3,7 @@ title: McNally Graduation 2019
 date: '2019-05-30'
 description: I created advertising to support funding our high school graduation, a Snapchat filter for our prom, and the pamphlet distributed at commencement.
 type: 'design'
-featuredImage: 'mcnally.jpg'
+featuredImage: 'grad.png'
 ---
 
 I created advertising to support funding our high school graduation, a Snapchat filter for our prom, and the pamphlet distributed at commencement.

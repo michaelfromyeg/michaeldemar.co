@@ -3,7 +3,7 @@ title: McNally Heritage Festival
 date: '2017-05-04'
 description: I created a inforgraphic for my Heritage Festival booth and posters to be displayed at the other countries.
 type: 'design'
-featuredImage: 'mcnally.jpg'
+featuredImage: 'greece.png'
 ---
 
 I created a inforgraphic for my Heritage Festival booth and posters to be displayed at the other countries.

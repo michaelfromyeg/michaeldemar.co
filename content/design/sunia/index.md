@@ -3,7 +3,7 @@ title: SUNIA Branding & Marketing
 date: '2019-12-01'
 description: "I served as SUNIA's Marketing for our 2018/19 year. Here's some things I made in the role!"
 type: 'design'
-featuredImage: 'mcnally.jpg'
+featuredImage: 'summary.png'
 ---
 
 I served as SUNIA's Marketing for our 2018/19 year. Here's some things I made in the role!

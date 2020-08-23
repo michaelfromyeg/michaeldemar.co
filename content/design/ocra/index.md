@@ -3,7 +3,7 @@ title: Orchard Commons Residence Marketing
 date: '2020-05-02'
 description: "I served on my residence's house council in first year and did a lot of neat graphic design projects!"
 type: 'design'
-featuredImage: 'mcnally.jpg'
+featuredImage: 'tiktok.jpg'
 ---
 
 I served on my residence's house council in first year and did a lot of neat graphic design projects!
