@@ -6,8 +6,6 @@ type: 'projects'
 featuredImage: 'mcnally.jpg'
 ---
 
-## jCite
-
 Create and manage your citations without all the headaches!
 
 ### Background

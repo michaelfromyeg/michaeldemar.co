@@ -3,10 +3,8 @@ title: groUber
 date: '2020-08-02'
 description: Create carpools, without the headache.
 type: 'projects'
-featuredImage: 'grouber.png'
+featuredImage: 'appMap.jpg'
 ---
-
-## groUber
 
 groups + Uber = groUber. Source code available [here](https://github.com/michaelfromyeg/groUber-deprecated0).
 

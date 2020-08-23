@@ -6,11 +6,9 @@ type: 'projects'
 featuredImage: 'massive-homepage.png'
 ---
 
-![Massive Volunteering app main screen](./massive-homepage.png 'Massive Volunteering app main screen')
-
-## Massive Volunteering
-
 A website built to connect high school students with organizations actively searching for volunteers. [Here's](https://github.com/michaelfromyeg/Massive-Volunteering) the GitHub repository.
+
+![Massive Volunteering app main screen](./massive-homepage.png 'Massive Volunteering app main screen')
 
 ### Background
 

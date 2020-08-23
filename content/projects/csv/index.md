@@ -3,12 +3,10 @@ title: CSV Upload Tool
 date: '2020-04-10'
 description: Upload and match CSV data. Simple, but practical!
 type: 'projects'
-featuredImage: 'mcnally.jpg'
+featuredImage: 'succeed.png'
 ---
 
-## CSV Upload Tool
-
-Upload and match CSV data. Simple, but practical!
+Upload and match CSV data. Simple, but practical! Check out the project for yourself, [here](https://michaelfromyeg.github.io/CSV-Upload-Tool/).
 
 ### Background
 

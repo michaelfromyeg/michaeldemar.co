@@ -3,7 +3,7 @@ title: Best Buy AR Pro
 date: '2020-02-01'
 description: An AR Android application to let you view the latest Best Buy product in your home, from the comfort of your pyjamas.
 type: 'projects'
-featuredImage: 'mcnally.jpg'
+featuredImage: 'small-tv.jpg'
 ---
 
 ## Best Buy AR Pro
