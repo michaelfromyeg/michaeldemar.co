@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 import resume from '../../../data/resume.json'
 import Collapsible from 'react-collapsible'
 import { Link } from 'gatsby'
 
-const Education = () => {
+const Education = (): ReactElement => {
     const education = resume.education.list
 
     // TODO: figure out how to implement this nicely
@@ -36,6 +36,7 @@ const Education = () => {
                 )
                 return (
                     <Collapsible
+                        key={i}
                         trigger={triggerTitle}
                         transitionTime={200}
                         easing="ease-out"

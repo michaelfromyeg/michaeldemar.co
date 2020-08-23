@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 import resume from '../../../data/resume.json'
 import Collapsible from 'react-collapsible'
 import { Link } from 'gatsby'
 
-const Activities = () => {
+const Activities = (): ReactElement => {
     const activities = resume.activities.list
 
     return (
@@ -15,7 +15,7 @@ const Activities = () => {
                 </span>
             </h2>
             <h5 className="section-redirect" style={{ fontStyle: 'oblique' }}>
-                Read more about ways I'm getting involved{' '}
+                Read more about ways {`I'm`} getting involved{' '}
                 <Link to="/blog">here</Link>
             </h5>
             <div className="section">
@@ -35,6 +35,7 @@ const Activities = () => {
                             key={i}
                             trigger={triggerTitle}
                             transitionTime={200}
+                            easing="ease-out"
                         >
                             <div className="entry" key={i}>
                                 <h5>
