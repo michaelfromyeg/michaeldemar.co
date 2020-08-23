@@ -5,9 +5,13 @@
   "version": "0.1.0",
   "author": "Michael DeMarco <michaelfromyeg@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/michaelfromyeg/michaeldemar.co/issues"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "gatsby": "^2.20.25",
     "gatsby-awesome-pagination": "^0.3.6",
     "gatsby-image": "^2.4.14",
@@ -69,7 +73,8 @@
   },
   "homepage": ".",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "michael demarco"
   ],
   "license": "MIT",
   "main": "n/a",

@@ -3,7 +3,7 @@ title: Massive Volunteering Website
 date: '2019-03-10'
 description: A website built to connect high school students with organizations actively searching for volunteers.
 type: 'projects'
-featuredImage: 'mcnally.jpg'
+featuredImage: 'massive-homepage.png'
 ---
 
 ![Massive Volunteering app main screen](./massive-homepage.png 'Massive Volunteering app main screen')

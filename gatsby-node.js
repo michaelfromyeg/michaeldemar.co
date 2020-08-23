@@ -46,7 +46,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     // Filtering posts into categories
     const blogPosts = posts.filter(post => filterPosts(post, 'blog'))
     const designPosts = posts.filter(post => filterPosts(post, 'design'))
-    const projectPosts = posts.filter(post => filterPosts(post, 'project'))
+    const projectPosts = posts.filter(post => filterPosts(post, 'projects'))
 
     // Blog posts
     const blogNumPages = Math.ceil(blogPosts.length / postsPerPage)
@@ -55,7 +55,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             i === blogPosts.length - 1 ? null : blogPosts[i + 1].node
         const next = i === 0 ? null : blogPosts[i - 1].node
         createPage({
-            path: post.node.fields.slug,
+            path: `/blog${post.node.fields.slug}`,
             component: postTemplate,
             context: {
                 slug: post.node.fields.slug,
@@ -79,13 +79,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     })
 
     // Design posts
-    const designNumPages = Math.ceil(blogPosts.length / postsPerPage)
+    const designNumPages = Math.ceil(designPosts.length / postsPerPage)
     designPosts.forEach((post, i) => {
         const previous =
             i === designPosts.length - 1 ? null : designPosts[i + 1].node
         const next = i === 0 ? null : designPosts[i - 1].node
         createPage({
-            path: post.node.fields.slug,
+            path: `/design${post.node.fields.slug}`,
             component: postTemplate,
             context: {
                 slug: post.node.fields.slug,
@@ -109,13 +109,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     })
 
     // Project posts
-    const projectNumPages = Math.ceil(blogPosts.length / postsPerPage)
+    const projectNumPages = Math.ceil(projectPosts.length / postsPerPage)
     projectPosts.forEach((post, i) => {
         const previous =
             i === projectPosts.length - 1 ? null : projectPosts[i + 1].node
         const next = i === 0 ? null : projectPosts[i - 1].node
         createPage({
-            path: post.node.fields.slug,
+            path: `/projects${post.node.fields.slug}`,
             component: postTemplate,
             context: {
                 slug: post.node.fields.slug,

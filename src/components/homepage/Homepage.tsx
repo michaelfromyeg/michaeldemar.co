@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import Headroom from 'react-headroom'
+
 import Typist from 'react-typist'
 
-import { Link } from 'gatsby'
 import SEO from '../global/SEO'
 import Arrow from './arrow'
-import Toggle from '../global/Toggle'
+import Links, { Locations } from '../global/Links'
+
 import Education from './resume/Education'
 import Experience from './resume/Experience'
 import Projects from './resume/Projects'
@@ -19,20 +19,20 @@ import { rhythm, scale } from '../../utils/typography'
 const Homepage = () => {
     const [index, setIndex] = useState(0)
 
-    const onComplete = () => {
-        if (index + 1 === 4) {
-            setIndex(0)
-        } else {
-            setIndex(index + 1)
-        }
-    }
-
     const strings = [
         'Michael DeMarco',
         'an aspiring software developer',
         'a UBC sophomore',
         'excited to meet you!',
     ]
+
+    const onComplete = () => {
+        if (index + 1 === strings.length) {
+            setIndex(0)
+        } else {
+            setIndex(index + 1)
+        }
+    }
 
     /*
     const scrollTo = e => {
@@ -44,72 +44,39 @@ const Homepage = () => {
 
     return (
         <>
-            <div className="header">
-                <Headroom
-                    style={{
-                        background: 'rgba(0, 0, 0, 0.1)',
-                        boxShadow: '1px 1px 1px rgba(0,0,0,0.25)',
-                    }}
+            <Links location={Locations.HOMEPAGE} />
+            <SEO title="Home" />
+            <img
+                src={logo}
+                alt="Michael's logo"
+                className="background-logo shadow"
+            />
+            {/* <a href="#redirects" onClick={scrollTo}> */}
+            <h1
+                style={{
+                    ...scale(1.5),
+                    marginBottom: rhythm(1.5),
+                    marginTop: 0,
+                }}
+                className="title-text"
+            >
+                Hi, {`I'm`}
+                <Typist
+                    className="typist"
+                    onTypingDone={onComplete}
+                    stdTypingDelay={0}
+                    key={index}
                 >
-                    <h1 style={{ display: 'inline' }} className="headroom-text">
-                        michaeldemar.co
-                    </h1>
-                    {` `}
-                    <Link className="headroom-nav" to={`/`}>
-                        [home]
-                    </Link>
-                    {` `}
-                    <Link className="headroom-nav" to={`/blog`}>
-                        [blog]
-                    </Link>
-                    {` `}
-                    <Link className="headroom-nav" to={`/projects`}>
-                        [projects]
-                    </Link>
-                    {` `}
-                    <Link className="headroom-nav" to={`/design`}>
-                        [design]
-                    </Link>
-                    {` `}
-                    <Link className="headroom-nav" to={`/about`}>
-                        [about]
-                    </Link>
-                    {` `}
-                    <Toggle className="headroom-toggle" />
-                </Headroom>
-                <SEO title="Home" />
-                <img
-                    src={logo}
-                    alt="Michael's logo"
-                    className="background-logo shadow"
-                />
-                {/* <a href="#redirects" onClick={scrollTo}> */}
-                <h1
-                    style={{
-                        ...scale(1.5),
-                        marginBottom: rhythm(1.5),
-                        marginTop: 0,
-                    }}
-                    className="title-text"
-                >
-                    Hi, I'm
-                    <Typist
-                        className="typist"
-                        onTypingDone={onComplete}
-                        stdTypingDelay={0}
-                        key={index}
-                    >
-                        {`>`}
-                        {strings[index]}
-                        <Typist.Backspace
-                            count={strings[index].length}
-                            delay={2500}
-                        />
-                    </Typist>
-                </h1>
-                <Arrow />
-                {/* </a> */}
-            </div>
+                    {`>`}
+                    {strings[index]}
+                    <Typist.Backspace
+                        count={strings[index].length}
+                        delay={2500}
+                    />
+                </Typist>
+            </h1>
+            <Arrow />
+            {/* </a> */}
 
             <div id="redirects"></div>
             <Redirects />

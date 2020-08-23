@@ -5,9 +5,6 @@ import Bio from '../components/global/Bio'
 import Layout from '../components/global/Layout'
 import SEO from '../components/global/SEO'
 import PostHeader from '../components/global/PostHeader'
-
-import usePagination from '../hooks/usePagination'
-
 import styles from '../styles/Posts.module.scss'
 
 const PostListTemplate: React.FC = ({
@@ -17,6 +14,7 @@ const PostListTemplate: React.FC = ({
 }: any): ReactElement => {
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
+    console.log('posts', posts)
     // TODO: use the hook instead
     const { type, currentPage, numPages } = pageContext
     const next = Math.min(currentPage + 1, numPages)
@@ -28,7 +26,7 @@ const PostListTemplate: React.FC = ({
             <Bio />
             <div className={styles.posts}>
                 {posts.map(({ node }: any, i: number) => {
-                    return <PostHeader key={i} node={node} />
+                    return <PostHeader key={i} type={type} node={node} />
                 })}
             </div>
             <div className={styles.redirects}>

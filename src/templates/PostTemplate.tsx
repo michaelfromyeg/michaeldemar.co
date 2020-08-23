@@ -4,7 +4,6 @@ import { graphql, Link } from 'gatsby'
 import Bio from '../components/global/Bio'
 import Layout from '../components/global/Layout'
 import SEO from '../components/global/SEO'
-import { rhythm, scale } from '../utils/typography'
 
 const PostTemplate: React.FC = ({
     data,
@@ -12,6 +11,7 @@ const PostTemplate: React.FC = ({
     location,
 }: any): ReactElement => {
     const post = data.markdownRemark
+    console.log('data', data)
     const siteTitle = data.site.siteMetadata.title
     const { previous, next } = pageContext
 
@@ -23,30 +23,11 @@ const PostTemplate: React.FC = ({
             />
             <article>
                 <header>
-                    <h1
-                        style={{
-                            marginTop: rhythm(1),
-                            marginBottom: 0,
-                        }}
-                    >
-                        {post.frontmatter.title}
-                    </h1>
-                    <p
-                        style={{
-                            ...scale(-1 / 5),
-                            display: `block`,
-                            marginBottom: rhythm(1),
-                        }}
-                    >
-                        {post.frontmatter.date}
-                    </p>
+                    <h1>{post.frontmatter.title}</h1>
+                    <p>{post.frontmatter.date}</p>
                 </header>
                 <section dangerouslySetInnerHTML={{ __html: post.html }} />
-                <hr
-                    style={{
-                        marginBottom: rhythm(1),
-                    }}
-                />
+                <hr />
                 <footer>
                     <Bio />
                 </footer>

@@ -4,7 +4,7 @@ import { rhythm } from '../../utils/typography'
 import resume from '../../../content/assets/resume.pdf'
 
 const Redirects = () => {
-    // Inspired from https://codepen.io/electerious/pen/GzrmwB, awesome Codepen!
+    // Inspired from https://codepen.io/electerious/pen/GzrmwB, awesome Code pen!
     const colorButton = (e: any) => {
         const x = e.pageX - e.target.offsetLeft
         const y = e.pageY - e.target.offsetTop
@@ -26,13 +26,13 @@ const Redirects = () => {
                 Hey there, welcome to my website!
             </h2>
             <p className="redirects-bio">
-                My name is Michael DeMarco and I'm an upcoming sophomore student
-                at UBC. I built this website to showcase some of my work and to
-                gain a little more practice with web development. You can keep
-                scrolling and find an online interactive version of my resume.
-                If {`you'd`} prefer the classic pdf style, click {resumeLink}.
-                Otherwise, feel free to check out the links below to learn more
-                about me!
+                My name is Michael DeMarco and {`I'm`} an upcoming sophomore
+                student at UBC. I built this website to showcase some of my work
+                and to gain a little more practice with web development. You can
+                keep scrolling and find an online interactive version of my
+                resume. If {`you'd`} prefer the classic pdf style, click{` `}
+                {resumeLink}. Otherwise, feel free to check out the links below
+                to learn more about me!
             </p>
 
             <div className="redirect-wrapper">

@@ -3,7 +3,7 @@ title: RapViz
 date: '2020-02-01'
 description: 'See your bars broken down right in the browser. Powered by Spotify, Genius, and Google Cloud.'
 type: 'projects'
-featuredImage: 'mcnally.jpg'
+featuredImage: 'rapviz-main.png'
 ---
 
 See your bars broken down right in the browser. Powered by Spotify, Genius, and Google Cloud. Check out the GitHub repository [here](https://github.com/michaelfromyeg)!

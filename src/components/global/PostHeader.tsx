@@ -3,8 +3,9 @@ import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import styles from '../../styles/Post.module.scss'
 
-const PostHeader = ({ node }: any): ReactElement => {
+const PostHeader = ({ node, type }: any): ReactElement => {
     const title = node.frontmatter.title || node.fields.slug
+    console.log(node.fields)
     return (
         <article className={styles.post}>
             <header>
@@ -13,7 +14,10 @@ const PostHeader = ({ node }: any): ReactElement => {
                     fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
                 />
                 <h3 className={styles.title}>
-                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                    <Link
+                        style={{ boxShadow: `none` }}
+                        to={`/${type}${node.fields.slug}`}
+                    >
                         {title}
                     </Link>
                 </h3>
