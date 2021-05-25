@@ -5,7 +5,7 @@ import styles from '../../styles/Post.module.scss'
 
 const PostHeader = ({ node, type }: any): ReactElement => {
     const title = node.frontmatter.title || node.fields.slug
-    console.log(node.fields)
+
     return (
         <article className={styles.post}>
             <header>

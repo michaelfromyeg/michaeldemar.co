@@ -14,7 +14,6 @@ const PostListTemplate: React.FC = ({
 }: any): ReactElement => {
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-    console.log('posts', posts)
     // TODO: use the hook instead
     const { type, currentPage, numPages } = pageContext
     const next = Math.min(currentPage + 1, numPages)

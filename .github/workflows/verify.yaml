@@ -1,8 +1,8 @@
-name: Gatsby Pages--Verify
+name: Gatsby Pages [Verify]
 
 on:
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:

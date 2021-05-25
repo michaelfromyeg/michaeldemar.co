@@ -11,7 +11,6 @@ const PostTemplate: React.FC = ({
     location,
 }: any): ReactElement => {
     const post = data.markdownRemark
-    console.log('data', data)
     const siteTitle = data.site.siteMetadata.title
     const { previous, next } = pageContext
 
