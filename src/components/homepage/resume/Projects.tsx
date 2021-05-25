@@ -25,7 +25,7 @@ const Projects = (): ReactElement => {
                         <>
                             <div className="item"></div>
                             <h3 className="entry-title">
-                                {proj.title} @ {proj.name} {character}
+                                {proj.name}, <i>{proj.tag}</i> {character}
                             </h3>
                         </>
                     )

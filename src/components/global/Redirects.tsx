@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { rhythm } from '../../utils/typography'
-import resume from '../../../content/assets/resume.pdf'
 
 const Redirects = () => {
     // Inspired from https://codepen.io/electerious/pen/GzrmwB, awesome Code pen!
@@ -12,7 +11,15 @@ const Redirects = () => {
         e.target.style.setProperty('--y', `${y}px`)
     }
 
-    const resumeLink = <a href={resume}>here</a>
+    const resumeLink = (
+        <a
+            target="_blank"
+            href={'https://resume.michaeldemar.co'}
+            rel="noreferrer"
+        >
+            here
+        </a>
+    )
 
     return (
         <div
@@ -30,7 +37,7 @@ const Redirects = () => {
                 student at UBC. I built this website to showcase some of my work
                 and to gain a little more practice with web development. You can
                 keep scrolling and find an online interactive version of my
-                resume. If {`you'd`} prefer the classic pdf style, click{` `}
+                resume. If {`you'd`} prefer the classic PDF style, click{` `}
                 {resumeLink}. Otherwise, feel free to check out the links below
                 to learn more about me!
             </p>

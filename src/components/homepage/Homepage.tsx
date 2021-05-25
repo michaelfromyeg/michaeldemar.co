@@ -12,8 +12,7 @@ import Projects from './resume/Projects'
 import Activities from './resume/Activities'
 import Redirects from '../global/Redirects'
 import IndexFooter from './Footer'
-//'../../../content/assets/mjd-logo-black.svg'
-import logo from '../../../content/assets/mjd-logo-black.svg'
+import Logo from '../../../content/assets/mjd-logo-black.svg'
 import { rhythm, scale } from '../../utils/typography'
 
 const Homepage = () => {
@@ -46,11 +45,7 @@ const Homepage = () => {
         <>
             <Links location={Locations.HOMEPAGE} />
             <SEO title="Home" />
-            <img
-                src={logo}
-                alt="Michael's logo"
-                className="background-logo shadow"
-            />
+            <Logo alt="Michael's logo" className="background-logo shadow" />
             {/* <a href="#redirects" onClick={scrollTo}> */}
             <h1
                 style={{
@@ -77,10 +72,8 @@ const Homepage = () => {
             </h1>
             <Arrow />
             {/* </a> */}
-
             <div id="redirects"></div>
             <Redirects />
-
             {/* Visual resume */}
             <div
                 id="resume"
