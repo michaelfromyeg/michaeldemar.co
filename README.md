@@ -3,7 +3,6 @@
 [![Author](https://img.shields.io/badge/Author-michaelfromyeg-brightgreen.svg)](https://michaeldemar.co)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://michaeldemar.co)
 [![GitHub repository size](https://img.shields.io/github/repo-size/michaelfromyeg/michaelfromyeg.github.io.svg)](https://michaeldemar.co)
-![GitHub Pages](https://github.com/michaelfromyeg/michaeldemar.co/workflows/GitHub%20Pages--Publish/badge.svg)
 
 This is my personal website built using Gatsby, which is in turn built on top of React and GraphQL.
 
