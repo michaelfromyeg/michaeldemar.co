@@ -42,6 +42,19 @@ const Redirects = () => {
                 to learn more about me!
             </p>
 
+            <p>
+                Have any questions or just want to chat? Feel free to grab a
+                30-minute slot on my {`'office hours'`}{' '}
+                <a
+                    href="https://calendly.com/michaelfromyeg/office-hours"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    here
+                </a>
+                .
+            </p>
+
             <div className="redirect-wrapper">
                 <Link className="no-opacity" to="/blog">
                     <button onMouseMove={colorButton} className="button">

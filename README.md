@@ -1,38 +1,39 @@
-# michaeldemar.co (v4)
+# michaeldemar.co 👋🌐
 
 [![Author](https://img.shields.io/badge/Author-michaelfromyeg-brightgreen.svg)](https://michaeldemar.co)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://michaeldemar.co)
-[![GitHub repository size](https://img.shields.io/github/repo-size/michaelfromyeg/michaelfromyeg.github.io.svg)](https://michaeldemar.co)
-![GitHub Pages](https://github.com/michaelfromyeg/michaeldemar.co/workflows/GitHub%20Pages--Publish/badge.svg)
 
-This is my personal website built using Gatsby, which is in turn built on top of React and GraphQL.
+My personal website built using Gatsby. Contains a blog, a graphic design portfolio, write-ups about my personal projects, and a bit about me :-)
 
-Hope you enjoy!
+## Development
 
-## Run the project locally
+There's just a couple of dependecies to install before running this project locally.
 
-### Requirements
+-   [Node.js](https://nodejs.org/en/) and preferably [nvm]
+-   Gatsby's CLI
 
-- Node.js, NPM
-- Gatsby
-- GraphQL knowledge is also handy
+If you're on MacOS, Linux, or WSL:
 
-### Step-by-step
+```shellscript
+brew install node nvm
+npm i -g gatsby-cli
+```
 
-1. Run `git clone https://github.com/michaelfromyeg/michaeldemar.co.git`
-2. Assuming you have Gatsby installed, run `gatsby develop`... and that's it!
+After cloning the repository, run
 
-If you're looking to publish your own Gatsby site to Github pages, it's really simple. See the [Gatsby docs](https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/) for more information.
+```shellscript
+$ npm i
+$ npm run dev
+>
+```
 
-### Template
-
-While I won't make the current version available as a template (as it has all of my stuff on it), I think in the future I might look to release a handy Gatsby starter for personal websites. A plug-and-play kinda deal.
+If you're looking to publish your Gatsby site to GitHub pages after forking this project, see the [Gatsby documentation](https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/) for more information. If you're interested in helping me turn this project into a re-usable Gatsby template, reach out via email at mdemar01@student.ubc.ca.
 
 ## For the future
 
-- The structure is really bad, I need to use CSS modules. Thankfully this is easy to do with Gatsby.
-- I need to post more content!
-- I need to get more of my personal projects online so I can share them! Good thing I'm stuck inside all summer...
+-   The structure is really bad, I need to use CSS modules. Thankfully this is easy to do with Gatsby.
+-   I need to post more content!
+-   I need to get more of my personal projects online so I can share them! Good thing I'm stuck inside all summer...
 
 ## Inspiration
 
@@ -46,22 +47,22 @@ There really is an art to personal websites. Here are some websites that inspire
 
 ## FAQ
 
-- Why Gatsby?
-  - I've been using React on a ton of projects this past year, so once I stumbled across Gatsby I was really intrigued. Suffice to say it was definitely overkill for this project, but I think it's a really good static site generator. I'd also encourage you to look at Jekyll, Hugo, and Pelican. All good choices.
+-   Why Gatsby?
+    -   I've been using React on a ton of projects this past year, so once I stumbled across Gatsby I was really intrigued. Suffice to say it was definitely overkill for this project, but I think it's a really good static site generator. I'd also encourage you to look at Jekyll, Hugo, and Pelican. All good choices.
 
 ### How did you—
 
 These are just a bunch of tricks I hope developers stumbling across this find useful. If I'm missing something, feel free to ask me!
 
-- ...create a blog with Gatsby?
-  - I used [this](https://github.com/gatsbyjs/gatsby-starter-blog) starter!
-- ...style the logo on the front header?
-  - All the of the styles are in `global.css` for now. I think it's a nice trick. Just find an svg you like and set it's height to `100vh` and turn down its opacity. The hover animation is just basic key framing.
-- ...create the arrow animation?
-  - This arrow animation is one of the best I've seen, it's from [here](https://freefrontend.com/css-arrows/).
-- ...get the main navbar to act like that?
-  - I used a project created by the creator of Gatsby, [React Headroom](https://www.npmjs.com/package/react-headroom). Maybe I'll create my own implementation later!
-- ...I make my logo?
-  - I used Adobe Illustrator. If you're looking to get into graphic design I recommend using Lynda.com. Usually you can get access for free with a public library card.
+-   ...create a blog with Gatsby?
+    -   I used [this](https://github.com/gatsbyjs/gatsby-starter-blog) starter!
+-   ...style the logo on the front header?
+    -   All the of the styles are in `global.css` for now. I think it's a nice trick. Just find an svg you like and set it's height to `100vh` and turn down its opacity. The hover animation is just basic key framing.
+-   ...create the arrow animation?
+    -   This arrow animation is one of the best I've seen, it's from [here](https://freefrontend.com/css-arrows/).
+-   ...get the main navbar to act like that?
+    -   I used a project created by the creator of Gatsby, [React Headroom](https://www.npmjs.com/package/react-headroom). Maybe I'll create my own implementation later!
+-   ...I make my logo?
+    -   I used Adobe Illustrator. If you're looking to get into graphic design I recommend using Lynda.com. Usually you can get access for free with a public library card.
 
 Did I miss something? Feel free to email me at michaelfromyeg@gmail.com.
