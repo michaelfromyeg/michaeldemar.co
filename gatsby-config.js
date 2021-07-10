@@ -4,20 +4,22 @@ require('dotenv').config({
 
 module.exports = {
     siteMetadata: {
-        title: `michaeldemar.co`,
+        title: 'michaeldemar.co',
         author: {
-            name: `Michael DeMarco`,
-            summary: `an aspiring computer scientist completing his second-year at the University of British Columbia in Vancouver, BC.`,
+            name: 'Michael DeMarco',
+            summary:
+                'an aspiring computer scientist completing his third-year at the University of British Columbia in Vancouver, BC.',
         },
-        description: `Web development, software, technology, politics, and more.`,
-        siteUrl: `https://michaeldemar.co`,
+        description:
+            "Michael DeMarco's personal website! Software development, education, linguistics, and more.",
+        siteUrl: 'https://michaeldemar.co',
         social: {
-            twitter: `michaelfromyeg`,
+            twitter: 'michaelfromyeg',
         },
     },
     plugins: [
         `gatsby-plugin-sass`,
-        // 'gatsby-plugin-eslint',
+        'gatsby-plugin-eslint',
         {
             resolve: 'gatsby-plugin-react-svg',
             options: {
@@ -106,8 +108,7 @@ module.exports = {
                 pathToConfigModule: `src/utils/typography`,
             },
         },
-        // this (optional) plugin enables Progressive Web App + Offline functionality
-        // To learn more, visit: https://gatsby.dev/offline
+        // Enable PWA and offline functionality
         `gatsby-plugin-offline`,
     ],
 }

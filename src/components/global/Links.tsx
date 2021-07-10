@@ -28,11 +28,11 @@ export const Destinations = [
     },
 ]
 
-interface IProps {
+interface InnerLinksProps {
     location: Locations
 }
 
-const InnerLinks: React.FC = (props: any): ReactElement => {
+const InnerLinks = (props: InnerLinksProps): ReactElement => {
     const location = props.location
     const prefix = location === Locations.HOMEPAGE ? 'homepage' : ''
     return (
@@ -57,7 +57,11 @@ const InnerLinks: React.FC = (props: any): ReactElement => {
     )
 }
 
-const Links: React.FC = (props: any): ReactElement => {
+interface LinksProps {
+    location: Locations
+}
+
+const Links = (props: LinksProps): ReactElement => {
     const location = props.location
     switch (location) {
         case Locations.HOMEPAGE:

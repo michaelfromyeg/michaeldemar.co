@@ -11,6 +11,6 @@
         "resolveJsonModule": true,
         "noUnusedLocals": false
     },
-    "include": ["src/components", "src/custom.d.ts"],
+    "include": ["src"],
     "exclude": ["node_modules", "public", ".cache"]
 }

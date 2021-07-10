@@ -1,21 +1,70 @@
-import React, { ReactElement } from 'react'
+import React, { ReactElement, ReactNode } from 'react'
 import { graphql, Link } from 'gatsby'
 
 import Bio from '../components/global/Bio'
 import Layout from '../components/global/Layout'
 import SEO from '../components/global/SEO'
 
-const PostTemplate: React.FC = ({
+interface PostTemplateProps {
+    children?: ReactNode
+    data: {
+        site: {
+            siteMetadata: {
+                title: string
+            }
+        }
+        markdownRemark: {
+            html: string
+            excerpt: string
+            frontmatter: {
+                title: string
+                description: string
+                date: string
+            }
+        }
+    }
+    pageContext: {
+        type: string
+        previous: {
+            fields: {
+                slug: string
+            }
+            frontmatter: {
+                title: string
+                type: string
+            }
+        }
+        next: {
+            fields: {
+                slug: string
+            }
+            frontmatter: {
+                title: string
+                type: string
+            }
+        }
+    }
+    location: string
+}
+
+const PostTemplate = ({
     data,
     pageContext,
     location,
-}: any): ReactElement => {
-    const post = data.markdownRemark
-    const siteTitle = data.site.siteMetadata.title
+}: PostTemplateProps): ReactElement => {
+    // Get post data, site title
+    const {
+        markdownRemark: post,
+        site: {
+            siteMetadata: { title },
+        },
+    } = data
+
+    // Get previous page, next page from context
     const { previous, next } = pageContext
 
     return (
-        <Layout location={location} title={siteTitle}>
+        <Layout location={location} title={title}>
             <SEO
                 title={post.frontmatter.title}
                 description={post.frontmatter.description || post.excerpt}
@@ -32,32 +81,41 @@ const PostTemplate: React.FC = ({
                 </footer>
             </article>
 
-            <nav>
-                <ul
-                    style={{
-                        display: `flex`,
-                        flexWrap: `wrap`,
-                        justifyContent: `space-between`,
-                        listStyle: `none`,
-                        padding: 0,
-                    }}
-                >
-                    <li>
+            {/* Render navigation to next and previous post (if a next or previous post exists!) */}
+            {(next || previous) && (
+                <nav>
+                    <ul
+                        style={{
+                            display: `flex`,
+                            flexWrap: `wrap`,
+                            justifyContent: `space-between`,
+                            listStyle: `none`,
+                            padding: 0,
+                        }}
+                    >
                         {previous && (
-                            <Link to={previous.fields.slug} rel="prev">
-                                ← {previous.frontmatter.title}
-                            </Link>
+                            <li>
+                                <Link
+                                    to={`/${previous.frontmatter.type}${previous.fields.slug}`}
+                                    rel="prev"
+                                >
+                                    ← {previous.frontmatter.title}
+                                </Link>
+                            </li>
                         )}
-                    </li>
-                    <li>
                         {next && (
-                            <Link to={next.fields.slug} rel="next">
-                                {next.frontmatter.title} →
-                            </Link>
+                            <li>
+                                <Link
+                                    to={`/${next.frontmatter.type}${next.fields.slug}`}
+                                    rel="next"
+                                >
+                                    {next.frontmatter.title} →
+                                </Link>
+                            </li>
                         )}
-                    </li>
-                </ul>
-            </nav>
+                    </ul>
+                </nav>
+            )}
         </Layout>
     )
 }

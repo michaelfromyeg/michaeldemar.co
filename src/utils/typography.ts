@@ -1,7 +1,10 @@
 import Typography from 'typography'
-import anonymousTheme from 'typography-theme-anonymous'
+import theme from 'typography-theme-anonymous'
 
-anonymousTheme.overrideThemeStyles = () => ({
+/**
+ * Set correct color styles, font sizes, and turn off default spacing.
+ */
+theme.overrideThemeStyles = () => ({
     a: {
         color: 'var(--text-link)',
     },
@@ -12,9 +15,9 @@ anonymousTheme.overrideThemeStyles = () => ({
     },
 })
 
-const typography = new Typography(anonymousTheme)
+const typography = new Typography(theme)
 
-// Hot reload typography in development.
+// Hot reload typography in development
 if (process.env.NODE_ENV !== `production`) {
     typography.injectStyles()
 }

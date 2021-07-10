@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, ReactElement } from 'react'
 
 import Typist from 'react-typist'
 
@@ -15,7 +15,7 @@ import IndexFooter from './Footer'
 import Logo from '../../../content/assets/mjd-logo-black.svg'
 import { rhythm, scale } from '../../utils/typography'
 
-const Homepage = () => {
+const Homepage: React.FC = (): ReactElement => {
     const [index, setIndex] = useState(0)
 
     const strings = [
@@ -33,20 +33,16 @@ const Homepage = () => {
         }
     }
 
-    /*
-    const scrollTo = e => {
-        e.preventDefault()
-        let target = document.getElementById("redirects")
-        target.scrollIntoView({ behaviour: "smooth", inline: "nearest" })
-    }
-    */
+    const LogoComponent = Logo as React.ElementType
 
     return (
         <>
             <Links location={Locations.HOMEPAGE} />
             <SEO title="Home" />
-            <Logo alt="Michael's logo" className="background-logo shadow" />
-            {/* <a href="#redirects" onClick={scrollTo}> */}
+            <LogoComponent
+                alt="Michael's logo"
+                className="background-logo shadow"
+            />
             <h1
                 style={{
                     ...scale(1.5),
@@ -71,17 +67,14 @@ const Homepage = () => {
                 </Typist>
             </h1>
             <Arrow />
-            {/* </a> */}
-            <div id="redirects"></div>
             <Redirects />
-            {/* Visual resume */}
             <div
                 id="resume"
                 style={{
                     marginLeft: `auto`,
                     marginRight: `auto`,
-                    maxWidth: rhythm(50),
-                    padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+                    maxWidth: rhythm(40),
+                    padding: `${rhythm(3 / 2)} ${rhythm(3)}`,
                 }}
             >
                 <Education />

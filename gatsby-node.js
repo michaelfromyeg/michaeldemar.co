@@ -1,13 +1,16 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+/**
+ * Our static content generator function.
+ *
+ * @param {object} o
+ */
 exports.createPages = async ({ graphql, actions, reporter }) => {
     const { createPage } = actions
 
-    // TODO: refactor so that each of blog/portfolio/design is handled separately, and then merged w/ 'everything'
-    // right now the left/right navigation is not very good because it includes all nodes
-
-    const result = await graphql(
+    // Get all posts by date
+    const response = await graphql(
         `
             {
                 allMarkdownRemark(
@@ -30,32 +33,48 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         `
     )
 
-    if (result.errors) {
+    // If an error occurs on fetch, crash
+    if (response.errors) {
         reporter.panicOnBuild(`Error while running GraphQL query.`)
-        throw result.errors
+        throw response.errors
     }
 
-    // Globals
-    const posts = result.data.allMarkdownRemark.edges
+    // Get data: post objects, number of posts to render within each template, the template itself to create pages
+    const posts = response.data.allMarkdownRemark.edges
+
+    // Create blog content, design content, and project content
+    createPagesByType('blog', posts, createPage)
+    createPagesByType('design', posts, createPage)
+    createPagesByType('projects', posts, createPage)
+}
+
+/**
+ * Create pages of a certain type.
+ *
+ * @param {string} postType the post type (one-of: blog, design, projects)
+ * @param {Object[]} allPosts the array of all posts (i.e., really, Markdown files)
+ * @param {function} createPage a function to create a page; given by Gatsby
+ */
+const createPagesByType = (postType, allPosts, createPage) => {
+    // Get templates; define posts per page
     const postsPerPage = 6
     const postTemplate = path.resolve(`./src/templates/PostTemplate.tsx`)
     const postListTemplate = path.resolve(
         `./src/templates/PostListTemplate.tsx`
     )
 
-    // Filtering posts into categories
-    const blogPosts = posts.filter(post => filterPosts(post, 'blog'))
-    const designPosts = posts.filter(post => filterPosts(post, 'design'))
-    const projectPosts = posts.filter(post => filterPosts(post, 'projects'))
+    // Filter allPosts to posts of specified type
+    const posts = allPosts.filter(post => filterPosts(post, postType))
 
-    // Blog posts
-    const blogNumPages = Math.ceil(blogPosts.length / postsPerPage)
-    blogPosts.forEach((post, i) => {
-        const previous =
-            i === blogPosts.length - 1 ? null : blogPosts[i + 1].node
-        const next = i === 0 ? null : blogPosts[i - 1].node
+    // Compute number of pages
+    const numPages = Math.ceil(posts.length / postsPerPage)
+
+    // For each post, create page (i.e., postTemplate)
+    posts.forEach((post, i) => {
+        const previous = i === posts.length - 1 ? null : posts[i + 1].node
+        const next = i === 0 ? null : posts[i - 1].node
         createPage({
-            path: `/blog${post.node.fields.slug}`,
+            path: `/${postType}${post.node.fields.slug}`,
             component: postTemplate,
             context: {
                 slug: post.node.fields.slug,
@@ -64,85 +83,41 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             },
         })
     })
-    Array.from({ length: blogNumPages }).forEach((_, i) => {
-        createPage({
-            path: i === 0 ? `/blog` : `/blog/${i + 1}`,
-            component: postListTemplate,
-            context: {
-                type: 'blog',
-                limit: postsPerPage,
-                skip: i * postsPerPage,
-                numPages: blogNumPages,
-                currentPage: i + 1,
-            },
-        })
-    })
 
-    // Design posts
-    const designNumPages = Math.ceil(designPosts.length / postsPerPage)
-    designPosts.forEach((post, i) => {
-        const previous =
-            i === designPosts.length - 1 ? null : designPosts[i + 1].node
-        const next = i === 0 ? null : designPosts[i - 1].node
+    // Create numPages pages with postsPerPage posts on each page (i.e., postListTemplate)
+    Array.from({ length: numPages }).forEach((_, i) => {
         createPage({
-            path: `/design${post.node.fields.slug}`,
-            component: postTemplate,
-            context: {
-                slug: post.node.fields.slug,
-                previous,
-                next,
-            },
-        })
-    })
-    Array.from({ length: designNumPages }).forEach((_, i) => {
-        createPage({
-            path: i === 0 ? `/design` : `/design/${i + 1}`,
+            path: i === 0 ? `/${postType}` : `/${postType}/${i + 1}`,
             component: postListTemplate,
             context: {
-                type: 'design',
+                type: postType,
                 limit: postsPerPage,
                 skip: i * postsPerPage,
-                numPages: designNumPages,
-                currentPage: i + 1,
-            },
-        })
-    })
-
-    // Project posts
-    const projectNumPages = Math.ceil(projectPosts.length / postsPerPage)
-    projectPosts.forEach((post, i) => {
-        const previous =
-            i === projectPosts.length - 1 ? null : projectPosts[i + 1].node
-        const next = i === 0 ? null : projectPosts[i - 1].node
-        createPage({
-            path: `/projects${post.node.fields.slug}`,
-            component: postTemplate,
-            context: {
-                slug: post.node.fields.slug,
-                previous,
-                next,
-            },
-        })
-    })
-    Array.from({ length: projectNumPages }).forEach((_, i) => {
-        createPage({
-            path: i === 0 ? `/projects` : `/projects/${i + 1}`,
-            component: postListTemplate,
-            context: {
-                type: 'projects',
-                limit: postsPerPage,
-                skip: i * postsPerPage,
-                numPages: projectNumPages,
+                numPages: numPages,
                 currentPage: i + 1,
             },
         })
     })
 }
 
-const filterPosts = (post, type) => {
-    return post.node.frontmatter.type === type
+/**
+ * A helper function to filter posts down.
+ *
+ * @param {object} post the post itself
+ * @param {string} postType the type of the post
+ * @returns {boolean} whether or not the post's type matches postType
+ */
+const filterPosts = (post, postType) => {
+    return post.node.frontmatter.type === postType
 }
 
+/**
+ * Creates needed file paths and node fields.
+ *
+ * See more here {@link https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/#onCreateNode}
+ *
+ * @param {object} o
+ */
 exports.onCreateNode = ({ node, actions, getNode }) => {
     const { createNodeField } = actions
 

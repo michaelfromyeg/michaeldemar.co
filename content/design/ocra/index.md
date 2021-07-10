@@ -12,6 +12,6 @@ I served on my residence's house council in first year and did a lot of neat gra
 
 ![Cats poster](./cats.png 'Cats poster')
 
-![House president poster](./house-prez.jpg 'MVPLead banner')
+![House president poster](./house-prez.jpg 'Campaign poster for house president')
 
 ![Treehouse of Horror poster](./treehouse.png 'Treehouse of Horror poster')
