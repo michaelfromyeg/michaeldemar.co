@@ -1,0 +1,1369 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[michaeldemar.co]]></title><description><![CDATA[Michael DeMarco's personal website! Software development, education, linguistics, and more.]]></description><link>https://michaeldemar.co</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 12 Jul 2021 18:27:25 GMT</lastBuildDate><item><title><![CDATA[groUber]]></title><description><![CDATA[groups + Uber = groUber. Source code available here. About groUber is aimed to help event planners create carpools, and is being built for…]]></description><link>https://michaeldemar.co/groUber/</link><guid isPermaLink="false">https://michaeldemar.co/groUber/</guid><pubDate>Sun, 02 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;groups + Uber = groUber. Source code available &lt;a href=&quot;https://github.com/michaelfromyeg/groUber-deprecated0&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;About&lt;/h3&gt;
+&lt;p&gt;groUber is aimed to help event planners create carpools, and is being built for To the Moon and Hack. If you’re going to use this project to plan your event, remember to stay 6ft apart!&lt;/p&gt;
+&lt;h3&gt;Motivation&lt;/h3&gt;
+&lt;p&gt;This project was built by a group of 5 students from UBC in Vancouver, BC who love automating things. And one horrific task all of us have run into when planning our events is creating a workable carpool schedule.&lt;/p&gt;
+&lt;p&gt;It’s a great option for getting your group together: whether it be parents figuring out how best to get their kids to soccer practice, or friends accommodating those without access to a car, carpooling is common, but creating a plan can be painful, to say the least.&lt;/p&gt;
+&lt;p&gt;You finally come up with a workable schedule: everyone can make it to the event, no driver has to go in annoying, wasteful loops, and everything can start on time.&lt;/p&gt;
+&lt;p&gt;Then a driver with 4 seats drops out. And you have to do it all over again. No, thanks.&lt;/p&gt;
+&lt;h4&gt;Introducing: groUber&lt;/h4&gt;
+&lt;p&gt;With groUber, never go through that headache again. As an event organizer, create your event, send an invite link to your friends, and create a carpool schedule with one click. As a participant, simply receive a link, RSVP, and inform the organizer of how many seats you have available. You’ll receive a schedule on the day-of.&lt;/p&gt;
+&lt;p&gt;Using the Radar API and the Google Maps API, along with a bit of algo-magic, our app will create the most optimal carpool schedule for everyone involved. We were hesitant to do this project at first; the idea of designing an algorithm to find the “best” carpool strategy was intimidating to say the least. After some research, it turns out this is actually classified an NP-hard problem. We didn’t need to solve the problem generally though, and were able to design a heuristic algorithm to be able to compute this with fairly good results. Here are a few examples of scholarly work in this area. It took great teamwork, persistence, and a decent amount of caffeine to get this working.&lt;/p&gt;
+&lt;p&gt;Now, drivers won’t have to waste gas, and everyone will get there on time. Someone drops out? No problem, our app will allow you to adjust your schedule, painlessly.&lt;/p&gt;
+&lt;p&gt;groUber is ride-sharing for your group of friends, without all the expenses and overhead. Do a favor for the environment, and for your stress-levels, and start using groUber today.&lt;/p&gt;
+&lt;p&gt;Here’s our &lt;a href=&quot;https://docs.google.com/document/d/e/2PACX-1vSLo8DhZ7p-VgPnmieasD01zZ2_76uMxPxSwVErq3_gQPvpokrFI4G5SHA1Pxrc9b9ouhK5yvL-4X3t/pub&quot;&gt;whitepaper&lt;/a&gt; where you can find a more in-depth justification for this hack! We also have a &lt;a href=&quot;https://docs.google.com/presentation/d/e/2PACX-1vRY4A2dxP3vd1L7tY9gNC1Y0oegweKaiE9ZRHzulQArcLDld2zxErJQPk2TWvtwONXqdFWSECFlWEhh/pub?start=false&amp;#x26;loop=false&amp;#x26;delayms=15000&amp;#x26;slide=id.p&quot;&gt;slide deck&lt;/a&gt; for the visual learners out there.&lt;/p&gt;
+&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;h4&gt;Stack&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;TypeScript, React&lt;/li&gt;
+&lt;li&gt;Node.js, npm&lt;/li&gt;
+&lt;li&gt;Firebase, including authentication, hosting, and Firestore&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Get it running&lt;/h4&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;npm install&lt;/code&gt; Install dependencies.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;npm start&lt;/code&gt; Run for development.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;npm lint&lt;/code&gt; Run linting over the project repository.&lt;/p&gt;
+&lt;p&gt;Deployment happens entirely via GitHub Actions; on any pushes to master, the app will be re-deployed to Firebase hosting.&lt;/p&gt;
+&lt;h3&gt;Usage&lt;/h3&gt;
+&lt;p&gt;Head to &lt;a href=&quot;https://grouber.online&quot;&gt;grouber.online&lt;/a&gt;. Sign-up using your Google account.&lt;/p&gt;
+&lt;p&gt;Create your event with all key details, and send an invite to your to-be attendees. Once they RSVP, you’ll see their details on your event dashboard. Then, generate your event’s carpool schedule in one click!&lt;/p&gt;
+&lt;p&gt;Participants must submit their address, if they’re driving, and if so, how many seats they have available in their vehicle.&lt;/p&gt;
+&lt;h3&gt;Contributing&lt;/h3&gt;
+&lt;p&gt;This should be updated soon! Stay tuned for more.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[alumni.sunia.ca]]></title><description><![CDATA[TODO]]></description><link>https://michaeldemar.co/sunia-alumni/</link><guid isPermaLink="false">https://michaeldemar.co/sunia-alumni/</guid><pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;TODO&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My COVID summer]]></title><description><![CDATA[It’s a Friday after classes. I’m grabbing a quick bite at one of UBC’s only on-campus sit-down restaurants with a close friend, and a Gmail…]]></description><link>https://michaeldemar.co/summer-2020/</link><guid isPermaLink="false">https://michaeldemar.co/summer-2020/</guid><pubDate>Sat, 18 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It’s a Friday after classes. I’m grabbing a quick bite at one of UBC’s only on-campus sit-down restaurants with a close friend, and a Gmail notification appears on my phone. As soon as I saw “UBC” in the subject line, I already knew what it was going to be.&lt;/p&gt;
+&lt;p&gt;Students had already been buzzing about it for the past week, and I even &lt;a href=&quot;https://twitter.com/michaelfromyeg/status/1238500414053429248?ref_src=twsrc%5Etfw&quot;&gt;tweeted&lt;/a&gt; about it. We were &lt;em&gt;finally&lt;/em&gt; going online.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Classes are suspended at the UofA, UofT, McGill, Stanford, Western, UDub, Harvard, and UBC is still open… Pumped to go earn my 2% iClicker participation marks today.&lt;/p&gt;
+&lt;p&gt;—Michael DeMarco (@michaelfromyeg) &lt;a href=&quot;https://twitter.com/michaelfromyeg/status/1238500414053429248?ref_src=twsrc%5Etfw&quot;&gt;March 13, 2020&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Trailing behind the universities I mentioned in my Tweet, all of our classes were going remote starting the following Monday. Even though I had seen it coming, I was still a bit shell shocked. I think everyone had their “COVID-19 moment”, where it stopped being a headline you read about in the news, and started dictating your way of life. Mine came in a 3-part saga.&lt;/p&gt;
+&lt;p&gt;First, it was &lt;a href=&quot;https://hacktech.io/&quot;&gt;Hacktech&lt;/a&gt;. Over Christmas break, a friend shared that Caltech’s hackathon had opened their applications for 2020, and I thought it’d be a neat opportunity. I poured over my application, and with a bit of good fortune, got accepted. I booked my ticket to Pasadena and could hardly contain my excitement. Then, it moved online. Four-hundred dollars down the drain, I was a bit disappointed, but I got some friends together from UBC and ended up actually submitting a &lt;a href=&quot;https://rapviz.appspot.com/&quot;&gt;project&lt;/a&gt; and earning a finalist distinction. This was a solid silver-lining; my fingers are crossed that I may take part in the event next year.&lt;/p&gt;
+&lt;p&gt;Second, it was, as I mentioned, school. Classes being online turned campus into a ghost town almost overnight. First-years flooded out of residents, clubs scrambled to pivot scheduled events online, and I clung on for dear life in each of my classes, submerged in school work. Within a few weeks, I managed to find a somewhat free weekend, pack my life away into four plastic boxes, and drive back to Edmonton. Over that weekend, I got an email from a software developer at the Government of Canada letting my know the internship I had just interviewed for was being eliminated. It was a bad week, to say the least.&lt;/p&gt;
+&lt;p&gt;Third, it was &lt;a href=&quot;https://sunia.ca&quot;&gt;SUNIA&lt;/a&gt;. SUNIA is this week-long summer program I’ve worked with for nearly three years now. I started off in a generic programming coordinator role, helping make UN-related educational material; in my second year, I led marketing and did a fair amount of graphic design, while also working as our “CTO” (I snicker at the title, too); this year, I was working as the staff registrar, and also doing a bit more technology related work. &lt;a href=&quot;https://www.sunia.ca/covid&quot;&gt;SUNIA got cancelled.&lt;/a&gt; Again, like my semester moving online, I had seen this coming, but still, it meant my fears about a fully indoors summer and an online fall semester were validated.&lt;/p&gt;
+&lt;p&gt;I was defeated, but I still wanted to make something of my summer. Being so late in the recruiting year, my outlook was fairly bleak. &lt;a href=&quot;https://www.notion.so/michaelfromyeg/49058c86c8d44605b65f9637d8f9e8a7?v=3acd8e103476491f833c4d69a39995df&quot;&gt;Here’s&lt;/a&gt; the Notion page where I tracked my applications. Nothing too exciting of note; I had to apply to a ton of start-ups, some unpaid internships, and a lot of, erm, &lt;em&gt;interesting&lt;/em&gt; positions, to say the least.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.70270270270271%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABh0lEQVQoz32R25KcIBCG54EyuqOCIHIWFI+oOFNJrvL+LxF0U3u1k6ouqgv6+/vv5jatwc2+HZd5O9y85pgmObw/QJqXSQHvOUiL8p7DeH4AlFxJClCK6pjcmDaYciZkUdHGaMZpCjCUOqtIXtKy0lFCUFnVHDPGG1NAhPoNhj9pBm73DBRV3W17WQtMCKpwFAZMJABJYfY5AMKCH6TStTD9tCMqWOOk6UBFIwxRzcJzo8p8APwjO40lGYgOi6hE6ANiuy6i7bh2w/SsuGzd2g4eM3F2RoRv/iDRaln9m+qKc/gsBminIIxjyi77T2HdMMToS3rBJZFu/Ab+khjGQ9me625Zf9VSt85bN6Mv2Lq9Euod3I+HNI4q2/YeMTn0rnMdJPyambDXEXQ3/AfuRs9127mVCA0weYDz6epc88mvcWFv4T4o09fKrq/fbvJxhZ9lt7hYED9h2gh/a9vMK2tabuz4DNH8Jxzj7AxrMe4vqppv4TSH3RK4ccrY2Y9ExjIc7yFhfwGipJw8wKvl/AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;A screenshot of my Notion page&quot;
+        title=&quot;A screenshot of my Notion page&quot;
+        src=&quot;/static/e9fe7cf12a27b7c7b1b9b7ddcc1dba4d/fcda8/notion.png&quot;
+        srcset=&quot;/static/e9fe7cf12a27b7c7b1b9b7ddcc1dba4d/12f09/notion.png 148w,
+/static/e9fe7cf12a27b7c7b1b9b7ddcc1dba4d/e4a3f/notion.png 295w,
+/static/e9fe7cf12a27b7c7b1b9b7ddcc1dba4d/fcda8/notion.png 590w,
+/static/e9fe7cf12a27b7c7b1b9b7ddcc1dba4d/efc66/notion.png 885w,
+/static/e9fe7cf12a27b7c7b1b9b7ddcc1dba4d/c83ae/notion.png 1180w,
+/static/e9fe7cf12a27b7c7b1b9b7ddcc1dba4d/0bdcb/notion.png 1579w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Then, I thrice got lucky. The first stroke of luck came in the form of an offer to TA an introductory computer science class. I had TA’d during the second semester of my first-year, and leveraging that, I nabbed a TA position for the first summer term. Being only a 10-hour per week role, I still wanted to do a little bit more. But, it was a definite start.&lt;/p&gt;
+&lt;p&gt;I also was able to leverage LinkedIn and find a part-time position with my school’s Electrical and Computer Engineering (ECE) Department. If I’m honest, I think posting on LinkedIn is mostly a waste of time. There’s just too much clutter on the platform; your time would be better spent working in public on GitHub, and tweeting your progress. But again, somehow a post of mine reached a communications lead working with ECE who thought I’d be a good fit for a position they’d just opened. ECE wanted to launch a new website they were working on, but needed help seeing it across the finish line. Their &lt;a href=&quot;https://ece.ubc.ca/&quot;&gt;old website&lt;/a&gt;, built using Drupal, was getting near-impossible to maintain and they had already made a dent in a new WordPress site. With ECE, I’ve written a &lt;a href=&quot;https://ece.ubc.ca/news/202005/ece-capstone-faculty-award-recipients&quot;&gt;few&lt;/a&gt; &lt;a href=&quot;https://ece.ubc.ca/news/202006/ece-phd-candidate-awarded-prestigious-microsoft-research-grant&quot;&gt;blog&lt;/a&gt; &lt;a href=&quot;https://ece.ubc.ca/news/202007/ubc-masc-student-developing-wearable-device-track-heart-and-brain-signals&quot;&gt;posts&lt;/a&gt; about research ECE grads are doing, wrote a lot of HTML, CSS, and a bit of PHP for the new WordPress site, maintained some legacy code on Drupal, and done a bit of marketing work. It’s been a cool gig. I also wrote a few projects to help me automate tasks at work. &lt;a href=&quot;https://github.com/michaelfromyeg/pylink&quot;&gt;Here’s&lt;/a&gt; one, which interprets HTTP status codes into a “report”, given a list of URLs, and &lt;a href=&quot;https://github.com/michaelfromyeg/rECEsearch&quot;&gt;here’s&lt;/a&gt; another, which collects UBC ECE research and formats it in a way which can be uploaded to WordPress.&lt;/p&gt;
+&lt;p&gt;Finally, there was a &lt;em&gt;third&lt;/em&gt; stroke of luck I would never have seen coming. For the past few months, I’d been doing &lt;em&gt;ish&lt;/em&gt; contract work with a IoT company called &lt;a href=&quot;https://artesiansoft.com/&quot;&gt;Artesian Software&lt;/a&gt;. I say &lt;em&gt;ish&lt;/em&gt; because though I was on board as a developer, there was simply no work to be done. Then, thankfully, around about mid-May, the company signed a contract, and we were off to the races. We’ve been building a platform to support businesses communicate with customers post-COVID. You can see my handiwork &lt;a href=&quot;https://shieldscore.com/&quot;&gt;here&lt;/a&gt;. I get to work on a modern tech stack, which is a nice change of pace from Drupal: React (and React Native at one point), Node, SCSS, AWS (RDS with PostgreSQL, Dynamo, Cognito), ESLint, Stylelint, Prettier, and more. I’ve worked with the Stripe API, created my first microservice, learned a ton about REST, and even more about React.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 49.32432432432432%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABsklEQVQoz2VSPW8UMRC1KClo6Wlo+Bk0VPwCGhoKpFQoNR0lBakoU6ZAQqRAik4RhINESggfpyABF1CIosve7d36czxjj5fZvdCQ0fNYtuY9vxlZ3d8b3Rp8vDk4WP3ya17b7yfnZ7U/b+JlVPp/KPVi5+qr91deDlcOx0bD78m8amBuqbbYZ6pdny1NjUiA5JlBwVTIN7b2r23uqo3thwc/YsguYmZOsrigRMSEyx1dTD5ELqW0XQTK6u7u0e3h6PrrvUefjgn46PRsffvNxrsPldZSMYe4Pj49sb6rxmwDOABKSbQ7cg04i6hTrjyKtz/TevD569vRt7l1QsilNImpfwyItbFaa+89EYWYVMlZsBSWqZhAXuzFHImhBxFLKzEVHchBBipSCcjaJ0WUREbIwqkMGm2ctY3z1gfx1vXOJXMRrx0nUnsRxWNS/w6tg9RYGk5mh1WNAD6E1Aljyyxa+z/HjQexzzmFICMoYk21F8MT21wbHC3csQXmFnPBxAJK7CNNtdOepItIWbqVexm+uvd07cHa8zuPnzzb3DJQFjouDE4ufY+ZIcndsf8ey/u/hComz+2rtYYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;A screenshot of ShieldScore&quot;
+        title=&quot;A screenshot of ShieldScore&quot;
+        src=&quot;/static/316bcf88c2432298b48fd72494a64502/fcda8/artesian.png&quot;
+        srcset=&quot;/static/316bcf88c2432298b48fd72494a64502/12f09/artesian.png 148w,
+/static/316bcf88c2432298b48fd72494a64502/e4a3f/artesian.png 295w,
+/static/316bcf88c2432298b48fd72494a64502/fcda8/artesian.png 590w,
+/static/316bcf88c2432298b48fd72494a64502/efc66/artesian.png 885w,
+/static/316bcf88c2432298b48fd72494a64502/c83ae/artesian.png 1180w,
+/static/316bcf88c2432298b48fd72494a64502/a076e/artesian.png 1825w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Wanting to write a bit more code, I also joined an online community for hackers looking to replicate the in-person intern experience called &lt;a href=&quot;https://summerofshipping.com/&quot;&gt;Summer of Shipping&lt;/a&gt;, and joined a pre-seed accelerator &lt;a href=&quot;https://studentstartuplife.com/programs/student-summer-program&quot;&gt;program&lt;/a&gt; from Startup Edmonton, where I’ve been building &lt;a href=&quot;https://wenote.ca&quot;&gt;weNote&lt;/a&gt;. I’ve also participated in a couple of hackathons; at one I wrote &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=michaelfromyeg.vscode-puzzle&quot;&gt;a VS Code extension&lt;/a&gt; to help you practice interview-style coding problems in your editor, which won me the “best use of an external API award.” (Even though I wrote my own API and did some, erm, questionable scraping. Whoops.) It currently has 14 installs, which is pretty cool!&lt;/p&gt;
+&lt;p&gt;Looking forward to the fall semester, I’m definitely nervous. Online school is hard. There’s no getting around that fact. I’ll be moving back to Vancouver, so hopefully cutting down the distance and being at least in the vicinity of campus should help my productivity. I’ll also gain a bit of a community to rely on.&lt;/p&gt;
+&lt;p&gt;Beyond the fall, I also have to hunt down co-op positions for winter and summer 2021. The COVID and post-COVID job market is assuredly a “buyer’s market”, meaning that employers now have the pick of the litter when it comes to applicants. It’s a scary reality, but it’s one that’s not going away anytime soon. My plan, for now at least, is to keep building projects, keep learning, keep being curious, and to stay vigilant. I’m not going to bother betting on getting lucky with offers again; lightning never strikes twice in the same place.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[jCite]]></title><description><![CDATA[Create and manage your citations without all the headaches! Background This project was made for CPSC 210, a UBC second-year course focused…]]></description><link>https://michaeldemar.co/jcite/</link><guid isPermaLink="false">https://michaeldemar.co/jcite/</guid><pubDate>Sun, 03 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Create and manage your citations without all the headaches!&lt;/p&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;p&gt;This project was made for CPSC 210, a UBC second-year course focused on software construction. The course uses Java, and likewise this project was made using Java and JavaFX for the UI. I asked my girlfriend if she had any project ideas, and she mentioned she struggled keeping track of citations for her assignments, so I wanted to build a tool that could meet her needs. I felt the exact same feeling when I wrote my 4,000 word Extended Essay in high school. Trying to remember and keep track of citations can be hard if you’re not an experienced writer.&lt;/p&gt;
+&lt;h3&gt;Usage&lt;/h3&gt;
+&lt;p&gt;A user can create an account and manage a list of assignments. With each assignment, they can paragraph-by-paragraph manage citations (e.g., who are you citing, what page number, etc.) and then automatically generate a works-cited page with reported “confidence.”&lt;/p&gt;
+&lt;h3&gt;How it’s made&lt;/h3&gt;
+&lt;p&gt;The project is made with vanilla Java and JavaFX.&lt;/p&gt;
+&lt;h3&gt;Challenges&lt;/h3&gt;
+&lt;p&gt;I struggled quite a bit with the algorithm to generate citations, but I’m happy with what I ended up with! Maybe I’ll release it separately as an API or something.&lt;/p&gt;
+&lt;h3&gt;Accomplishments&lt;/h3&gt;
+&lt;p&gt;I think the project structure is quite nice, and I’m happy with the UI! It was my first time using JavaFX.&lt;/p&gt;
+&lt;h3&gt;Future&lt;/h3&gt;
+&lt;p&gt;It’d be cool to port this to an Android app or something. I should also probably created a “released” version.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Orchard Commons Residence Marketing]]></title><description><![CDATA[I served on my residence’s house council in first year and did a lot of neat graphic design projects!]]></description><link>https://michaeldemar.co/ocra/</link><guid isPermaLink="false">https://michaeldemar.co/ocra/</guid><pubDate>Sat, 02 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I served on my residence’s house council in first year and did a lot of neat graphic design projects!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 129.7297297297297%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAaABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAe2sULjImdGMVYID/8QAHhAAAgICAgMAAAAAAAAAAAAAAQIAAxETEiEjMUL/2gAIAQEAAQUC6VVsNlmoQjXWjCs4zHHIhVg9fWPNP//EABkRAAEFAAAAAAAAAAAAAAAAAAABAhAREv/aAAgBAwEBPwGkMMn/xAAXEQADAQAAAAAAAAAAAAAAAAAAARAR/9oACAECAQE/ATXf/8QAIBAAAQMEAgMAAAAAAAAAAAAAAQACERASMkEhIjFxkf/aAAgBAQAGPwK4+E5sdI+LJWkXArF3OzTRUENmo9U//8QAGxABAAMBAQEBAAAAAAAAAAAAAQARMSFBYYH/2gAIAQEAAT8htC0C7llPJvH8T64S9ssIyBebS2oHoag5US3YaD2ZyjxpAYHZCf/aAAwDAQACAAMAAAAQJzuA/8QAFxEBAQEBAAAAAAAAAAAAAAAAARARIf/aAAgBAwEBPxBDQ6S2f//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxCoAq//xAAdEAEBAQEBAQADAQAAAAAAAAABESEAMUFhcYHw/9oACAEBAAE/EEzUl8AfevIRkXIurWzhaurcHnKRMmJsP9vNVUqlAFXyXzqqNbDP50SuxEsPzeRRApDBl/XTAAAkPk5BIB0z3goEpWe7xAgHr3//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;TikTok challenge poster&quot;
+        title=&quot;TikTok challenge poster&quot;
+        src=&quot;/static/66716742c306ee696bf51c1f645665b0/1c72d/tiktok.jpg&quot;
+        srcset=&quot;/static/66716742c306ee696bf51c1f645665b0/a80bd/tiktok.jpg 148w,
+/static/66716742c306ee696bf51c1f645665b0/1c91a/tiktok.jpg 295w,
+/static/66716742c306ee696bf51c1f645665b0/1c72d/tiktok.jpg 590w,
+/static/66716742c306ee696bf51c1f645665b0/a8a14/tiktok.jpg 885w,
+/static/66716742c306ee696bf51c1f645665b0/fbd2c/tiktok.jpg 1180w,
+/static/66716742c306ee696bf51c1f645665b0/9c538/tiktok.jpg 2550w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 154.72972972972974%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Cats poster&quot;
+        title=&quot;Cats poster&quot;
+        src=&quot;/static/fe43225c958447dc416646c38fa931f0/fcda8/cats.png&quot;
+        srcset=&quot;/static/fe43225c958447dc416646c38fa931f0/12f09/cats.png 148w,
+/static/fe43225c958447dc416646c38fa931f0/e4a3f/cats.png 295w,
+/static/fe43225c958447dc416646c38fa931f0/fcda8/cats.png 590w,
+/static/fe43225c958447dc416646c38fa931f0/9a86a/cats.png 792w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 154.72972972972974%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAfABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQL/2gAMAwEAAhADEAAAAWXabNTBChTmbCuQLP/EABoQAQACAwEAAAAAAAAAAAAAAAEAAgMQERL/2gAIAQEAAQUCnqu2ykbzscnGrHX/xAAbEQABBAMAAAAAAAAAAAAAAAABAAIQERIhMf/aAAgBAwEBPwFjbG44KCxX/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERIQL/2gAIAQIBAT8B7ceEHrpT/8QAHBAAAQQDAQAAAAAAAAAAAAAAAAEQETEhIoHR/9oACAEBAAY/Ai3jC8bVJPSns//EAB8QAQACAgICAwAAAAAAAAAAAAEAESExYYEQcZHB8P/aAAgBAQABPyG5qNnqX+uOt1zFbeB8U+gRVYvfwgUZQQBF7jrWIg5c/U//2gAMAwEAAgADAAAAEADSvv/EABgRAQEBAQEAAAAAAAAAAAAAAAEAETFB/9oACAEDAQE/EDZmxqB2B7f/xAAYEQEBAQEBAAAAAAAAAAAAAAABABFB8P/aAAgBAgEBPxDCBZ8sAFy3f//EAB8QAQEAAgICAwEAAAAAAAAAAAERACFBkTFRcYGhsf/aAAgBAQABPxC41vzv+5JQAQI/rAb09sCs6XjvAqkZE93Ad6fPpzTqGNRZzrDMShggD7bxBGORMEJeiDBFoXjbkLYFcf/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;House president poster&quot;
+        title=&quot;Campaign poster for house president&quot;
+        src=&quot;/static/88607de937c893f219ff6a674b49f7b1/1c72d/house-prez.jpg&quot;
+        srcset=&quot;/static/88607de937c893f219ff6a674b49f7b1/a80bd/house-prez.jpg 148w,
+/static/88607de937c893f219ff6a674b49f7b1/1c91a/house-prez.jpg 295w,
+/static/88607de937c893f219ff6a674b49f7b1/1c72d/house-prez.jpg 590w,
+/static/88607de937c893f219ff6a674b49f7b1/a8a14/house-prez.jpg 885w,
+/static/88607de937c893f219ff6a674b49f7b1/fbd2c/house-prez.jpg 1180w,
+/static/88607de937c893f219ff6a674b49f7b1/e91d4/house-prez.jpg 3300w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 154.72972972972974%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Treehouse of Horror poster&quot;
+        title=&quot;Treehouse of Horror poster&quot;
+        src=&quot;/static/56fb9bf8aab50a814374178a6be6afc4/fcda8/treehouse.png&quot;
+        srcset=&quot;/static/56fb9bf8aab50a814374178a6be6afc4/12f09/treehouse.png 148w,
+/static/56fb9bf8aab50a814374178a6be6afc4/e4a3f/treehouse.png 295w,
+/static/56fb9bf8aab50a814374178a6be6afc4/fcda8/treehouse.png 590w,
+/static/56fb9bf8aab50a814374178a6be6afc4/efc66/treehouse.png 885w,
+/static/56fb9bf8aab50a814374178a6be6afc4/c83ae/treehouse.png 1180w,
+/static/56fb9bf8aab50a814374178a6be6afc4/92e5c/treehouse.png 3300w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Science Undergrad Society First Year Committee (SUS FYC)]]></title><description><![CDATA[I joined SUS FYC in my first-year at UBC. Here are some cool things I made planning events with them!]]></description><link>https://michaeldemar.co/sus/</link><guid isPermaLink="false">https://michaeldemar.co/sus/</guid><pubDate>Thu, 30 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I joined SUS FYC in my first-year at UBC. Here are some cool things I made planning events with them!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.7027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAIBAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQIA/9oADAMBAAIQAxAAAAHw6q6jlWK7dcXjDkLgSht//8QAHRAAAgEEAwAAAAAAAAAAAAAAAQIRAAMSIRMgMf/aAAgBAQABBQIDWOz6qGiDEVygKb2mYTZTKnSG6f/EABcRAAMBAAAAAAAAAAAAAAAAAAAQEQH/2gAIAQMBAT8BUJj/AP/EABgRAAIDAAAAAAAAAAAAAAAAAAASARAR/9oACAECAQE/ATBhpv8A/8QAHxAAAQMDBQAAAAAAAAAAAAAAAQARIRASMQIgQWGR/9oACAEBAAY/AquAsDyhHawoLIl9McFWi0w7jb//xAAeEAACAQUAAwAAAAAAAAAAAAAAAREhMUFRYSCBsf/aAAgBAQABPyFLR5GkI1s0GSEuFPaacHsPEDlAhwDiOzsQ/uUps53Dx//aAAwDAQACAAMAAAAQvObwg8//xAAZEQEAAgMAAAAAAAAAAAAAAAABABEQMWH/2gAIAQMBAT8QRvcsIlnLP//EABgRAAMBAQAAAAAAAAAAAAAAAAABERBh/9oACAECAQE/EIWJkdN//8QAHRABAQEAAwADAQAAAAAAAAAAAREAITFBUWHRgf/aAAgBAQABPxB+C1zz5igBtYAR0MoSolQl08YhoEB9559fxoNpyQIAn5mSqdWc/pwZMQRZscrMIqPB9AfM0vICIc9V+s1fneb3Pe//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Glow Up DJ post&quot;
+        title=&quot;Glow Up DJ post&quot;
+        src=&quot;/static/f51e3f4425454e8244c88d5148c65a69/1c72d/glow-dj.jpg&quot;
+        srcset=&quot;/static/f51e3f4425454e8244c88d5148c65a69/a80bd/glow-dj.jpg 148w,
+/static/f51e3f4425454e8244c88d5148c65a69/1c91a/glow-dj.jpg 295w,
+/static/f51e3f4425454e8244c88d5148c65a69/1c72d/glow-dj.jpg 590w,
+/static/f51e3f4425454e8244c88d5148c65a69/a8a14/glow-dj.jpg 885w,
+/static/f51e3f4425454e8244c88d5148c65a69/47311/glow-dj.jpg 1080w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAACjElEQVQ4y+2USU9UQRSFv+cGgxFktKFlMkYUEFBJt4BhEmgMCDYNyGwDSpwFWmYIjjFInCVoRBODUTcmxLhwwBEk+htcueNf4HmvRRZucK2VnNx679X97qlb1Q3/4PC996vrnSFBzydoegpBNRDdClEthgS2FqwY3QbraqHqIfTOQueMmW/85tD72Q8xdeYD9M9BwxNYWyWIF9Yf9MuCev1FTGDdFAx8ge6Py/kmy6rQORNCx9s4Tr+J1YcYmp/ZCKu3seFQnLRJkBjB4gW1W/OQulgqJ6Pk0C5XduUnKAZbLAbmoW82UbFIFQvl0EXtlJOA8mzCG0u0dZdigWClguYKWKB3Dg5Pp9A3VyRIIYPzmXIXZ+2OyGYIa8iU2gmtr2SNp5yKe4kMf63WgmKGv1Vz7KVTLcjC3lYjqFvwBiKa3ITUugmt26OCJ+Q6XWKp0TGqnKOELCVk6FACVdmhNuzm1GsXBx5tJtCdquLZlkubN095uVqfJsUrt0QxQWK56WbDTYU3oh7C9e9QOm4eQjIbj2fiPOtk+0CWdrJ8QEuHtjQ3ZX30a5V1RSKbDXIum301yB0NIKnLR2rvhGA+tvXUaB5ExV1IOLpKAF0pU79yzav1xzDhbc/h/gIClAswIugEST4Pyb79JHaUMblgMP4DHCMruOgmcEsHVoNt3gh2DrWytbOK9D67Yhn5Vxy0TxssLsLe2ysERjRpsst8MuTOQ2rPPvXSRcaQm9UV/nVHXkDRtRUCsy/6t5N9Sdxz4TqcYPUwloKxGEpugesmzMth6Z2V/sATYccg2i6k90PhVUjphrxRyLygIuf/8g/DdFn/GDwPIEtui29AWp9B/pghx+gKwclX/B/W+AmauMAk0ofYPQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;FYC Atom&quot;
+        title=&quot;FYC Atom&quot;
+        src=&quot;/static/bb57c815847079befd0750ba429f2ee5/fcda8/fyc-atom.png&quot;
+        srcset=&quot;/static/bb57c815847079befd0750ba429f2ee5/12f09/fyc-atom.png 148w,
+/static/bb57c815847079befd0750ba429f2ee5/e4a3f/fyc-atom.png 295w,
+/static/bb57c815847079befd0750ba429f2ee5/fcda8/fyc-atom.png 590w,
+/static/bb57c815847079befd0750ba429f2ee5/efc66/fyc-atom.png 885w,
+/static/bb57c815847079befd0750ba429f2ee5/302a4/fyc-atom.png 1080w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAACoklEQVQ4y+2Ty08TURTGv4lQTHhEebTQTmkHClhoKVCiIKIViRgXJqYbC+W9UFsItkMfSA2JMTExLPSPMD4qGx+YAK2CKBoTXbhxofHfcGFSvztDBRNjTFzqTb45d86c8+vpPecC/9ffr5rxvCRNVcMS2pISUlsSImsSohkJalaX2Avf/CsJnSnGBqUfeXmO9tgfACqGgMogsO8c0KICqddA7DmQ2ACSL3as8KW2gLY5Pc84Ahah51ePQX+UD8p0dPBDB8oD7QQ2ENjEZC9BBxHfcCG+3onkZgt9HgJd8CQbmOchsJWFtDPfrMFhvwB4Es1wxwbgivWhYdqHvsUuzG32Yjzdj7H7pzGWPorJpVMYuXsCEw/6cfllF47f8EIJ9aBp5jBaZrvJsMAxTWDoiQHX3svI5QqR/lqGm59kfMsVEOTgryqM2AP4TMAhI/cFqKRvcsmJL4xf/GjHrc/VeJQrxpU3Npx/WADMPivCzIoF8zyXyNpZRFaHMLUMDN9R4E3ZtTM2T4zCMjlIgb46DN2uBepEfAiXVo/g6jvQ1pBlALtXRMkU2MUA1YvQY2D0ngLXrAPKRdE4P3VSOx533EGgjOsf9jJ2gXnd27kWqJlCsSmijHQ6qV7uu9iEZgRZoSdp4V+0EXaM6uERyGhNWHmWCpvVyFg/c87QmmgrKIMOVLM2RLMltJ18H2AXK3iGTlbYiGJ/KWF9lA8l/jL6mtikA1h4W8pYUZ2blRXTWreBYmCzNXwx0ZoZZOWIVCK8rKAubOcoGQmzUjLHo4qdtGHqaT1ijIlmapln1nJVjQEBhLZRM7qiVHxddB+oD3Nogzu3SQy+GA3xTQy6iFWzu5TZDdSkXy8dKBEoabcgf7004JSkffsVULD+eP1UyW/0763vfXD+PnUH0CwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;FYC Elements&quot;
+        title=&quot;FYC Elements&quot;
+        src=&quot;/static/2ff3a131f92c0ba4ee10ffb7b64351bd/fcda8/fyc-elements.png&quot;
+        srcset=&quot;/static/2ff3a131f92c0ba4ee10ffb7b64351bd/12f09/fyc-elements.png 148w,
+/static/2ff3a131f92c0ba4ee10ffb7b64351bd/e4a3f/fyc-elements.png 295w,
+/static/2ff3a131f92c0ba4ee10ffb7b64351bd/fcda8/fyc-elements.png 590w,
+/static/2ff3a131f92c0ba4ee10ffb7b64351bd/efc66/fyc-elements.png 885w,
+/static/2ff3a131f92c0ba4ee10ffb7b64351bd/302a4/fyc-elements.png 1080w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAEKElEQVQ4y3VU+08jVRid6bzuzHQ6baft9N1aFgoUlsVaIBt5uGgEVgFxIchrAQHDPlgEwqohkhh/IZvov+J/eDx3ylY3xh9O70zn3nO/833n+xRFURAhFiM0KJoO1bAQs2xotg09HofuedGqOQ7/t6Bq3KfG0Dv7ASSJqnbRI1d42IaZDmAVi7DrddjVKkShAMP3SSqiPTHC0GPQDQPGPZQosn/dYCYm4fmzsNw0vIlJ5HcOkNvYQu7ZJlJz8xCVKi+zYCSaEMEqPKcflhGDTTUS3QhJpGoCrn8O09+GH1wiTHwOf34WpRfnKOwfo/zmCvm9Q7jNQeiM0i28gJ74EkHyD4x6a7AtHUISqpoREVqJOSRzfzFfY4g7O6im9+F1RlFcXkP56xWUNzZRWv8OybExRpaDl33FvQ242Xcop9/BFx4sYbEGph0R2t4mnOSvUESAbOp3FNNzSI8Po7y2gcK3EusoPF2GzwjTuQDN8C0s7zOoRNP7E6FIwxAmCQ0TqsoiiD4WYRNe4hRj6Rtk8iVkpmdQeXON6o/XKJ9donrxFl5rhPsScBJ1JLIXfN5FJbEEj9W3pGSNNtF0kxVTKaGNUnIdlaAfXrWIcGYWfcxd5eQUpWPi8ATe8DCsXAjNtYgQjj+BlB1SrtktiqbrMExBwm61NRGDV6sgM95G+Ok0iguLCJ9+heziEoIn8/DbbbgDTZhBlvahZ2kdmbtelTWa1KKJVVZbo7/cIIOAsurf/xBF13d+jY8otXF2gfLpa5RfXyK/f3JvHweG7cDmKoSIoFjUbgsXUrrJD4l8HunBIdR2nuPB1c9o3vyGxvUN6i/PUTo6Re3iJ+TWt+BIo6dSzGUiiqxHKH8cx4XOPBqSkN2QajaRp7zS8iqqWzuobO8iv/INSiurKCyvIGAq/EaDl4c9Qps8keSIkGGbhoDpuoiHIcqdSTza3MbQ2jqGaZfBtWfoHB7jIck/3juIvoUP6ddslkXxu5Lvo+wRWvSjlOzlcih9MoHHJy8xTat0WN3R3QPMMI9Tp2d4cvULptk9+UfjcII0XEbo8FwkW0Zoiy6zyzwKSveyGcQ5EBrzX6Bz8gqd/SNMsUDjz4/Q3tlHe2sP5anH0R47mWJROJFYB1NK5nlFMuu0jtAZqRuHzRvdTAC/VkMw3EKm1WLVW1HlMxJDLX6rI04vWtxb63uA/oEBZDIZmCY7RdjMnfSRKaW7sJlHx6MM3u7Ra16WiefqcnWj5wAOq6sxqgKjLJVKyDKXdY44l2cVl/lzSZSyfWTsFAeDx3cOVTlk2ZYx80NIebqMhE0gCUdGRnB7e4ulpSXEOYQVl2NLaOxDTh1Xs6OOiWkxGr27xmh82U3vId8looHCdC0uLuLu7g4LCwvvZ+o/w1WoJjQ52lXlf8b7fyFJk8lk7/1vTmoRC1U9xCIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Glow Up Door post&quot;
+        title=&quot;Glow Up Door post&quot;
+        src=&quot;/static/715bbf21abd2c39742d83fb05f06e903/fcda8/door.png&quot;
+        srcset=&quot;/static/715bbf21abd2c39742d83fb05f06e903/12f09/door.png 148w,
+/static/715bbf21abd2c39742d83fb05f06e903/e4a3f/door.png 295w,
+/static/715bbf21abd2c39742d83fb05f06e903/fcda8/door.png 590w,
+/static/715bbf21abd2c39742d83fb05f06e903/efc66/door.png 885w,
+/static/715bbf21abd2c39742d83fb05f06e903/302a4/door.png 1080w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAePphfUyVZoEg//EABsQAAIBBQAAAAAAAAAAAAAAAAECABARICEx/9oACAEBAAEFAl626KYbY//EABURAQEAAAAAAAAAAAAAAAAAACAh/9oACAEDAQE/AaP/xAAVEQEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAgEBPwFj/8QAGBAAAgMAAAAAAAAAAAAAAAAAABEQIDH/2gAIAQEABj8CYp2v/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARMSEgQf/aAAgBAQABPyEcAKnKgH2YzAUC49hUKqo7vj//2gAMAwEAAgADAAAAEDDvQP/EABYRAAMAAAAAAAAAAAAAAAAAABEgUf/aAAgBAwEBPxAyn//EABcRAQADAAAAAAAAAAAAAAAAABEAEDH/2gAIAQIBAT8QBsb/AP/EABwQAQADAAIDAAAAAAAAAAAAAAEAESFRkTFBYf/aAAgBAQABPxB6IDm+4rdBhTYlghZ9lRrAt71MVDBVO7hVqF5uN3dvM1TZ5Wf/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Glow Up general ad&quot;
+        title=&quot;Glow Up general ad&quot;
+        src=&quot;/static/0c101a5083b37423db4fe681349a81a2/1c72d/glow-ad.jpg&quot;
+        srcset=&quot;/static/0c101a5083b37423db4fe681349a81a2/a80bd/glow-ad.jpg 148w,
+/static/0c101a5083b37423db4fe681349a81a2/1c91a/glow-ad.jpg 295w,
+/static/0c101a5083b37423db4fe681349a81a2/1c72d/glow-ad.jpg 590w,
+/static/0c101a5083b37423db4fe681349a81a2/a8a14/glow-ad.jpg 885w,
+/static/0c101a5083b37423db4fe681349a81a2/47311/glow-ad.jpg 1080w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.7027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAkCAYAAACJ8xqgAAAACXBIWXMAAAsSAAALEgHS3X78AAAFI0lEQVRIx4VWTW8TRxje3dmZ2U/Hjh0nduLvxIlxEicplRIhkIJACh9KxAEhVQgugCCo5FAkDggpAVWNuPTCgUr0UHGpEFKr9tCf9/Sd2fWuN3baw3hm35159pn367FhGAaGw5EuRp8ti8F1szZtNy0w0x6zx3tTgxAStp1udBwXjLGxg4ZhwrZ48qz2BEEAznkW0DRNuI4bs7M04DhYDGLy+KMOfN/X65hMdqMjHQ0muDyHXbyPu5qVECKxqWfDNKwzfrPgub4GPA9MSokwyMFmPGPT4IKR3yw7vnL0Mp/LE6BIbEM7YxZ8z6fDQgdm9JxmF4GrH/Ui/ZrgAfnDQda/gmyuDkhks5IzjMn0fHWOozJnY35OolLm0M+zNuoLLubKDDMlA7V5F/MVqdezM5Yeal2dFXrdboaoVqKzRrSw0WoGWFkuYqU7jR7NyzR3lwq4sFLC8tI0VvtlbWu3Qj1f6M0ke2oLTkSqMpI2T54c4uvXP3H37nf4+PFX/PX3P3j27Hu8e3eKT59+w/v3P+P58yMcn/yIt29/wocPv+Dz59/x5csfuHhxJ3WP4JFPGo0aBoN15PNTWFzsYGNjgLm5WbRaTayvr9H7OqrVCt2kqe2dThtbW5t6Xz6f0xhTOUqzpc54ely9ehWHh4d4/fo1Hj58iHv37uH4+BiPHj2iG9zF6ekpmgR89tzmOgWt35PI5awkB9VcLBZRr9f1ofn5eWLXQK/XI7Yt1Go1dLtdhGGYpJKa6zWB5iIxzXsSm2v+xATu9/t48+YNHjx4gFu3buHmzZsol8tj+2zbwMa6B8PSlWViqR1FaZikQ6arq6t49eoV9vf3sbu7qwGr1WpS98OE7y5KlEt2mtjqxYa6v5k2CTUPBgOcnJzg4OAAN27cwN7eHkqlUqaqAt/CWt9NbcMXKoc6TRn7chj5BqXOM1y/fh137tzBpUuXkmYwPLc5CDFdyFQV+cBkcAwH36wF1I7MpLza7TZevHiBa9euaZaXL1/ONFx1zf5KoMsyAcyZLgqWD0a1OJMXVBnp1xTDo6MjHRDlxytXruj+N5omDjWRwJtKAV0jRo+voACL01Gh12oLePz4sWanrr29vU39MtrfbAiq8WhfLpgCZ3K028SDrh4UAvJLlEYqF58+fYr79+/roCgfci6iNFlzR6RDQAqHXCdSQJMMzPP0utOizlI0sLDQwsuXP+jr3r59mypolwImsdSx6Rb2SLsTaec2lYJJD6YtRnqfgfW+oIopYGdnh2p7Udd3rdZEqehQIYSZSCstUR1bn7e5o1AzYGquzHK0GuNS2e9xFPNEwEj1xqSsCP2QujgbF6nRsbbqUGtnSRqpJrvS9XV3np4qgNtSa4/SFhWYWKuzIJx0QjCbvmqjOhNiazWMxd3A1sAjmVVqaMOnPwXMYiMaLqOStejrU5aHPPMRkmYI+pqkwckvFjHpL7ukcCYadQf1ZpDqMh12hZMJjBQyYshIcCTRlSTejiXgsGiEzKM0sbD9rUdNlsDsbO/0CFCpXxJpLs73YY7AXIq8yq1KyafohhBejg7xpHnYdGUZa7P+1yGdyYCasXEmwqreSdwFuULVs9JnVYYFCsZQw33HmwzoEivLMMeZi+yVTepKCiR0lfgTeFgYB7SJnTMi+hkAoXqmNWb3Yt8KxscBPWoW5iR2KnVEtgiSlGFCt0BhnwG0DXYuO+1bPhlQEfAmdZv/YhfVrJwIqFlaEcsEkP8PuyHgue4gu0ug/wL45E2/6Io5lgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Glow Up tickets post&quot;
+        title=&quot;Glow Up tickets post&quot;
+        src=&quot;/static/d3b0188e1590387c3edb3dde9b51e3f3/fcda8/tickets.png&quot;
+        srcset=&quot;/static/d3b0188e1590387c3edb3dde9b51e3f3/12f09/tickets.png 148w,
+/static/d3b0188e1590387c3edb3dde9b51e3f3/e4a3f/tickets.png 295w,
+/static/d3b0188e1590387c3edb3dde9b51e3f3/fcda8/tickets.png 590w,
+/static/d3b0188e1590387c3edb3dde9b51e3f3/efc66/tickets.png 885w,
+/static/d3b0188e1590387c3edb3dde9b51e3f3/302a4/tickets.png 1080w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CSV Upload Tool]]></title><description><![CDATA[Upload and match CSV data. Simple, but practical! Check out the project for yourself, here. Background This project was made for Artesian…]]></description><link>https://michaeldemar.co/csv/</link><guid isPermaLink="false">https://michaeldemar.co/csv/</guid><pubDate>Fri, 10 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Upload and match CSV data. Simple, but practical! Check out the project for yourself, &lt;a href=&quot;https://michaelfromyeg.github.io/CSV-Upload-Tool/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;p&gt;This project was made for Artesian software, to be used in a more large scale project.&lt;/p&gt;
+&lt;h3&gt;Usage&lt;/h3&gt;
+&lt;p&gt;A user can upload a CSV file with any data, and then can match their “headers” (the columns) to the one’s anticipated by the app. With these pairings, the app then “reassigns” the user’s data with the new headings and saves it to a SQLite database.&lt;/p&gt;
+&lt;h3&gt;How it’s made&lt;/h3&gt;
+&lt;p&gt;The project was made using React, Flask, and SQLite. I used Bootstrap to style the components.&lt;/p&gt;
+&lt;h3&gt;Challenges&lt;/h3&gt;
+&lt;p&gt;I struggled a decent amount to get SQLAlchemy to accept JSON data. Turns out they have a column type specifically for JSON. Consider this your friendly reminder to read the docs carefully!&lt;/p&gt;
+&lt;h3&gt;Accomplishments&lt;/h3&gt;
+&lt;p&gt;I think the user experience is really smooth, and the app is visually quite appealing!&lt;/p&gt;
+&lt;h3&gt;Future&lt;/h3&gt;
+&lt;p&gt;It’d be great to implement drag and drop.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Gateway Campaign Advertising]]></title><description><![CDATA[The Gateway is the University of Alberta’s student-run newspaper. I assisted on their campaign for additional funding.]]></description><link>https://michaeldemar.co/gateway/</link><guid isPermaLink="false">https://michaeldemar.co/gateway/</guid><pubDate>Mon, 02 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The Gateway is the University of Alberta’s student-run newspaper. I assisted on their campaign for additional funding.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 154.72972972972974%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAfCAYAAADnTu3OAAAACXBIWXMAAAsSAAALEgHS3X78AAAFTUlEQVRIx41Wa1NTZxDO32nHVkADjQUEi4BUQIWqEcFwE5HghYtKC4WqU7TKJQkhASIICRgk3BExXLSUxBbqtFrbYRzHdqpMdZxO6wenH5/u7vGEENpOP+y8Oee87/M+u/vsbjS7Km5hT+U00iumsP3odbyfdwWR2a3YfLAFWrLIHBt0hnZ5H5PfhdjCbsQddiKh2I09p2aQcnwEm7LMsp9Nw2A7T4zjvUNtiDhgIjMjXMwiKz9H0IFwvUmMnzfub4I224ZdFV6klk3KpZuyLApgevkUogiMb4kgEG22lRi1Yksum40uUtjyqjPYiL2VAFoQU+Aghl6yaehyHXKRACYc7RdmzOi8Yw6Waz5Y3HfhGPkB3eMPkFPTj+beBXrnh7X/Lk42TMB6/S4aXX6M3PkZbUPLBHg14LYmpkB52LjfhLw6DwrOenCiwYvjl79Gte0bJJV0Yt+ZPno/COOFURz69DqK6+dQY/8WF65+hyrrEqLze1cBoynQTDdMb8a2og7sPe0iG0DeuXnYPQ+R9YlbQDMre5Fe1oOU0i4Y6rwouehDwfkvcaR+AfqPx4lQswK47UifuKyjGI3e/hHfL69g/t4TPH3+Gk+evcKUbxm//vYn5hYf49mLV/hl5XfcubeCl3/8Bd/953j64jVqbAt4K6NR4qtJLbtBQW6VDE4uLOPh4+cw9/kobj7Ud97BZ20zuNQ9T64O4GLXHC73+HGx+z6cNx7BNfkISz+9JJWMSkIV2VCWdhwbpqS0iHuF5wYlo1F0G+twM8khMtuCLQbKPqkhjQjsq5qldYpi7YfxCx8SjSOyl6Wj2UWCzjg9SwIdxYa9zXg7s4l0Z5GPWhI4S4plEVfUh7Tym9hd6UV6+S1ZU47fJB3eIoZjtP8NYAap/UMWNlWDVAYx4w86QweSjIP0bUyqiKsiYAS2WyrMS2RmhExA2HyIf6jC3PSGnZSeiNiGqBw7MbWT0B3gJCpMpyFlSxcklw5LYgUwscQjrqm1GGwqOGtMqSQuyWYp0zQqOXabc8A9IACYeXqObr22jmEw07VmJUU0Yys1CAZj42YRAGSX1YPqyi5q6aD6LiLLvOY7P3OM2W1mqcvtWK1lpcusHkg0eiQ2rE9OCFtsYU9gjxpvbmdqQoMv04TGizPGMmLjgDODrSGA4eQexy3zzBzii3oD7opsgnuZqr2Y/KuykRsHN9vgBsrxi87rFHc5MVr5vhprjZohZqCylKa67p1JgGMLukWX7C5fGMxOANml5NIhiQnfFpG1Cqa6yUlioB3HRiSrDBZf1LcmDAGGqpZ43XlyQsC3lwxIjJIoQRzTdBIyg7DEuMOHxnSNy6kEoih+WhLBhzjYwSsnh7OeQJdwxahuhoIJILvJU40nWlyRCx/QNOODbPFUZuwqa443h+mb1lXROpeDk7BaYsrvLSRYjq1iDhmh0fmddNCyrkQDgMEf3t1nwjtkYTRfIrJaqbzc5KJDLL7ITbEdIpZWanNNMmJ5DoUfMP+zsMNppmRUuGh2uJBwxIG0k07k1k0g9YSTfruoqY4ho3IAhlrKdIUTcYXtSDZ2UoLa1yRIo/5D4NuKPx9GnX0aDT3zqLXNor7LjwtdizRCH6Da6kWVZQa19ts42z4jE7CyaRL6qmvimTYYUKXLoGw8yOMOXyGG4zhYPYjMU4PEzE3GY3SY9Kp4pDQOy7/XssqW48KD6/B5LzH0E6t51LV9hcvOJWTXeKgcW6Tl/2dSgl/yGNjwURP2V7lh8yyi0blA028WlygU24sd4oX2/2Q5dIP8AXgThjC9SeQS2jtD7W8XrqnG+YaQfAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;The Gateway&quot;
+        title=&quot;Gateway poster 1&quot;
+        src=&quot;/static/475d3b4e271948d0079c833e71d90c61/fcda8/poster.png&quot;
+        srcset=&quot;/static/475d3b4e271948d0079c833e71d90c61/12f09/poster.png 148w,
+/static/475d3b4e271948d0079c833e71d90c61/e4a3f/poster.png 295w,
+/static/475d3b4e271948d0079c833e71d90c61/fcda8/poster.png 590w,
+/static/475d3b4e271948d0079c833e71d90c61/9a86a/poster.png 792w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 154.72972972972974%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;The Gateway&quot;
+        title=&quot;Gateway poster 2&quot;
+        src=&quot;/static/dd2a8b603aafa51468d98535f3b1a4c9/fcda8/poster-quote.png&quot;
+        srcset=&quot;/static/dd2a8b603aafa51468d98535f3b1a4c9/12f09/poster-quote.png 148w,
+/static/dd2a8b603aafa51468d98535f3b1a4c9/e4a3f/poster-quote.png 295w,
+/static/dd2a8b603aafa51468d98535f3b1a4c9/fcda8/poster-quote.png 590w,
+/static/dd2a8b603aafa51468d98535f3b1a4c9/9a86a/poster-quote.png 792w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Best Buy AR Pro]]></title><description><![CDATA[Best Buy AR Pro An AR Android application to let you view the latest Best Buy product in your home, from the comfort of your pyjamas…]]></description><link>https://michaeldemar.co/arpro/</link><guid isPermaLink="false">https://michaeldemar.co/arpro/</guid><pubDate>Sat, 01 Feb 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Best Buy AR Pro&lt;/h2&gt;
+&lt;p&gt;An AR Android application to let you view the latest Best Buy product in your home, from the comfort of your pyjamas.&lt;/p&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;p&gt;This project was developed by Michael DeMarco and Liang Liu, and backed by a business model developed by Benji Li, Daniel Frydman, and Ophir Greif. It was built at BizHacks 2020, a business-oriented hackathon sponsored by Best Buy and hosted at UBC. My team and I developed a business solution for Best Buy, and took home the 2nd place prize out of over 50 teams.&lt;/p&gt;
+&lt;h3&gt;Usage&lt;/h3&gt;
+&lt;p&gt;The project allowed users to determine what product dimensions were right for them from the comfort of their own home. Not sure if a 60” or 62” TV is right for you? Use our app to increment sizes of a mock TV displayed right on your wall, courtesy of the latest AR technology, or do a side-by-side comparison, or even enter a custom amount of inches!&lt;/p&gt;
+&lt;h3&gt;How it’s made&lt;/h3&gt;
+&lt;p&gt;This project was built using Java and ARCore.&lt;/p&gt;
+&lt;h3&gt;Challenges&lt;/h3&gt;
+&lt;p&gt;Getting the AR to work properly was quite tricky; we ran into a number of issues finding suitable 3D models.&lt;/p&gt;
+&lt;h3&gt;Accomplishments&lt;/h3&gt;
+&lt;p&gt;The app works really nicely, and it took home 2nd place! It’s an interesting, minimalist take on the idea of “visualize furniture in your living room” that Ikea made quite popular.&lt;/p&gt;
+&lt;h3&gt;Future&lt;/h3&gt;
+&lt;p&gt;We should probably clean up the UI.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[RapViz]]></title><description><![CDATA[See your bars broken down right in the browser. Powered by Spotify, Genius, and Google Cloud. Check out the GitHub repository here…]]></description><link>https://michaeldemar.co/rapviz/</link><guid isPermaLink="false">https://michaeldemar.co/rapviz/</guid><pubDate>Sat, 01 Feb 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;See your bars broken down right in the browser. Powered by Spotify, Genius, and Google Cloud. Check out the GitHub repository &lt;a href=&quot;https://github.com/michaelfromyeg&quot;&gt;here&lt;/a&gt;!&lt;/p&gt;
+&lt;!-- ![RapViz logo](./rapviz-text-logo.png &quot;RapViz logo&quot;) --&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 86.48648648648648%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACbklEQVQ4y33US28SURgG4DMz3RhNXGkrl3Ir0GIkotHEtt6iEIOxsY3WhRtduvf3eAMKM8NNEGil9LJwYWLUhUl/gD/k9T1nZii1wOLNnBlmnvnOme8gOhEdX5i2m1ZYx2c3TabB1IM6agEm5KQqM6/DZiw3JlPhfWIaJlP16zi4peHXmgbb74ITMAVOq6wZ5QOzOv6+FUBDYCfF84BT4ShmuljZA8dhMjXeYPl0HK5o+P1UU5VVWKUVPF1Z2QMnYry5m+b1BNcwxnW+zDGPPVZZjziIB3rYlgRPYJxKI2IwM6zGwI9nBv68NnD0RsfPdR3fl3UcPdLRSc2gHDBghowTWCnggkMsbKB6ScCeFbDmBD+I4DoycYHyRV4LCNTnnfEWfy/JI+9xMM0Bj6dpsDUEDp/fxbdXj7G/sYp+/ib6T1axnb2G7Ydp9HIZ7L3MY3f9NvZePMBg8z7sxfMo+ogTLRIVDbe6ugSDAr2VKL5mrzBpDPIZHORTGGQTGOSS6N8LY38tg92NO2gtR9HNXYUZP6vAIqsrKFBibmSPWZyyySmbnFIzxBdwujtJgVaE52GhXmoRKHC6hQuE/MeYAkcxtQO40DI201ww0E0Z6CwZaCVluN4JfgzOphRk+OFGsU9+F/x/O9lus9bZ2O1Fja2jDY/NhLP4MkUX8jAFTtqbFq+1kxpbg41PpLOkqb6rRjXUYkT8x6CHfZTgtI3eXCBGtJfSFC7HjbiGckiCp7EPChyDje7NqtzPES8S0ydiCpyGyaiWkF9VIj4CcjwBe8/fxbi/oOF24oOV2Bk0bgRRzcyhdt2HcuLcROwd8w9DhG/tIsRDTAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;RapViz app main screen&quot;
+        title=&quot;RapViz app main screen&quot;
+        src=&quot;/static/1d3935f6da3a3ef97146f1e246c55f87/fcda8/rapviz-main.png&quot;
+        srcset=&quot;/static/1d3935f6da3a3ef97146f1e246c55f87/12f09/rapviz-main.png 148w,
+/static/1d3935f6da3a3ef97146f1e246c55f87/e4a3f/rapviz-main.png 295w,
+/static/1d3935f6da3a3ef97146f1e246c55f87/fcda8/rapviz-main.png 590w,
+/static/1d3935f6da3a3ef97146f1e246c55f87/94829/rapviz-main.png 878w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.621621621621614%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACJUlEQVQoz12SSU8TYRiAZ6aksa0hKkJMEDQxWMEWukyn01KxoSwCBk1UoiFUPXEynEz0T/gXvBlPJsSYSAwXw9YZWrvMtFYK/JTHd+oS4+HJN8s7z7ybcpxT6Uyq/MiqfDeFtGCotFIqTaExoXGyKDFzKrVxjXpSoxbXqArfYhoVD4kpC4fyXvFkRyI7yaicCp20J9No6iquruGI4GRZWBJR7B9Z/D+ZYHtCT9bOaOzoPrbjPr4menCTkp0ni4t8SuF4UaEjZyutUI0pIlUoR3/TzUzFlmurK5Ss3EwPy6kwq3cSvMiPsB+Rj0XYSPpwDT/N2V5as0Ha00GOCqHu6UyepW6ewZZYO+HHSgYoRVQRSomO2cNUdoKYHqZ4O8zOzV9CR2TO/VHs14949+Ylnecp6mtp3KLwap7SahhrROEw14c9PcTBqILSlgE4ho+nxjXy1wdZTw5TGlekbA1XsjiYvYp9L0rtmYm7luXLQx2rWODz3CibRj9WVErOXqA8c4X9GyLsDiCp0M6F6CxcppXrlVK1bp/q6SDN+SHaj+NYGyt8XF9hs3iXrY0iH5ZNtswBbMnKnrxIWX685wn/TlP60Zy5hJMNUU/IishAarqfqhHAyffz/skCbx8U2FpKsZ0fluwG+KT3YY3JMMxz2PlBdj2hK0JvNZxMgIbIGpkgtcSfPVOpSPnVtDy/dZ6qbEBZ7q2oiiV9rgj7EU3wsSfsjmn8BFCldBm0FRqDAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;RapViz app MF Doom&quot;
+        title=&quot;RapViz app MF Doom&quot;
+        src=&quot;/static/1c85aca4414b09d913fba4e845aac4cb/fcda8/rapviz-mfdoom.png&quot;
+        srcset=&quot;/static/1c85aca4414b09d913fba4e845aac4cb/12f09/rapviz-mfdoom.png 148w,
+/static/1c85aca4414b09d913fba4e845aac4cb/e4a3f/rapviz-mfdoom.png 295w,
+/static/1c85aca4414b09d913fba4e845aac4cb/fcda8/rapviz-mfdoom.png 590w,
+/static/1c85aca4414b09d913fba4e845aac4cb/efc66/rapviz-mfdoom.png 885w,
+/static/1c85aca4414b09d913fba4e845aac4cb/c83ae/rapviz-mfdoom.png 1180w,
+/static/1c85aca4414b09d913fba4e845aac4cb/29114/rapviz-mfdoom.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;p&gt;There are loads of videos online that inspired this project. Take a look at Genius’ version, &lt;a href=&quot;https://www.youtube.com/watch?v=1VNHp_flJKE&quot;&gt;Check The Rhyme&lt;/a&gt;, or Vox’s, &lt;a href=&quot;https://www.youtube.com/watch?v=QWveXdj6oZU&quot;&gt;Rapping, deconstructed: The best rhymers of all time&lt;/a&gt;. These videos get millions, and I mean millions of hits online. Why? Well, it’s fun! And it’s cool. The basic concept is that rap lyrics are “broken down” and the rhyming groups are highlighted. Often the videos will do this on a syllable-by-syllable basis, but also sometimes do multi-word rhymes! For this project, we wanted to start simple and focus on single, whole word rhymes.&lt;/p&gt;
+&lt;p&gt;We thought we could leverage NLP, a couple of freely available APIs, and some basic React so create a website that generates these kinds of “highlighted” rhymes. So what happened?&lt;/p&gt;
+&lt;h3&gt;Usage&lt;/h3&gt;
+&lt;p&gt;The user is presented with one of two options. They may either submit their own bars into a text field, or they can sign into Spotify and have their current song’s lyrics analyzed. The lyrics are printed out with the rhyme scheme highlighted.&lt;/p&gt;
+&lt;h3&gt;How it’s made&lt;/h3&gt;
+&lt;p&gt;We used a Flask backend to write a couple of endpoints to help us LyricsGenius, an API for scraping lyrics from Genius. We also wrote our NLP-based rhyme detection algorithm in Python and processed all of that data on the backend. Spotify authentication and the UI was all handled by React. We eventually deployed our app to Google Cloud so other users could try it.&lt;/p&gt;
+&lt;h3&gt;Challenges&lt;/h3&gt;
+&lt;p&gt;Developing the rhyme algorithm was really tricky, especially getting it to be fast enough (eventually down to O(n) time!). We also ran into issues integrating Spotify into our app, but eventually got it sorted.&lt;/p&gt;
+&lt;h3&gt;Accomplishments&lt;/h3&gt;
+&lt;p&gt;We are able to programmatically generate what would take a video editor likely a couple of hours to do! Leveraging modern web technologies and NLP, displaying the rhyme scheme of a song proved to be a challenging but very possible feat.&lt;/p&gt;
+&lt;h3&gt;Future&lt;/h3&gt;
+&lt;p&gt;Check out our &lt;a href=&quot;https://github.com/michaelfromyeg/RapViz/issues&quot;&gt;issues&lt;/a&gt; on GitHub! Though it was built at a hackathon (and there’s quite a bit of spaghetti code) this is definitely a project I want to continue developing in the future.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[SUNIA Branding & Marketing]]></title><description><![CDATA[I served as SUNIA’s Marketing for our 2018/19 year. Here’s some things I made in the role!]]></description><link>https://michaeldemar.co/sunia/</link><guid isPermaLink="false">https://michaeldemar.co/sunia/</guid><pubDate>Sun, 01 Dec 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I served as SUNIA’s Marketing for our 2018/19 year. Here’s some things I made in the role!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.7027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIDBQEE/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAEDBAL/2gAMAwEAAhADEAAAAc2cq+lU6Zpro46+N7A8kapdDP/EAB4QAAICAgIDAAAAAAAAAAAAAAABAgMRFBITISIx/9oACAEBAAEFAuHr15JLDXmKQ0mKq1CqtxrWmzE2os2Yibzlkfn/xAAYEQADAQEAAAAAAAAAAAAAAAAAAhARAf/aAAgBAwEBPwGYpiHZ/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAMSUQEQEf/aAAgBAgEBPwE6SbRJtGNf/8QAHhAAAgIBBQEAAAAAAAAAAAAAAAERMSECEBIyQnH/2gAIAQEABj8CnkjtpLT+EMxBZiEjJ5KZMMpj3//EAB0QAAMBAAIDAQAAAAAAAAAAAAABESFBYTFRcZH/2gAIAQEAAT8hVprfFJTP3ESXZDrCzJWQVkvTo1sl5J1H5MJ11GNjr19Gq8aEgO5paFlWxaf/2gAMAwEAAgADAAAAENflwHvf/8QAGBEBAAMBAAAAAAAAAAAAAAAAAAEQYRH/2gAIAQMBAT8QcbtqQ//EABgRAQEAAwAAAAAAAAAAAAAAAAEAEBFR/9oACAECAQE/EFVt7lljf//EAB4QAQEAAgIDAQEAAAAAAAAAAAERACExQVGB0WGR/9oACAEBAAE/EDlY29gsyroDt5nWSdINKYBSA0LFZ39i2esiJ9QHFvARlX6zesDNIs6Q/nnHwW2oivnjNYDYgH3NgJwCH3IKS9fcgDUKLvFNKt6DCs81z//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Instagram story&quot;
+        title=&quot;Instagram story&quot;
+        src=&quot;/static/764db9677e8fb414b09ca3d08f369e69/1c72d/instagram-story.jpg&quot;
+        srcset=&quot;/static/764db9677e8fb414b09ca3d08f369e69/a80bd/instagram-story.jpg 148w,
+/static/764db9677e8fb414b09ca3d08f369e69/1c91a/instagram-story.jpg 295w,
+/static/764db9677e8fb414b09ca3d08f369e69/1c72d/instagram-story.jpg 590w,
+/static/764db9677e8fb414b09ca3d08f369e69/a8a14/instagram-story.jpg 885w,
+/static/764db9677e8fb414b09ca3d08f369e69/47311/instagram-story.jpg 1080w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 18.243243243243242%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAEABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUE/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAABtZRGgCv/xAAYEAACAwAAAAAAAAAAAAAAAAADIQABBP/aAAgBAQABBQIqHlpT/8QAFREBAQAAAAAAAAAAAAAAAAAAEEH/2gAIAQMBAT8Bp//EABURAQEAAAAAAAAAAAAAAAAAABBB/9oACAECAQE/AYf/xAAYEAADAQEAAAAAAAAAAAAAAAABAhEAEP/aAAgBAQAGPwJpqWJ5/8QAGRABAAIDAAAAAAAAAAAAAAAAAQAREDFB/9oACAEBAAE/IUqVNbIlmTxcf//aAAwDAQACAAMAAAAQdA//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxBj/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAx/9oACAECAQE/EBa//8QAGhABAAEFAAAAAAAAAAAAAAAAASEAEBExcf/aAAgBAQABPxB6Jx2FLK5OWdt//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Abstract banner&quot;
+        title=&quot;Abstract banner&quot;
+        src=&quot;/static/b112b468507705a6cd07c57fb5805281/1c72d/abstract-banner.jpg&quot;
+        srcset=&quot;/static/b112b468507705a6cd07c57fb5805281/a80bd/abstract-banner.jpg 148w,
+/static/b112b468507705a6cd07c57fb5805281/1c91a/abstract-banner.jpg 295w,
+/static/b112b468507705a6cd07c57fb5805281/1c72d/abstract-banner.jpg 590w,
+/static/b112b468507705a6cd07c57fb5805281/4dfa3/abstract-banner.jpg 792w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43.91891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAACiElEQVQozw3OW0+SAQDG8fdrdNFmW65JaidSs5mWpGipBEK8AsLLuRcSRUECoUxMIzVHYYSls5bWZs6Vdjb1pnU+bF20LrporXVa6xv84+K3/567R3j0+gf3X/1kOe/h2988fveb5Td/WXz9j4UXf5h79ouF5z+59/I7uZVvXFn5ysSDL4wvfebc4ifOzH8keesDyZvvGZx9i+AbvYN8fgn3yF18Fx5yPPMU+WJeZhXfxDr+iVWCk6skrq1x8voa8Zl1Ts2skZh6QjT3gEj2Hr2ZJcIX79A5toDQcCxFo38EfXgCfe8ltKFL6HpzGGNXsSSmcSankYen6Ezl8AxmsZ3K4hnI4uy/jCmWxRRJ034ijSUyjiE4iqB2JmiWk/Rn5oinZ4ml50hNLRJMTdOXvsFQbp6hydvogynq3XEavXHU+TZI3WjbvdTZT1BvC9HiDmOQwwgVWi+Veh+WnmE8feO4YmNYw8MYAgNIkREc0RGsvWepMXex+4iHarGDA0YZTZMa8aCSo5Irv120ulzo3Q6EJr2GFtGAKJmRvG20SSKizY5TlrA6TTgcdix2J2a7iOw2EQ246HC20WFpJhX1k0n2cH4gROp0AFnWIkR9SgZDewl5iumSFfjbtxNpr+ekR02HcS9SYzleXTX6OiU27QGM6koqigvR1G/D0roNdbkCg2o3ndY6+gN7ENzWrfhtCgLSVhxHixCbCwm7K+l2VRPzHCRs3U9QrKGpqoTyXSVoassoKylAU6fgsKqALQUbKC4qpLZsMzbdRgS7Mf/KXkqPdwcxXzlBRyl9nUpGYyqGQrVE3fsIWqowHVKiqlBg1+3Bad6JK++YuYIWVQnqqiJ0qi2IhzfxH/ntoeuaTHDQAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;FB Banner 1&quot;
+        title=&quot;FB Banner 1&quot;
+        src=&quot;/static/3b0292158549295d7f299192798092a1/fcda8/fb-banner-large-03.png&quot;
+        srcset=&quot;/static/3b0292158549295d7f299192798092a1/12f09/fb-banner-large-03.png 148w,
+/static/3b0292158549295d7f299192798092a1/e4a3f/fb-banner-large-03.png 295w,
+/static/3b0292158549295d7f299192798092a1/fcda8/fb-banner-large-03.png 590w,
+/static/3b0292158549295d7f299192798092a1/efc66/fb-banner-large-03.png 885w,
+/static/3b0292158549295d7f299192798092a1/c83ae/fb-banner-large-03.png 1180w,
+/static/3b0292158549295d7f299192798092a1/6ee58/fb-banner-large-03.png 1640w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43.91891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAdLp5zHYjD//xAAYEAADAQEAAAAAAAAAAAAAAAAAARQEEP/aAAgBAQABBQKkWllDH3//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEv/aAAgBAwEBPwGUv//EABURAQEAAAAAAAAAAAAAAAAAAAAT/9oACAECAQE/AaKP/8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGhAAAgIDAAAAAAAAAAAAAAAAABEBQRBRYf/aAAgBAQABPyF7lM2mdsKJP//aAAwDAQACAAMAAAAQeO//xAAXEQEAAwAAAAAAAAAAAAAAAAAAEVFx/9oACAEDAQE/EIW0/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAFREf/aAAgBAgEBPxBtDUP/xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhMRBRsf/aAAgBAQABPxAOlUu6m4Uaywoz45dp/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;FB Banner 2&quot;
+        title=&quot;FB Banner 2&quot;
+        src=&quot;/static/e166f83a71d6b51ca70e5cd38ce3de04/1c72d/fb-banner-small.jpg&quot;
+        srcset=&quot;/static/e166f83a71d6b51ca70e5cd38ce3de04/a80bd/fb-banner-small.jpg 148w,
+/static/e166f83a71d6b51ca70e5cd38ce3de04/1c91a/fb-banner-small.jpg 295w,
+/static/e166f83a71d6b51ca70e5cd38ce3de04/1c72d/fb-banner-small.jpg 590w,
+/static/e166f83a71d6b51ca70e5cd38ce3de04/de5ef/fb-banner-small.jpg 820w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAEEBQID/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAB/9oADAMBAAIQAxAAAAHcijby90NsDeAugz//xAAZEAADAAMAAAAAAAAAAAAAAAAAARECAzH/2gAIAQEAAQUCdHYaM6hCca4f/8QAFREBAQAAAAAAAAAAAAAAAAAAEAH/2gAIAQMBAT8BKf/EABYRAQEBAAAAAAAAAAAAAAAAABABAv/aAAgBAgEBPwGGT//EABoQAAICAwAAAAAAAAAAAAAAAAEQESEAEoH/2gAIAQEABj8CojKhanjkP//EAB0QAAICAQUAAAAAAAAAAAAAAAABETEhEFFhcaH/2gAIAQEAAT8ha0Dka9IVG+SE9+FBisDRmri1p//aAAwDAQACAAMAAAAQbAc8/8QAFhEBAQEAAAAAAAAAAAAAAAAAAREg/9oACAEDAQE/EEjj/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARQf/aAAgBAgEBPxAqKtr/xAAeEAEBAAICAgMAAAAAAAAAAAABEQAhMWFRgRBBwf/aAAgBAQABPxBaVZYOfdyo+BLjU1Fm0xKTO6VTx6zWcj71h6wgdn5iQV0e8mGEFh18f//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Field Law Grant&quot;
+        title=&quot;Field Law Grant&quot;
+        src=&quot;/static/24639237cd5f401adeb91ca5cba39570/1c72d/fieldlaw-01.jpg&quot;
+        srcset=&quot;/static/24639237cd5f401adeb91ca5cba39570/a80bd/fieldlaw-01.jpg 148w,
+/static/24639237cd5f401adeb91ca5cba39570/1c91a/fieldlaw-01.jpg 295w,
+/static/24639237cd5f401adeb91ca5cba39570/1c72d/fieldlaw-01.jpg 590w,
+/static/24639237cd5f401adeb91ca5cba39570/a8a14/fieldlaw-01.jpg 885w,
+/static/24639237cd5f401adeb91ca5cba39570/a2510/fieldlaw-01.jpg 1000w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAADqElEQVQ4y5VU30/TVxT/VlTQiRSQCkhLK4IwpAgMVCoKnSA/WyggBOpApEALFrSgohArm+CiqHMGlm0JM3vYfGNZouHB+LK9LFO3sOCLb/4hn51zbr9QZ5bNh0/uPefe+7mf8+NezfrpH7BM/4aYrB5ouxqh7W7+D7ihmSKjDrZ1n232L6T6fyKHWyH6cLQdmRtSN/AWoT7u/fwVjO770BJOQktt+VcyA6+lkC+pUSGR5x6BIo+csX72J7aVjtOGOkUYrTTFBS25Sc2N9YiztMNW6kN64RDK6114uhKPsyP50OJpT0pkn3nyVxgsnTAQyaY0jyjZlNYCAy3GmttRUBmEo/EycsoDcDRdRrd/Hj3BRQyGQnjzugjLyw7kH/PDmO1VAkx9jxS7sYHCrielNO4ktXHVsJT4UFg1hoPOMVI2iNSCXuQdHcF+RwCZJcPYvKcHH7fN4ph7CjlH/CoyY90tOuxEfuUoymonsO/wEI43X8WhugnYq0bhDdxFb/A+OgdvY/z6dxgYX0Df2AOMTX9L/nsIXFpEKLyEw/UXqUtIWFwBMcc6cXrkHm4vLGPpx6f4+vsVXJx5SKEEMTP/iA59Jb6VZy8RuraEL775mS6Yx+LDJ1hYeoz+Cw9QXH2BCClkSSQl3lLsQ4VrErmOYQkrMacbSfu96Bi4hebeOVHd7b8jSvly1yc30EU2zz1nbiKrbEgVcL2ibFDetNgT0D44qfJIlZXccl454XqOEyL++DppoZj0SOsw13qvEaH1owGUU0WzDg0hm5LMBWHYKb85RwKSU1ZfUh2iaK4ITPk9qi91Hs3kUhOKPyG7iyo4TH3WR1X0Sfh7ywYFGUVn5UJLcb/YeRUjcvF2a4dSrze2IeOUOAzUexwmH6xsmRIVjqZJUcfK7KSU1R90nhffUVpLs5+RtBj0B8Gkic1fkrOWCD2R4vTjwPGg3F5I/ceKGR9WnJMmLyAyVs4tZi7q33hJOjLDv2NLno8WGhTpjlpsyWgVwnR7H4xUbc4TVzxhXxeScr1Izj2t8saF00PVFdrm1mDq/YE2NMhbNpNCvr2mI4zyhkv0Cq6g5lQYJ9qvwdk6jSrPlIBD30O5fucjybz+ArYbq9hWNiEfxHZbp3wCrJLbgd+zgHxbzW3YmtEmIxeD971LGH4O2+wq0oNP1G/Dz4erJnCrcVcEKVHQbZ1MH60zLyGkN9ews2aOCvSPf/H/IFqhEFLY/C+aJ39BjM2rVL4PYRT+Bnn3o4eMsZjcAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Photo contest&quot;
+        title=&quot;Photo contest&quot;
+        src=&quot;/static/beea5ad94eef949f29b00957c0a70d72/fcda8/photo-contest-01.png&quot;
+        srcset=&quot;/static/beea5ad94eef949f29b00957c0a70d72/12f09/photo-contest-01.png 148w,
+/static/beea5ad94eef949f29b00957c0a70d72/e4a3f/photo-contest-01.png 295w,
+/static/beea5ad94eef949f29b00957c0a70d72/fcda8/photo-contest-01.png 590w,
+/static/beea5ad94eef949f29b00957c0a70d72/efc66/photo-contest-01.png 885w,
+/static/beea5ad94eef949f29b00957c0a70d72/00d43/photo-contest-01.png 1000w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 154.72972972972974%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAfABQDASIAAhEBAxEB/8QAGgAAAgIDAAAAAAAAAAAAAAAAAAQBAwIFBv/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAAB2OEPhUFxlybaTjKRQW//xAAdEAABBAIDAAAAAAAAAAAAAAACAAEDEgQREzEy/9oACAEBAAEFAnhfbx6UcbVjyhcrCrgg7IW4roVL4X//xAAXEQADAQAAAAAAAAAAAAAAAAAAARIQ/9oACAEDAQE/AaZT3//EABoRAAICAwAAAAAAAAAAAAAAAAACAVEQEhP/2gAIAQIBAT8B0WjmlEY//8QAHhAAAQQBBQAAAAAAAAAAAAAAAQACECExETJxkaH/2gAIAQEABj8CpxVuPiyStFlbh3DbPEi3VH//xAAbEAADAAMBAQAAAAAAAAAAAAAAAREhMVFBcf/aAAgBAQABPyHzm+TAyIxsMjdEZnK3stXGCXmHTprHboVfHDa6ZS0Ol3PC6Ny+Sn//2gAMAwEAAgADAAAAEGPozv/EABgRAAMBAQAAAAAAAAAAAAAAAAABEWEQ/9oACAEDAQE/ENTUbk5//8QAGREAAgMBAAAAAAAAAAAAAAAAAAEQESFR/9oACAECAQE/EFzDdtDVx//EABwQAQADAAMBAQAAAAAAAAAAAAEAESExQVFhgf/aAAgBAQABPxC5114/LYMeSW0KZ962Ls7akHPyMwBDhRakrWIkWzqKaVeUlyRXcD6uOz3JsrvMI4k11Hay0DHv2UKAqxHJMT//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Pickup poster&quot;
+        title=&quot;Pickup poster&quot;
+        src=&quot;/static/9eea6201d9159f7a84cefee5926c54a4/1c72d/pickup.jpg&quot;
+        srcset=&quot;/static/9eea6201d9159f7a84cefee5926c54a4/a80bd/pickup.jpg 148w,
+/static/9eea6201d9159f7a84cefee5926c54a4/1c91a/pickup.jpg 295w,
+/static/9eea6201d9159f7a84cefee5926c54a4/1c72d/pickup.jpg 590w,
+/static/9eea6201d9159f7a84cefee5926c54a4/a8a14/pickup.jpg 885w,
+/static/9eea6201d9159f7a84cefee5926c54a4/fbd2c/pickup.jpg 1180w,
+/static/9eea6201d9159f7a84cefee5926c54a4/e91d4/pickup.jpg 3300w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAECBAMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAfJt3lMi6pmSLzBP/8QAGxABAAICAwAAAAAAAAAAAAAAAQACETEhIkP/2gAIAQEAAQUCmzMroeHs1sr5ZZ//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAWEQEBAQAAAAAAAAAAAAAAAAARABD/2gAIAQIBAT8BZ3//xAAaEAACAgMAAAAAAAAAAAAAAAAAEQEQEiFx/9oACAEBAAY/Ah0nI8p4hs2TX//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExURBB/9oACAEBAAE/ISFUDB98U1LqgKihADwlEKz0irgwTGQtLlWmf//aAAwDAQACAAMAAAAQFxeD/8QAFxEBAQEBAAAAAAAAAAAAAAAAAREAEP/aAAgBAwEBPxCGQvJv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAQ/9oACAECAQE/EFLG/wD/xAAcEAEBAQEBAAMBAAAAAAAAAAABEQAhQTFRYbH/2gAIAQEAAT8QSoXiePcJ1Wo+TS9HmsmUNIP2uNF99fnO4tNdYDl+IyBA79GCgYAvnD+YBIb/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Political leaders Instagram&quot;
+        title=&quot;Political leaders Instagram&quot;
+        src=&quot;/static/0eeb20cbf0743ef93af3ad2a011e731c/1c72d/political-leaders-social-media.jpg&quot;
+        srcset=&quot;/static/0eeb20cbf0743ef93af3ad2a011e731c/a80bd/political-leaders-social-media.jpg 148w,
+/static/0eeb20cbf0743ef93af3ad2a011e731c/1c91a/political-leaders-social-media.jpg 295w,
+/static/0eeb20cbf0743ef93af3ad2a011e731c/1c72d/political-leaders-social-media.jpg 590w,
+/static/0eeb20cbf0743ef93af3ad2a011e731c/a8a14/political-leaders-social-media.jpg 885w,
+/static/0eeb20cbf0743ef93af3ad2a011e731c/a2510/political-leaders-social-media.jpg 1000w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 79.72972972972973%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHerKxwB//EABoQAQACAwEAAAAAAAAAAAAAAAECEQADEBL/2gAIAQEAAQUCWiMvXJFhrpz/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAABECAx/9oACAEBAAY/Ao0r/8QAGxABAAIDAQEAAAAAAAAAAAAAAREhABBxMYH/2gAIAQEAAT8huoXhgiQfY1TSnMsPlr//2gAMAwEAAgADAAAAEDPP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGRABAQEAAwAAAAAAAAAAAAAAAREhABBR/9oACAEBAAE/ENTuks8dBxwkc986EmC2rgCUk05nX//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Staff Speaks&quot;
+        title=&quot;Staff Speaks&quot;
+        src=&quot;/static/49a9a8b3b728b006cd88ae78d4fb94e6/1c72d/staffspeaks-01.jpg&quot;
+        srcset=&quot;/static/49a9a8b3b728b006cd88ae78d4fb94e6/a80bd/staffspeaks-01.jpg 148w,
+/static/49a9a8b3b728b006cd88ae78d4fb94e6/1c91a/staffspeaks-01.jpg 295w,
+/static/49a9a8b3b728b006cd88ae78d4fb94e6/1c72d/staffspeaks-01.jpg 590w,
+/static/49a9a8b3b728b006cd88ae78d4fb94e6/a8a14/staffspeaks-01.jpg 885w,
+/static/49a9a8b3b728b006cd88ae78d4fb94e6/fbd2c/staffspeaks-01.jpg 1180w,
+/static/49a9a8b3b728b006cd88ae78d4fb94e6/eea4a/staffspeaks-01.jpg 1280w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFhElEQVQ4y0WSe1DU1xXHf0YJyWjS1GCMRgmiYWF2YXm/ZAUMC6gQ3ixv0F26SwgL4mMXFFldBaM85LGpwopRGeQhEIQAIo3go0bTZDLtTNNOJtOOWhsbazrpP02duZ/ubjLTO/Odz73n3HPPd+Ye6dmz//KTnuFcRzrbkScmo8otIjwjjeicLHxCQ3nFYwUqrRdaq4w3fZcTGu3HlfkZvvr6L+L+374VFyfmqTn4vpC+/+djHv71a3741xOePnlM7rsGItPSiErPInT7dkJTUpHJFXhu+gVhmtfx2riG5S8sZ1taCuNzV1m4c5e/f/tEjF29xm5ri5CaDzVworGOP9y7zenTZ1Bp8ojLL0KVU8CWnHwiMnLISkwkJysaT+VKXnx+Oe7ublQaKxmamuLC6LB4+OiRsA8Osq+9T0jR/n4kxMTT2Hgc43tGFj77gslPFhmZnmV07jofXuxjW5iSooIoNEX+LJUklrktpbe3k7HpKeyD58T87QU6+zrEhdnrQgrx8aagtAJjQyfHmo4ytbDIxMw09pHLXJr6mIraela+4k3gVgUl+mB2yNaSHhvA0EgPw1cuiw57p5j97RWH0x7x4OEDIcnWrab6wAmO26cYHh/l3s0FFjtOMjV8iZGZSbILytFVHuNwSx8Gwz5Mb8upK07l/ZMW+ga6OHO+U/QNdtPSfUr84/t/C0mxcb3DXTenx24yPz3ByJlhzhUbaapvZ2ByGLN5P7beS1iO2TBZusmOUGLSZtPWYuF4m0X09nSILpOZtuYu8d2PCCnM34vKQzaGrt/jz998gaVnmlVpXVQePcfcJ1ep3nMUS9MH1Jqb2d/QzuYoNfqSUmzHT2I/3CiOvFdDkjpfjE5eE4+e/oAUrvQgd2cZH42MM9naytn6evbpamneU0/TQStl+gNoDQ3oKszsNjehyatArVJTllEgbrR2iiR1JktW+4rI7dtFVHIiUlyMH3utrdzqH6JjnZy2Df60e8mwbHgLXa6OzKJKh4NkzPVWjDV15GaXE5lYTHh8JoeSSoTCO5AlL68SbitdQsrMLeHs6A2++f2XdKlDaVEH0JwShTk2iEZtIeq4LeRnqJibm+az21dpsY0xvP9Dquv6xZatWiK8/MQaWYAIjokXiqAwpGLDbgYmpvnT5wsMHsrgsrWIi0dKaNudhzk5iPIEP06dOMCdm9e4ffc6HYUHubFWxefaY8JQdwH5pkBhtLQInWNS1AUGIWmS47jz6e+4f/8RX95aZHF8mIG2esaHznN5cIBzdhsfOWL37t7CZuthr5uSA+6BJIXkCnliFSu8o0VRrVXkGg8Tq6kQ0q8tRTx9cIP/fPcpPz6+w5OvJvjjjJXZ/nrGemuZPG9ycabfxP7qLMp93kCvfBN/lb9QhPiQV5AorsxeFL+Z73eMXY+Q9PkRVJVsxlgagz4vgrLMYApTFY5fVKLNDnaxOC2A/B1ySh05jYuB7MoOFg5RrgkThsIoodOEoc0JEZK0Igvf2HoUCQ0EJjWyJrgGmePsEVBF6s5uNm42kW04Q0HVWYKSLa7Yc+vLeEmm52Vfg1jh46SeFzfphPRLDZLksYPghGri0s14h+nY02hHW3MKz6CdWFsH2GuxYzrSR/OpISpNH2Drm8QrZBcbw3UiclstIQnVTgq56l1e8s4RkoefY6aS96HcWuNict5hlPE1vCYvZenaTKJTzKxV7kK2uZKQxD0seT3DoXQ8g3W8FVWBd7jexQ1hv+K5NRlI7uuzXZedwR2FVjZFGlyPOSW9lsarvsU4m3qFlru07I0spJUpyLdUEfOOmZhUM/GZB1HEVuG2zpFzFkmr05FeTf0/f5azo7tnDs6myxxun1+X/ZOLn2uce6ecOWmVI7bqHf4Htz5/bV1IERUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Instagram post&quot;
+        title=&quot;Instagram post&quot;
+        src=&quot;/static/7c4f4659bdd28c3963acf98056d5ad98/fcda8/summary.png&quot;
+        srcset=&quot;/static/7c4f4659bdd28c3963acf98056d5ad98/12f09/summary.png 148w,
+/static/7c4f4659bdd28c3963acf98056d5ad98/e4a3f/summary.png 295w,
+/static/7c4f4659bdd28c3963acf98056d5ad98/fcda8/summary.png 590w,
+/static/7c4f4659bdd28c3963acf98056d5ad98/efc66/summary.png 885w,
+/static/7c4f4659bdd28c3963acf98056d5ad98/00d43/summary.png 1000w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.7027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAXAQEBAQEAAAAAAAAAAAAAAAACAQMA/9oADAMBAAIQAxAAAAHkLNG2OVEF22dTNAl35ym8df/EABwQAAICAgMAAAAAAAAAAAAAAAECABEDEhAhQv/aAAgBAQABBQJjxRiMb8km5tQ3mqtAqmPjotD0bn//xAAWEQEBAQAAAAAAAAAAAAAAAAAQARH/2gAIAQMBAT8BwpT/xAAWEQADAAAAAAAAAAAAAAAAAAABECD/2gAIAQIBAT8BgL//xAAdEAABBAIDAAAAAAAAAAAAAAAAARARQSGBMUJR/9oACAEBAAY/AnrZ1aiilJmE9OVMCG2//8QAHRAAAwEAAwADAAAAAAAAAAAAAAERITFRYUFxkf/aAAgBAQABPyFkzRj+JIqJNLoWVXnRUK3zRMOf2Per2HZhPYLzfN0YL1eo/TdGyQpn/9oADAMBAAIAAwAAABAALT70D//EABgRAAMBAQAAAAAAAAAAAAAAAAEQEQAh/9oACAEDAQE/EIIu4lIf/8QAFxEBAQEBAAAAAAAAAAAAAAAAAREAEP/aAAgBAgEBPxBUZNMOg9f/xAAfEAEAAwACAgMBAAAAAAAAAAABABEhMUFRcWGhsfD/2gAIAQEAAT8QEPJWk0ipnRLG0+WAIejxs6jGHR0FlINrz6hQEvm9/JsCjn+kblj0YOrIbPHj3LsBg7JeTbSl6FQegKDEr6lCJTTfc5yz/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;SUNIA Instagram story 2&quot;
+        title=&quot;SUNIA Instagram story 2&quot;
+        src=&quot;/static/a34e5c58c324cd178062bd4cae4df4e8/1c72d/sunia-ig-story-01.jpg&quot;
+        srcset=&quot;/static/a34e5c58c324cd178062bd4cae4df4e8/a80bd/sunia-ig-story-01.jpg 148w,
+/static/a34e5c58c324cd178062bd4cae4df4e8/1c91a/sunia-ig-story-01.jpg 295w,
+/static/a34e5c58c324cd178062bd4cae4df4e8/1c72d/sunia-ig-story-01.jpg 590w,
+/static/a34e5c58c324cd178062bd4cae4df4e8/a8a14/sunia-ig-story-01.jpg 885w,
+/static/a34e5c58c324cd178062bd4cae4df4e8/47311/sunia-ig-story-01.jpg 1080w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEzUlEQVQ4yyWU2VMaWRSH+x+emod5moep1ExSsYwKKGs33dDsqyIqIAioRJElIrjEbYxbjDGZaIyTcWJSfnNgHm51V917z/lt9yiaEUI1o2hmHFUPoekB0qkUPsOH6TcxjACl2SylRIjlqRhrM2nq00lCpkkqEiYXDzEf9VGJqrxMaiguj4HT6cLZ/6p+XG6DVDKN4TPl3yt7HgKGzmwiQnk6TcyvMxn0Y5oCRJprPgGhGUzpdhaCdhS3JkVcbtyqD5dmYrU5cLp1/MEYoWiKYEAQzkyxt1KhuZCnkIzw4o8n/PTzL4xZ7VjHXdgmXDx/NoTTMoaiGmFU1SvLwKNqOJwqbi1AMJIikc4KkgD5RJivG0tc1he4bpbJauP8+ttTEqlpfILUMPzohonuC0hB0c3j0aSYIRSCeHU/oUhCKAfJF4p06jVWUiEua3m+NMrcNRY4rC+Sns4RT04LiyRer4FXE1ZmEEUXDbxeHVXzDrr4/EF03TfQZTqT5Wy7zVF1hr3qHIflWc6Wcnz8c5f5yjKBUIxAICwI+wU1/GKiMmJxMmqZYGKiv5wDPT0eVQ6Z0jFEKZtit5zlx7tD7s/2+XH6muvTA3KFkpimMW6bYHR0lOHhYSwWK8qo1YHVE8AlDns8XsKhCLlcgWJxgVBI9FFV9hZzPF7s8mmnxXWvzuVWc4A+m50b6GexWCRmBi9evECx2JzY3CYWdwCnS0MTPfsZjMX6dEwCYkqnUuDhaJ2jWoHjlaIUbpJOpkgmUriFkVWQrbfbTKXTKM+GRnj69DlPfn/OyKhVtNMGHV0ulzhsoonzK+US/+y3OGmK0xsNbrbqpBMJdNHeZrVis9lo1uu8OztDGba4sTlUwqkskXh6gKivoVUOejweioUC9/8+8HD7mXa1QqOU5+F8j/VmQ/Qbl4K2gf7F+Xku+wXNVJ7F7j6rOyfEUhkM3ZAnF8A+YRfKQc5P3/L4HT6cf6A6O09YolHMZni73aUwlxcG/Qxr5GbnOD8+Qcmt9ZhvbpGXrz8UHZgSiycJh6NkRPjS/AI3V7c0qzVysQQx2e8b0FqqkYhKXiViuoCIRWIsLS6jLLa3Wd7YY6H9mkgyg082I1IsKe85Mz0jB6MU8/Nkw2Gy8h8SSVRNHWhtHx8faNxf/Xua14ey9LJBrdml2twkEM9gGRkZiGy324W6TByfvHGXkymJ0EwkIoNCQq/+X9BhdzAuWjtEQ4fdSVzOKN1Oh/2dHda6e0Rmy4xJSG1WC7axEYmQZ2CQKpejfr9MmSB+XZfh4R40jGULTDhcDA8NYRmzElQ9KDtS7OzkmMbqKhG5pLvsTMZCxKMRGWMJtjpt9jY32e91Oehu0FhZIW76yMjMXG71mCkuMiWZbCzX2O72UK5vPnP91xWnWy12Wg0ONrucrJW4evOaH9/uefz2N3fvz7m/veb73Q2P93fcXRzz9f1bbr/c0eodcNx5xfXVJ+7uv6G0VlfY6Kyztd5isb1PrVWn1SqxOjfJYWeNq4tTPl4c8manw9HWK052e5zsbXGw0Wa1XGRxoUKvsUpLGO4ICyUTC1Oay5Dxq7Sm/CxP+iUuQZKGnbyM96qM/cp0gkzQSzWbpFkpUskkWa9VmYmahF1W0qbGVMArS+M/bsbFuWJoZMsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Venezuela Crisis&quot;
+        title=&quot;Venezuela Crisis&quot;
+        src=&quot;/static/c9badd5bb269a741d0c2b16934d23b5a/fcda8/venez-crisis.png&quot;
+        srcset=&quot;/static/c9badd5bb269a741d0c2b16934d23b5a/12f09/venez-crisis.png 148w,
+/static/c9badd5bb269a741d0c2b16934d23b5a/e4a3f/venez-crisis.png 295w,
+/static/c9badd5bb269a741d0c2b16934d23b5a/fcda8/venez-crisis.png 590w,
+/static/c9badd5bb269a741d0c2b16934d23b5a/efc66/venez-crisis.png 885w,
+/static/c9badd5bb269a741d0c2b16934d23b5a/00d43/venez-crisis.png 1000w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Michael's Declassified School Survival Guide]]></title><description><![CDATA[High school is complicated in more ways than one. From Degrassi-esque social drama to life-altering career decisions, it can be seriously…]]></description><link>https://michaeldemar.co/high-school/</link><guid isPermaLink="false">https://michaeldemar.co/high-school/</guid><pubDate>Sat, 10 Aug 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;High school is complicated in more ways than one. From Degrassi-esque social drama to life-altering career decisions, it can be seriously difficult to maintain your grades. However, there are some simple tricks to ease the learning process and make your education systematic - that is, without all the overhead of figuring how to do this whole school thing. By following these three tips, you’ll surely see a boost in your productivity and an ease in your hectic high school life.&lt;/p&gt;
+&lt;p&gt;First, the schedule. Scheduling is no easy task! But nothing will hinder your high school experience more than not even being able to see what’s in front of you. Scheduling has a myriad of benefits, from being able to see hectic exams days in advance, giving yourself free-time, and preventing yourself from double booking. One of the most common high school troubles is when teachers schedule numerous projects and exams for the same day. I like to call this “the slog.” The easiest way to get out of the slog is to jump out in front of it. You’ll be surprised how receptive teachers are if you let them know early on that you won’t be able to turn something in; however, teachers will not hesitate to dock you marks if you let them know the day of. All of this comes from scheduling. The easiest way to get started is to use an app like Google Calendar. This allows you to sync from your phone to your computer, and you can catch overlaps in your schedule as soon as they appear. Once you’re comfortable with using Google Calendar, try to set a daily time to determine your schedule for the next day or week. This way, your studying time and project work periods can also be booked before they get away from you.&lt;/p&gt;
+&lt;p&gt;Second, the strategy. By high school, you likely have a good sense of what style of learner you are. But don’t fret about the often exclaimed learner categories — be it “aural,” “visual,” or “kinesthetic” — these terms are often too narrow for most students. Instead, work class-by-class. In math, does it help more to do loads of practice or to do just the difficult questions? In English, do you need to spend more time planning, or are you better off working through your ideas as you write? Explicitly outlining these strategies, analogous to you being your own coach, can help you consciously approach your learning. Be flexible with this though! If a strategy is failing, just like a great coach, switch it up. As long as you’re sure of yourself, your learning strategy is more likely to succeed.&lt;/p&gt;
+&lt;p&gt;Last of all, the life. Though it may be tempting at times, when you’re bracing for a scholarship and pushing for a spot at your favoured university, never let school trump your personal endeavours. Always maintain the activities you enjoy to ensure both your mental and physical health through the often tumultuous times. Eat three times a day, and try beginning your mornings with protein-heavy breakfasts. Sugar-rich cereals do little to boost your energy throughout the day, but a morning protein boost can give you that crucial edge.&lt;/p&gt;
+&lt;p&gt;Trying to maintain these three things - the schedule, the strategy, and the life - is the crux of living your best life in high school. First and foremost, put your best foot forward, with these ambitions and motives in the back of your mind, and you’ll be sure to thrive throughout high school.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[McNally Graduation 2019]]></title><description><![CDATA[I created advertising to support funding our high school graduation, a Snapchat filter for our prom, and the pamphlet distributed at…]]></description><link>https://michaeldemar.co/grad/</link><guid isPermaLink="false">https://michaeldemar.co/grad/</guid><pubDate>Thu, 30 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I created advertising to support funding our high school graduation, a Snapchat filter for our prom, and the pamphlet distributed at commencement.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 560px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 155.40540540540542%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAfCAYAAADnTu3OAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAFVUlEQVRIx8WWe0xTVxzH+9eSbcZNY7JFI8pQNOrUoZs8dOB0ogsjLiyZ84/NLExxTq06MlREMfKQ8tJCkT6EIkVanVUJDzdQcMvmxAWhIKmDMR9Q2t7e0ttCHxS+O/eWXkS3yLI/dppfzj2/c8/nfs/v/M45FdipXvgL06fH0OM2vu3pbQWljIPr4R2MjPlGBimYSzbDnDYTZlEwjCdmwXT0FTgKloPKXghBf1Uy9+KodxgTyyj5Ad6R0XHPiJerH+nvojMlCBSBMspYDN1W4Pr50/glMRACR20SP2DAZsfptEO4W1/pA4yOcNAyWREavlPw75lsbqj3rsCIIhwdLbeRcXgfJPEr8fuR2RAwtQfh19DSeg+yj6dggHzVO+Y0WBzIjAuAIWsRht1DnK+PdkEevwRo3A9lmQrfbxVgVBMHY+6yicC29k7U7ArA8MWtZKrjwIpdyzAsWwWPywc00E7IE1YQ3zvoaW+Gu+ortDdpod4T8izwyo5ZcGk+4RX2EaB8WxDcZyPhGrTD43bhoYmBNnkTbCkvwCjdiBuXFDi2PRbNibP+Huh+AmikHbicHA1PUzp+qL+Ouppq1F5rQP35Agxd/BxOzafQi2PQcTQYtuzA5wNtjB21lVJYDT3o7u5Gd1cXHvT8gZa2TsglYlSIU6FIF+LHpCWgsyYBNJitKNq5BtfVhSg5p4bqXDkqNZcgFqXh8hfT0ZU8E/e/nYb+46/DnDXv+cA+ioFqbyh0WhG0mkpUXyjDVZUU1aUiOB78Bjh64X3wMwZUW7hkf75CyyCU8Qvhqd7zRNJ78XRxk8XqFkdPBuiAcvtiOMTL4HIO8v5fm1ugKS8FY7WQ/ejbZVppxuSApQTokoWRxHZyPtruQspnkWjeIQDVWMCPLzmVPnmgsziUB/aSMFQciIQ3cyrsTbn8waEU/wug6wmggR5CqTAK9uNTYGvK58f/J6BSGAkHATJNef8LcMvEVd6xBE7pU8B9UT7gzfEpl4nZVa5J4oPKAq8SoFO1GW6PhztkH/VbIds2D05JCDkcGN8Ba7RBtjMUjtQXYa3PgP9oloqOQGC/lsInZ2tbO6cQNw6PXwPEGtJiMKyOG09iYo2n4+HIfA2j96t5/806LQRU+Rb06HWc7A59D2r3BkOvOYQyqRgaWQ40JRKUn9iOO2e+xMXSQqiLRbhwVoyyrP1oy1yNxopcqIrzoJHnQi3NIVO+lAD9rTrcrlIQZz6uCefDcGwGWoRTods3BW3Cl9GROB1/Js+ATvgS5+Psm2l4nDoT+sSpaN3/KnQHWJtGgHXJ/vsM936qQnNSEJicINgKVsIuWwumeDUYxQZYiyJgl6/z+YrCwMiiQBeGY0ASBlvuAgywlhPsWxT/Vtd1duHK1/NhF82BMS8EFlk0qIII0Gc/BCVZA4t8I3mOBSUOhaV4PWj5JlCFETBlvjFmQRPThl2Uqt0sMABmcThoRQwBxMBK7ma6JJYD0+QjnJV+RPo3cf3mk0EckK0n5qGuA1eJQkf2XBizFxN1YbAURcIiXQ+LJIJ75nxEleVMFPGtIe1wmMfUPQNs9QNzAmEce8GUEUhAazkAO9gieZebLvuvge0zZQbyMFblPyvMWcqBfPF6nzOqcDVRG02gRPWZ90g/+cipFfx0fQprDvI7hY0hDxQtApUfQuwtmLMXwZy7lNibfM2CqPzlMOctnRhDO1HoL7oOPQHO41bZdOptomYDUbaOqFxFFK3lYsYqY+NIyz8gfT6V7OXEAz03UlGh1kJzMgH3Wm7hyu4FsJP7tT99Lkzps4kFkFjN8dV+49qzx9tjMLb+CyEJm3RcJXcHAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;McNally Grad&quot;
+        title=&quot;McNally pamphlet&quot;
+        src=&quot;/static/93493d84d4ec174b800ca81350893d5d/b06ae/grad.png&quot;
+        srcset=&quot;/static/93493d84d4ec174b800ca81350893d5d/12f09/grad.png 148w,
+/static/93493d84d4ec174b800ca81350893d5d/e4a3f/grad.png 295w,
+/static/93493d84d4ec174b800ca81350893d5d/b06ae/grad.png 560w&quot;
+        sizes=&quot;(max-width: 560px) 100vw, 560px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 561px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 155.40540540540542%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;McNally Grad&quot;
+        title=&quot;McNally pamphlet 2&quot;
+        src=&quot;/static/98c21ce86776f7edbfe12587269a801e/410f3/grad2.png&quot;
+        srcset=&quot;/static/98c21ce86776f7edbfe12587269a801e/12f09/grad2.png 148w,
+/static/98c21ce86776f7edbfe12587269a801e/e4a3f/grad2.png 295w,
+/static/98c21ce86776f7edbfe12587269a801e/410f3/grad2.png 561w&quot;
+        sizes=&quot;(max-width: 561px) 100vw, 561px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.7027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIDBQEE/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB9TSmUrwczzRUi6sJA//EABoQAAMBAQEBAAAAAAAAAAAAAAABAgMSEyD/2gAIAQEAAQUCrnMyxpHmTEwvp6adZtuTiRJI/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwFf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwFf/8QAIxAAAgECBAcAAAAAAAAAAAAAAQIAESEDIjEyEBMgQVFxkf/aAAgBAQAGPwIgUWvZbuZlXlDzqxm5vsoqgdZzYesuQfXDaJaf/8QAHRABAAICAgMAAAAAAAAAAAAAAQARIUExYRAggf/aAAgBAQABPyF5E6snHG9V9modua8no9yGVCwuQl7QvwXVyPOIDQA6n//aAAwDAQACAAMAAAAQUwIMA8//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EF//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EF//xAAeEAABBAMAAwAAAAAAAAAAAAABABEhQVFhcRAgwf/aAAgBAQABPxAYQCaBLmul+o0XhQPZOOJQQJKyS+LUEBB+596/7CBncqRaA5OBrwQtobPVrNQMv//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;McNally Prom&quot;
+        title=&quot;Prom geofilter&quot;
+        src=&quot;/static/c41d63211410d0d33aee36bb6b5763cb/1c72d/mcnally-grad-2019-geofilter-01.jpg&quot;
+        srcset=&quot;/static/c41d63211410d0d33aee36bb6b5763cb/a80bd/mcnally-grad-2019-geofilter-01.jpg 148w,
+/static/c41d63211410d0d33aee36bb6b5763cb/1c91a/mcnally-grad-2019-geofilter-01.jpg 295w,
+/static/c41d63211410d0d33aee36bb6b5763cb/1c72d/mcnally-grad-2019-geofilter-01.jpg 590w,
+/static/c41d63211410d0d33aee36bb6b5763cb/a8a14/mcnally-grad-2019-geofilter-01.jpg 885w,
+/static/c41d63211410d0d33aee36bb6b5763cb/47311/mcnally-grad-2019-geofilter-01.jpg 1080w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 154.72972972972974%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAfABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAABAED/9oADAMBAAIQAxAAAAGjWmN9YGW1awwWHec4l//EAB0QAAICAgMBAAAAAAAAAAAAAAECABIDExARITH/2gAIAQEAAQUCC2OqfIoAXvi5BbIQdyx8lp5GrP/EABwRAAEDBQAAAAAAAAAAAAAAAAABAgMQEhQhMf/aAAgBAwEBPwG3dHSrxDIcf//EABwRAAEDBQAAAAAAAAAAAAAAAAABAgMQEhMhUf/aAAgBAgEBPwG7VGx9MKH/xAAeEAACAgEFAQAAAAAAAAAAAAAAIQEREBITMkFRcf/aAAgBAQAGPwK9O5XXhweEs1fwUjkSGxQf/8QAHRABAQEAAgMBAQAAAAAAAAAAAREAITFRYZFBgf/aAAgBAQABPyFRglI6xDX+62ZKR7MaPkzK8v1z3zq6Hp601yeHV6R1FBR+6s51JzlXB83/2gAMAwEAAgADAAAAEKggMv/EABsRAQACAgMAAAAAAAAAAAAAAAEAESExQaHw/9oACAEDAQE/EBtn3cJlJzuAFUT/xAAZEQEAAgMAAAAAAAAAAAAAAAABABEQIUH/2gAIAQIBAT8QoUwGmF+s/8QAHhABAQABBAMBAAAAAAAAAAAAAREAIUFRYTFxkbH/2gAIAQEAAT8QCbNWD9/TC1S+C6hccVEicYQEcIMDWmFU1XnGGZjUJGr9xQhMvgR3vWKrvkW/mbe4dVe9MLCRV4HrTFGAmP/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Tiger Takeover&quot;
+        title=&quot;Tiger takeover ad&quot;
+        src=&quot;/static/5603db5af12ffe7eae40b3a0e55e9be8/1c72d/tigertakeover-poster.jpg&quot;
+        srcset=&quot;/static/5603db5af12ffe7eae40b3a0e55e9be8/a80bd/tigertakeover-poster.jpg 148w,
+/static/5603db5af12ffe7eae40b3a0e55e9be8/1c91a/tigertakeover-poster.jpg 295w,
+/static/5603db5af12ffe7eae40b3a0e55e9be8/1c72d/tigertakeover-poster.jpg 590w,
+/static/5603db5af12ffe7eae40b3a0e55e9be8/a8a14/tigertakeover-poster.jpg 885w,
+/static/5603db5af12ffe7eae40b3a0e55e9be8/fbd2c/tigertakeover-poster.jpg 1180w,
+/static/5603db5af12ffe7eae40b3a0e55e9be8/e91d4/tigertakeover-poster.jpg 3300w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Ikigai]]></title><description><![CDATA[Some of my readers may know that I recently decided what I’ll be doing past high school: studying computer science. This is very exciting as…]]></description><link>https://michaeldemar.co/ikigai/</link><guid isPermaLink="false">https://michaeldemar.co/ikigai/</guid><pubDate>Mon, 06 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Some of my readers may know that I recently decided what I’ll be doing past high school: studying computer science. This is very exciting as I now feel much more focused and fulfilled. I do find now that it is strange sitting in English classes and the like and trying to stay as motivated as I was. I now know that this subject won’t be consequential to my life. However, I still enjoy all of my classes and have loved my school year so far.&lt;/p&gt;
+&lt;p&gt;Something I want to touch on in this piece is how I came to that decision. It’s a very muggy thing, trying to decide what you’re going to do after high school, and there’s mounds of questionable advice out there. “Follow your passion!” is one quip I hear a lot. This is terrible advice. Your passion alone should not inform what you do, because it might not make sense with a few others things: what you’re good at, what the world actually needs, and what you can make money for.&lt;/p&gt;
+&lt;p&gt;I did a little research, and stumbled across the Japanese concept of ikigai. Of course, I won’t explain it perfectly, so I encourage you to check this out on your own, but I’ll try my best. Ikigai is a Japanese term for “a reason for being,” similar to ‘raison d’etre’ and other expressions. In the culture of Okinawa, ikigai is thought of as “a reason to get up in the morning.” Seems pretty cool right? So what does it actually look like? Well, I’ll start with this venn diagram:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 94.5945945945946%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAECBAMF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAH3Oc58m5VqmomQr//EABoQAQEBAAMBAAAAAAAAAAAAAAEAAhARITH/2gAIAQEAAQUCWEONQNnzPVkvl//EABcRAQEBAQAAAAAAAAAAAAAAAAEQETH/2gAIAQMBAT8BE3I9n//EABYRAAMAAAAAAAAAAAAAAAAAABEgIv/aAAgBAgEBPwGin//EABQQAQAAAAAAAAAAAAAAAAAAADD/2gAIAQEABj8CH//EABkQAQEBAQEBAAAAAAAAAAAAAAERACExUf/aAAgBAQABPyGNvMzOFw0xeuHercID7o+e4CwwHBv/2gAMAwEAAgADAAAAEOAQAP/EABgRAQADAQAAAAAAAAAAAAAAAAEAEBEh/9oACAEDAQE/EGaR4wGK/8QAFxEBAAMAAAAAAAAAAAAAAAAAAREgIf/aAAgBAgEBPxBVMwKf/8QAGhABAQEBAQEBAAAAAAAAAAAAAREAITFRYf/aAAgBAQABPxCGPHjfc9BQvH39zApL+3GaqJA5zPlpqPzOnoO4isfXPcsoK3ERAu//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;An image of the ikigai venn diagram&quot;
+        title=&quot;Ikigai&quot;
+        src=&quot;/static/36d000eaa0b116a561d14441e7dfcdea/1c72d/ikigai.jpg&quot;
+        srcset=&quot;/static/36d000eaa0b116a561d14441e7dfcdea/a80bd/ikigai.jpg 148w,
+/static/36d000eaa0b116a561d14441e7dfcdea/1c91a/ikigai.jpg 295w,
+/static/36d000eaa0b116a561d14441e7dfcdea/1c72d/ikigai.jpg 590w,
+/static/36d000eaa0b116a561d14441e7dfcdea/a8a14/ikigai.jpg 885w,
+/static/36d000eaa0b116a561d14441e7dfcdea/fcff9/ikigai.jpg 1124w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A four way venn diagram, so maybe not totally clear. Let’s try to understanding what’s going on. There are four categories, as mentioned. What you love, what you can be paid for, what the world needs, and what you’re good at. Each of these intersect to fill different roles in our life: profession, vocation (a side hustle or a “calling”), mission, and passion. Now it’s clear how passion alone is dangerous: it doesn’t factor in money or the world at large. At the center of all of these concepts is harmony: ikigai. There are also cautions surrounding the venn diagram. Let’s dissect them.&lt;/p&gt;
+&lt;p&gt;Without having what the world needs, we feel “satisfaction, but a feeling of uselessness.” In our lives, we need to contribute to something greater, and to feel a higher purpose (regardless of our spirituality). Across from that is where we lack any money behind our work; we have “delight and fullness, but no wealth.” Don’t get too caught up in money though, there’s a minimum you have to maintain to lead a satisfying life, and beyond that money begins to dictate your personality. What that baseline is varies from person-to-person, but try to determine what life you want to lead, and this can inform your salary goals. On the bottom right it reads, “excitement and complacency, but sense of uncertainty.” In this example, we haven’t taken advantage of our skills. This would create a similar apathy and sadness, as we feel we could achieve something greater. Lastly, to the left from there, it reads: “comfortable, but a feeling of emptiness.” We need to have work that we love, otherwise, we dive deep into our work. Your life’s achievements need to have a personal element to them to bring you joy!&lt;/p&gt;
+&lt;p&gt;So, there you have it: ikigai. A tangible way to think about what you want to do with your life. There are no wrong answers with ikigai, and if you ever feel you are missing something, you’re never at a dead end. There are always chances to pick up a new hobby, work with a new organization, or challenge yourself somehow.&lt;/p&gt;
+&lt;p&gt;Oh, and how did I use ikigai to decide my major? I focussed on the intersection between what I was good at, and what I could be paid for. The world needs a lot of things, and there are lots of bright people working towards those things in their careers, so I didn’t want that to necessarily inform my major. I’ll put a pause on world domination for now. Moreover, I’m the type that loves virtually all of my work, so I didn’t find that helpful in deciding. So, I had narrowed it down to what made money. Countless jobs have a salary I would be more than happy with. Some that stuck out included work in academia, STEM-centered jobs, potentially even law. Then I thought about what I was good at. I’m pretty flexible, but at more core I have a few main talents: math, problem-solving, and communicating. Well, a job that fuses that quite well is in computer science, where problems must be solved and presented to consumers!&lt;/p&gt;
+&lt;p&gt;If you have any questions about ikigai, you’re always welcome to reach out at me@michaeldemar.co. I also encourage you to check out &lt;a href=&quot;http://www.forastateofhappiness.com/ikigai-the-happiness-of-always-being-busy-in-japan/&quot;&gt;this&lt;/a&gt; article.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[McNally Wrestling Team]]></title><description><![CDATA[Three bars  Paw bars Styled paw No McNally logo Claw]]></description><link>https://michaeldemar.co/wrestling/</link><guid isPermaLink="false">https://michaeldemar.co/wrestling/</guid><pubDate>Fri, 05 Apr 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;./fyc-atom.png&quot; alt=&quot;Three bars&quot; title=&quot;Three bars&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 77.02702702702703%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAepK3zTGcT//xAAbEAACAgMBAAAAAAAAAAAAAAABAgADEiEiMv/aAAgBAQABBQLl4y4gDVB49TGxZ//EABcRAAMBAAAAAAAAAAAAAAAAAAECERD/2gAIAQMBAT8BYQzP/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAh/9oACAECAQE/ATSf/8QAGxAAAgMAAwAAAAAAAAAAAAAAABEBAiESMUH/2gAIAQEABj8CcXtvg5tY7JlaxSKi4n//xAAbEAEAAgMBAQAAAAAAAAAAAAABAFERIUExwf/aAAgBAQABPyFyADZ8g6I7uGAEl5gYgNHkoiPJ7WgeT//aAAwDAQACAAMAAAAQy8//xAAXEQEBAQEAAAAAAAAAAAAAAAABABFB/9oACAEDAQE/EA3SHG//xAAXEQADAQAAAAAAAAAAAAAAAAAAASFR/9oACAECAQE/EGoXD//EAB0QAQADAQACAwAAAAAAAAAAAAERITEAQVFhcYH/2gAIAQEAAT8QlIKAMaYn0zecQ1w6vdoOiY6lOf3toMJ4QcKE1wwb5bWdt/D67//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Tigers Athletics&quot;
+        title=&quot;Tigers Athletics&quot;
+        src=&quot;/static/bf9928e6d104784fc045d0a26788b954/1c72d/tigers-athletics-01.jpg&quot;
+        srcset=&quot;/static/bf9928e6d104784fc045d0a26788b954/a80bd/tigers-athletics-01.jpg 148w,
+/static/bf9928e6d104784fc045d0a26788b954/1c91a/tigers-athletics-01.jpg 295w,
+/static/bf9928e6d104784fc045d0a26788b954/1c72d/tigers-athletics-01.jpg 590w,
+/static/bf9928e6d104784fc045d0a26788b954/4dfa3/tigers-athletics-01.jpg 792w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./fyc-atom.png&quot; alt=&quot;Paw bars&quot; title=&quot;Paw bars&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./fyc-atom.png&quot; alt=&quot;Styled paw&quot; title=&quot;Styled paw&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./fyc-atom.png&quot; alt=&quot;No McNally logo&quot; title=&quot;No McNally logo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./fyc-atom.png&quot; alt=&quot;Claw&quot; title=&quot;Claw&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Massive Volunteering Website]]></title><description><![CDATA[A website built to connect high school students with organizations actively searching for volunteers. Here’s the GitHub repository…]]></description><link>https://michaeldemar.co/massive-project/</link><guid isPermaLink="false">https://michaeldemar.co/massive-project/</guid><pubDate>Sun, 10 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;A website built to connect high school students with organizations actively searching for volunteers. &lt;a href=&quot;https://github.com/michaelfromyeg/Massive-Volunteering&quot;&gt;Here’s&lt;/a&gt; the GitHub repository.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.32432432432432%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACJklEQVQ4y52Ty28TMRDG9wRECAlxBIk/kFNPtAWJA6gCCQnBoeceOZQjnLmAkBCkUAhNUqjSpMlmm30k+/Jjvfsx421oFdIeavkn2yPP55mx7eDRLWDjLvDkDvD4NqqHN1GtX6+5f2UpWL0KrF0D1hsA29YaqB7cQLXagOP++ICDr+8x2P2I6OAbyskfFOMO9LgN7e6dcDovyC4GPxF0P8P79QniqIVq8pv89q2fcxzG6I88DMbHcP0IwSwlMkQCmBKzTCIRGjNRIhYGugQUkSkDUQDUUZ7AcyeaeHAPewjcEfzREKOjAYaEFBJSEkLUSAHFKIlCa4hcWApdwBQ1hVZw3nR6eLbTxYvv+3jabGMQp3ScsWLsrJT6j4Kc8zynPQrGlP9gu7PbO8TW23doBRl2vBhBpkmwpF6iqkBUdm6MsbCTpgh5XITtTnevhZfPNzALI3hDF8PhCGPPg+/7CMMAQRBAUMrzxgcsi3qOU3IY1KbTKTn7CPyJFZlGEQmG1p4kiU2R4Sg5EnbmcRGH0+GW5RJxKpBkAinfLI28YR5VXYJ6vFCQT7Vp6YqeR4lUlpD0Nnh9tnZna3iemBVsNr9gZeUeMhKapgpxxpv59gob0SJ8yIWC/DyiKERMdUqzFILWpqwsy9r8Us4VnG/MpUGSF5SyQU5fIVP101mE075QsNtpY3PzFYkAUapJVNufwLW6lGC/38P29mt7y0LRl5KnYpdJ+S8iZ2k0Haz5PgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Massive Volunteering app main screen&quot;
+        title=&quot;Massive Volunteering app main screen&quot;
+        src=&quot;/static/2cc148392e01113c66deff3480f82556/fcda8/massive-homepage.png&quot;
+        srcset=&quot;/static/2cc148392e01113c66deff3480f82556/12f09/massive-homepage.png 148w,
+/static/2cc148392e01113c66deff3480f82556/e4a3f/massive-homepage.png 295w,
+/static/2cc148392e01113c66deff3480f82556/fcda8/massive-homepage.png 590w,
+/static/2cc148392e01113c66deff3480f82556/efc66/massive-homepage.png 885w,
+/static/2cc148392e01113c66deff3480f82556/e9d87/massive-homepage.png 1176w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;p&gt;In high school, I completed the IB program. For my Computer Science Internal Assessment (IA) I decided to build a website for a club I was also helping lead. The basic goal was to be able to allow organizations looking for volunteers to advertise opportunities directly to high school students.&lt;/p&gt;
+&lt;h3&gt;Usage&lt;/h3&gt;
+&lt;p&gt;Volunteers can create an account and profile. Organizations can as well. There’s a blog-style feed of opportunities that appears in the user’s feed.&lt;/p&gt;
+&lt;h3&gt;How it’s made&lt;/h3&gt;
+&lt;p&gt;The project is built using Python Flask and Bootstrap for the styling.&lt;/p&gt;
+&lt;h3&gt;Challenges&lt;/h3&gt;
+&lt;p&gt;This was the first real web project I ever built, so I had hard time building things without being reliant on tutorials.&lt;/p&gt;
+&lt;h3&gt;Accomplishments&lt;/h3&gt;
+&lt;p&gt;The app works pretty nicely, and it received a $500 grant from the Edmonton Community Foundation! I hope to deploy it Summer 2020.&lt;/p&gt;
+&lt;h3&gt;Future&lt;/h3&gt;
+&lt;p&gt;I need to add the organization “flow,” and create better ways for users to be notified. An iOS and Android variant of this project would also be really cool! The GitHub issues are &lt;a href=&quot;https://github.com/michaelfromyeg/Massive-Volunteering/issues&quot;&gt;viewable&lt;/a&gt; here.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[10 newsletters to make your inbox more interesting]]></title><description><![CDATA[I have an addiction to e-mail newsletters. So I thought I’d put it to good use and share some of my favourites. Here are ten newsletters to…]]></description><link>https://michaeldemar.co/ten-newsletters/</link><guid isPermaLink="false">https://michaeldemar.co/ten-newsletters/</guid><pubDate>Tue, 05 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I have an addiction to e-mail newsletters. So I thought I’d put it to good use and share some of my favourites. Here are ten newsletters to brighten up your dreary inbox.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.dailypnut.com/&quot;&gt;The Daily Pnut&lt;/a&gt;
+&lt;em&gt;The best newsletter, hands down&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The Daily Pnut describes itself as a newsletter about world affairs that will “make you sound marginally more intelligent.” It’s my all-time favourite newsletter. With gripping and poignant articles about current events with a (refreshing) non-American lens, The Daily Pnut captures our rapidly changing world in an enjoyable, daily newsletter. It’s a must-subscribe.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.morningbrew.com/&quot;&gt;Morning Brew&lt;/a&gt;
+&lt;em&gt;Business news I can actually tolerate&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Bringing you the latest from “Wall Street to Silicon Valley,” the Morning Brew is a great financial newsletter for people less knowledgeable on the jargon, but still curious. It’s consistently entertaining and lively. If you’re interested in the financial world, the Morning Brew is a great way to stay in-the-know.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.vox.com/vox-sentences&quot;&gt;Vox Sentences&lt;/a&gt;
+&lt;em&gt;The news, but shorter&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Consuming one news source makes you biased, so why not consume them all? Vox Sentences combines snippets from a variety of organizations (though, you’d be hard pressed to find a Fox quote), and places them together to create short pieces on current events. Always informative and covers pressing issues.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://fs.blog/&quot;&gt;Farnam Street&lt;/a&gt;
+&lt;em&gt;Brain Food newsletter&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Farnam Street’s “Brain Food” newsletter covers a variety of mental models and ways of thinking about the world. For lack of a better term, it’s damn cool.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://betterexplained.com/&quot;&gt;BetterExplained&lt;/a&gt;
+&lt;em&gt;Math explained better&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Better Explained’s monthly newsletter showcases articles from their blog which take difficult concepts from mathematics, economics, and other fields and creates intuitive ways of understanding them. Through analogies and no-brainer explanations, this blog makes even the most rigorous calculus concept comprehensible.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.annfriedman.com/&quot;&gt;The Ann Friedman Weekly&lt;/a&gt;
+&lt;em&gt;Personal lens&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this weekly newsletter Ann Friedman shares what she’s been reading, and where she’s at in life. It’s uniquely personal lens makes this newsletter consistently interesting.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://kottke.org/newsletter/&quot;&gt;Noticing&lt;/a&gt;
+&lt;em&gt;Interesting nuggets from around the web&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Noticing collects cool and quirky nuggets of information from around the web. It’s the StumbleUpon of newsletters. I love it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://waitbutwhy.com/&quot;&gt;Wait But Why&lt;/a&gt;
+&lt;em&gt;Asking the real questions&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A thought-provoking newsletter exploring the bigger questions, with stick figures. Because, how else would you figure out the meaning of life?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.brainpickings.org/&quot;&gt;Brain Pickings&lt;/a&gt;
+&lt;em&gt;Scratch your noggin’ with these reads&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Again, essentially just a mish-mash of really cool stuff. This newsletter is particularly beautifully written as well. Its eloquence only makes it more enticing.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.exponentialview.co/&quot;&gt;Exponential View&lt;/a&gt;
+&lt;em&gt;A nod to what’s next&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;With a specifically-futurist lens, Exponential View takes a glimpse into what the next few decades will hold. However good or hot they may be.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Student Senate Brochures]]></title><description><![CDATA[In grade 11 and 12 I served on my school board’s Student Senate. In grade 11, I did graphic design work for my committee; I created…]]></description><link>https://michaeldemar.co/student-senate/</link><guid isPermaLink="false">https://michaeldemar.co/student-senate/</guid><pubDate>Tue, 05 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In grade 11 and 12 I served on my school board’s Student Senate. In grade 11, I did graphic design work for my committee; I created brochures about time management.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.810810810810814%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAC+0lEQVQoz22T229MaxjG1x9i32HX4UKEC6qooGhUShzqkI2yG+wLhxCukEiERFpUUYeSVmdrdQRjJ04ltqSdaSTImI6pOa2Z6ZqZNdOZWTOdU8f8fGs1IhHvzVrry/qe7/e8z/tJ5XKZVCpFIpEgk9YIhKLU7O5i1po25tW3M6fuGou23EZN5NBLjRfoswwz7Iryu5IcDgfNzc20tLRwte0Kz168Zd/Jp5xrf8fN++85e+1/1h/o4YPdgzLq5/krG2cuvMTujOH3eXj9+g0ulwubzYbf70cKh8OMjIwwOGjFZh3E9VVm5/HHdD36SM9/dmr33qOm0YSp10LblUscPnqKDlM/sUQR57ADs/khAwMD9Pf343a7kex2O93d3cK2xsREATmksvvEIy7eHeTY+RdMW3GZRQ0/LUfHity3fOGjI2x8J5MpotEo2Wx20nJvby9NTU0EAgFCwQBOl5cN//QYfavcfIuKmlYqxXs8mcfx2Y7F8gT7p/dia4l0Om1Q6XsVRaFYLCLJsszQ0BCalhY/lRlLZdlxxMyqnZ2s2tVJ9dYO1u17wNUbXdStraWqajFTpvyB1WoVjiZwOp14PB5DtFQqIaU1jWAwiCwH8HrcyMEIDYf6WLjxpkE5v/46dfvNnD5zgZkz/qS6ehkVFRW0traiT4geqi7o8/mMA6R4PG6kpC/4fV6CoypbDvZRvf0OS7fdYa4YmzV/9/Ds5TuWLqmisbERk8lEKBQin8+jqjHjqffQEIzFYni9Xnwico8g9AfCbDtsZvmOu6zd283qXV3U7rlHQEmQy2YMqh+VGc8SVOIkU2liMZVcLjcpqI+NW2DLfh9hNWkQVm66xeKGDhYI6yv+6mTEqzAWV4lEokYAaXEJdEE9ROcXl0GqnyXpmLpyNpsTCyW0TIH6/f8yf307C4Xo3HXXqRLCQUE4ntHQQxwdVQyLhUKRkCDU26REEpS+lZF+vTpaJs9Kke7U5ZeYXdvG9JWXjXAi8fFJm5mMmAjN6Nfv6jtR3AxujdaVOAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Using time front&quot;
+        title=&quot;Using time front&quot;
+        src=&quot;/static/ab096c13972982487defd0504d37baa3/fcda8/using-time1.png&quot;
+        srcset=&quot;/static/ab096c13972982487defd0504d37baa3/12f09/using-time1.png 148w,
+/static/ab096c13972982487defd0504d37baa3/e4a3f/using-time1.png 295w,
+/static/ab096c13972982487defd0504d37baa3/fcda8/using-time1.png 590w,
+/static/ab096c13972982487defd0504d37baa3/efc66/using-time1.png 885w,
+/static/ab096c13972982487defd0504d37baa3/c83ae/using-time1.png 1180w,
+/static/ab096c13972982487defd0504d37baa3/85e74/using-time1.png 1436w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.810810810810814%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAC00lEQVQoz42TyU9TURTG399gXIibEg2JxUibWk3LTExQiDXWaMRETdhAggt2bvwDiBvoRhMIEYMxxpkFtcQNJkUE0qYCnV5HoO91wo50Hvg89xpde5P7bnKH75zvd84T5GgUkUgE5XIZuVwOf0csFkMgEEAwGESpVEKxWEAyEecrG8fHx3zN5/PIZrM4OjpCoVCAEA6H4Nzd5RvskF3MZDKYnJyE0WjExMQEDyjLUXyz2mBzuOk8/S/w/v4+1te/Y2PjBwUPQJDkOCmX4HA4YLVaeaZM3GQyYXR0FFNTU/xRtVpDMBylKSHg96NWq3HBZrOJ0EES2+4IpFiaBOmTypa4HY/Hg3q9js3NTSwvL8NiscBsNmN1dRWJRAI+0YtwKAg/CRaLRaRTaY5GlmOQpCglU4Hg84mYmZ7mAiwqu9jX1weFQoHW1lacbmmBRqPBLmFh1uPxOAnI/K4sSRBFEUFi7aM1l8tC6O3pRVtbGxfQ6/VYW1vD+NgYrg4OwmAwoL+/n7NMJpOcr91uh8/n+8Nvbw8ul4sjYMVj7IV2ZTt0Oj20Wi1aKJuh4WGEQmHYbHaqchBer4iDiMQLtrW1xcV2dnY4a5ZliRxVKhXOkgUUNGoVunRadHV2QqVSQalUQvQ6kf4VRyaVQOowimajjDy1lMht5Um8gEajwe2HQiHOl7UOExbOtWug1hmgUmtx9owCFzrU+LTiwDvzT5oOvF6y4fNXF2LxQ2Llp2BeLsIyYpa9VEg/Ze0m6+k0Vbnj2lN0jSxCOfAEJ06ewozpGR48/oLuuy/QM7KA80PP0X3vJTziPvaoZyMHEUSpJ1k3MEGn00libhL18x9DGLj/CrcfvUXH9TmY5i2cw43xN7hknEPnnXlcvjWHKw8XEUvmyHqNhBr/eDGGjGW1WuUI2L7AHly8OQutcRZiOMOr92HFhYWPDiwubfP1vcWFcqWO/xm/AYOBDyErN1soAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Using time back&quot;
+        title=&quot;Using time back&quot;
+        src=&quot;/static/9d457a88732437f9a727b99b1fd4f9e5/fcda8/using-time2.png&quot;
+        srcset=&quot;/static/9d457a88732437f9a727b99b1fd4f9e5/12f09/using-time2.png 148w,
+/static/9d457a88732437f9a727b99b1fd4f9e5/e4a3f/using-time2.png 295w,
+/static/9d457a88732437f9a727b99b1fd4f9e5/fcda8/using-time2.png 590w,
+/static/9d457a88732437f9a727b99b1fd4f9e5/efc66/using-time2.png 885w,
+/static/9d457a88732437f9a727b99b1fd4f9e5/c83ae/using-time2.png 1180w,
+/static/9d457a88732437f9a727b99b1fd4f9e5/4c5bd/using-time2.png 1435w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.810810810810814%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAC2UlEQVQoz22SWU9TQRiG+yPUS/6Deo1GTTQaL1DjFhc0QYxLjGKM4h6ULQoXgBWMLKIYCo0KBRcaVwIULsQFpIKnpwttOd0oXSmFPp4z1RiN381kMjPvvJtuaWmJSCTC3Nwc0VgEn8fPrf0PubRRz/Wt97iyuZ7yXc1EgnG08btCDDz7xI9PLv43OpfLhcFgwGg0YurpxtI/QktxD88bBnjf/hFT3QdqjxrwOvzigf2bG0PlK8b7JaZsk7x7+46pqSmGhoZwu93otM3gwAAvX7wUgNavkzSe7Wbw2ReGe8aoyn9Edf5jmhtaKasopby0gr6eN2TSMDo6SldXFxaLBbPZjNPpzAK2tbUxMTGB7JAZ/2yl8Vw3fU0WDGVmzq+tUSW3oEwHSGcWmLZ56bht5uOr74JxMBhkZmaGeDxriW5kZIQbJSVYrVYUn4L0XabmSDulO5ooybtP8fo64WEqlmY2HPrLr1AohCzLgpnH42FhYQGdoigMq5QDgQDxREwNJYD+pFEEU32ojVsHHlJb2En/60HOFJ3m+LHjFB4pFACJREL4J0mS2C8uLqILh8NowTgcTmyyDcXt586xTm5ub6RiTwvXtjZQV2DkQtFFVq1eSW5uLjk5OZhMJlKpFGNjY0KdxlIAah5ov8g2GYfTgd8bRH/CqII9yNZnk567R59yX9/E8hXLWKMC5uXl0dvbi1Y5r8craheNRkmn01lAjbLdbmfaPS0k1596QuW+VqoPPxYsawo6mByX6Og0qPYMCyBtYpE4HodCOBRGU5pMJv8wtMt2VbIkiq1JvrGtUci+uqWeit0tag8VEsm4YOLz+cQaj8WxS06kHzaRgUhZo6sZ6vf5Cc/NElRmqTr4iOINd7i86S4X1mVTDnpn1fOwmqpd3J+fTzKfnCegBIlEI4KdAPxdgUwmI9ZkLEXl3gdq/2p/AdZStrOZaCih3SIWjQnPNL/+HQ3jJ2H8GqsjVcxPAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Finding time front&quot;
+        title=&quot;Finding time front&quot;
+        src=&quot;/static/e0a6da4d84f4846403f48f5d8f2c6d8e/fcda8/finding-time1.png&quot;
+        srcset=&quot;/static/e0a6da4d84f4846403f48f5d8f2c6d8e/12f09/finding-time1.png 148w,
+/static/e0a6da4d84f4846403f48f5d8f2c6d8e/e4a3f/finding-time1.png 295w,
+/static/e0a6da4d84f4846403f48f5d8f2c6d8e/fcda8/finding-time1.png 590w,
+/static/e0a6da4d84f4846403f48f5d8f2c6d8e/efc66/finding-time1.png 885w,
+/static/e0a6da4d84f4846403f48f5d8f2c6d8e/c83ae/finding-time1.png 1180w,
+/static/e0a6da4d84f4846403f48f5d8f2c6d8e/4c5bd/finding-time1.png 1435w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.810810810810814%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACLUlEQVQoz21TSW/aQBj1L+fMKT1xSdSceui1rdRFImovRJW6qKmQmkABg/EKXgDbeGzD6/c+h1stjQeYN2+bwToej9jtduDMUVUVzLHGsTCoyhqmqtE2LYqiwH6/1/kyKmJk1KZBLbjGtLBGoxH6/T6GwzsMBgNc31zj8auN99f3mP928eHmHr+GU7x99wZXVy8EN0Sv18Pty1v8+PSIu1ff8PB5ii+vf+L7xz+w6rpWV0WRYzabwXVdVTrmBkmcwP67hLv0UJalJvFkfTweK9ZIgrpqNcVqvoa/DmFlaYYo2CLepPD9QDemSYrFwsbSXmK1cpCLWJYJmefD9Tydi6JEkia6HgaRfq5MJYRZhjCMcDgc1Gl7aoU87kDiME0ynE4npKkIBgGiaIMgCLEXPDvnvjzvOm2aBlYcx5iLGyrN5wstPpNo3HjIc1UlYZIkUoeHWERoglWRoG3b59HgfD7D2mw2mEymsIX06WkiirmShmGIncTcbmNxbkCcLRUsZKzXrqapTY1SousNKeV2CM6ioie9bLdbcZGKcqNgRszFIROw11iIfd/XLne7vbpj3CiKujqk/0KiW3pyShjrKRJIEoL0jpLg2bHjONpfdyiFkvFhZO5jMosvx1mrQw4u8jeNJD3xOx1eOkzlVuilNkZF2RsxxNKxxZdekeVKeuoI2RfV2ScdkYwCFLp0TPeBnPrFIQnVIRV4ipwvD7vrrkO3mfP/HlZ0+RsSz/kf6C+G56dVjYMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Finding time back&quot;
+        title=&quot;Finding time back&quot;
+        src=&quot;/static/94a7a8693e4055f0dcbb83b4bc3533aa/fcda8/finding-time2.png&quot;
+        srcset=&quot;/static/94a7a8693e4055f0dcbb83b4bc3533aa/12f09/finding-time2.png 148w,
+/static/94a7a8693e4055f0dcbb83b4bc3533aa/e4a3f/finding-time2.png 295w,
+/static/94a7a8693e4055f0dcbb83b4bc3533aa/fcda8/finding-time2.png 590w,
+/static/94a7a8693e4055f0dcbb83b4bc3533aa/efc66/finding-time2.png 885w,
+/static/94a7a8693e4055f0dcbb83b4bc3533aa/c83ae/finding-time2.png 1180w,
+/static/94a7a8693e4055f0dcbb83b4bc3533aa/4c5bd/finding-time2.png 1435w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.810810810810814%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAC3klEQVQoz22TW28MYRjH90NIXPULSHwBUXFW2pLSipbW+RBKUBJERHDjriXohUgQiaQtJaRxQZfURV10m9rd7uzszp7Ps7Pd7daq3fXzvFPEhTd5kpnM+/7f/2kctVqNbDZLJp0ma+bJRsL4D3bhbdnI7K5mZnc0oe1tp16wsNePRcoTTkqfP/G/5fB4PPT393NnYIB7g4N8+fCe2PUrpB8+wBx5TmrwLkbvMaxgEHOuSMGySDx7TPndWz5PTDA0NIRraorR0VF0XccRiUSYnp7m68wMLplcyCB66Tzm6xdYY6/Rj3QTknn19AkD9+5z4/JlxoeHoPqDSDSKc3ycyclJXC4X+XweR6VSIR6LEZOP0UQCMxwieuUCmccPid++hXtTI9q+dr5nM7akihEkfvMahZfD9rslILlcjnK5vCR5cXGRtPgXFaYZ+VCRDUbvUbTONnwdrXi2rkPr2gXleYpyKJlKUfvtlwJSMgOBAIl4nGq1iqNQKBAKhYgJYESYziWThM6eEJA2m5mneQPG/j1Mf/rI2b4+WltaaNqyhaTs+7awwKzXi+732wpVwI5MJoPb7Ubz+fDKWHJT5OJp9MNd+NqbmVm/iuTxA1w9c5oVK1eyprGRhoYGXoyMoNRNiXfqbPQPoKrMn1tmfRrZcJhIXy9adzvBU4fwtG0lJYDDjx6xbPlyGlevpqenB6fTCfU6OfE9Z5pYkr4NaIoPXqmOHYqwm0smCJ07Kd3baY+3rQnjQCdpv8absTHZ6/7buXKpRCwYIKj5UErtUGwPDYOUeJIQw0sSUFgYKsn6wU78PR0EjnZjic8FAVCpqgBK8jwvIXlFXUIum7OWiu8wha4KRVVHhVIQhsapI/h2t+Lv7pC/ZRu6MPyWTmEVixhScLVX1W3hN2A6HqMoxGpigUNFrbTXZX7KDdVSEf3QXjxNa/Fu37xUG0m7ZuWpK5nz85QEWJ1Tqy4gP//59X4BYJEdoZ/KFtEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Your time front&quot;
+        title=&quot;Your time front&quot;
+        src=&quot;/static/f74a2050f13f547bc3e21b27a1cc118e/fcda8/your-time1.png&quot;
+        srcset=&quot;/static/f74a2050f13f547bc3e21b27a1cc118e/12f09/your-time1.png 148w,
+/static/f74a2050f13f547bc3e21b27a1cc118e/e4a3f/your-time1.png 295w,
+/static/f74a2050f13f547bc3e21b27a1cc118e/fcda8/your-time1.png 590w,
+/static/f74a2050f13f547bc3e21b27a1cc118e/efc66/your-time1.png 885w,
+/static/f74a2050f13f547bc3e21b27a1cc118e/c83ae/your-time1.png 1180w,
+/static/f74a2050f13f547bc3e21b27a1cc118e/85e74/your-time1.png 1436w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.810810810810814%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACb0lEQVQoz3VTTW/TUBD0n+QC/4FDDxwqISFxAASHSlzLDQFCXEqRuBT1gooatUlTf8ROnMRuHKdObMdxEufTGWZflQsSKz3Z3rc7Ozu71nzPw4fjY/w4PcXeJpMJgiDAYDBA0OthOp0Cux2w3QKbDV93Kq4sS+X/c3GB7ycnGI1G0H6dn+PR4yd4enCAqq6rQClyfXUFwzBQqVTQ7/exms8Rtl0kdz6K2UzFmZaFt0dHePnqNZ4dHiJgnNapXOLbi+f4+e4NjK+fVeA8z5EyMQsD5GQnjHKybup1eEYNIe/EBu02vjD37P0Rfn/6iCxNoS2TGJltIe+0ERs6tps1pvkUXceG39CRpmMFOCNgt+nArVcR+l2wWeRJgqFpYMECSxbfURItHo+hN2wYcmwHRVFgTlYOAwPHJGBK6bYsksNtmPCcBqJBqBiG1PiWbVvNJnNtrFYraGMmdEg9ur9Hz/exWCywXC4RRfco8kwVKMsdSjJfU8eSSXuTHL1eh0WtjdtbzKitNiZD13XhdbvqzJlEBGyLOTZM3pDdvuU+C8c9D+n4QYbhcAiLDH0SkUEKGS2JY8XQo0OeOVsreHqWjrzvU6eRYpMRxKxe4a7lcD1itTLCsMl2Zc1kaBuulCYauS2XLUZKr/V6/TBRy0THrCPwOACu3YR3dr2Gbu0S8Wio1lL2tH5zA53t1mo1ZFn2AChOh6I2SF+WuJjN0SHDgWsjGUYcSqkGJcsehX0knK60LPtZvb6GaZpotVpKb01alEBBFzChvaZ2IrBMTXSRKYsJSClH/hCadCMg8tz7NAVAhyTJ+/7iX9v/bv/73ttfMxh5IC7Sy+UAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Your time back&quot;
+        title=&quot;Your time back&quot;
+        src=&quot;/static/81eb5e12f9e809e6db5f47488a59a33e/fcda8/your-time2.png&quot;
+        srcset=&quot;/static/81eb5e12f9e809e6db5f47488a59a33e/12f09/your-time2.png 148w,
+/static/81eb5e12f9e809e6db5f47488a59a33e/e4a3f/your-time2.png 295w,
+/static/81eb5e12f9e809e6db5f47488a59a33e/fcda8/your-time2.png 590w,
+/static/81eb5e12f9e809e6db5f47488a59a33e/efc66/your-time2.png 885w,
+/static/81eb5e12f9e809e6db5f47488a59a33e/c83ae/your-time2.png 1180w,
+/static/81eb5e12f9e809e6db5f47488a59a33e/c65fa/your-time2.png 1434w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[All about hackathons]]></title><description><![CDATA[Last weekend, I participated in my first ever hackathon. HackED 2019 is put on by the Computer Engineering Club at the University of Alberta…]]></description><link>https://michaeldemar.co/hackathons/</link><guid isPermaLink="false">https://michaeldemar.co/hackathons/</guid><pubDate>Thu, 17 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Last weekend, I participated in my first ever hackathon. HackED 2019 is put on by the Computer Engineering Club at the University of Alberta, and follows a similar format to most hackathons. First, there was an opening ceremony to introduce various sponsors, prizes, and relevant information to the competition. Then, we were released into the wild for twenty-four straight hours to produce a piece of software that did a cool thing. And finally, after all was said and done, us bleary-eyed programmers faced the judges and showed off our product.&lt;/p&gt;
+&lt;p&gt;So that’s the gist: 24 hours, code something cool, try to win. Let’s cut to the chase: why should you do it?&lt;/p&gt;
+&lt;p&gt;First reason: to learn. Hackathons are a great place to get started with programming. This was a bit of a surprise to me—many people at a hackathon go out of their way to learn a new technology with their project. At HackED 2019, my friends and I built something in Java, and we were all somewhat familiar. However, most decide to branch out and spend the twenty-four hours learning as much as they code. And it works. Because odds are, at a hacking conference with many, many hackers, someone else is probably already familiar with what you’re struggling with. So one call-for-help and bam, the support is there. There is no better place to jump into a new programming language than a hackathon.&lt;/p&gt;
+&lt;p&gt;Second reason: to collaborate. Especially as a high school student, we don’t often have to code together. We write projects, submit them to our instructor, rinse and repeat. When you work at a hackathon, you have to collaborate on code with your peers. For students of code who are new to this, using Git can having interesting results. Thankfully, at HackED there was a Git workshop so it wasn’t a total bust. But having to do it first-hand with your friends is the best way to learn, plain and simple. And if you plan to work on any open source projects, it’s a need-to-know skill.&lt;/p&gt;
+&lt;p&gt;Third reason: to network. There are so many bright, eager minds at these events with people interested in everything from Raspberry Pi to Flask to R, etc. You can learn so much just by striking up a simple conversation. At HackED, I learned a ton about post-secondary options, job options for computer scientists in Edmonton, and more. Hackathons are a great way to meet other folks in the industry.&lt;/p&gt;
+&lt;p&gt;All in all, go to a hackathon! You won’t regret it. Your programming skills will thank you later.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Canadian Student Leadership Conference (CSLC) 2018]]></title><description><![CDATA[CSLC is an event I helped organize. At the beginning of the year, we had a logo contest. My submission was used to inspire the final design.]]></description><link>https://michaeldemar.co/cslc/</link><guid isPermaLink="false">https://michaeldemar.co/cslc/</guid><pubDate>Thu, 27 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;CSLC is an event I helped organize. At the beginning of the year, we had a logo contest. My submission was used to inspire the final design.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB9vXOR3RUomgv/8QAHBAAAgICAwAAAAAAAAAAAAAAAREAAgMQEiEy/9oACAEBAAEFArlVfUy+VyqAgotf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFxAAAwEAAAAAAAAAAAAAAAAAABARIP/aAAgBAQAGPwIqimP/xAAaEAEBAQADAQAAAAAAAAAAAAABEQAQITFB/9oACAEBAAE/IWdPcGV1ePiLcMrPJHS/g024I9cf/9oADAMBAAIAAwAAABDnCED/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAWEQADAAAAAAAAAAAAAAAAAAARICH/2gAIAQIBAT8QNT//xAAbEAEBAQEAAwEAAAAAAAAAAAABEQAxECFBcf/aAAgBAQABPxBz5wZipAd3NWhP4cM0gdA0wkIB8Mv3v7rarJ7V8f/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;CSLC logo&quot;
+        title=&quot;CSLC logo&quot;
+        src=&quot;/static/c8d9d3f6527eba9b36ae8013e4c8089c/1c72d/cslc-logo-portfolio-01.jpg&quot;
+        srcset=&quot;/static/c8d9d3f6527eba9b36ae8013e4c8089c/a80bd/cslc-logo-portfolio-01.jpg 148w,
+/static/c8d9d3f6527eba9b36ae8013e4c8089c/1c91a/cslc-logo-portfolio-01.jpg 295w,
+/static/c8d9d3f6527eba9b36ae8013e4c8089c/1c72d/cslc-logo-portfolio-01.jpg 590w,
+/static/c8d9d3f6527eba9b36ae8013e4c8089c/a8a14/cslc-logo-portfolio-01.jpg 885w,
+/static/c8d9d3f6527eba9b36ae8013e4c8089c/fbd2c/cslc-logo-portfolio-01.jpg 1180w,
+/static/c8d9d3f6527eba9b36ae8013e4c8089c/e8fab/cslc-logo-portfolio-01.jpg 4167w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Massive Volunteering]]></title><description><![CDATA[I assisted managing a student volunteer club in high school. Here’s some example advertising I created. Note that I didn’t design this…]]></description><link>https://michaeldemar.co/massive-design/</link><guid isPermaLink="false">https://michaeldemar.co/massive-design/</guid><pubDate>Sat, 15 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I assisted managing a student volunteer club in high school. Here’s some example advertising I created.&lt;/p&gt;
+&lt;p&gt;Note that I didn’t design this version of the logo; a close friend of mine did!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.02702702702703%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe7Ngo//xAAXEAADAQAAAAAAAAAAAAAAAAAAAREg/9oACAEBAAEFAqV5/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAHBAAAQMFAAAAAAAAAAAAAAAAAQARICExQVGR/9oACAEBAAE/ISWGZbAOoWrD/9oADAMBAAIAAwAAABAgD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABkQAQEBAQEBAAAAAAAAAAAAAAERAFEQQf/aAAgBAQABPxChaD7clIKw6c1CAeGS+//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Massive Facebook ad&quot;
+        title=&quot;Massive Facebook ad&quot;
+        src=&quot;/static/7272b8806ef533a8fdc5d9a956a99fe2/1c72d/logo-facebook-banner.jpg&quot;
+        srcset=&quot;/static/7272b8806ef533a8fdc5d9a956a99fe2/a80bd/logo-facebook-banner.jpg 148w,
+/static/7272b8806ef533a8fdc5d9a956a99fe2/1c91a/logo-facebook-banner.jpg 295w,
+/static/7272b8806ef533a8fdc5d9a956a99fe2/1c72d/logo-facebook-banner.jpg 590w,
+/static/7272b8806ef533a8fdc5d9a956a99fe2/a8a14/logo-facebook-banner.jpg 885w,
+/static/7272b8806ef533a8fdc5d9a956a99fe2/fbd2c/logo-facebook-banner.jpg 1180w,
+/static/7272b8806ef533a8fdc5d9a956a99fe2/b68c0/logo-facebook-banner.jpg 1640w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[School Assignments]]></title><description><![CDATA[I occasionally did graphic design for school projects. Some of them turned out okay!]]></description><link>https://michaeldemar.co/mcnally/</link><guid isPermaLink="false">https://michaeldemar.co/mcnally/</guid><pubDate>Fri, 07 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I occasionally did graphic design for school projects. Some of them turned out okay!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.1081081081081%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEBQL/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQD/2gAMAwEAAhADEAAAAdBVPAWWOLmqkkNqIRT/xAAdEAABBAIDAAAAAAAAAAAAAAACAAEDEhEhBBAU/9oACAEBAAEFAsqQ6D6SVdk24xKozKWdNyOnd8r/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwFFV//EABcRAQEBAQAAAAAAAAAAAAAAAAAREgH/2gAIAQIBAT8B1xWUf//EABwQAAEEAwEAAAAAAAAAAAAAABAAAREhAxIxM//aAAgBAQAGPwJSzbLzEctXkgdLj//EAB8QAQACAgEFAQAAAAAAAAAAAAEAESExQRBhcYGR8f/aAAgBAQABPyHNTGNxvTRBP1AWa32mNSnI8S+syxqVc/SAUlkbqowUnTcot7n/2gAMAwEAAgADAAAAEGDFwv/EABgRAAIDAAAAAAAAAAAAAAAAAAARARAh/9oACAEDAQE/EFqpIc//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREQ/9oACAECAQE/EMKSkn//xAAeEAEBAQABBQEBAAAAAAAAAAABEQAhMUFRYdFxgf/aAAgBAQABPxAJzXuJqUqyn9wFefp+NLhep7ppjTCcXKuT8yKdcByOzgfXz5Pum6aLHZ86PAnrC3KdVuRVV3//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;English poster&quot;
+        title=&quot;English poster&quot;
+        src=&quot;/static/076ff41d5f6311dafb7d7fbccaba8c87/1c72d/a-boat-01-edit.jpg&quot;
+        srcset=&quot;/static/076ff41d5f6311dafb7d7fbccaba8c87/a80bd/a-boat-01-edit.jpg 148w,
+/static/076ff41d5f6311dafb7d7fbccaba8c87/1c91a/a-boat-01-edit.jpg 295w,
+/static/076ff41d5f6311dafb7d7fbccaba8c87/1c72d/a-boat-01-edit.jpg 590w,
+/static/076ff41d5f6311dafb7d7fbccaba8c87/ba99f/a-boat-01-edit.jpg 851w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 164.86486486486487%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;French poster&quot;
+        title=&quot;French poster&quot;
+        src=&quot;/static/d36a655e042b92dea9f17806cc5f3e40/fcda8/lettract-finale.png&quot;
+        srcset=&quot;/static/d36a655e042b92dea9f17806cc5f3e40/12f09/lettract-finale.png 148w,
+/static/d36a655e042b92dea9f17806cc5f3e40/e4a3f/lettract-finale.png 295w,
+/static/d36a655e042b92dea9f17806cc5f3e40/fcda8/lettract-finale.png 590w,
+/static/d36a655e042b92dea9f17806cc5f3e40/efc66/lettract-finale.png 885w,
+/static/d36a655e042b92dea9f17806cc5f3e40/c83ae/lettract-finale.png 1180w,
+/static/d36a655e042b92dea9f17806cc5f3e40/742d3/lettract-finale.png 2550w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[McNally's Bike-a-thon]]></title><description><![CDATA[McNally’s Bike-a-thon is an annual fundraiser for Kids With Cancer. Here are a couple of designs I made for the initiative and for my team!]]></description><link>https://michaeldemar.co/bikeathon/</link><guid isPermaLink="false">https://michaeldemar.co/bikeathon/</guid><pubDate>Thu, 24 May 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;McNally’s Bike-a-thon is an annual fundraiser for Kids With Cancer. Here are a couple of designs I made for the initiative and for my team!&lt;/p&gt;
+&lt;!-- TODO: Figure out how to change the width --&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.7027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAX/xAAYAQEAAwEAAAAAAAAAAAAAAAACAQMEAP/aAAwDAQACEAMQAAAB6E9gqKZEogZ1Mrpu5pnupFOn/8QAHBAAAgICAwAAAAAAAAAAAAAAAQIAEQMTEBIg/9oACAEBAAEFAn7uVRlguvRyATeJvWMAQeP/xAAaEQABBQEAAAAAAAAAAAAAAAAAAQIDEBIR/9oACAEDAQE/Ae1lTDiGv//EABsRAAEEAwAAAAAAAAAAAAAAAAABAhASAxEx/9oACAECAQE/AdRZC7TN2P/EABwQAAEEAwEAAAAAAAAAAAAAAAABAiAhMTKR8P/aAAgBAQAGPwKl4eUueFNX8MOh/8QAHxABAAIBAwUAAAAAAAAAAAAAAQARIRAwYTFBcYGR/9oACAEBAAE/IbAop7bfrglK2nA29rsQsjh40IJ1LyTOoos//9oADAMBAAIAAwAAABA7AkCL/wD/xAAZEQACAwEAAAAAAAAAAAAAAAAAARAxYRH/2gAIAQMBAT8QrxKMTAo4/8QAGREAAgMBAAAAAAAAAAAAAAAAAAEQEWFB/9oACAECAQE/ENRzs0FSWP/EACIQAAIBAwIHAAAAAAAAAAAAAAERACExgSBxQVFhkaGx8P/aAAgBAQABPxADVAgXgh2CZSgWZJkM7S0Cr4mJanvHc2hCH9cwA+grPuFC1AoRcQ3OEd5//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Bikeathon geofilter&quot;
+        title=&quot;Bikeathon geofilter&quot;
+        src=&quot;/static/a4bef29275b038b3602163bb9ad18263/1c72d/bikeathon-geofilter-01.jpg&quot;
+        srcset=&quot;/static/a4bef29275b038b3602163bb9ad18263/a80bd/bikeathon-geofilter-01.jpg 148w,
+/static/a4bef29275b038b3602163bb9ad18263/1c91a/bikeathon-geofilter-01.jpg 295w,
+/static/a4bef29275b038b3602163bb9ad18263/1c72d/bikeathon-geofilter-01.jpg 590w,
+/static/a4bef29275b038b3602163bb9ad18263/a8a14/bikeathon-geofilter-01.jpg 885w,
+/static/a4bef29275b038b3602163bb9ad18263/fbd2c/bikeathon-geofilter-01.jpg 1180w,
+/static/a4bef29275b038b3602163bb9ad18263/bd53b/bikeathon-geofilter-01.jpg 2250w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIDBQEE/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB2qbfEaaI7ALAf//EABsQAAICAwEAAAAAAAAAAAAAAAECABADERMh/9oACAEBAAEFAnYgnKVp/J1WKdqRuc0r/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHRAAAgEEAwAAAAAAAAAAAAAAAREAEBIhkQIyM//aAAgBAQAGPwIIOC4IUuuQU9BqDLmZ146p/8QAHBABAAIDAAMAAAAAAAAAAAAAAQARITFREGHx/9oACAEBAAE/IaMQ7zFESNXfi+QCrsmD2zcthvsAUBOM+Emp/9oADAMBAAIAAwAAABDXDzz/xAAWEQEBAQAAAAAAAAAAAAAAAAABIGH/2gAIAQMBAT8QHI//xAAXEQADAQAAAAAAAAAAAAAAAAABESBR/9oACAECAQE/EENj/8QAHhABAAICAgMBAAAAAAAAAAAAAQARITFBYRBR8MH/2gAIAQEAAT8QDCJskrVQtN37Fo8FU3mUDwxxnmXlya+7gFgA112idq2FjPmPyAAAAMAT/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Team logo&quot;
+        title=&quot;Team logo&quot;
+        src=&quot;/static/9bf3c199298fadce5d117bb67b384ba9/1c72d/blood-sweat-gears-01.jpg&quot;
+        srcset=&quot;/static/9bf3c199298fadce5d117bb67b384ba9/a80bd/blood-sweat-gears-01.jpg 148w,
+/static/9bf3c199298fadce5d117bb67b384ba9/1c91a/blood-sweat-gears-01.jpg 295w,
+/static/9bf3c199298fadce5d117bb67b384ba9/1c72d/blood-sweat-gears-01.jpg 590w,
+/static/9bf3c199298fadce5d117bb67b384ba9/a8a14/blood-sweat-gears-01.jpg 885w,
+/static/9bf3c199298fadce5d117bb67b384ba9/47311/blood-sweat-gears-01.jpg 1080w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[MVPLead]]></title><description><![CDATA[MVPLead was a junior-high leadership conference I helped organized in grade 10. I was tasked with creating the logo—here’s how it went!]]></description><link>https://michaeldemar.co/mvplead/</link><guid isPermaLink="false">https://michaeldemar.co/mvplead/</guid><pubDate>Sat, 28 Apr 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;MVPLead was a junior-high leadership conference I helped organized in grade 10. I was tasked with creating the logo—here’s how it went!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH3pmHVBIGgf//EABsQAAMAAgMAAAAAAAAAAAAAAAABEQISECEx/9oACAEBAAEFAi8Nq1Veao1xF0f/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAXEAADAQAAAAAAAAAAAAAAAAAAEDEg/9oACAEBAAY/AtQi/8QAHBABAAICAwEAAAAAAAAAAAAAAQARITEQQWFx/9oACAEBAAE/IVpJ2XXF4KazMQvEdlirab+TywAoKJ//2gAMAwEAAgADAAAAEMMHPP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EAB0QAQACAgMBAQAAAAAAAAAAAAEAESExQVHBYXH/2gAIAQEAAT8QriYdvUK8QWdpBsuFDjCzxz5BlFpd9l49gFIibI2RW1FsubV/T7cEmDQT/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;MVPLead logo&quot;
+        title=&quot;MVPLead logo&quot;
+        src=&quot;/static/0369f7ab96de69ffbd9ce8090ef64025/1c72d/mvplead-logo.jpg&quot;
+        srcset=&quot;/static/0369f7ab96de69ffbd9ce8090ef64025/a80bd/mvplead-logo.jpg 148w,
+/static/0369f7ab96de69ffbd9ce8090ef64025/1c91a/mvplead-logo.jpg 295w,
+/static/0369f7ab96de69ffbd9ce8090ef64025/1c72d/mvplead-logo.jpg 590w,
+/static/0369f7ab96de69ffbd9ce8090ef64025/a8a14/mvplead-logo.jpg 885w,
+/static/0369f7ab96de69ffbd9ce8090ef64025/72e01/mvplead-logo.jpg 1024w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 37.83783783783784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHYkKiz/8QAFhABAQEAAAAAAAAAAAAAAAAAAQAQ/9oACAEBAAEFAjC//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhAAAwAAAAAAAAAAAAAAAAAAABBh/9oACAEBAAY/AiL/xAAZEAEAAwEBAAAAAAAAAAAAAAABABEhQXH/2gAIAQEAAT8h2PHs2nT1EJtE/9oADAMBAAIAAwAAABAIH//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQEAAgMBAAAAAAAAAAAAAAERACExQVGR/9oACAEBAAE/EGHAENLZ0m+M1q4NrUmUQ8BKz7n/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;MVPLead banner&quot;
+        title=&quot;MVPLead banner&quot;
+        src=&quot;/static/9ce777c0cde7db7f33e49f21770d5cc5/1c72d/mvplead-banner.jpg&quot;
+        srcset=&quot;/static/9ce777c0cde7db7f33e49f21770d5cc5/a80bd/mvplead-banner.jpg 148w,
+/static/9ce777c0cde7db7f33e49f21770d5cc5/1c91a/mvplead-banner.jpg 295w,
+/static/9ce777c0cde7db7f33e49f21770d5cc5/1c72d/mvplead-banner.jpg 590w,
+/static/9ce777c0cde7db7f33e49f21770d5cc5/a8a14/mvplead-banner.jpg 885w,
+/static/9ce777c0cde7db7f33e49f21770d5cc5/fbd2c/mvplead-banner.jpg 1180w,
+/static/9ce777c0cde7db7f33e49f21770d5cc5/0cf16/mvplead-banner.jpg 6912w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[McNally Photography Logo]]></title><description><![CDATA[To date, this is probably my favourite thing I’ve ever designed. I made a logo for my school’s photography club.]]></description><link>https://michaeldemar.co/photography/</link><guid isPermaLink="false">https://michaeldemar.co/photography/</guid><pubDate>Fri, 13 Oct 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;To date, this is probably my favourite thing I’ve ever designed. I made a logo for my school’s photography club.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAIBBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAB7ExM1vCpnAWD/8QAHRAAAgIBBQAAAAAAAAAAAAAAAQIAAxIEEBETMf/aAAgBAQABBQK2zqVXfbUKWHL2GYqTgs8n/8QAFxEAAwEAAAAAAAAAAAAAAAAAAhEgQf/aAAgBAwEBPwEVsf/EABYRAAMAAAAAAAAAAAAAAAAAAAIgYf/aAAgBAgEBPwEon//EACAQAAIBAwQDAAAAAAAAAAAAAAERAAIQMhIhIzFRYZH/2gAIAQEABj8CaZ6U5AA/FgacqSxBqApA92aExHybT//EABwQAQACAgMBAAAAAAAAAAAAAAEAERAxIUFRYf/aAAgBAQABPyExsRoO4ZDrW1YUc4wu5yHS3aDeo3Bn2seAFAD5P//aAAwDAQACAAMAAAAQswAA/8QAFhEBAQEAAAAAAAAAAAAAAAAAASBR/9oACAEDAQE/EAnEf//EABYRAQEBAAAAAAAAAAAAAAAAAAEgUf/aAAgBAgEBPxBIaj//xAAfEAEAAgEEAwEAAAAAAAAAAAABABExIVFhkRBBcYH/2gAIAQEAAT8QcIXlExGI9KRwXf54pVYBDcN/kA5TqNk9EAWhNxnMHRXuK5TW9RnqHQDAKJ//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;McNally photography logo&quot;
+        title=&quot;McNally photography logo&quot;
+        src=&quot;/static/842dcdcee7f6b6d5f96976b331e97b1f/1c72d/photography-logo.jpg&quot;
+        srcset=&quot;/static/842dcdcee7f6b6d5f96976b331e97b1f/a80bd/photography-logo.jpg 148w,
+/static/842dcdcee7f6b6d5f96976b331e97b1f/1c91a/photography-logo.jpg 295w,
+/static/842dcdcee7f6b6d5f96976b331e97b1f/1c72d/photography-logo.jpg 590w,
+/static/842dcdcee7f6b6d5f96976b331e97b1f/a8a14/photography-logo.jpg 885w,
+/static/842dcdcee7f6b6d5f96976b331e97b1f/fbd2c/photography-logo.jpg 1180w,
+/static/842dcdcee7f6b6d5f96976b331e97b1f/a0850/photography-logo.jpg 4096w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[McNally Heritage Festival]]></title><description><![CDATA[I created a inforgraphic for my Heritage Festival booth and posters to be displayed at the other countries.]]></description><link>https://michaeldemar.co/heritage/</link><guid isPermaLink="false">https://michaeldemar.co/heritage/</guid><pubDate>Thu, 04 May 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I created a inforgraphic for my Heritage Festival booth and posters to be displayed at the other countries.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 129.7297297297297%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAaABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAX/xAAXAQEAAwAAAAAAAAAAAAAAAAABAAIE/9oADAMBAAIQAxAAAAHqvnoSxUTK2hRkcApq/8QAHRABAQACAQUAAAAAAAAAAAAAAQIAAxAREhMhMf/aAAgBAQABBQKIIKFyBC90y668hiPevQdsTxXyvdf/xAAaEQABBQEAAAAAAAAAAAAAAAARAAECBBAS/9oACAEDAQE/AdjW6Ylf/8QAFhEAAwAAAAAAAAAAAAAAAAAAABAS/9oACAECAQE/AXZ//8QAHRAAAgIBBQAAAAAAAAAAAAAAAAEQEQISISIxMv/aAAgBAQAGPwLiemb5NmkuOy2xW5Z//8QAHBABAQEAAgMBAAAAAAAAAAAAAREAMVEQIUFx/9oACAEBAAE/ISp6P1nOIkvzQKHeVq0etYBwzBDVHtqaIdGipKXxy5qlrd//2gAMAwEAAgADAAAAEDwWzf/EABoRAQACAwEAAAAAAAAAAAAAAAEAESFBYeH/2gAIAQMBAT8QVcsqLcqd/PZ//8QAGBEBAAMBAAAAAAAAAAAAAAAAAQAQETH/2gAIAQIBAT8Qw5QZFDP/xAAdEAEBAQEAAQUAAAAAAAAAAAABEQAhMUFRcYGh/9oACAEBAAE/EGehCSqd7h0l7T38wGrdRNCwk8nvz95xGK409PfGBp6Z2nfGIAjWi4iKIHjNNw55CmcFR1a7/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Italy inforgraphic&quot;
+        title=&quot;Italy inforgraphic&quot;
+        src=&quot;/static/55d0310c6b89910e1e1e9f7310edfb0f/1c72d/infographic-01.jpg&quot;
+        srcset=&quot;/static/55d0310c6b89910e1e1e9f7310edfb0f/a80bd/infographic-01.jpg 148w,
+/static/55d0310c6b89910e1e1e9f7310edfb0f/1c91a/infographic-01.jpg 295w,
+/static/55d0310c6b89910e1e1e9f7310edfb0f/1c72d/infographic-01.jpg 590w,
+/static/55d0310c6b89910e1e1e9f7310edfb0f/a18e1/infographic-01.jpg 612w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 73.64864864864865%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAADJ0lEQVQ4y4WUW1ATZxTH96Xjmw8+QH0rvHh56ItOGUZHX7w9FEY7klYdBcaIFTWjogiiozJj6UiLgrZKolaIVAzjnRE1beMFGUApqEkELxCI6aRJuCXRDZvLr7sbEuu0tf+ZM+fb75zvv+c7e/4rTNE0Mn+PGZ8/hIJoLKb62KT/LyjxRE7grcSycgsf5TQizCu9jWdMVAOR6Ptk428kvOMiISnyr0RqAZNn/DLpkoO/IQx536gb4Ug0mRyvMsYz55hqD1/4aLV7eCT7fncgSZTIV84qUAoTPnStkYDEK3dQPRwUw4TCH26DAmFCCuMdHcc35pe9H59snpFx1Zx/jqh7CQSDQXzDo3gV80162Tzy2uMdJjQhIfwhL366ZaH5UQ/XOjqov3mTE00mqo1nqTT8yNkLDck+ldRaWLqnhVXfWsj9/h4bah6w4Xg7hfqHaKra6LQPIfheD7I3L58z31Rw5UQttkYjjp9P8vxUFT2V++jUH0WavOnhS48pOG2jqN7OgaaXVJtdNLS5qLzax/7Tv2J9PoBgtb1kYUY2uuxsyoqq2VlQzsqsraxbVYImr4L9h+vVD6RAV2Ph08JmPtM1k7nlMnk7vmN3VQM1jffRnzlPz1M7gr23n+Wfa9HmllK018iRQ8dYrfkazVfbmD03i6yc/GQPVxY3MXWxgY9XGMhcsoYGuSUXbrVzt7ObK+Yb2Hp7Ebq6fmf6tOnMmplB6XodP5QfZffmErRrdcxZoGVFTkGScHVhLVNnFPPJ/O3UGk7yi/kO7Q8sdLRep6XFxED/C4Qnj5+QMSeTBZnzWPulltz8Msp3FlNdtIlFC5eyceOWJOGuMgPLv9DJ1zPy7GkXba33sfZ0cc9i5uJVMwMDjvgciqJIOCzP2UQYMRQiKolEIxF1X3lOKESSR0yWgPosvpVzolG1u4oOEnlCd3d3XHaRv8sr7q1WK3V1dZhMJs6dM6LX6xkccv5jmJViFPT19SGkpKRgs9mSgfdEHwjgdDpxu924XC5cr134/f53eo+9K8ThcJCWloYgg9TUVJU9rtHo//5tErFErvLS9PR0hYy/ANqj8f9RrO/rAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Greece poster&quot;
+        title=&quot;Greece poster&quot;
+        src=&quot;/static/9c2912421ed3bbd0e6a9f3ebcc9519c5/fcda8/greece.png&quot;
+        srcset=&quot;/static/9c2912421ed3bbd0e6a9f3ebcc9519c5/12f09/greece.png 148w,
+/static/9c2912421ed3bbd0e6a9f3ebcc9519c5/e4a3f/greece.png 295w,
+/static/9c2912421ed3bbd0e6a9f3ebcc9519c5/fcda8/greece.png 590w,
+/static/9c2912421ed3bbd0e6a9f3ebcc9519c5/efc66/greece.png 885w,
+/static/9c2912421ed3bbd0e6a9f3ebcc9519c5/c83ae/greece.png 1180w,
+/static/9c2912421ed3bbd0e6a9f3ebcc9519c5/d9ed5/greece.png 2880w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
