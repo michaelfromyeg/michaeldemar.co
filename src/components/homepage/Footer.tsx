@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 
-const IndexFooter = () => {
+const IndexFooter = (): ReactElement => {
     return (
         <footer style={{ marginTop: '2rem', textAlign: 'center' }}>
             © Michael DeMarco {new Date().getFullYear()}

@@ -1,14 +1,27 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 import { Link } from 'gatsby'
 import { rhythm } from '../../utils/typography'
 
-const Redirects = () => {
-    // Inspired from https://codepen.io/electerious/pen/GzrmwB, awesome Code pen!
-    const colorButton = (e: any) => {
-        const x = e.pageX - e.target.offsetLeft
-        const y = e.pageY - e.target.offsetTop
-        e.target.style.setProperty('--x', `${x}px`)
-        e.target.style.setProperty('--y', `${y}px`)
+type SetPropertyFn = {
+    (classname: string, value: string): void
+}
+
+interface ColorEventTarget extends EventTarget {
+    offsetLeft: number
+    offsetTop: number
+    style: {
+        setProperty: SetPropertyFn
+    }
+}
+
+const Redirects = (): ReactElement => {
+    // Inspired by https://codepen.io/electerious/pen/GzrmwB, awesome Code pen!
+    const colorButton: React.MouseEventHandler<HTMLButtonElement> = e => {
+        const target = e.target as ColorEventTarget
+        const x = e.pageX - target.offsetLeft
+        const y = e.pageY - target.offsetTop
+        target.style.setProperty('--x', `${x}px`)
+        target.style.setProperty('--y', `${y}px`)
     }
 
     const resumeLink = (

@@ -1,9 +1,29 @@
 import React, { ReactElement } from 'react'
 import { Link } from 'gatsby'
-import Img from 'gatsby-image'
+import Img, { FluidObject } from 'gatsby-image'
 import styles from '../../styles/Post.module.scss'
 
-const PostHeader = ({ node, type }: any): ReactElement => {
+interface PostHeaderProps {
+    type: string
+    node: {
+        excerpt: string
+        frontmatter: {
+            title: string
+            featuredImage: {
+                childImageSharp: {
+                    fluid: FluidObject
+                }
+            }
+            date: string
+            description: string
+        }
+        fields: {
+            slug: string
+        }
+    }
+}
+
+const PostHeader = ({ node, type }: PostHeaderProps): ReactElement => {
     const title = node.frontmatter.title || node.fields.slug
 
     return (

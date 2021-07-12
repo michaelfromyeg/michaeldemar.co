@@ -1,12 +1,16 @@
 import React, { ReactElement } from 'react'
-import { Link } from 'gatsby'
-import Toggle from './Toggle'
 import Links, { Locations } from '../global/Links'
 
-import { rhythm, scale } from '../../utils/typography'
+import { rhythm } from '../../utils/typography'
 
-const Layout = ({ location, title, children }: any): ReactElement => {
-    const rootPath = `${__PATH_PREFIX__}/`
+interface LayoutProps {
+    location: string
+    title: string
+    children: React.ReactChildren | React.ReactElement[]
+}
+
+const Layout = ({ children }: LayoutProps): ReactElement => {
+    // const rootPath = `${__PATH_PREFIX__}/`
     return (
         <div
             style={{

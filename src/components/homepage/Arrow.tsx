@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 
-const Arrow = () => {
+const Arrow = (): ReactElement => {
     return (
         <div className="arrow">
             <div className="chevron"></div>

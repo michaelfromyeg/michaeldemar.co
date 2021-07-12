@@ -7,8 +7,13 @@ declare module '*.svg' {
 // Custom font
 declare module 'typography-theme-anonymous'
 
+// Dark mode
+declare module 'gatsby-plugin-dark-mode'
+
 // SCSS modules
 declare module '*.scss' {
     const content: { [className: string]: string }
     export = content
 }
+
+declare module '*.mp3'

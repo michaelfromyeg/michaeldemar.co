@@ -1,31 +1,36 @@
-import React, { useState, useEffect } from 'react'
+import React, { ReactElement } from 'react'
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 import UIfx from 'uifx'
 import mp3File from '../../../content/assets/click.mp3'
 import styles from '../../styles/Toggle.module.scss'
 import { Locations } from './Links'
 
-const Toggle = (props: any) => {
+interface ToggleProps {
+    location: Locations
+}
+
+type ToggleThemeFn = {
+    (checked: string): void
+}
+
+interface ThemeTogglerProps {
+    theme: unknown
+    toggleTheme: ToggleThemeFn
+}
+
+const Toggle = (props: ToggleProps): ReactElement => {
     const prefix = props.location === Locations.HOMEPAGE ? 'homepage' : ''
-    const [tick, setTick] = useState(null)
-    useEffect(() => {
-        const newTick = new UIfx(mp3File, {
-            volume: 0.3,
-            throttleMs: 100,
-        })
-        setTick(newTick)
-    }, [])
+    const tick = new UIfx(mp3File)
+
     return (
         <div className={styles[`${prefix}Toggle`]}>
             <ThemeToggler>
-                {({ theme, toggleTheme }: any) => (
+                {({ theme, toggleTheme }: ThemeTogglerProps) => (
                     <label>
                         <input
                             type="checkbox"
                             onChange={e => {
-                                if (tick != null) {
-                                    tick.play()
-                                }
+                                tick.play()
                                 toggleTheme(e.target.checked ? 'dark' : 'light')
                             }}
                             disabled={!tick}

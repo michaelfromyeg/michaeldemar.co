@@ -1,5 +1,4 @@
 import React, { ReactElement } from 'react'
-import Headroom from 'react-headroom'
 import { Link } from 'gatsby'
 import Toggle from '../global/Toggle'
 import styles from '../../styles/Links.module.scss'
