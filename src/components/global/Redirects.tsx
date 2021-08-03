@@ -54,8 +54,7 @@ const Redirects = (): ReactElement => {
                 {resumeLink}. Otherwise, feel free to check out the links below
                 to learn more about me!
             </p>
-
-            <p>
+            <p className="redirects-bio">
                 Have any questions or just want to chat? Feel free to grab a
                 30-minute slot on my {`'office hours'`}{' '}
                 <a
