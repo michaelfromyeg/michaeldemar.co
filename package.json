@@ -62,7 +62,8 @@
     "gh-pages": "^2.2.0",
     "husky": "^4.2.5",
     "lint-staged": "11.0.0",
-    "prettier": "2.0.4"
+    "prettier": "2.0.4",
+    "typescript": "3.9.4"
   },
   "homepage": ".",
   "keywords": [
