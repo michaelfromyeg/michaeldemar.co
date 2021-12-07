@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react'
 import { Link } from 'gatsby'
 import Toggle from '../global/Toggle'
-import styles from '../../styles/Links.module.scss'
+import * as styles from '../../styles/Links.module.scss'
 
 export enum Locations {
     HOMEPAGE,

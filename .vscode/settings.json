@@ -1,36 +1,9 @@
 {
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "cSpell.words": [
-    "ATSC",
-    "CPSC",
-    "CSLC",
-    "Caltech's",
-    "Cegep",
-    "DSCI",
-    "Djavad",
-    "EPSB",
-    "Figma",
-    "Gmail",
-    "Hacktech",
-    "Mowafaghian",
-    "Nally",
-    "Photoshop",
-    "SUNIA",
-    "Spotify",
-    "Strembitsky",
-    "TA'd",
-    "UBC's",
-    "devpost",
-    "frontmatter",
-    "hackathon",
-    "hackathons",
-    "linkedin",
-    "mailto",
-    "michaelfromyeg",
-    "tidyverse",
-    "youtube",
-    "ubc"
-  ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": false
+    },
+    "cSpell.words": [],
+    "files.associations": {
+        "CNAME": "plaintext"
+    }
 }

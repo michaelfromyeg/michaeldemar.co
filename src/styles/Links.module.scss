@@ -39,13 +39,15 @@
     display: inline-block;
 }
 
-.Link, .homepageLink {
+.Link,
+.homepageLink {
     text-decoration: none;
     box-shadow: none;
     color: var(--text-title);
     margin: 0.5em 0.5em 0 0;
 }
 
-.Link:hover, .homepageLink:hover {
+.Link:hover,
+.homepageLink:hover {
     color: var(--color-b);
 }

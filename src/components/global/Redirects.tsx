@@ -39,7 +39,7 @@ const Redirects = (): ReactElement => {
             style={{
                 marginLeft: `auto`,
                 marginRight: `auto`,
-                maxWidth: rhythm(22),
+                maxWidth: rhythm(30),
             }}
         >
             <h2 className="redirects-title">

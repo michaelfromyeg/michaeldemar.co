@@ -6,7 +6,7 @@ import Layout from '../blog/src/components/global/Layout'
 import SEO from '../blog/src/components/global/SEO'
 import PostHeader from '../blog/src/components/global/PostHeader'
 
-import styles from '../styles/Posts.module.scss'
+import * as styles from '../styles/Posts.module.scss'
 
 const DesignIndex: React.FC = ({ data, location }: any): ReactElement => {
     const siteTitle = data.site.siteMetadata.title

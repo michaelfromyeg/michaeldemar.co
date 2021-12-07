@@ -7,6 +7,8 @@ import Layout from '../components/global/Layout'
 import SEO from '../components/global/SEO'
 import { ReactElement } from 'react'
 
+const BIO = `Hey there! I'm Michael, a third-year Computer Science student at the University of British Columbia in Vancouver, BC. I'm originally from Edmonton, Alberta (just one province over!) but made the leap to pursue my undergraduate degree. Alongside my major, I'm completely a minor in data science. In the past, I've worked at Artesian Software, Samsung Electronics, and as an undergraduate teaching assistant (TA) for many courses in the department.`
+
 interface AboutProps {
     location: string
 }
@@ -43,13 +45,7 @@ const About = ({ location }: AboutProps): ReactElement => {
         <Layout location={location} title={title}>
             <SEO title="About" />
             <Bio />
-            <p>
-                {`Hey there! I'm Michael, an upcoming sophomore (or second-year)
-                student at the University of British Columbia in Vancouver, BC.
-                I'm originally from Edmonton, Alberta (just one province over!)
-                but made the leap to pursue undergraduate studies in computer
-                science.`}
-            </p>
+            <p>{BIO}</p>
             <div
                 style={{
                     display: 'flex',

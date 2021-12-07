@@ -2,7 +2,7 @@ import React, { useEffect, useState, ReactElement } from 'react'
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 import UIfx from 'uifx'
 import mp3File from '../../../content/assets/click.mp3'
-import styles from '../../styles/Toggle.module.scss'
+import * as styles from '../../styles/Toggle.module.scss'
 import { Locations } from './Links'
 
 interface ToggleProps {

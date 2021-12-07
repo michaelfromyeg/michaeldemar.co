@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react'
 import { Link } from 'gatsby'
 import Img, { FluidObject } from 'gatsby-image'
-import styles from '../../styles/Post.module.scss'
+import * as styles from '../../styles/Post.module.scss'
 
 interface PostHeaderProps {
     type: string
