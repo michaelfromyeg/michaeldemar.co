@@ -114,6 +114,8 @@ const filterPosts = (post, postType) => {
 /**
  * Creates needed file paths and node fields.
  *
+ * (This also enables RSS!)
+ *
  * See more here {@link https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/#onCreateNode}
  *
  * @param {object} o
