@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 import Bio from "../components/Bio/Bio";
 import Format from "../components/Format/Format";
@@ -36,20 +36,42 @@ const About = ({ location }: AboutProps): ReactElement => {
       title
     }
   }
-  leo: file(absolutePath: {regex: "/leo.jpg/"}) {
+  leo: file(relativePath: {eq: "images/leo.jpg" }) {
     childImageSharp {
-      gatsbyImageData(width: 600, height: 400, layout: FIXED)
+        gatsbyImageData(
+          width: 400
+          layout: CONSTRAINED
+        )
     }
   }
-  nw: file(absolutePath: {regex: "/me2.jpg/"}) {
+  samsung1: file(relativePath: {eq: "images/samsung1.jpg" }) {
     childImageSharp {
-      gatsbyImageData(width: 600, height: 400, layout: FIXED)
+        gatsbyImageData(
+          width: 400
+          layout: CONSTRAINED
+        )
+    }
+  }
+  whitecaps1: file(relativePath: {eq: "images/whitecaps1.jpg" }) {
+    childImageSharp {
+        gatsbyImageData(
+          width: 400
+          layout: CONSTRAINED
+        )
     }
   }
 }
 `);
 
     const { title } = data.site.siteMetadata;
+
+    const leoImage = getImage(data.leo.childImageSharp)
+    const samsungImage = getImage(data.samsung1.childImageSharp)
+    const whitecapsImage = getImage(data.whitecaps1.childImageSharp)
+
+    if (leoImage === undefined || samsungImage === undefined || whitecapsImage === undefined) {
+        throw new Error("Could not find image for /about page!")
+    }
 
     return (
         <Format location={location} title={title}>
@@ -66,7 +88,12 @@ const About = ({ location }: AboutProps): ReactElement => {
                     justifyContent: "center",
                 }}
             >
-                <GatsbyImage alt={"A picture of my pet tortoise Leo."} image={data.leo.childImageSharp.gatsbyImageData} />
+                <GatsbyImage alt={"A picture of my pet tortoise Leo."} image={leoImage} />
+                <p>My pet tortoise Leo! (Jun 2020)</p>
+                <GatsbyImage alt={"My last day at Samsung."} image={samsungImage} />
+                <p>My last day at Samsung. (Aug 2021)</p>
+                <GatsbyImage alt={"Esha and I at a Whitecaps game."} image={whitecapsImage} />
+                <p>In the before times, at my first Whitecaps game after moving to UBC. (Feb 2020)</p>
             </div>
         </Format>
     );
