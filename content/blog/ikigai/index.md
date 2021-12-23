@@ -1,9 +1,9 @@
 ---
 title: Ikigai
-date: '2019-05-06'
+date: "2019-05-06"
 description: "I recently figured out where and what I want to study for the next for years. Here's how."
-type: 'blog'
-featuredImage: 'ikigai.jpg'
+type: "blog"
+featuredImage: "ikigai.jpg"
 ---
 
 Some of my readers may know that I recently decided what I’ll be doing past high school: studying computer science. This is very exciting as I now feel much more focused and fulfilled. I do find now that it is strange sitting in English classes and the like and trying to stay as motivated as I was. I now know that this subject won’t be consequential to my life. However, I still enjoy all of my classes and have loved my school year so far.
@@ -12,7 +12,7 @@ Something I want to touch on in this piece is how I came to that decision. It’
 
 I did a little research, and stumbled across the Japanese concept of ikigai. Of course, I won’t explain it perfectly, so I encourage you to check this out on your own, but I’ll try my best. Ikigai is a Japanese term for “a reason for being,” similar to ‘raison d’etre’ and other expressions. In the culture of Okinawa, ikigai is thought of as “a reason to get up in the morning.” Seems pretty cool right? So what does it actually look like? Well, I’ll start with this venn diagram:
 
-![An image of the ikigai venn diagram](./ikigai.jpg 'Ikigai')
+![An image of the ikigai venn diagram](./ikigai.jpg "Ikigai")
 
 A four way venn diagram, so maybe not totally clear. Let’s try to understanding what’s going on. There are four categories, as mentioned. What you love, what you can be paid for, what the world needs, and what you’re good at. Each of these intersect to fill different roles in our life: profession, vocation (a side hustle or a “calling”), mission, and passion. Now it’s clear how passion alone is dangerous: it doesn’t factor in money or the world at large. At the center of all of these concepts is harmony: ikigai. There are also cautions surrounding the venn diagram. Let’s dissect them.
 

@@ -1,50 +1,50 @@
-import React, { ReactElement, ReactNode } from 'react'
-import { graphql, Link } from 'gatsby'
+import React, { ReactElement, ReactNode } from "react";
+import { graphql, Link } from "gatsby";
 
-import Bio from '../components/global/Bio'
-import Layout from '../components/global/Layout'
-import SEO from '../components/global/SEO'
+import Bio from "../components/Bio/Bio";
+import Format from "../components/Format/Format";
+import SEO from "../components/SEO/SEO";
 
 interface PostTemplateProps {
-    children?: ReactNode
+    children?: ReactNode;
     data: {
         site: {
             siteMetadata: {
-                title: string
-            }
-        }
+                title: string;
+            };
+        };
         markdownRemark: {
-            html: string
-            excerpt: string
+            html: string;
+            excerpt: string;
             frontmatter: {
-                title: string
-                description: string
-                date: string
-            }
-        }
-    }
+                title: string;
+                description: string;
+                date: string;
+            };
+        };
+    };
     pageContext: {
-        type: string
+        type: string;
         previous: {
             fields: {
-                slug: string
-            }
+                slug: string;
+            };
             frontmatter: {
-                title: string
-                type: string
-            }
-        }
+                title: string;
+                type: string;
+            };
+        };
         next: {
             fields: {
-                slug: string
-            }
+                slug: string;
+            };
             frontmatter: {
-                title: string
-                type: string
-            }
-        }
-    }
-    location: string
+                title: string;
+                type: string;
+            };
+        };
+    };
+    location: string;
 }
 
 const PostTemplate = ({
@@ -58,13 +58,13 @@ const PostTemplate = ({
         site: {
             siteMetadata: { title },
         },
-    } = data
+    } = data;
 
     // Get previous page, next page from context
-    const { previous, next } = pageContext
+    const { previous, next } = pageContext;
 
     return (
-        <Layout location={location} title={title}>
+        <Format location={location} title={title}>
             <SEO
                 title={post.frontmatter.title}
                 description={post.frontmatter.description || post.excerpt}
@@ -116,11 +116,11 @@ const PostTemplate = ({
                     </ul>
                 </nav>
             )}
-        </Layout>
-    )
-}
+        </Format>
+    );
+};
 
-export default PostTemplate
+export default PostTemplate;
 
 export const pageQuery = graphql`
     query BlogPostBySlug($slug: String!) {
@@ -140,4 +140,4 @@ export const pageQuery = graphql`
             }
         }
     }
-`
+`;

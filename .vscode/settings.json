@@ -1,9 +1,27 @@
 {
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": false
+        "source.fixAll.eslint": true
     },
-    "cSpell.words": [],
+    "files.insertFinalNewline": true,
     "files.associations": {
         "CNAME": "plaintext"
-    }
+    },
+    "cSpell.enabled": true,
+    "cSpell.words": [
+        "annes",
+        "fontawesome",
+        "fortawesome",
+        "frontmatter",
+        "headshot",
+        "luxon",
+        "merriweather",
+        "michaeldemar",
+        "michaelfromyeg",
+        "Parens",
+        "prismjs",
+        "SRCA",
+        "strikethrough",
+        "techstack",
+        "uifx"
+    ]
 }

@@ -1,18 +1,18 @@
 ---
 title: RapViz
-date: '2020-02-01'
-description: 'See your bars broken down right in the browser. Powered by Spotify, Genius, and Google Cloud.'
-type: 'projects'
-featuredImage: 'rapviz-main.png'
+date: "2020-02-01"
+description: "See your bars broken down right in the browser. Powered by Spotify, Genius, and Google Cloud."
+type: "projects"
+featuredImage: "rapviz-main.png"
 ---
 
 See your bars broken down right in the browser. Powered by Spotify, Genius, and Google Cloud. Check out the GitHub repository [here](https://github.com/michaelfromyeg)!
 
 <!-- ![RapViz logo](./rapviz-text-logo.png "RapViz logo") -->
 
-![RapViz app main screen](./rapviz-main.png 'RapViz app main screen')
+![RapViz app main screen](./rapviz-main.png "RapViz app main screen")
 
-![RapViz app MF Doom](./rapviz-mfdoom.png 'RapViz app MF Doom')
+![RapViz app MF Doom](./rapviz-mfdoom.png "RapViz app MF Doom")
 
 ### Background
 

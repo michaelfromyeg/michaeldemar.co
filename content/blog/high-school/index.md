@@ -1,9 +1,9 @@
 ---
 title: "Michael's Declassified School Survival Guide"
-date: '2019-08-10'
+date: "2019-08-10"
 description: "High school is complicated in more ways than one. Here are a few pointers I'd give to my high school self."
-type: 'blog'
-featuredImage: 'mcnally.jpg'
+type: "blog"
+featuredImage: "mcnally.jpg"
 ---
 
 High school is complicated in more ways than one. From Degrassi-esque social drama to life-altering career decisions, it can be seriously difficult to maintain your grades. However, there are some simple tricks to ease the learning process and make your education systematic - that is, without all the overhead of figuring how to do this whole school thing. By following these three tips, you’ll surely see a boost in your productivity and an ease in your hectic high school life.

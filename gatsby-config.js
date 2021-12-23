@@ -1,27 +1,26 @@
-require('dotenv').config({
+require("dotenv").config({
     path: `.env.${process.env.NODE_ENV}`,
-})
+});
 
 module.exports = {
     siteMetadata: {
-        title: 'michaeldemar.co',
+        title: "michaeldemar.co",
         author: {
-            name: 'Michael DeMarco',
-            summary:
-                'an aspiring computer scientist completing his third-year at the University of British Columbia in Vancouver, BC.',
+            name: "Michael DeMarco",
+            summary: `an aspiring computer scientist completing his undergrad at the University of British Columbia (UBC) in Vancouver, BC.`,
         },
         description:
             "Michael DeMarco's personal website! Software development, education, linguistics, and more.",
-        siteUrl: 'https://michaeldemar.co',
+        siteUrl: "https://michaeldemar.co",
         social: {
-            twitter: 'michaelfromyeg',
+            twitter: "michaelfromyeg",
         },
     },
     plugins: [
         `gatsby-plugin-sass`,
-        'gatsby-plugin-eslint',
+        "gatsby-plugin-eslint",
         {
-            resolve: 'gatsby-plugin-react-svg',
+            resolve: "gatsby-plugin-react-svg",
             options: {
                 rule: {
                     include: `${__dirname}/content/assets`,
@@ -84,7 +83,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
-                trackingId: 'UA-123146160-2',
+                trackingId: "UA-123146160-2",
             },
         },
         // `gatsby-plugin-feed`,
@@ -101,7 +100,7 @@ module.exports = {
             },
         },
         `gatsby-plugin-react-helmet`,
-        'gatsby-plugin-dark-mode',
+        "gatsby-plugin-dark-mode",
         {
             resolve: `gatsby-plugin-typography`,
             options: {
@@ -111,4 +110,4 @@ module.exports = {
         // Enable PWA and offline functionality
         `gatsby-plugin-offline`,
     ],
-}
+};

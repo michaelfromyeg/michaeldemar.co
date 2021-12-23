@@ -1,9 +1,9 @@
 ---
 title: Predicting credit card defaults
-date: '2021-12-05'
+date: "2021-12-05"
 description: Predicting whether or not individuals will default on their credit card payments using Python, sklearn, and more.
-type: 'projects'
-featuredImage: 'ales-nesetril-credit-card-unsplash.jpg'
+type: "projects"
+featuredImage: "ales-nesetril-credit-card-unsplash.jpg"
 ---
 
 _The following blog post was written for the final homework submission of [CPSC 330, UBC's "Applied Machine Learning" course](https://github.com/ubc-cs/cpsc330). In the course, my partner Max and I got a hands-on introduction to machine learning with Python via sklearn._
