@@ -15,7 +15,7 @@
         "@fortawesome/free-brands-svg-icons": "^5.14.0",
         "@fortawesome/react-fontawesome": "^0.1.11",
         "dotenv": "^10.0.0",
-        "gatsby": "^4.3.0",
+        "gatsby": "4.4.0",
         "gatsby-plugin-dark-mode": "^1.1.2",
         "gatsby-plugin-feed": "^4.4.0",
         "gatsby-plugin-google-analytics": "^4.3.0",
@@ -33,7 +33,7 @@
         "gatsby-remark-responsive-iframe": "^5.3.0",
         "gatsby-remark-smartypants": "^5.3.0",
         "gatsby-source-filesystem": "^4.4.0",
-        "gatsby-transformer-remark": "^5.3.0",
+        "gatsby-transformer-remark": "^5.4.0",
         "gatsby-transformer-sharp": "^4.4.0",
         "prismjs": "^1.25.0",
         "react": "^16.12.0",
@@ -88,14 +88,16 @@
         }
     },
     "scripts": {
-        "build": "gatsby build",
-        "dev": "gatsby develop",
-        "format": "prettier --write \"**/*.{js,jsx,json,md,css,scss}\"",
-        "lint": "eslint . --fix --ext js,jsx,ts,tsx",
+        "s": "yarn start",
         "start": "gatsby develop",
+        "dev": "echo \"Use yarn start instead!\" && gatsby develop",
         "serve": "gatsby serve",
         "clean": "gatsby clean",
-        "deploy": "gatsby build && gh-pages -d public",
-        "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+        "t": "yarn test",
+        "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+        "build": "gatsby build",
+        "format": "prettier --write \"**/*.{js,jsx,json,md,css,scss}\"",
+        "lint": "eslint . --fix --ext js,jsx,ts,tsx",
+        "deploy": "gatsby build && gh-pages -d public"
     }
 }
