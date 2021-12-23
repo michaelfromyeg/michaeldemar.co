@@ -1,5 +1,6 @@
 import React, { ReactElement, ReactNode } from "react";
 import { graphql, Link } from "gatsby";
+
 import Bio from "../components/Bio/Bio";
 import Format from "../components/Format/Format";
 import SEO from "../components/SEO/SEO";
@@ -45,7 +46,7 @@ const PostListTemplate = ({
     const { type, currentPage, numPages } = pageContext;
 
     // Compute next and previous
-    // TODO: could implement fancier pagintion hook, but given pages are so small currently, not urgent
+    // TODO: could implement fancier pagination hook, but given pages are so small currently, not urgent
     const next = Math.min(currentPage + 1, numPages);
     const prev = Math.max(currentPage - 1, 0);
 
@@ -101,7 +102,11 @@ export const pageQuery = graphql`query postListQuery($skip: Int!, $limit: Int!, 
           description
           featuredImage {
             childImageSharp {
-              gatsbyImageData(width: 400, layout: CONSTRAINED)
+              gatsbyImageData(
+                  placeholder: DOMINANT_COLOR
+                  formats: [AUTO, WEBP, AVIF]
+                  layout: CONSTRAINED
+                )
             }
           }
         }

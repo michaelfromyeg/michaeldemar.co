@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
 import { Link } from "gatsby";
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
+
 import * as styles from "./PostHeader.module.scss";
 
 interface PostHeaderProps {
@@ -11,7 +12,8 @@ interface PostHeaderProps {
             title: string;
             featuredImage: {
                 childImageSharp: {
-                    fluid: FluidObject;
+                    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                    fluid: any;
                 };
             };
             date: string;
@@ -26,12 +28,21 @@ interface PostHeaderProps {
 const PostHeader = ({ node, type }: PostHeaderProps): ReactElement => {
     const title = node.frontmatter.title || node.fields.slug;
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const image = getImage(node.frontmatter.featuredImage as any)
+
+    if (image === undefined) {
+        throw new Error(`Could not find header image for post with title ${title}!`)
+    }
+
     return (
         <article className={styles.post}>
             <header>
                 <GatsbyImage
-                    image={node.frontmatter.featuredImage.childImageSharp.gatsbyImageData}
-                    className={styles.image} />
+                    image={image}
+                    alt={`${title} header`}
+                    className={styles.image}
+                />
                 <h3 className={styles.title}>
                     <Link
                         style={{ boxShadow: `none` }}
