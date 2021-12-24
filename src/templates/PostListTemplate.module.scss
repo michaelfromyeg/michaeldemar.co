@@ -1,17 +1,17 @@
-// TODO: split into separate files by post type
-
+// On a small-screen, default to a single column display
 .posts {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
+// On a large-screen, display in a grid
 @media only screen and (min-width: 954px) {
     .posts {
         display: grid;
         grid-template-columns: 33.33% 33.33% 33.33%;
         grid-auto-rows: auto;
-        gap: 0 1.5em;
+        gap: 2rem;
     }
 }
 

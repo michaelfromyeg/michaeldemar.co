@@ -27,6 +27,7 @@ interface PostHeaderProps {
 
 const PostHeader = ({ node, type }: PostHeaderProps): ReactElement => {
     const title = node.frontmatter.title || node.fields.slug;
+    const link = `/${type}${node.fields.slug}`
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const image = getImage(node.frontmatter.featuredImage as any)
@@ -46,7 +47,7 @@ const PostHeader = ({ node, type }: PostHeaderProps): ReactElement => {
                 <h3 className={styles.title}>
                     <Link
                         style={{ boxShadow: `none` }}
-                        to={`/${type}${node.fields.slug}`}
+                        to={link}
                     >
                         {title}
                     </Link>
@@ -60,7 +61,7 @@ const PostHeader = ({ node, type }: PostHeaderProps): ReactElement => {
                     }}
                 />
                 <p className={styles.more}>
-                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                    <Link style={{ boxShadow: `none` }} to={link}>
                         Read more
                     </Link>
                 </p>

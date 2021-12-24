@@ -1,12 +1,6 @@
 .homepageWrapper {
-    padding: 0.5em;
-    z-index: 999;
-    /*
-    box-shadow: 1px 1px 1px 3px var(--shadow);
-    -webkit-box-shadow: 0px 0px 25px 5px var(--shadow);
-    -moz-box-shadow: 0px 0px 25px 5px var(--shadow);
-    box-shadow: 0px 0px 25px 1px var(--shadow);
-    */
+    margin: 1rem 0rem;
+    // Align nav-bar in a wrap-able row on homepage
     display: flex;
     flex-direction: row;
     justify-content: center;

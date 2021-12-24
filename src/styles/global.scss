@@ -11,20 +11,14 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    -ms-overflow-style: none;
-    -webkit-font-smoothing: antialiased;
-    background-color: var(--background);
-}
-
 body.light {
     --background: #{$light-bg};
-    --text-normal: #{$light-fg1}; // same as dark-fg!
+    --text-normal: #{$light-fg1}; // same as light-fg!
     --text-title: #{$light-fg0};
     --text-link: #{$light-yellow};
     --text-link-hover: #{$light-yellow2};
     --text-background: #{$light-bg3};
-    --hr: #{$light-orange};
+    --hr: #{$light-yellow};
     --logo-shadow: #{$light-fg4};
     --color-a: #{$light-red2};
     --color-b: #{$light-orange2};
@@ -37,23 +31,26 @@ body.dark {
     --text-title: #{$dark-fg0};
     --text-link: #{$dark-yellow};
     --text-link-hover: #{$dark-yellow2};
-    --text-background: #{$dark-bg3};
-    --hr: #{$dark-orange};
+    --text-background: #{$dark-bg1};
+    --hr: #{$dark-yellow};
     --logo-shadow: #{$dark-fg4};
     --color-a: #{$dark-red2};
     --color-b: #{$dark-orange2};
     --shadow: #{$dark-gray}1a;
 }
 
+body {
+    -ms-overflow-style: none;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--background);
+}
+
 blockquote {
     background-color: var(--text-background);
-    border-left: 0.28125rem solid var(--text-normal);
-    padding: 0.25rem 1rem !important;
-    margin: 0 1rem !important;
 }
 
 hr {
-    background: var(--text-normal);
+    background: var(--hr);
 }
 
 div.bio {
@@ -64,23 +61,19 @@ div.bio {
     justify-content: center;
 }
 
-article {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
 p {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-blockquote > p {
-    margin-top: 0;
+    margin: 1rem 0;
 }
 
 a:hover {
-    opacity: 1;
     color: var(--text-link-hover);
+}
+
+.logo-text-wrapper:hover > .shadow {
+    animation: color-rotate 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
 }
 
 .title-text {
@@ -245,32 +238,4 @@ h4 {
     font-size: x-large;
     font-weight: bold;
     color: var(--text-normal);
-}
-
-/* Typist */
-
-.Typist .Cursor {
-    display: inline-block;
-}
-
-.Typist .Cursor--blinking {
-    opacity: 1;
-    animation: blink 1s linear infinite;
-}
-
-.blink {
-    opacity: 1;
-    animation: blink 1s linear infinite;
-}
-
-@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
 }

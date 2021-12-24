@@ -80,7 +80,6 @@ const PostTemplate = ({
                     <Bio />
                 </footer>
             </article>
-
             {/* Render navigation to next and previous post (if a next or previous post exists!) */}
             {(next || previous) && (
                 <nav>

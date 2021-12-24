@@ -42,6 +42,7 @@ const Homepage: React.FC = (): ReactElement => {
         <>
             <Links location={Locations.HOMEPAGE} />
             <SEO title="Home" />
+            <div className="logo-text-wrapper">
             <LogoComponent
                 alt="Michael's logo"
                 className="background-logo shadow"
@@ -69,6 +70,7 @@ const Homepage: React.FC = (): ReactElement => {
                     />
                 </Typist>
             </h1>
+            </div>
             {/* <Arrow /> */}
             <br /><br />
             <Redirects />
