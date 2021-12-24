@@ -88,7 +88,7 @@ a:hover {
 }
 
 .background-logo {
-    height: 93vh;
+    height: 90vh;
     opacity: 0.1;
     z-index: -999;
     width: 100%;
@@ -115,12 +115,13 @@ a:hover {
     }
 }
 
-.redirects-title,
-.redirects-bio {
+.redirects-title {
     text-align: center;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+}
+
+.redirects-bio {
+    text-align: justify;
+    margin: 1rem 1rem;
 }
 
 .button {
@@ -187,6 +188,10 @@ h2.section-title {
     cursor: pointer;
 }
 
+.entry {
+    padding: 0 0 1rem 0;
+}
+
 div.tech,
 div.course {
     display: inline-block;
@@ -210,9 +215,9 @@ li {
 
 div.item {
     margin-left: -21px;
-    margin-bottom: -13px;
-    width: 10px;
-    height: 10px;
+    margin-bottom: -1.3rem;
+    width: 0.6rem;
+    height: 0.6rem;
     background-color: white;
     border-radius: 50%;
     border: 0.1rem solid var(--color-b);

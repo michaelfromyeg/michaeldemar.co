@@ -37,14 +37,13 @@ const Redirects = (): ReactElement => {
     );
 
     const bio1 = (
-        <p>
+        <p className="redirects-bio">
             My name is Michael DeMarco and I am a {UNIVERSITY_YEAR_AS_STRING}{" "}
             Computer Science Honours student at UBC. I built this website to
             showcase some of my work and to gain a little more practice with web
             development. You can keep scrolling and find an online interactive
             version of my resume. If you would prefer the classic PDF style,
-            click {resumeLink}. Otherwise, feel free to check out the links
-            below to learn more about me!
+            click {resumeLink}.
         </p>
     );
 
@@ -59,7 +58,7 @@ const Redirects = (): ReactElement => {
             <h2 className="redirects-title">
                 Hey there, welcome to my website!
             </h2>
-            <p className="redirects-bio">{bio1}</p>
+            {bio1}
             <p className="redirects-bio">
                 Have any questions or just want to chat? Feel free to grab a
                 30-minute slot on my {`'office hours'`}{" "}
@@ -73,7 +72,7 @@ const Redirects = (): ReactElement => {
                 .
             </p>
 
-            <div className="redirect-wrapper">
+            {/* <div className="redirect-wrapper">
                 <Link className="no-opacity" to="/blog">
                     <button onMouseMove={colorButton} className="button">
                         Blog
@@ -89,7 +88,7 @@ const Redirects = (): ReactElement => {
                         Graphic Design
                     </button>
                 </Link>
-            </div>
+            </div> */}
         </div>
     );
 };
