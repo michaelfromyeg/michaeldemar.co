@@ -1,9 +1,9 @@
 ---
 title: jCite
-date: '2020-05-03'
+date: "2020-05-03"
 description: Create and manage your citations without all the headaches!
-type: 'projects'
-featuredImage: 'zotero.png'
+type: "projects"
+featuredImage: "zotero.png"
 ---
 
 Create and manage your citations without all the headaches!

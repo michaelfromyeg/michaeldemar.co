@@ -1,0 +1,54 @@
+.homepageWrapper {
+    margin: 1rem 0rem;
+    // Align nav-bar in a wrap-able row on homepage
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepageLinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Links {
+    display: block;
+}
+
+.Title {
+    font-size: clamp(1em, 5vw, 3em);
+    padding: 0 0 0.25em 0;
+    line-height: 1.5;
+    color: var(--text-title);
+}
+
+.homepageTitle {
+    padding: 0 0.25em 0;
+    line-height: 1.5;
+    color: var(--text-title);
+    display: inline-block;
+}
+
+.Link,
+.homepageLink {
+    text-decoration: none;
+    box-shadow: none;
+    color: var(--text-title);
+    margin: 0.5em 0.5em 0 0;
+}
+
+.headerLink {
+    text-decoration: none;
+    box-shadow: none;
+    color: var(--text-title);
+    margin: 0;
+}
+
+.Link:hover,
+.homepageLink:hover {
+    color: var(--color-b);
+}

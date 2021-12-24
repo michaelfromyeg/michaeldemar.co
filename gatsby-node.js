@@ -1,5 +1,5 @@
-const path = require(`path`)
-const { createFilePath } = require(`gatsby-source-filesystem`)
+const path = require(`path`);
+const { createFilePath } = require(`gatsby-source-filesystem`);
 
 /**
  * Our static content generator function.
@@ -7,7 +7,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
  * @param {object} o
  */
 exports.createPages = async ({ graphql, actions, reporter }) => {
-    const { createPage } = actions
+    const { createPage } = actions;
 
     // Get all posts by date
     const response = await graphql(
@@ -31,22 +31,22 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
                 }
             }
         `
-    )
+    );
 
     // If an error occurs on fetch, crash
     if (response.errors) {
-        reporter.panicOnBuild(`Error while running GraphQL query.`)
-        throw response.errors
+        reporter.panicOnBuild(`Error while running GraphQL query.`);
+        throw response.errors;
     }
 
     // Get data: post objects, number of posts to render within each template, the template itself to create pages
-    const posts = response.data.allMarkdownRemark.edges
+    const posts = response.data.allMarkdownRemark.edges;
 
     // Create blog content, design content, and project content
-    createPagesByType('blog', posts, createPage)
-    createPagesByType('design', posts, createPage)
-    createPagesByType('projects', posts, createPage)
-}
+    createPagesByType("blog", posts, createPage);
+    createPagesByType("design", posts, createPage);
+    createPagesByType("projects", posts, createPage);
+};
 
 /**
  * Create pages of a certain type.
@@ -57,22 +57,22 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
  */
 const createPagesByType = (postType, allPosts, createPage) => {
     // Get templates; define posts per page
-    const postsPerPage = 6
-    const postTemplate = path.resolve(`./src/templates/PostTemplate.tsx`)
+    const postsPerPage = 6;
+    const postTemplate = path.resolve(`./src/templates/PostTemplate.tsx`);
     const postListTemplate = path.resolve(
         `./src/templates/PostListTemplate.tsx`
-    )
+    );
 
     // Filter allPosts to posts of specified type
-    const posts = allPosts.filter(post => filterPosts(post, postType))
+    const posts = allPosts.filter(post => filterPosts(post, postType));
 
     // Compute number of pages
-    const numPages = Math.ceil(posts.length / postsPerPage)
+    const numPages = Math.ceil(posts.length / postsPerPage);
 
     // For each post, create page (i.e., postTemplate)
     posts.forEach((post, i) => {
-        const previous = i === posts.length - 1 ? null : posts[i + 1].node
-        const next = i === 0 ? null : posts[i - 1].node
+        const previous = i === posts.length - 1 ? null : posts[i + 1].node;
+        const next = i === 0 ? null : posts[i - 1].node;
         createPage({
             path: `/${postType}${post.node.fields.slug}`,
             component: postTemplate,
@@ -81,8 +81,8 @@ const createPagesByType = (postType, allPosts, createPage) => {
                 previous,
                 next,
             },
-        })
-    })
+        });
+    });
 
     // Create numPages pages with postsPerPage posts on each page (i.e., postListTemplate)
     Array.from({ length: numPages }).forEach((_, i) => {
@@ -96,9 +96,9 @@ const createPagesByType = (postType, allPosts, createPage) => {
                 numPages: numPages,
                 currentPage: i + 1,
             },
-        })
-    })
-}
+        });
+    });
+};
 
 /**
  * A helper function to filter posts down.
@@ -108,25 +108,27 @@ const createPagesByType = (postType, allPosts, createPage) => {
  * @returns {boolean} whether or not the post's type matches postType
  */
 const filterPosts = (post, postType) => {
-    return post.node.frontmatter.type === postType
-}
+    return post.node.frontmatter.type === postType;
+};
 
 /**
  * Creates needed file paths and node fields.
+ *
+ * (This also enables RSS!)
  *
  * See more here {@link https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/#onCreateNode}
  *
  * @param {object} o
  */
 exports.onCreateNode = ({ node, actions, getNode }) => {
-    const { createNodeField } = actions
+    const { createNodeField } = actions;
 
     if (node.internal.type === `MarkdownRemark`) {
-        const value = createFilePath({ node, getNode })
+        const value = createFilePath({ node, getNode });
         createNodeField({
             name: `slug`,
             node,
             value,
-        })
+        });
     }
-}
+};

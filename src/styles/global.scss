@@ -1,6 +1,7 @@
 /* Universal site styles */
 
-@import 'Colors.scss';
+@import "Dark.scss";
+@import "Light.scss";
 
 * {
     box-sizing: border-box;
@@ -10,47 +11,46 @@ html {
     scroll-behavior: smooth;
 }
 
+body.light {
+    --background: #{$light-bg};
+    --text-normal: #{$light-fg1}; // same as light-fg!
+    --text-title: #{$light-fg0};
+    --text-link: #{$light-yellow};
+    --text-link-hover: #{$light-yellow2};
+    --text-background: #{$light-bg3};
+    --hr: #{$light-yellow};
+    --logo-shadow: #{$light-fg4};
+    --color-a: #{$light-red2};
+    --color-b: #{$light-orange2};
+    --shadow: #{$light-gray}1a;
+}
+
+body.dark {
+    --background: #{$dark-bg};
+    --text-normal: #{$dark-fg1}; // same as dark-fg!
+    --text-title: #{$dark-fg0};
+    --text-link: #{$dark-yellow};
+    --text-link-hover: #{$dark-yellow2};
+    --text-background: #{$dark-bg1};
+    --hr: #{$dark-yellow};
+    --logo-shadow: #{$dark-fg4};
+    --color-a: #{$dark-red2};
+    --color-b: #{$dark-orange2};
+    --shadow: #{$dark-gray}1a;
+}
+
 body {
     -ms-overflow-style: none;
     -webkit-font-smoothing: antialiased;
     background-color: var(--background);
 }
 
-body.light {
-    --background: #{$white};
-    --text-normal: #{$dark-grey};
-    --text-title: #{$black};
-    --text-link: #{$yellow};
-    --text-background: #{$light-grey};
-    --hr: #{$white};
-    --logo-shadow: #{$black};
-    --color-a: #{$green};
-    --color-b: #{$yellow};
-    --shadow: #{$black}1a;
-}
-
-body.dark {
-    --background: #{$black};
-    --text-normal: #{$light-grey};
-    --text-title: #{$white};
-    --text-link: #{$yellow};
-    --text-background: #{$dark-grey};
-    --hr: #{$black};
-    --logo-shadow: #{$white};
-    --color-a: #{$green};
-    --color-b: #{$yellow};
-    --shadow: #{$light-grey}1a;
-}
-
 blockquote {
     background-color: var(--text-background);
-    border-left: 0.28125rem solid var(--text-normal);
-    padding: 0.25rem 1rem !important;
-    margin: 0 1rem !important;
 }
 
 hr {
-    background: var(--text-normal);
+    background: var(--hr);
 }
 
 div.bio {
@@ -61,22 +61,19 @@ div.bio {
     justify-content: center;
 }
 
-article {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
 p {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-blockquote > p {
-    margin-top: 0;
+    margin: 1rem 0;
 }
 
 a:hover {
-    opacity: 1;
+    color: var(--text-link-hover);
+}
+
+.logo-text-wrapper:hover > .shadow {
+    animation: color-rotate 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
 }
 
 .title-text {
@@ -91,7 +88,7 @@ a:hover {
 }
 
 .background-logo {
-    height: 93vh;
+    height: 90vh;
     opacity: 0.1;
     z-index: -999;
     width: 100%;
@@ -118,12 +115,13 @@ a:hover {
     }
 }
 
-.redirects-title,
-.redirects-bio {
+.redirects-title {
     text-align: center;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+}
+
+.redirects-bio {
+    text-align: justify;
+    margin: 1rem 1rem;
 }
 
 .button {
@@ -190,6 +188,10 @@ h2.section-title {
     cursor: pointer;
 }
 
+.entry {
+    padding: 0 0 1rem 0;
+}
+
 div.tech,
 div.course {
     display: inline-block;
@@ -213,9 +215,9 @@ li {
 
 div.item {
     margin-left: -21px;
-    margin-bottom: -13px;
-    width: 10px;
-    height: 10px;
+    margin-bottom: -1.3rem;
+    width: 0.6rem;
+    height: 0.6rem;
     background-color: white;
     border-radius: 50%;
     border: 0.1rem solid var(--color-b);
@@ -241,98 +243,4 @@ h4 {
     font-size: x-large;
     font-weight: bold;
     color: var(--text-normal);
-}
-
-/* Arrow Animation courtesy of Jakub Honíšek */
-
-/* See more designs at: https://freefrontend.com/css-arrows/ */
-
-.arrow {
-    position: absolute;
-    left: 50%;
-    bottom: 125px;
-}
-
-.chevron {
-    position: absolute;
-    width: 2.1rem;
-    height: 0.48rem;
-    opacity: 0;
-    transform: scale(0.3);
-    animation: move-chevron 3s ease-out infinite;
-}
-
-.chevron:first-child {
-    animation: move-chevron 3s ease-out 1s infinite;
-}
-
-.chevron:nth-child(2) {
-    animation: move-chevron 3s ease-out 2s infinite;
-}
-
-.chevron:before,
-.chevron:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 50%;
-    background: var(--text-title);
-}
-
-.chevron:before {
-    left: 0;
-    transform: skewY(30deg);
-}
-
-.chevron:after {
-    right: 0;
-    width: 50%;
-    transform: skewY(-30deg);
-}
-
-@keyframes move-chevron {
-    25% {
-        opacity: 1;
-    }
-    33.3% {
-        opacity: 1;
-        transform: translateY(2.28rem);
-    }
-    66.6% {
-        opacity: 1;
-        transform: translateY(3.12rem);
-    }
-    100% {
-        opacity: 0;
-        transform: translateY(4.8rem) scale(0.5);
-    }
-}
-
-/* Typist */
-
-.Typist .Cursor {
-    display: inline-block;
-}
-
-.Typist .Cursor--blinking {
-    opacity: 1;
-    animation: blink 1s linear infinite;
-}
-
-.blink {
-    opacity: 1;
-    animation: blink 1s linear infinite;
-}
-
-@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
 }

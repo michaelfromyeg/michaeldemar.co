@@ -1,27 +1,26 @@
-require('dotenv').config({
+require("dotenv").config({
     path: `.env.${process.env.NODE_ENV}`,
-})
+});
 
 module.exports = {
     siteMetadata: {
-        title: 'michaeldemar.co',
+        title: "michaeldemar.co",
         author: {
-            name: 'Michael DeMarco',
-            summary:
-                'an aspiring computer scientist completing his third-year at the University of British Columbia in Vancouver, BC.',
+            name: "Michael DeMarco",
+            summary: `an aspiring computer scientist completing his undergrad at the University of British Columbia (UBC) in Vancouver, BC.`,
         },
         description:
             "Michael DeMarco's personal website! Software development, education, linguistics, and more.",
-        siteUrl: 'https://michaeldemar.co',
+        siteUrl: "https://michaeldemar.co",
         social: {
-            twitter: 'michaelfromyeg',
+            twitter: "michaelfromyeg",
         },
     },
     plugins: [
         `gatsby-plugin-sass`,
-        'gatsby-plugin-eslint',
+        "gatsby-plugin-eslint",
         {
-            resolve: 'gatsby-plugin-react-svg',
+            resolve: "gatsby-plugin-react-svg",
             options: {
                 rule: {
                     include: `${__dirname}/content/assets`,
@@ -63,8 +62,9 @@ module.exports = {
                     {
                         resolve: `gatsby-remark-images`,
                         options: {
-                            maxWidth: 590,
-                            linkImagesToOriginal: false,
+                            maxWidth: 600,
+                            linkImagesToOriginal: true,
+                            quality: 80,
                         },
                     },
                     {
@@ -84,10 +84,61 @@ module.exports = {
         {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
-                trackingId: 'UA-123146160-2',
+                trackingId: "UA-123146160-2",
             },
         },
-        // `gatsby-plugin-feed`,
+        {
+            resolve: `gatsby-plugin-feed`,
+            options: {
+                query: `{
+                    site {
+                        siteMetadata {
+                            title
+                            description
+                            siteUrl
+                            site_url: siteUrl
+                        }
+                    }
+                }`,
+                feeds: [
+                    {
+                        serialize: ({ query: { site, allMarkdownRemark } }) => {
+                            return allMarkdownRemark.nodes.map(node => {
+                                return Object.assign({}, node.frontmatter, {
+                                    description: node.excerpt,
+                                    date: node.frontmatter.date,
+                                    url: site.siteMetadata.siteUrl + node.fields.slug,
+                                    guid: site.siteMetadata.siteUrl + node.fields.slug,
+                                    custom_elements: [{ "content:encoded": node.html }],
+                                })
+                            })
+                        },
+                        query: `
+                        {
+                          allMarkdownRemark(
+                            sort: { order: DESC, fields: [frontmatter___date] },
+                          ) {
+                            nodes {
+                              excerpt
+                              html
+                              fields {
+                                slug
+                              }
+                              frontmatter {
+                                title
+                                date
+                              }
+                            }
+                          }
+                        }
+                      `,
+                        output: "/rss.xml",
+                        title: "Michael's Blog",
+                        match: "^/blog/"
+                    }
+                ]
+            }
+        },
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
@@ -101,7 +152,7 @@ module.exports = {
             },
         },
         `gatsby-plugin-react-helmet`,
-        'gatsby-plugin-dark-mode',
+        "gatsby-plugin-dark-mode",
         {
             resolve: `gatsby-plugin-typography`,
             options: {
@@ -111,4 +162,4 @@ module.exports = {
         // Enable PWA and offline functionality
         `gatsby-plugin-offline`,
     ],
-}
+};

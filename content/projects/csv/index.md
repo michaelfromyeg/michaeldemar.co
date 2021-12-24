@@ -1,9 +1,9 @@
 ---
 title: CSV Upload Tool
-date: '2020-04-10'
+date: "2020-04-10"
 description: Upload and match CSV data. Simple, but practical!
-type: 'projects'
-featuredImage: 'succeed.png'
+type: "projects"
+featuredImage: "succeed.png"
 ---
 
 Upload and match CSV data. Simple, but practical! Check out the project for yourself, [here](https://michaelfromyeg.github.io/CSV-Upload-Tool/).
