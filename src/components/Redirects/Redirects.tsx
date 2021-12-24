@@ -1,30 +1,29 @@
 import React, { ReactElement } from "react";
-import { Link } from "gatsby";
 import { rhythm } from "../../utils/typography";
 
 import { UNIVERSITY_YEAR_AS_STRING } from "../../data/Constants";
 
-type SetPropertyFn = {
-    (classname: string, value: string): void;
-};
+// type SetPropertyFn = {
+//     (classname: string, value: string): void;
+// };
 
-interface ColorEventTarget extends EventTarget {
-    offsetLeft: number;
-    offsetTop: number;
-    style: {
-        setProperty: SetPropertyFn;
-    };
-}
+// interface ColorEventTarget extends EventTarget {
+//     offsetLeft: number;
+//     offsetTop: number;
+//     style: {
+//         setProperty: SetPropertyFn;
+//     };
+// }
 
 const Redirects = (): ReactElement => {
     // Inspired by https://codepen.io/electerious/pen/GzrmwB, awesome Code pen!
-    const colorButton: React.MouseEventHandler<HTMLButtonElement> = e => {
-        const target = e.target as ColorEventTarget;
-        const x = e.pageX - target.offsetLeft;
-        const y = e.pageY - target.offsetTop;
-        target.style.setProperty("--x", `${x}px`);
-        target.style.setProperty("--y", `${y}px`);
-    };
+    // const colorButton: React.MouseEventHandler<HTMLButtonElement> = e => {
+    //     const target = e.target as ColorEventTarget;
+    //     const x = e.pageX - target.offsetLeft;
+    //     const y = e.pageY - target.offsetTop;
+    //     target.style.setProperty("--x", `${x}px`);
+    //     target.style.setProperty("--y", `${y}px`);
+    // };
 
     const resumeLink = (
         <a
