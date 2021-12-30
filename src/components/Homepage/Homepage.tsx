@@ -16,7 +16,6 @@ import Footer from "../Footer/Footer"
 
 import Logo from "../../../content/assets/mjd-logo-black.svg";
 import { UNIVERSITY_YEAR_AS_STRING } from "../../data/Constants";
-import { rhythm, scale } from "../../utils/typography";
 
 const Homepage: React.FC = (): ReactElement => {
     const [index, setIndex] = useState(0);
@@ -47,26 +46,18 @@ const Homepage: React.FC = (): ReactElement => {
                 alt="Michael's logo"
                 className="background-logo shadow"
             />
-            <h1
-                style={{
-                    ...scale(1.5),
-                    marginBottom: rhythm(1.5),
-                    marginTop: 0,
-                }}
-                className="title-text"
-            >
+            <h1 className="title-text">
                 Hi, {`I'm`}
                 <Typist
                     className="typist"
                     onTypingDone={onComplete}
-                    stdTypingDelay={0}
+                    stdTypingDelay={25}
                     key={index}
                 >
-                    {`>`}
-                    {strings[index]}
+                    {`>`}{strings[index]}
                     <Typist.Backspace
                         count={strings[index].length}
-                        delay={2500}
+                        delay={3000}
                     />
                 </Typist>
             </h1>
@@ -74,15 +65,7 @@ const Homepage: React.FC = (): ReactElement => {
             {/* <Arrow /> */}
             <br /><br />
             <Redirects />
-            <div
-                id="resume"
-                style={{
-                    marginLeft: `auto`,
-                    marginRight: `auto`,
-                    maxWidth: rhythm(40),
-                    padding: `${rhythm(3 / 2)} ${rhythm(3)}`,
-                }}
-            >
+            <div className="resume">
                 <Education />
                 <Experience />
                 <Projects />

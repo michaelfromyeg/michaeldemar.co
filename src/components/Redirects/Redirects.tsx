@@ -38,9 +38,7 @@ const Redirects = (): ReactElement => {
     const bio1 = (
         <p className="redirects-bio">
             My name is Michael DeMarco and I am a {UNIVERSITY_YEAR_AS_STRING}{" "}
-            Computer Science Honours student at UBC. I built this website to
-            showcase some of my work and to gain a little more practice with web
-            development. You can keep scrolling and find an online interactive
+            Computer Science Honours student at UBC. You can keep scrolling and find an online interactive
             version of my resume. If you would prefer the classic PDF style,
             click {resumeLink}.
         </p>
@@ -55,12 +53,12 @@ const Redirects = (): ReactElement => {
             }}
         >
             <h2 className="redirects-title">
-                Hey there, welcome to my website!
+                Hi, welcome to my website!
             </h2>
             {bio1}
             <p className="redirects-bio">
                 Have any questions or just want to chat? Feel free to grab a
-                30-minute slot on my {`'office hours'`}{" "}
+                30-minute slot (via Calendly) on my {`'office hours'`}{" "}
                 <a
                     href="https://calendly.com/michaelfromyeg/office-hours"
                     target="_blank"
@@ -68,7 +66,7 @@ const Redirects = (): ReactElement => {
                 >
                     here
                 </a>
-                .
+                . You can also check out my free/busy calendar <a href="https://calendar.google.com/calendar/embed?src=michaelfromyeg%40gmail.com&ctz=America%2FVancouver" target="_blank" rel="noreferrer">here</a>.
             </p>
 
             {/* <div className="redirect-wrapper">

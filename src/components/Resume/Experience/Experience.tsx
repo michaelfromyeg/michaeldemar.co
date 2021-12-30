@@ -10,13 +10,13 @@ const Experience = (): ReactElement => {
     return (
         <>
             <h2 className="section-title">
-                Experience
+                Experience{` `}
                 <span role="img" aria-label="Hacker man">
                     👨‍💻
                 </span>
             </h2>
             <h5 className="section-redirect" style={{ fontStyle: "oblique" }}>
-                Read about my experiences in-depth <Link to="/blog">here</Link>
+                Read about my experiences in-depth <Link to="/blog">here</Link>.
             </h5>
             <div className="section">
                 {experiences.map((exp, i) => {

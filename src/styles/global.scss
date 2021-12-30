@@ -84,7 +84,6 @@ a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: var(--text-title);
 }
 
 .background-logo {
@@ -120,7 +119,7 @@ a:hover {
 }
 
 .redirects-bio {
-    text-align: justify;
+    text-align: center;
     margin: 1rem 1rem;
 }
 
@@ -175,9 +174,14 @@ h2.section-title {
     margin-top: 2rem;
 }
 
+.resume {
+    margin: 0 auto;
+    max-width: 60rem;
+    padding: 1rem 2rem;
+}
+
 .entry-title {
     margin-bottom: 0.5rem;
-    color: var(--text-title);
     text-decoration: none;
     cursor: pointer;
 }

@@ -48,7 +48,10 @@
     margin: 0;
 }
 
+.Title:hover,
+.homepageTitle:hover,
 .Link:hover,
 .homepageLink:hover {
     color: var(--color-b);
+    transition: 0.2s ease-in-out;
 }
