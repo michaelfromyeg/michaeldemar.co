@@ -157,7 +157,7 @@
                     "Teaching",
                     "Communication",
                     "Diversity",
-                    "Accounability"
+                    "Accountability"
                 ]
             },
             {
@@ -168,7 +168,7 @@
                 "startDate": "Jan 2020",
                 "endDate": "Present",
                 "description": [
-                    "Led efforts to improve chapter-wide GPA and scholarly engagement through events, initatives, and resources."
+                    "Led efforts to improve chapter-wide GPA and scholarly engagement through events, initiatives, and resources."
                 ],
                 "skills": ["Leadership", "Initiative", "Communication"]
             },
@@ -197,23 +197,28 @@
                 "startDate": "Sep 2019",
                 "endDate": "May 2023",
                 "courses": [
-                    "CPSC 110",
-                    "MATH 100",
-                    "PHYS 117",
-                    "BIOL 111",
-                    "LING 100",
-                    "DSCI 100",
-                    "MATH 101",
-                    "CPSC 210",
-                    "CPSC 121",
-                    "PHYS 118",
-                    "ATSC 113",
-                    "CPSC 221",
-                    "CPSC 213",
-                    "MATH 200",
-                    "LING 101",
-                    "STAT 200",
-                    "STAT 201"
+                    "Systematic Program Design (CPSC 110)",
+                    "Calculus I (MATH 100)",
+                    "Dynamics and Waves (PHYS 117)",
+                    "Introduction to Modern Biology (BIOL 111)",
+                    "Introduction to Language and Linguistics (LING 100)",
+                    "Introduction to Data Science (DSCI 100)",
+                    "Calculus II (MATH 101)",
+                    "Software Construction (CPSC 210)",
+                    "Models of Computation (CPSC 121)",
+                    "Electricity, Light and Radiation (PHYS 118)",
+                    "Applied Meteorology (ATSC 113)",
+                    "Basic Algorithms and Data Structures (CPSC 221)",
+                    "Introduction to Computer Systems (CPSC 213)",
+                    "Calculus III (MATH 200)",
+                    "Linguistic Theory and Analysis I (LING 200)",
+                    "Elementary Statistics for Applications (STAT 200)",
+                    "Statistical Inference for Data Science (STAT 201)",
+                    "Introduction to Software Engineering (CPSC 310)",
+                    "Intermediate Algorithm Design and Analysis (CPSC 320)",
+                    "Applied Machine Learning (CPSC 330)",
+                    "Introduction to Probability (STAT 302)",
+                    "Principles of Microeconomics (ECON 310)"
                 ]
             }
         ]

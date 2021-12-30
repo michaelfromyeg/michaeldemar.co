@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    gap: 2rem;
 }
 
 // On a large-screen, display in a grid
@@ -20,6 +21,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    padding: 1rem;
 }
 
 .redirects > span {

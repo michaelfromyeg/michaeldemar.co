@@ -12,10 +12,6 @@ export enum Locations {
 
 export const Destinations = [
     {
-        name: "home",
-        location: "",
-    },
-    {
         name: "blog",
     },
     {
@@ -40,7 +36,7 @@ const InnerLinks = (props: InnerLinksProps): ReactElement => {
     const [emoji, setEmoji] = useState('');
 
     const chooseRandomEmoji = (): string => {
-        const EMOJIS = ["🤠", "🐢", "👾", "🤖"]
+        const EMOJIS = ["🤠", "🐢", "👾", "🤖", "⚡", "🦅", "🦕", "🐧"]
         return EMOJIS[Math.floor(Math.random() * EMOJIS.length)];
     }
 
@@ -61,11 +57,7 @@ const InnerLinks = (props: InnerLinksProps): ReactElement => {
                         <Link
                             key={index}
                             className={styles[`${prefix}Link`]}
-                            to={`/${
-                                typeof d.location === "string"
-                                    ? d.location
-                                    : d.name
-                            }`}
+                            to={`/${d.name}`}
                         >
                             [{d.name}]
                         </Link>

@@ -64,7 +64,7 @@ module.exports = {
                         options: {
                             maxWidth: 600,
                             linkImagesToOriginal: true,
-                            quality: 80,
+                            quality: 60,
                         },
                     },
                     {
@@ -107,11 +107,17 @@ module.exports = {
                                 return Object.assign({}, node.frontmatter, {
                                     description: node.excerpt,
                                     date: node.frontmatter.date,
-                                    url: site.siteMetadata.siteUrl + node.fields.slug,
-                                    guid: site.siteMetadata.siteUrl + node.fields.slug,
-                                    custom_elements: [{ "content:encoded": node.html }],
-                                })
-                            })
+                                    url:
+                                        site.siteMetadata.siteUrl +
+                                        node.fields.slug,
+                                    guid:
+                                        site.siteMetadata.siteUrl +
+                                        node.fields.slug,
+                                    custom_elements: [
+                                        { "content:encoded": node.html },
+                                    ],
+                                });
+                            });
                         },
                         query: `
                         {
@@ -134,10 +140,10 @@ module.exports = {
                       `,
                         output: "/rss.xml",
                         title: "Michael's Blog",
-                        match: "^/blog/"
-                    }
-                ]
-            }
+                        match: "^/blog/",
+                    },
+                ],
+            },
         },
         {
             resolve: `gatsby-plugin-manifest`,

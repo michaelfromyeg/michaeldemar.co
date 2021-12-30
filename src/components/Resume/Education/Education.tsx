@@ -16,14 +16,14 @@ const Education = (): ReactElement => {
     return (
         <div className="section">
             <h2 className="section-title">
-                Education
+                Education{` `}
                 <span role="img" aria-label="apple">
                     🍎
                 </span>
             </h2>
             {/*<button className="change-all" onClick={changeAll} style={{ color: 'black', display: 'inline', marginLeft: '1rem' }}>+</button>*/}
             <h5 className="section-redirect" style={{ fontStyle: "oblique" }}>
-                Learn more about my time at UBC <Link to="/blog">here</Link>
+                Learn more about my time at UBC <Link to="/blog">here</Link>.
             </h5>
             {education.map((edu, i) => {
                 const character = ``;

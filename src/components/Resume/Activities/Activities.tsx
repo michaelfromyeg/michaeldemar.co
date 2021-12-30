@@ -10,14 +10,14 @@ const Activities = (): ReactElement => {
     return (
         <>
             <h2 className="section-title">
-                Activities
+                Activities{` `}
                 <span role="img" aria-label="Man running">
                     🏃‍♂️
                 </span>
             </h2>
             <h5 className="section-redirect" style={{ fontStyle: "oblique" }}>
                 Read more about ways {`I'm`} getting involved{" "}
-                <Link to="/blog">here</Link>
+                <Link to="/blog">here</Link>.
             </h5>
             <div className="section">
                 {activities.map((activity, i) => {
