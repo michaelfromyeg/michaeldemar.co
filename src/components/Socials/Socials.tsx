@@ -13,7 +13,7 @@ const Socials = (): ReactElement => {
             <a href="https://instagram.com/michaelfromyeg" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
             <a href="https://twitter.com/michaelfromyeg" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
             <a href="https://linkedin.com/in/michaelfromyeg" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-            <a href="https://www.youtube.com/channel/UCohoNm6NqDAetXX6MiaV_RQ/videos" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube} /></a>
+            <a href="https://youtube.com/channel/UCohoNm6NqDAetXX6MiaV_RQ/videos" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube} /></a>
             <a href="https://github.com/michaelfromyeg" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
             <a href="https://stackoverflow.com/users/10660585/michael-demarco" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faStackOverflow} /></a>
             <a href="mailto:michaelfromyeg@gmail.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>

@@ -116,7 +116,7 @@ const filterPosts = (post, postType) => {
  *
  * (This also enables RSS!)
  *
- * See more here {@link https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/#onCreateNode}
+ * See more here {@link https://gatsbyjs.com/docs/reference/config-files/gatsby-node/#onCreateNode}
  *
  * @param {object} o
  */

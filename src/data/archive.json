@@ -18,7 +18,7 @@
             {
                 "title": "Program Coordinator",
                 "company": "Metro Continuing Education",
-                "companyUrl": "https://www.metrocontinuingeducation.ca/",
+                "companyUrl": "https://metrocontinuingeducation.ca/",
                 "location": "Edmonton, AB",
                 "startDate": "July 2017",
                 "endDate": "July 2019",
@@ -42,7 +42,7 @@
                 "startDate": "Feb 2020",
                 "endDate": "Feb 2020",
                 "description": [
-                    "As part of a team of two, created minified Best Buy Android app clone and extended functionality to include AR feature to allow users to ‘see’ Best Buy products in their own living room, to exact dimensions.",
+                    "As part of a team of two, created minified Best Buy Android app clone and extended functionality to include AR feature to allow users to ‘see' Best Buy products in their own living room, to exact dimensions.",
                     "Project earned second place prize at BizHacks 2020 against 50+ teams."
                 ],
                 "technologies": ["Android", "Java", "ARCore"]
@@ -69,7 +69,7 @@
             {
                 "title": "Youth Councillor",
                 "organization": "The City of Edmonton Youth Council",
-                "url": "https://www.ceyc.ca/",
+                "url": "https://ceyc.ca/",
                 "location": "Edmonton, AB",
                 "startDate": "Aug 2018",
                 "endDate": "Aug 2019",

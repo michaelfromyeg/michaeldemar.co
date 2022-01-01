@@ -5,6 +5,8 @@ import Bio from "../components/Bio/Bio";
 import Format from "../components/Format/Format";
 import SEO from "../components/SEO/SEO";
 
+import * as styles from "./PostTemplate.module.scss";
+
 interface PostTemplateProps {
     children?: ReactNode;
     data: {
@@ -71,7 +73,7 @@ const PostTemplate = ({
             />
             <article>
                 <header>
-                    <h1>{post.frontmatter.title}</h1>
+                    <h1 className={styles.title}>{post.frontmatter.title}</h1>
                     <p>{post.frontmatter.date}</p>
                 </header>
                 <section dangerouslySetInnerHTML={{ __html: post.html }} />

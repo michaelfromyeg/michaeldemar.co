@@ -8,10 +8,7 @@ featuredImage: "ales-nesetril-credit-card-unsplash.jpg"
 
 _The following blog post was written for the final homework submission of [CPSC 330, UBC's "Applied Machine Learning" course](https://github.com/ubc-cs/cpsc330). In the course, my partner Max and I got a hands-on introduction to machine learning with Python via sklearn._
 
-<div style="text-align: center;">
- <img alt="A credit card in the dark" src="ales-nesetril-credit-card-unsplash.jpg" width="400px"/>
- <p><i>A credit card in the dark.</i></p>
-</div>
+![A credit card in the dark](ales-nesetril-credit-card-unsplash.jpg)
 
 ## Problem
 
@@ -29,7 +26,7 @@ With data relating to that person's demographics, payment history, and other fin
 
 ### Data
 
-The data set we used is publicly available on [Kaggle](https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset). In contains demographic information such as sex, education, marriage and age; information regarding and individual's finances including limit balance, repayment status, bill amounts, and payment amounts. Finally, it contains whether or not that individual really _did_ default next month.
+The data set we used is publicly available on [Kaggle](https://kaggle.com/uciml/default-of-credit-card-clients-dataset). In contains demographic information such as sex, education, marriage and age; information regarding and individual's finances including limit balance, repayment status, bill amounts, and payment amounts. Finally, it contains whether or not that individual really _did_ default next month.
 
 This is simply a high-level description of the data; for a more in-depth view, consult Kaggle or our [full report](./hw6.pdf).
 
@@ -47,23 +44,13 @@ The "average" demographic in this data is someone who's single (instead of marri
 
 The individual with the highest limit balance is a 47 year old female with precisely NT$1,000,000  available, equivalent to roughly USD$100,000. This is definitely an outlier; the distribution for the rest of the balances is shown below. (Note dollar amounts are in New Taiwan dollars.)
 
-<div style="text-align: center;">
- <div style="text-align: center; background-color: #FFFFFF; width: 400px; margin: 0 auto;">
- <img alt="The distribution of limit balances" src="distribution-of-limitbal.png" width="400px"/>
- </div>
- <p><i>The distribution of limit balances.</i></p>
-</div>
+![The distribution of limit balances](distribution-of-limitbal.png)
 
 We find most balances in the range of NT$50,000 (~USD$6,500) to NT$100,000 (~USD$13,000) which seems reasonable.
 
 The repayment statuses in the month of August 2005 are, for whatever reason, highly skewed towards 0, which is the encoding of "use of revolving credit." A visualization of this is shown below.
 
-<div style="text-align: center;">
- <div style="text-align: center; background-color: #FFFFFF; width: 400px; margin: 0 auto;">
- <img alt="The distribution of PAYAMT2" src="distribution-of-payamt2.png" width="400px"/>
- </div>
- <p><i>The distribution of PAYAMT2.</i></p>
-</div>
+![The distribution of PAYAMT2](distribution-of-payamt2.png)
 
 It might be interesting to investigate any geopolitical events that occurred in the same time frame of this data set, the summer and fall of 2005, to account for any global financial trends.
 
@@ -77,7 +64,7 @@ Below is a description of our final model, and the results it yielded.
 
 For our final model we opted to use [LightGBM](https://lightgbm.readthedocs.io/en/latest/index.html), which is a gradient boosted tree based model. Gradient boosted models are ensembles of weaker prediction models, in our case, decision trees.
 
-LightGBM greatly outperformed the Decision Tree model. It also consistently outperformed the Random Forest model, even after we performed feature selection using RFECV and hyperparameter optimization using random search.
+LightGBM greatly outperformed the Decision Tree model. It also consistently outperformed the Random Forest model, even after we performed feature selection using `RFECV` and hyperparameter optimization using random search.
 
 ### Results
 
@@ -85,19 +72,9 @@ The LightGBM model achieved an accuracy of 0.82, F1-score of 0.48, and recall of
 
 It's also interesting to look at how important our features were in the LightGBM model. SHAP force plots are one way of achieving this; without diving into depth here, just know that "red" means "did not default," and a bigger arrow implies more impact.
 
-<div style="text-align: center;">
-<div style="text-align: center; background-color: #FFFFFF; width: 800px; margin: 0 auto;">
-<img alt="SHAP force plot on training data" src="shap-force1.png" width="800px"/>
-</div>
- <p><i>A SHAP force plot from the training data, predicted "did not default."</i></p>
-</div>
+![SHAP force plot on training data](shap-force1.png)
 
-<div style="text-align: center;">
-<div style="text-align: center; background-color: #FFFFFF; width: 800px; margin: 0 auto;">
-<img alt="SHAP force plot on test data" src="shap-force2.png" width="800px"/>
-</div>
- <p><i>A SHAP force plot from the test data, predicted "did not default."</i></p>
-</div>
+![SHAP force plot on test data](shap-force2.png)
 
 In the two plots above, we see that PAY1 played a major role. Perhaps this is because if an individual gets off on the wrong foot, they are unlikely to ever recover. Banks might be incentivized to try to get on top of late payments immediately, to prevent financial hardships from spiraling into an eventual default!
 

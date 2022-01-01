@@ -10,9 +10,9 @@
 @media only screen and (min-width: 954px) {
     .posts {
         display: grid;
-        grid-template-columns: 33.33% 33.33% 33.33%;
+        grid-template-columns: 33% 33% 33%;
         grid-auto-rows: auto;
-        gap: 2rem;
+        gap: 1rem;
     }
 }
 

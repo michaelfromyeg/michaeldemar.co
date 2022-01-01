@@ -6,14 +6,14 @@ type: "design"
 featuredImage: "threebars-01.jpg"
 ---
 
-![Three bars](./fyc-atom.png "Three bars")
+![Three bars](threebars-01.jpg "Three bars")
 
-![Tigers Athletics](./tigers-athletics-01.jpg "Tigers Athletics")
+![Tigers Athletics](tigers-athletics-01.jpg "Tigers Athletics")
 
-![Paw bars](./fyc-atom.png "Paw bars")
+![Paw bars](pawbars-01.jpg "Paw bars")
 
-![Styled paw](./fyc-atom.png "Styled paw")
+![Styled paw](stylespaw-01.jpg "Styled paw")
 
-![No McNally logo](./fyc-atom.png "No McNally logo")
+![No McNally logo](nomcnally-01.jpg "No McNally logo")
 
-![Claw](./fyc-atom.png "Claw")
+![Claw](barsclaw-01.jpg "Claw")

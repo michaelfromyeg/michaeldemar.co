@@ -16,7 +16,7 @@ See your bars broken down right in the browser. Powered by Spotify, Genius, and 
 
 ### Background
 
-There are loads of videos online that inspired this project. Take a look at Genius' version, [Check The Rhyme](https://www.youtube.com/watch?v=1VNHp_flJKE), or Vox's, [Rapping, deconstructed: The best rhymers of all time](https://www.youtube.com/watch?v=QWveXdj6oZU). These videos get millions, and I mean millions of hits online. Why? Well, it's fun! And it's cool. The basic concept is that rap lyrics are "broken down" and the rhyming groups are highlighted. Often the videos will do this on a syllable-by-syllable basis, but also sometimes do multi-word rhymes! For this project, we wanted to start simple and focus on single, whole word rhymes.
+There are loads of videos online that inspired this project. Take a look at Genius' version, [Check The Rhyme](https://youtube.com/watch?v=1VNHp_flJKE), or Vox's, [Rapping, deconstructed: The best rhymers of all time](https://youtube.com/watch?v=QWveXdj6oZU). These videos get millions, and I mean millions of hits online. Why? Well, it's fun! And it's cool. The basic concept is that rap lyrics are "broken down" and the rhyming groups are highlighted. Often the videos will do this on a syllable-by-syllable basis, but also sometimes do multi-word rhymes! For this project, we wanted to start simple and focus on single, whole word rhymes.
 
 We thought we could leverage NLP, a couple of freely available APIs, and some basic React so create a website that generates these kinds of "highlighted" rhymes. So what happened?
 

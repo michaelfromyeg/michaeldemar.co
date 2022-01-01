@@ -4,6 +4,22 @@ date: "2020-07-18"
 description: "Back in February, I was interviewing to intern at the Government of Canada and wrapping up my freshman year in Vancouver. Now, I'm interning at an IoT start-up and stuck back in my hometown. Here, I try to break down how that happened."
 type: "blog"
 featuredImage: "artesian.png"
+tags:
+    [
+        "internship",
+        "summer",
+        "react",
+        "node",
+        "flask",
+        "css",
+        "scss",
+        "aws",
+        "dynamodb",
+        "PostgreSQL",
+        "REST",
+        "SQL",
+        "noSQL",
+    ]
 ---
 
 It's a Friday after classes. I'm grabbing a quick bite at one of UBC's only on-campus sit-down restaurants with a close friend, and a Gmail notification appears on my phone. As soon as I saw "UBC" in the subject line, I already knew what it was going to be.
@@ -18,11 +34,15 @@ Trailing behind the universities I mentioned in my Tweet, all of our classes wer
 
 First, it was [Hacktech](https://hacktech.io/). Over Christmas break, a friend shared that Caltech's hackathon had opened their applications for 2020, and I thought it'd be a neat opportunity. I poured over my application, and with a bit of good fortune, got accepted. I booked my ticket to Pasadena and could hardly contain my excitement. Then, it moved online. Four-hundred dollars down the drain, I was a bit disappointed, but I got some friends together from UBC and ended up actually submitting a [project](https://rapviz.appspot.com/) and earning a finalist distinction. This was a solid silver-lining; my fingers are crossed that I may take part in the event next year.
 
+_More on RapViz: the source code for the project is available [here](https://github.com/michaelfromyeg/rapviz). My teammates and I used Flask, React, and the Genius API to put this together. It definitely needs a touch-up, but the code is most of the way there. It also needs to be refactored, splitting apart the API code from the front-end._
+
+![RapViz's homepage](rapviz.png "RapViz's homepage")
+
 Second, it was, as I mentioned, school. Classes being online turned campus into a ghost town almost overnight. First-years flooded out of residents, clubs scrambled to pivot scheduled events online, and I clung on for dear life in each of my classes, submerged in school work. Within a few weeks, I managed to find a somewhat free weekend, pack my life away into four plastic boxes, and drive back to Edmonton. Over that weekend, I got an email from a software developer at the Government of Canada letting my know the internship I had just interviewed for was being eliminated. It was a bad week, to say the least.
 
-Third, it was [SUNIA](https://sunia.ca). SUNIA is this week-long summer program I've worked with for nearly three years now. I started off in a generic programming coordinator role, helping make UN-related educational material; in my second year, I led marketing and did a fair amount of graphic design, while also working as our "CTO" (I snicker at the title, too); this year, I was working as the staff registrar, and also doing a bit more technology related work. [SUNIA got cancelled.](https://www.sunia.ca/covid) Again, like my semester moving online, I had seen this coming, but still, it meant my fears about a fully indoors summer and an online fall semester were validated.
+Third, it was [SUNIA](https://sunia.ca). SUNIA is this week-long summer program I've worked with for nearly three years now. I started off in a generic programming coordinator role, helping make UN-related educational material; in my second year, I led marketing and did a fair amount of graphic design, while also working as our "CTO" (I snicker at the title, too); this year, I was working as the staff registrar, and also doing a bit more technology related work. [SUNIA got cancelled.](https://sunia.ca/covid) Again, like my semester moving online, I had seen this coming, but still, it meant my fears about a fully indoors summer and an online fall semester were validated.
 
-I was defeated, but I still wanted to make something of my summer. Being so late in the recruiting year, my outlook was fairly bleak. [Here's](https://www.notion.so/michaelfromyeg/49058c86c8d44605b65f9637d8f9e8a7?v=3acd8e103476491f833c4d69a39995df) the Notion page where I tracked my applications. Nothing too exciting of note; I had to apply to a ton of start-ups, some unpaid internships, and a lot of, erm, _interesting_ positions, to say the least.
+I was defeated, but I still wanted to make something of my summer. Being so late in the recruiting year, my outlook was fairly bleak. [Here's](https://notion.so/michaelfromyeg/49058c86c8d44605b65f9637d8f9e8a7?v=3acd8e103476491f833c4d69a39995df) the Notion page where I tracked my applications. Nothing too exciting of note; I had to apply to a ton of start-ups, some unpaid internships, and a lot of, erm, _interesting_ positions, to say the least.
 
 ![A screenshot of my Notion page](notion.png)
 
@@ -36,6 +56,8 @@ Finally, there was a _third_ stroke of luck I would never have seen coming. For 
 
 Wanting to write a bit more code, I also joined an online community for hackers looking to replicate the in-person intern experience called [Summer of Shipping](https://summerofshipping.com/), and joined a pre-seed accelerator [program](https://studentstartuplife.com/programs/student-summer-program) from Startup Edmonton, where I've been building [weNote](https://wenote.ca). I've also participated in a couple of hackathons; at one I wrote [a VS Code extension](https://marketplace.visualstudio.com/items?itemName=michaelfromyeg.vscode-puzzle) to help you practice interview-style coding problems in your editor, which won me the "best use of an external API award." (Even though I wrote my own API and did some, erm, questionable scraping. Whoops.) It currently has 14 installs, which is pretty cool!
 
+_Quick update for 2022: it now has 127+ installs and 10+ stars on [GitHub](https://github.com/michaelfromyeg/vscode-puzzles)! Development is still actively continuing; my next planned feature is to support puzzles from Advent of Code._
+
 Looking forward to the fall semester, I'm definitely nervous. Online school is hard. There's no getting around that fact. I'll be moving back to Vancouver, so hopefully cutting down the distance and being at least in the vicinity of campus should help my productivity. I'll also gain a bit of a community to rely on.
 
-Beyond the fall, I also have to hunt down co-op positions for winter and summer 2021. The COVID and post-COVID job market is assuredly a "buyer's market", meaning that employers now have the pick of the litter when it comes to applicants. It's a scary reality, but it's one that's not going away anytime soon. My plan, for now at least, is to keep building projects, keep learning, keep being curious, and to stay vigilant. I'm not going to bother betting on getting lucky with offers again; lightning never strikes twice in the same place.
+Beyond the fall, I also have to hunt down co-op positions for winter and summer 2021. The COVID and post-COVID job market is assuredly a "buyer's market," meaning that employers now have the pick of the litter when it comes to applicants. It's a scary reality, but it's one that's not going away anytime soon. My plan, for now at least, is to keep building projects, keep learning, keep being curious, and to stay vigilant. I'm not going to bother betting on getting lucky with offers again; lightning never strikes twice in the same place.

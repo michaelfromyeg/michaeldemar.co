@@ -38,7 +38,7 @@ $ npm run dev
   To create a production build, use gatsby build
 ```
 
-If you're looking to publish your Gatsby site to GitHub pages after forking this project, see the [Gatsby documentation](https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/) for more information. If you're interested in helping me turn this project into a re-usable Gatsby template, reach out via email at [mdemar01@student.ubc.ca](mailto:mdemar01@student.ubc.ca).
+If you're looking to publish your Gatsby site to GitHub pages after forking this project, see the [Gatsby documentation](https://gatsbyjs.org/docs/how-gatsby-works-with-github-pages/) for more information. If you're interested in helping me turn this project into a re-usable Gatsby template, reach out via email at [mdemar01@student.ubc.ca](mailto:mdemar01@student.ubc.ca).
 
 ## Notes
 
@@ -46,7 +46,7 @@ Anything I think is helpful to know for future me I'll leave here!
 
 ### The `static/` folder
 
-The static folder contains files that are "directly" copied (i.e., they are unmodified during copying) to the `public/` folder. [You should avoid using it!](https://www.gatsbyjs.com/docs/how-to/images-and-media/static-folder/)
+The static folder contains files that are "directly" copied (i.e., they are unmodified during copying) to the `public/` folder. [You should avoid using it!](https://gatsbyjs.com/docs/how-to/images-and-media/static-folder/)
 
 It's fine for the `favicon.ico` and `robots.txt` files to live here. The `CNAME` doesn't have to live here; GitHub Pages will pick it up from the project root.
 
@@ -82,7 +82,7 @@ These are just a bunch of tricks I hope developers stumbling across this find us
 -   ...create the arrow animation?
     -   This arrow animation is one of the best I've seen, it's from [here](https://freefrontend.com/css-arrows/).
 -   ...get the main navbar to act like that?
-    -   I used a project created by the creator of Gatsby, [React Headroom](https://www.npmjs.com/package/react-headroom). Maybe I'll create my own implementation later!
+    -   I used a project created by the creator of Gatsby, [React Headroom](https://npmjs.com/package/react-headroom). Maybe I'll create my own implementation later!
 -   ...I make my logo?
     -   I used Adobe Illustrator. If you're looking to get into graphic design I recommend using Lynda.com. Usually you can get access for free with a public library card.
 
