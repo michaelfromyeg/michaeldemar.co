@@ -39,14 +39,14 @@ const Education = (): ReactElement => {
                     <Collapsible
                         key={i}
                         trigger={triggerTitle}
-                        transitionTime={200}
-                        easing="ease-out"
+                        transitionTime={300}
+                        easing="ease-in-out"
                     >
                         <div className="entry" key={i}>
                             <h5>
                                 {edu.location}—{edu.startDate} to {edu.endDate}
                             </h5>
-                            <ul>
+                            <ul className="description">
                                 <li>{edu.degree}</li>
                                 <li>Grade: {edu.grade}</li>
                             </ul>

@@ -99,6 +99,6 @@
         "build": "gatsby build",
         "format": "prettier --write \"**/*.{js,jsx,json,md,css,scss}\"",
         "lint": "eslint . --fix --ext js,jsx,ts,tsx",
-        "deploy": "gatsby build && gh-pages -d public"
+        "deploy": "gatsby build && echo michaeldemar.co > public/CNAME && gh-pages -d public"
     }
 }

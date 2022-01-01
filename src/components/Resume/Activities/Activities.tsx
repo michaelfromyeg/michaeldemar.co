@@ -35,15 +35,15 @@ const Activities = (): ReactElement => {
                         <Collapsible
                             key={i}
                             trigger={triggerTitle}
-                            transitionTime={200}
-                            easing="ease-out"
+                            transitionTime={300}
+                            easing="ease-in-out"
                         >
                             <div className="entry" key={i}>
                                 <h5>
                                     {activity.location}—{activity.startDate} to{" "}
                                     {activity.endDate}
                                 </h5>
-                                <ul>
+                                <ul className="description">
                                     {activity.description.map((bullet, i) => {
                                         return <li key={i}>{bullet}</li>;
                                     })}

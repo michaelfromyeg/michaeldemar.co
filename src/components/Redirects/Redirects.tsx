@@ -58,7 +58,7 @@ const Redirects = (): ReactElement => {
             {bio1}
             <p className="redirects-bio">
                 Have any questions or just want to chat? Feel free to grab a
-                30-minute slot (via Calendly) on my {`'office hours'`}{" "}
+                30-minute slot (via Calendly) on my {`"office hours"`}{" "}
                 <a
                     href="https://calendly.com/michaelfromyeg/office-hours"
                     target="_blank"
