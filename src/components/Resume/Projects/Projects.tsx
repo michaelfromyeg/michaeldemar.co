@@ -34,15 +34,15 @@ const Projects = (): ReactElement => {
                         <Collapsible
                             key={i}
                             trigger={triggerTitle}
-                            transitionTime={200}
-                            easing="ease-out"
+                            transitionTime={300}
+                            easing="ease-in-out"
                         >
                             <div className="entry" key={i}>
                                 <h5>
                                     {proj.location}—{proj.startDate} to{" "}
                                     {proj.endDate}
                                 </h5>
-                                <ul>
+                                <ul className="description">
                                     {proj.description.map((bullet, i) => {
                                         return <li key={i}>{bullet}</li>;
                                     })}

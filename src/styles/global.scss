@@ -17,7 +17,7 @@ body.light {
     --text-title: #{$light-fg0};
     --text-link: #{$light-yellow};
     --text-link-hover: #{$light-yellow2};
-    --text-background: #{$light-bg3};
+    --text-background: #{$light-bg1};
     --hr: #{$light-yellow};
     --logo-shadow: #{$light-fg4};
     --color-a: #{$light-red2};
@@ -45,10 +45,6 @@ body {
     background-color: var(--background);
 }
 
-blockquote {
-    background-color: var(--text-background);
-}
-
 hr {
     background: var(--hr);
 }
@@ -67,6 +63,10 @@ p {
 
 a:hover {
     color: var(--text-link-hover);
+}
+
+article {
+    margin: 1rem 0;
 }
 
 .logo-text-wrapper:hover > .shadow {
@@ -181,8 +181,8 @@ h2.section-title {
 }
 
 .entry-title {
+    font-size: 1.1rem;
     margin-bottom: 0.5rem;
-    text-decoration: none;
     cursor: pointer;
 }
 
@@ -206,20 +206,26 @@ div.course {
     opacity: 0.5;
     margin-right: 5px;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 div.tech:hover,
 div.course:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
-li {
-    margin: 10px 15px;
+ul.description {
+    margin: 0.5rem;
+}
+
+ul.description > li {
+    margin: 0.25rem 1rem;
 }
 
 div.item {
     margin-left: -21px;
-    margin-bottom: -1.3rem;
+    margin-bottom: -15px;
     width: 0.6rem;
     height: 0.6rem;
     background-color: white;

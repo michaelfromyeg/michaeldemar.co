@@ -7,6 +7,9 @@ declare module "*.svg" {
 // Custom font
 declare module "typography-theme-grand-view";
 
+// Code plugin for typography
+declare module "typography-plugin-code";
+
 // Dark mode
 declare module "gatsby-plugin-dark-mode";
 
