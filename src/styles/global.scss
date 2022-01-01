@@ -15,9 +15,11 @@ body.light {
     --background: #{$light-bg};
     --text-normal: #{$light-fg1}; // same as light-fg!
     --text-title: #{$light-fg0};
-    --text-link: #{$light-yellow};
-    --text-link-hover: #{$light-yellow2};
+    --text-link: #{$light-purple};
+    --text-link-hover: #{$light-purple2};
     --text-background: #{$light-bg1};
+    --code: #{$light-blue};
+    --code-background: #{$light-bg2};
     --hr: #{$light-yellow};
     --logo-shadow: #{$light-fg4};
     --color-a: #{$light-red2};
@@ -32,6 +34,8 @@ body.dark {
     --text-link: #{$dark-yellow};
     --text-link-hover: #{$dark-yellow2};
     --text-background: #{$dark-bg1};
+    --code: #{$dark-green2};
+    --code-background: #{$dark-bg2};
     --hr: #{$dark-yellow};
     --logo-shadow: #{$dark-fg4};
     --color-a: #{$dark-red2};
@@ -43,6 +47,14 @@ body {
     -ms-overflow-style: none;
     -webkit-font-smoothing: antialiased;
     background-color: var(--background);
+}
+
+// <code> override
+code,
+pre {
+    color: var(--code) !important;
+    text-shadow: none !important;
+    background: var(--code-background) !important;
 }
 
 hr {
