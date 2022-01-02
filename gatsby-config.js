@@ -64,9 +64,9 @@ module.exports = {
                         options: {
                             maxWidth: 590,
                             linkImagesToOriginal: true,
-                            showCaptions: ['title', 'alt'],
+                            showCaptions: ["title", "alt"],
                             quality: 50,
-                            wrapperStyle: `margin: 0 auto; text-align: center; font-style: italic;`
+                            wrapperStyle: `margin: 0 auto; text-align: center; font-style: italic;`,
                         },
                     },
                     {

@@ -46,13 +46,13 @@ const InnerLinks = (props: InnerLinksProps): ReactElement => {
 
     return (
         <div className={styles[`${prefix}Links`]}>
+            <div>
             <Link className={styles.headerLink} to={"/"}>
-                <h1 className={styles[`${prefix}Title`]}><span style={{ "marginRight": 10 }}>{emoji}</span>michaeldemar.co</h1>
+                <h1 className={styles[`${prefix}Title`]}><span style={{ "marginRight": 5 }}>{emoji}</span>michaeldemar.co</h1>
             </Link>
+            </div>
+            <div>
             {Destinations.map((d, index) => {
-                if (location === Locations.HOMEPAGE && d.name === "home") {
-                    return <></>;
-                } else {
                     return (
                         <Link
                             key={index}
@@ -62,10 +62,10 @@ const InnerLinks = (props: InnerLinksProps): ReactElement => {
                             [{d.name}]
                         </Link>
                     );
-                }
             })}
             {location !== Locations.HOMEPAGE && <br />}
             <Toggle location={location} />
+            </div>
         </div>
     );
 };

@@ -89,6 +89,7 @@ article {
 }
 
 .title-text {
+    font-size: 2rem;
     white-space: pre-line;
     text-align: center;
     position: absolute;
@@ -99,10 +100,21 @@ article {
 }
 
 .background-logo {
-    height: 90vh;
+    height: 70vh;
     opacity: 0.1;
     z-index: -999;
     width: 100%;
+}
+
+// On large screens, adjust display to more appropriately fit screen
+@media only screen and (min-width: 954px) {
+    .title-text {
+        font-size: 3rem;
+    }
+
+    .background-logo {
+        height: 90vh;
+    }
 }
 
 .shadow {
