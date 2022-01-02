@@ -7,7 +7,7 @@ featuredImage: "hackathon.jpg"
 tags: ["hackathon", "advice", "high school", "java", "swing", "oop"]
 ---
 
-![Hacking away at nwPlus 2019](./hackathon.jpg "Hacking away at nwPlus 2019")
+![Hacking away at nwPlus 2019](hackathon.jpg "Hacking away at nwPlus 2019")
 
 Last weekend, I participated in my first ever hackathon. HackED 2019 is put on by the Computer Engineering Club at the University of Alberta, and follows a similar format to most hackathons. First, there was an opening ceremony to introduce various sponsors, prizes, and relevant information to the competition. Then, we were released into the wild for twenty-four straight hours to produce a piece of software that did a cool thing. And finally, after all was said and done, us bleary-eyed programmers faced the judges and showed off our product.
 

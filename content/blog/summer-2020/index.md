@@ -4,22 +4,7 @@ date: "2020-07-18"
 description: "Back in February, I was interviewing to intern at the Government of Canada and wrapping up my freshman year in Vancouver. Now, I'm interning at an IoT start-up and stuck back in my hometown. Here, I try to break down how that happened."
 type: "blog"
 featuredImage: "artesian.png"
-tags:
-    [
-        "internship",
-        "summer",
-        "react",
-        "node",
-        "flask",
-        "css",
-        "scss",
-        "aws",
-        "dynamodb",
-        "PostgreSQL",
-        "REST",
-        "SQL",
-        "noSQL",
-    ]
+tags: ["internship", "summer", "react", "node", "flask", "css", "scss", "aws", "dynamodb", "PostgreSQL", "REST", "SQL", "noSQL"]
 ---
 
 It's a Friday after classes. I'm grabbing a quick bite at one of UBC's only on-campus sit-down restaurants with a close friend, and a Gmail notification appears on my phone. As soon as I saw "UBC" in the subject line, I already knew what it was going to be.

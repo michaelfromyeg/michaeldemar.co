@@ -4,6 +4,7 @@ date: "2019-04-05"
 description: "I created merch designs for the wrestling team in high school. The one they used is the first one shown."
 type: "design"
 featuredImage: "threebars-01.jpg"
+tags: ["logo", "merch"]
 ---
 
 ![Three bars](threebars-01.jpg "Three bars")

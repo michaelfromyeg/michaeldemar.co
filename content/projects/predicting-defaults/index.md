@@ -4,6 +4,7 @@ date: "2021-12-05"
 description: Predicting whether or not individuals will default on their credit card payments using Python, sklearn, and more.
 type: "projects"
 featuredImage: "ales-nesetril-credit-card-unsplash.jpg"
+tags: ["python", "scikit-learn", "machine learning", "numpy", "pandas"]
 ---
 
 _The following blog post was written for the final homework submission of [CPSC 330, UBC's "Applied Machine Learning" course](https://github.com/ubc-cs/cpsc330). In the course, my partner Max and I got a hands-on introduction to machine learning with Python via sklearn._
@@ -28,7 +29,7 @@ With data relating to that person's demographics, payment history, and other fin
 
 The data set we used is publicly available on [Kaggle](https://kaggle.com/uciml/default-of-credit-card-clients-dataset). In contains demographic information such as sex, education, marriage and age; information regarding and individual's finances including limit balance, repayment status, bill amounts, and payment amounts. Finally, it contains whether or not that individual really _did_ default next month.
 
-This is simply a high-level description of the data; for a more in-depth view, consult Kaggle or our [full report](./hw6.pdf).
+This is simply a high-level description of the data; for a more in-depth view, consult Kaggle or our [full report](hw6.pdf).
 
 ## Exploration
 

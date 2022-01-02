@@ -4,6 +4,7 @@ date: "2020-05-03"
 description: Create and manage your citations without all the headaches!
 type: "projects"
 featuredImage: "zotero.png"
+tags: ["java", "javafx"]
 ---
 
 Create and manage your citations without all the headaches!

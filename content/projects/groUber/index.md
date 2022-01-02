@@ -3,14 +3,15 @@ title: groUber
 date: "2020-08-02"
 description: Create carpools, without the headache.
 type: "projects"
-featuredImage: "appMap.jpg"
+featuredImage: "grouber.png"
+tags: ["typescript", "react", "firebase", "node", "github actions"]
 ---
 
-groups + Uber = groUber. Source code available [here](https://github.com/michaelfromyeg/groUber-deprecated0).
+![A 'poster' for groUber](poster-01.png)
 
-### About
+groups + Uber = groUber. Source code available [here](https://github.com/michaelfromyeg/groUber).
 
-groUber is aimed to help event planners create carpools, and is being built for To the Moon and Hack. If you're going to use this project to plan your event, remember to stay 6ft apart!
+groUber is aimed to help event planners create carpools and was built for To the Moon and Hack, [an MLH event](https://mlh.io). (If you're going to use this project to plan your event, remember to stay 6ft apart!)
 
 ### Motivation
 
@@ -22,7 +23,7 @@ You finally come up with a workable schedule: everyone can make it to the event,
 
 Then a driver with 4 seats drops out. And you have to do it all over again. No, thanks.
 
-#### Introducing: groUber
+### Introducing: groUber
 
 With groUber, never go through that headache again. As an event organizer, create your event, send an invite link to your friends, and create a carpool schedule with one click. As a participant, simply receive a link, RSVP, and inform the organizer of how many seats you have available. You'll receive a schedule on the day-of.
 
@@ -34,23 +35,12 @@ groUber is ride-sharing for your group of friends, without all the expenses and 
 
 Here's our [whitepaper](https://docs.google.com/document/d/e/2PACX-1vSLo8DhZ7p-VgPnmieasD01zZ2_76uMxPxSwVErq3_gQPvpokrFI4G5SHA1Pxrc9b9ouhK5yvL-4X3t/pub) where you can find a more in-depth justification for this hack! We also have a [slide deck](https://docs.google.com/presentation/d/e/2PACX-1vRY4A2dxP3vd1L7tY9gNC1Y0oegweKaiE9ZRHzulQArcLDld2zxErJQPk2TWvtwONXqdFWSECFlWEhh/pub?start=false&loop=false&delayms=15000&slide=id.p) for the visual learners out there.
 
-### Installation
+### Stack
 
-#### Stack
-
--   TypeScript, React
--   Node.js, npm
--   Firebase, including authentication, hosting, and Firestore
-
-#### Get it running
-
-`npm install` Install dependencies.
-
-`npm start` Run for development.
-
-`npm lint` Run linting over the project repository.
-
-Deployment happens entirely via GitHub Actions; on any pushes to master, the app will be re-deployed to Firebase hosting.
+- TypeScript, React
+- Node.js, npm
+- Firebase, including authentication, hosting, and Firestore
+- GitHub Actions
 
 ### Usage
 
@@ -60,6 +50,18 @@ Create your event with all key details, and send an invite to your to-be attende
 
 Participants must submit their address, if they're driving, and if so, how many seats they have available in their vehicle.
 
+Check out some screenshots of the application below!
+
+![Branding for groUber](branding.png)
+
+![Homepage](homescreen.png)
+
+![The map within the application](appMap.jpg)
+
+![Dashboard](dashboard.jpg)
+
+![RSVP page](RSVPPage.jpg)
+
 ### Contributing
 
-This should be updated soon! Stay tuned for more.
+Check out the GitHub repository for more information.
