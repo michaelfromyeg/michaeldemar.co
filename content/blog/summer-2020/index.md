@@ -1,7 +1,7 @@
 ---
 title: My COVID summer
 date: "2020-07-18"
-description: "Back in February, I was interviewing to intern at the Government of Canada and wrapping up my freshman year in Vancouver. Now, I'm interning at an IoT start-up and stuck back in my hometown. Here, I try to break down how that happened."
+description: "Back in February, I was interviewing to intern with the Government and wrapping up my freshman year. Now, I'm interning at an IoT start-up."
 type: "blog"
 featuredImage: "artesian.png"
 tags: ["internship", "summer", "react", "node", "flask", "css", "scss", "aws", "dynamodb", "PostgreSQL", "REST", "SQL", "noSQL"]

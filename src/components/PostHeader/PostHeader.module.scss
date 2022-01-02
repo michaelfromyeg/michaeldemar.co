@@ -1,11 +1,13 @@
 .post {
     background-color: var(--bg);
     border-radius: 20px;
-    padding-bottom: 20px;
     height: auto;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
 }
 
 .image {
@@ -35,4 +37,5 @@
     font-weight: bold;
     letter-spacing: 2px;
     text-align: right;
+    // margin: 0;
 }

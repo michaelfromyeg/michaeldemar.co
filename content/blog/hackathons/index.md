@@ -1,7 +1,7 @@
 ---
 title: "All about hackathons"
 date: "2019-01-17"
-description: "Last weekend, I participated in my first ever hackathon. HackED 2019 is put on by the Computer Engineering Club at the University of Alberta, and follows a similar format to most hackathons. Here's why the experience was so great, and why should should start attending!"
+description: "Last weekend, I participated in my first ever hackathon. Here, I reflect on how it went and why I think you should attend a hackathon, too."
 type: "blog"
 featuredImage: "hackathon.jpg"
 tags: ["hackathon", "advice", "high school", "java", "swing", "oop"]
