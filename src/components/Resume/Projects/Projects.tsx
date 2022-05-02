@@ -3,9 +3,13 @@ import Collapsible from "react-collapsible";
 import { Link } from "gatsby";
 
 import resume from "../../../data/resume.json";
+import cv from "../../../data/cv.json";
 
 const Projects = (): ReactElement => {
-    const projects = resume.projects.list;
+    const projectIds = resume.projects;
+    const projects = cv.projects.filter((project) => {
+        return projectIds.includes(project.id);
+    })
 
     return (
         <>
@@ -20,13 +24,13 @@ const Projects = (): ReactElement => {
                 <Link to="/projects">here</Link>.
             </h5>
             <div className="section">
-                {projects.map((proj, i) => {
+                {projects.map((project, i) => {
                     const character = ``;
                     const triggerTitle = (
                         <>
                             <div className="item"></div>
                             <h3 className="entry-title">
-                                {proj.name}, <i>{proj.tag}</i> {character}
+                                {project.name}, <i>{project.summary}</i> {character}
                             </h3>
                         </>
                     );
@@ -39,15 +43,14 @@ const Projects = (): ReactElement => {
                         >
                             <div className="entry" key={i}>
                                 <h5>
-                                    {proj.location}—{proj.startDate} to{" "}
-                                    {proj.endDate}
+                                    {project.location}—{project.date}
                                 </h5>
                                 <ul className="description">
-                                    {proj.description.map((bullet, i) => {
+                                    {project.highlights.map((bullet, i) => {
                                         return <li key={i}>{bullet}</li>;
                                     })}
                                 </ul>
-                                <div className="techstack">
+                                {/* <div className="techstack">
                                     {proj.technologies.map((tech, i) => {
                                         return (
                                             <div key={i} className="tech">
@@ -55,7 +58,7 @@ const Projects = (): ReactElement => {
                                             </div>
                                         );
                                     })}
-                                </div>
+                                </div> */}
                             </div>
                         </Collapsible>
                     );

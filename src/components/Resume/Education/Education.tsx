@@ -3,9 +3,13 @@ import Collapsible from "react-collapsible";
 import { Link } from "gatsby";
 
 import resume from "../../../data/resume.json";
+import cv from "../../../data/cv.json";
 
 const Education = (): ReactElement => {
-    const education = resume.education.list;
+    const eduIds = resume.education;
+    const edus = cv.education.filter((edu) => {
+        return eduIds.includes(edu.id);
+    })
 
     // TODO: figure out how to implement this nicely
     // const [open, setOpen] = useState(false)
@@ -25,7 +29,7 @@ const Education = (): ReactElement => {
             <h5 className="section-redirect" style={{ fontStyle: "oblique" }}>
                 Learn more about my time at UBC <Link to="/blog">here</Link>.
             </h5>
-            {education.map((edu, i) => {
+            {edus.map((edu, i) => {
                 const character = ``;
                 const triggerTitle = (
                     <>
@@ -48,7 +52,7 @@ const Education = (): ReactElement => {
                             </h5>
                             <ul className="description">
                                 <li>{edu.degree}</li>
-                                <li>Grade: {edu.grade}</li>
+                                <li>Grade: {edu.gpa}</li>
                             </ul>
                             <div className="courselist">
                                 {edu.courses.map((course, i) => {

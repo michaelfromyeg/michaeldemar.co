@@ -3,9 +3,14 @@ import Collapsible from "react-collapsible";
 import { Link } from "gatsby";
 
 import resume from "../../../data/resume.json";
+import cv from "../../../data/cv.json";
 
 const Experience = (): ReactElement => {
-    const experiences = resume.experience.list;
+    const expIds = resume.experience;
+    const exps = cv.experiences.filter((exp) => {
+        return expIds.includes(exp.id);
+    })
+
 
     return (
         <>
@@ -19,13 +24,13 @@ const Experience = (): ReactElement => {
                 Read about my experiences in-depth <Link to="/blog">here</Link>.
             </h5>
             <div className="section">
-                {experiences.map((exp, i) => {
+                {exps.map((exp, i) => {
                     const character = ``;
                     const triggerTitle = (
                         <>
                             <div className="item"></div>
                             <h3 className="entry-title">
-                                {exp.title} @ <i>{exp.company}</i> {character}
+                                {exp.position} @ <i>{exp.organization}</i> {character}
                             </h3>
                         </>
                     );
@@ -42,7 +47,7 @@ const Experience = (): ReactElement => {
                                     {exp.endDate}
                                 </h5>
                                 <ul className="description">
-                                    {exp.description.map((bullet, i) => {
+                                    {exp.highlights.map((bullet, i) => {
                                         return <li key={i}>{bullet}</li>;
                                     })}
                                 </ul>

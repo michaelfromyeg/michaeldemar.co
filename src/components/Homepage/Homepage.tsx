@@ -9,7 +9,7 @@ import Links, { Locations } from "../Links/Links";
 import Education from "../Resume/Education/Education";
 import Experience from "../Resume/Experience/Experience";
 import Projects from "../Resume/Projects/Projects";
-import Activities from "../Resume/Activities/Activities";
+import Extracurriculars from "../Resume/Activities/Activities";
 
 import Redirects from "../Redirects/Redirects";
 import Footer from "../Footer/Footer"
@@ -69,7 +69,7 @@ const Homepage: React.FC = (): ReactElement => {
                 <Education />
                 <Experience />
                 <Projects />
-                <Activities />
+                <Extracurriculars />
                 <Footer />
             </div>
         </>

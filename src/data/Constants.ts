@@ -28,16 +28,20 @@ const getUniversityYear = (universityId: string): number => {
         throw new Error("Could not find UBC in CV!");
     }
 
-    const { startDate, endDate } = ubc;
-    const sd = DateTime.fromISO(startDate);
-    const ed = DateTime.fromISO(endDate);
+    // const { startDate, endDate } = ubc;
+    // const sd = DateTime.fromISO(startDate);
+    // const ed = DateTime.fromISO(endDate);
+    const sd = DateTime.fromISO("2019-09-01");
+    const ed = DateTime.fromISO("2023-05-01");
 
     const now = DateTime.now();
 
     if (now > ed) {
         return UniversityYear.GRADUATED;
     } else {
-        const years = Math.ceil(now.diff(sd, "years").toObject().years);
+        const diff = now.diff(sd, "years").toObject().years || 0;
+        const years = Math.ceil(diff);
+        console.log({ years: years })
         switch (years) {
             case 1:
                 return UniversityYear.FIRST;
