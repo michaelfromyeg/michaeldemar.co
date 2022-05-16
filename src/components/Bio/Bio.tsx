@@ -11,7 +11,7 @@ import * as styles from "./Bio.module.scss"
 
 const Bio = (): ReactElement => {
   const data = useStaticQuery(graphql`query BioQuery {
-  avatar: file(relativePath: {eq: "images/me.jpg" }) {
+  avatar: file(relativePath: {eq: "images/me3.png" }) {
     childImageSharp {
       gatsbyImageData(
         quality: 100

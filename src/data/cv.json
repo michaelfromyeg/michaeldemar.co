@@ -69,14 +69,14 @@
         {
             "id": "amazon",
             "organization": "Amazon",
-            "position": "Software Engineer Intern (Incoming)",
+            "position": "Software Engineer Intern",
             "location": "Toronto, Ontario",
             "website": "https://amazon.jobs/en/teams/scot",
             "startDate": "May 2022",
             "endDate": "present",
-            "summary": "Incoming software engineer intern for the Summer 2022 cycle.",
+            "summary": "Software engineer intern for the Summer 2022 cycle.",
             "highlights": [
-                "Incoming full stack software engineer intern for the summer 2022 cycle, working on supply chain optimization."
+                "Working on supply chain optimization technologies and optimizing user on-boarding experiences."
             ],
             "technologies": [
                 "JavaScript",
@@ -106,7 +106,7 @@
         {
             "id": "samsung",
             "organization": "Samsung Electronics",
-            "position": "Software Engineer Intern (Product)",
+            "position": "Software Engineer Intern",
             "location": "Vancouver, British Columbia",
             "website": "https://samsungknox.com",
             "startDate": "Jan 2021",
@@ -136,7 +136,7 @@
         {
             "id": "artesian",
             "organization": "General Genomics",
-            "position": "Software Engineer Intern (Product)",
+            "position": "Software Engineer Intern",
             "location": "Calgary, Alberta",
             "website": "https://curo46.com",
             "startDate": "May 2020",

@@ -36,7 +36,7 @@ const About = ({ location }: AboutProps): ReactElement => {
       title
     }
   }
-  leo: file(relativePath: {eq: "images/leo.jpg" }) {
+  leo1: file(relativePath: {eq: "images/leo1.png" }) {
     childImageSharp {
         gatsbyImageData(
           width: 400
@@ -44,7 +44,7 @@ const About = ({ location }: AboutProps): ReactElement => {
         )
     }
   }
-  samsung1: file(relativePath: {eq: "images/samsung1.jpg" }) {
+  samsung1: file(relativePath: {eq: "images/samsung1.png" }) {
     childImageSharp {
         gatsbyImageData(
           width: 400
@@ -52,7 +52,7 @@ const About = ({ location }: AboutProps): ReactElement => {
         )
     }
   }
-  whitecaps1: file(relativePath: {eq: "images/whitecaps1.jpg" }) {
+  toronto1: file(relativePath: {eq: "images/toronto1.png" }) {
     childImageSharp {
         gatsbyImageData(
           width: 400
@@ -65,11 +65,11 @@ const About = ({ location }: AboutProps): ReactElement => {
 
     const { title } = data.site.siteMetadata;
 
-    const leoImage = getImage(data.leo.childImageSharp)
+    const leoImage = getImage(data.leo1.childImageSharp)
     const samsungImage = getImage(data.samsung1.childImageSharp)
-    const whitecapsImage = getImage(data.whitecaps1.childImageSharp)
+    const torontoImage = getImage(data.toronto1.childImageSharp)
 
-    if (leoImage === undefined || samsungImage === undefined || whitecapsImage === undefined) {
+    if (leoImage === undefined || samsungImage === undefined || torontoImage === undefined) {
         throw new Error("Could not find image for /about page!")
     }
 
@@ -92,8 +92,8 @@ const About = ({ location }: AboutProps): ReactElement => {
                 <p>My pet tortoise Leo! (Jun 2020)</p>
                 <GatsbyImage alt={"My last day at Samsung."} image={samsungImage} />
                 <p>My last day at Samsung. (Aug 2021)</p>
-                <GatsbyImage alt={"Esha and I at a Whitecaps game."} image={whitecapsImage} />
-                <p>In the before times, at my first Whitecaps game after moving to UBC. (Feb 2020)</p>
+                <GatsbyImage alt={"In Toronto for Summer 2022!"} image={torontoImage} />
+                <p>Interning at Amazon in Toronto, Ontario for the summer. (May 2022)</p>
             </div>
         </Format>
     );
