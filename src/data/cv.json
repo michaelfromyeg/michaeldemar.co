@@ -5,8 +5,8 @@
     "email": "mdemar01@student.ubc.ca",
     "phone": "+1 (780) 680-9634",
     "website": "https://michaeldemar.co",
-    "summary": "Computer Science third-year undergraduate student at The University of British Columbia, former software engineer at Samsung, and 6-time TA.",
-    "shortSummary": "3rd-year at UBC, formerly at Samsung, 6-time TA",
+    "summary": "Computer Science third-year undergraduate student at The University of British Columbia, former software engineer at Samsung, and 7-time TA.",
+    "shortSummary": "3rd-year at UBC, currently at Amazon, 7-time TA",
     "location": {
         "address": "Redacted",
         "postalCode": "Redacted",
@@ -15,27 +15,6 @@
         "region": "British Columbia"
     },
     "profiles": [
-        {
-            "id": "fb",
-            "title": "Facebook",
-            "network": "facebook",
-            "username": "michaelfromyeg",
-            "url": "https://facebook.com/michaelfromyeg"
-        },
-        {
-            "id": "ig",
-            "title": "Instagram",
-            "network": "instagram",
-            "username": "michaelfromyeg",
-            "url": "https://instagram.com/michaelfromyeg"
-        },
-        {
-            "id": "tw",
-            "title": "Twitter",
-            "network": "twitter",
-            "username": "michaelfromyeg",
-            "url": "https://twitter.com/michaelfromyeg"
-        },
         {
             "id": "gh",
             "title": "GitHub",
@@ -63,9 +42,50 @@
             "network": "devpost",
             "username": "michaelfromyeg",
             "url": "https://devpost.com/michaelfromyeg"
+        },
+        {
+            "id": "tw",
+            "title": "Twitter",
+            "network": "twitter",
+            "username": "michaelfromyeg",
+            "url": "https://twitter.com/michaelfromyeg"
+        },
+        {
+            "id": "fb",
+            "title": "Facebook",
+            "network": "facebook",
+            "username": "michaelfromyeg",
+            "url": "https://facebook.com/michaelfromyeg"
+        },
+        {
+            "id": "ig",
+            "title": "Instagram",
+            "network": "instagram",
+            "username": "michaelfromyeg",
+            "url": "https://instagram.com/michaelfromyeg"
         }
     ],
     "experiences": [
+        {
+            "id": "bitgo",
+            "organization": "BitGo",
+            "position": "Software Engineer Intern (Incoming)",
+            "location": "Palo Alto, California",
+            "website": "https://bitgo.com",
+            "startDate": "Sep 2022",
+            "endDate": "Dec 2022",
+            "summary": "Software engineer intern for the fall 2022 cycle.",
+            "highlights": [
+                "Advancing BitGo's asset platform on the decentralized finance team."
+            ],
+            "technologies": [
+                "TypeScript",
+                "React",
+                "Go",
+                "Docker",
+                "Kubernetes"
+            ]
+        },
         {
             "id": "amazon",
             "organization": "Amazon",
@@ -73,13 +93,13 @@
             "location": "Toronto, Ontario",
             "website": "https://amazon.jobs/en/teams/scot",
             "startDate": "May 2022",
-            "endDate": "present",
-            "summary": "Software engineer intern for the Summer 2022 cycle.",
+            "endDate": "Aug 2022",
+            "summary": "Software engineer intern for the summer 2022 cycle.",
             "highlights": [
-                "Working on supply chain optimization technologies and optimizing user on-boarding experiences."
+                "Enhancing vendor onboarding experiences with React and TypeScript."
             ],
             "technologies": [
-                "JavaScript",
+                "TypeScript",
                 "Java",
                 "React",
                 "Spring",
@@ -95,11 +115,11 @@
             "website": "https://cs.ubc.ca",
             "startDate": "Jan 2020",
             "endDate": "Apr 2022",
-            "summary": "Teaching assistant for six courses in two years, ranging from data science to computer systems.",
+            "summary": "Teaching assistant for seven courses in two years, ranging from data science to computer systems.",
             "highlights": [
-                "Taught six courses to date using Racket, Python, R, C, and C++.",
-                "Received perfect evaluation scores from all 90+ students in most recent semester in categories including teaching ability and preparedness.",
-                "Led labs, curated course readings, and relayed student needs to professor."
+                "Earned 100% favorable rating from 100+ students in previous semester.",
+                "Taught six unique courses using Racket, Python, R, C, and C++.",
+                "Refined instruction materials across 9+ lab sections led."
             ],
             "technologies": ["Python", "C", "Assembly", "C++", "R", "Racket"]
         },
@@ -113,10 +133,9 @@
             "endDate": "Aug 2021",
             "summary": "Engineer on the Samsung Knox B2B team where I helped rewrite legacy applications and create new services from scratch.",
             "highlights": [
-                "Contributed extensively to full stack re-write of legacy Drupal monolith using Node, React, and modern service-oriented architecture.",
-                "Refactored 15+ dashboards to use custom hooks and headless UI library.",
-                "Spearheaded effort to create novel Node service to render data from both an ETL pipeline and a Kafka event stream efficiently.",
-                "Eliminated critical anti-patterns in Mongo aggregation queries to drastically reduce endpoint response times by up to 50%."
+                "Migrated monolith to service-oriented architecture with React and Node.",
+                "Created Node service to transform data from an ETL pipeline and Kafka event stream into analytics rendered on React dashboard.",
+                "Refactored MongoDB queries to improve performance by up to 50%."
             ],
             "technologies": [
                 "JavaScript",
@@ -262,7 +281,7 @@
             "summary": "predicting credit card defaults using machine learning",
             "highlights": [
                 "Tuned LightGBM model with Python to 0.82 accuracy and 0.38 recall.",
-                "Documented results on blog, including exploratory data analysis, feature engineering, and feature importance."
+                "Conducted feature engineering and extracted feature importance."
             ]
         },
         {
@@ -344,8 +363,8 @@
             "date": "Jan 2021",
             "summary": "performing statistical inference on open crime data",
             "highlights": [
-                "Examined relationship between COVID-19 and crime with R.",
-                "Simulated sampling distribution via bootstrapping to discover trends in crime; found shift in crimes in Vancouver neighbourhoods."
+                "Examined relationship between COVID-19 and petty crime with R.",
+                "Simulated sampling distribution via bootstrapping with open data set."
             ]
         },
         {
@@ -372,8 +391,22 @@
             "date": "Jan 2021",
             "summary": "show off your desktop setup and make money from it",
             "highlights": [
-                "Co-created web app with React and Node to allow users to take 3D photos of their desk setup and share online with Amazon-style affiliate links.",
+                "Co-created app with React and Node to allow users to share desk setups.",
                 "Earned 3rd overall prize at BizHacks 2021 against 50+ teams."
+            ]
+        },
+        {
+            "id": "pd",
+            "name": "Parkinson's Prediction",
+            "position": "Data Scientist",
+            "location": "Vancouver, British Columbia",
+            "website": "https://michaelfromyeg.github.io/pd-classification",
+            "github": "https://github.com/michaelfromyeg/pd-classification",
+            "date": "Jan 2021",
+            "summary": "detect Parkinson's disease from speech data",
+            "highlights": [
+                "Co-wrote report with R to predict Parkinson's from a patient's speech data.",
+                "Achieved 80% accuracy with K-Nearest Neighbors algorithm."
             ]
         },
         {
@@ -401,7 +434,7 @@
             "summary": "simplify technical interview problem practice",
             "highlights": [
                 "Built tool to bring interview \"puzzles\" into an IDE using TypeScript.",
-                "Won Microsoft's \"Best Use of External API\" award and has 150+ users."
+                "Won Microsoft's \"Best Use of External API\" award and has 165+ users."
             ]
         },
         {
@@ -444,20 +477,6 @@
             "highlights": [
                 "Created personal website using Gatsby (React, TypeScript) and Sass.",
                 "Earned 1,000+ users and 2,000+ unique sessions since launch."
-            ]
-        },
-        {
-            "id": "pd",
-            "name": "Parkinson's Prediction",
-            "position": "Data Scientist",
-            "location": "Vancouver, British Columbia",
-            "website": "https://michaelfromyeg.github.io/pd-classification",
-            "github": "https://github.com/michaelfromyeg/pd-classification",
-            "date": "Jan 2021",
-            "summary": "detect Parkinson's disease from speech data",
-            "highlights": [
-                "Co-wrote report with R to predict Parkinson's from a patient's speech data.",
-                "Achieved 80% accuracy with K-Nearest Neighbors algorithm."
             ]
         },
         {
@@ -558,6 +577,21 @@
             "highlights": [
                 "Consulted with industry experts to gauge appropriate content for neurodiverse adult CS education."
             ]
+        },
+        {
+            "id": "mlh-workshops",
+            "organization": "Major League Hacking",
+            "position": "Workshop Lead (3x)",
+            "location": "Remote",
+            "website": "https://mlh.io",
+            "startDate": "Sep 2020",
+            "endDate": "present",
+            "summary": "Led workshops on data science and web development at hackathons across North America.",
+            "highlights": [
+                "Led three workshops with 100+ attendees and 300+ views on YouTube.",
+                "Developed engaging delivery style that actively involves participants."
+            ],
+            "skills": ["Leadership", "Service", "Event Planning"]
         },
         {
             "id": "sus-ea",
@@ -681,11 +715,10 @@
             "location": "Vancouver, British Columbia",
             "website": "https://cs.ubc.ca",
             "startDate": "Sep 2019",
-            "endDate": "May 2023",
+            "endDate": "Apr 2024",
             "gpa": "4.33 (94%)",
             "courses": [
                 "Data Structures and Algorithms (96%)",
-                "Applied ML (97%)",
                 "Computer Systems (95%)",
                 "Software Construction (95%)"
             ]
@@ -712,8 +745,16 @@
     ],
     "awards": [
         {
+            "id": "uta-award",
+            "title": "Undergraduate Teaching Assistant Award",
+            "date": "May 2022",
+            "website": "https://ubc.ca",
+            "awarder": "University of British Columbia",
+            "summary": "Awarded to the Computer Science Department's top teaching assistants."
+        },
+        {
             "id": "trek-excellence",
-            "title": "Trek Excellence Scholarship",
+            "title": "Trek Excellence Scholarship (Top 5%)",
             "date": "Sep 2021",
             "website": "https://ubc.ca",
             "awarder": "University of British Columbia",

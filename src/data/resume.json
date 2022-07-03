@@ -1,6 +1,6 @@
 {
-    "experience": ["amazon", "ubc-ta", "samsung", "artesian"],
-    "projects": ["wenote", "showrooms", "vscode-puzzles", "nominatr"],
-    "extracurriculars": ["fiji-philanthropy", "ams-food-bank"],
+    "experience": ["bitgo", "amazon", "ubc-ta", "samsung"],
+    "projects": ["nominatr", "vscode-puzzles", "showrooms", "rapviz"],
+    "extracurriculars": ["fiji-philanthropy", "ams-food-bank", "mlh-workshops"],
     "education": ["ubc", "ib"]
 }

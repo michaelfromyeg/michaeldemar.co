@@ -1,7 +1,7 @@
 ---
 title: Ikigai
 date: "2019-05-06"
-description: "I recently figured out where and what I want to study for the next for years. Here's how."
+description: "I recently figured out where and what I want to study for the next four years. Here's how."
 type: "blog"
 featuredImage: "ikigai.png"
 tags: ["high school", "advice"]

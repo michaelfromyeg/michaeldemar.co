@@ -37,10 +37,7 @@ const Redirects = (): ReactElement => {
 
     const bio1 = (
         <p className="redirects-bio">
-            My name is Michael DeMarco and I am a {UNIVERSITY_YEAR_AS_STRING}{" "}
-            Computer Science Honours student at UBC. You can keep scrolling and find an online interactive
-            version of my resume. If you would prefer the classic PDF style,
-            click {resumeLink}.
+            My name is Michael DeMarco and I am a {UNIVERSITY_YEAR_AS_STRING}{" "} Honours Computer Science and Data Science minor student at The University of British Columbia in Vancouver, BC. {`I'm`} interested in all things computing, including smart technology, distributed systems, and machine learning. To learn more about my background, keep scrolling to view an interactive version of my resume. If you would prefer the classic PDF style, click {resumeLink}.
         </p>
     );
 

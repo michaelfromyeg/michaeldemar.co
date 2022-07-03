@@ -93,7 +93,7 @@ const About = ({ location }: AboutProps): ReactElement => {
                 <GatsbyImage alt={"My last day at Samsung."} image={samsungImage} />
                 <p>My last day at Samsung. (Aug 2021)</p>
                 <GatsbyImage alt={"In Toronto for Summer 2022!"} image={torontoImage} />
-                <p>Interning at Amazon in Toronto, Ontario for the summer. (May 2022)</p>
+                <p>Interning in Toronto, Ontario for the summer. (May 2022)</p>
             </div>
         </Format>
     );
