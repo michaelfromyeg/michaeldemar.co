@@ -88,7 +88,7 @@ module.exports = {
             options: {
                 trackingIds: ["G-DBLCHKE1M2"],
                 gtagConfig: {
-                    optimize_id: 'OPT_CONTAINER_ID',
+                    optimize_id: "OPT_CONTAINER_ID",
                     anonymize_ip: true,
                     cookie_expires: 0,
                 },
