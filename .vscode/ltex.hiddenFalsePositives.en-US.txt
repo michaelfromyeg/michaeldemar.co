@@ -1,1 +1,2 @@
 {"rule":"COPYRIGHT","sentence":"^\\QCopyright (c) 2022 Michael DeMarco\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qemail.png(And just like that, there goes my offer...)\\E$"}
