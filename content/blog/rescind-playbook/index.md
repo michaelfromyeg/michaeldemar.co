@@ -7,7 +7,7 @@ featuredImage: "bitgo.png"
 tags: ["technology", "advice"]
 ---
 
-This upcoming fall, I was set on making a number of fairly major life changes. Firstly, I was headed to move from one of the world's largest technology companies to a cryptocurrency start-up. Secondly, I was going to pack my bags and move from Canada to Palo Alto, California. And thirdly, I was going to do it all basically on my own.
+This upcoming fall, I was set on making a number of fairly major life changes. Firstly, I was about to move from one of the world's largest technology companies to a cryptocurrency start-up. Secondly, I was going to pack my bags and move from Canada to Palo Alto, California. And thirdly, I was going to do it all basically on my own.
 
 As of Thursday, I've been thrown back to square zero. Due to pressures in the cryptocurrency space, coined (pun-intended) a "crypto winter" (though frankly it seems pretty sunny in Toronto these days...), my offer at [BitGo](https://bitgo.com) was rescinded.
 
@@ -23,7 +23,7 @@ I'm keeping my chin-up and have my focus fixed firmly on getting back to square 
 
 This piece is especially important when you're just getting started with recruiting in tech, or when you've faced a bit of a setback. To use a cliché, "your network is your net worth!" I find computer science doesn't have the same culture around recruiting, coffee chats, etc., as other industries, but it can truly accelerate your career.
 
-Use social media to be open about projects you're working on and roles you're looking for. Keep your profiles up-to-date and try to stay somewhat active throughout the year. I think everyone feels a bit of anxiety around posting on LinkedIn, but that's easily one of the most effective channels. I've had 25,000+ impressions on my latest post. "Tech Twitter" is also a great place to stay active; I often fine early-stage founders recruit directly from the site. Relying on visible, open job applications like Indeed or LinkedIn is merely the tip of iceberg of what's out there!
+Use social media to be open about projects you're working on and roles you're looking for. Keep your profiles up-to-date and try to stay somewhat active throughout the year. I think everyone feels a bit of anxiety around posting on LinkedIn, but that's easily one of the most effective channels. I've had 25,000+ impressions on my latest post. "Tech Twitter" is also a great place to stay active; I often find early-stage founders recruit directly from the site. Relying on visible, open job applications like Indeed or LinkedIn is merely the tip of iceberg of what's out there!
 
 (Another more "bold" strategy is becoming a content creator YouTube. I've met a ton of cool people after posting [this](https://www.youtube.com/watch?v=9FP8esDPPKY) video on advice for getting into the computer science major at UBC. To this day, I continue to get emails and DMs from students all across the globe!)
 
