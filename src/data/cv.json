@@ -67,24 +67,18 @@
     ],
     "experiences": [
         {
-            "id": "bitgo",
-            "organization": "BitGo",
+            "id": "tesla",
+            "organization": "Tesla",
             "position": "Software Engineer Intern (Incoming)",
             "location": "Palo Alto, California",
-            "website": "https://bitgo.com",
+            "website": "https://tesla.com/supercharger",
             "startDate": "Sep 2022",
             "endDate": "Dec 2022",
-            "summary": "Software engineer intern for the fall 2022 cycle.",
+            "summary": "Software engineer intern for the Fall 2022 cycle.",
             "highlights": [
-                "Advancing BitGo's asset platform on the decentralized finance team."
+                "Supporting the transition to sustainable energy on the Supercharging team."
             ],
-            "technologies": [
-                "TypeScript",
-                "React",
-                "Go",
-                "Docker",
-                "Kubernetes"
-            ]
+            "technologies": ["TypeScript", "React", "Python"]
         },
         {
             "id": "amazon",
@@ -94,9 +88,11 @@
             "website": "https://amazon.jobs/en/teams/scot",
             "startDate": "May 2022",
             "endDate": "Aug 2022",
-            "summary": "Software engineer intern for the summer 2022 cycle.",
+            "summary": "Software engineer intern for the Summer 2022 cycle.",
             "highlights": [
-                "Enhancing vendor onboarding experiences with React and TypeScript."
+                "Enhancing user onboarding with tailored product tours in React frontend.",
+                "Developed API using TypeScript and Jest with >95% code coverage.",
+                "Introduced automated linting to surface and correct hundreds of type errors."
             ],
             "technologies": [
                 "TypeScript",
@@ -134,6 +130,8 @@
             "summary": "Engineer on the Samsung Knox B2B team where I helped rewrite legacy applications and create new services from scratch.",
             "highlights": [
                 "Migrated monolith to service-oriented architecture with React and Node.",
+                "Integrated headless UI library to streamline logic across 15+ dashboards.",
+                "Improved test coverage from 70% to >90% across core Node services.",
                 "Created Node service to transform data from an ETL pipeline and Kafka event stream into analytics rendered on React dashboard.",
                 "Refactored MongoDB queries to improve performance by up to 50%."
             ],
@@ -434,7 +432,7 @@
             "summary": "simplify technical interview problem practice",
             "highlights": [
                 "Built tool to bring interview \"puzzles\" into an IDE using TypeScript.",
-                "Won Microsoft's \"Best Use of External API\" award and has 165+ users."
+                "Won Microsoft's \"Best Use of External API\" award and has 170+ users."
             ]
         },
         {
