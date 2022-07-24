@@ -1,4 +1,4 @@
-import React, { ReactElement, useEffect, useState } from "react";
+import React, { ReactElement } from "react";
 import { Link } from "gatsby";
 
 import Toggle from "../Toggle/Toggle";
@@ -33,16 +33,8 @@ const InnerLinks = (props: InnerLinksProps): ReactElement => {
     const { location } = props;
     const prefix = location === Locations.HOMEPAGE ? "homepage" : "";
 
-    const [emoji, setEmoji] = useState('');
-
-    const chooseRandomEmoji = (): string => {
-        const EMOJIS = ["🤠", "🐢", "👾", "🤖", "⚡", "🦅", "🦕", "🐧"]
-        return EMOJIS[Math.floor(Math.random() * EMOJIS.length)];
-    }
-
-    useEffect(() => {
-        setEmoji(chooseRandomEmoji());
-    }, [])
+    const EMOJIS = ["🤠", "🐢", "👾", "🤖", "⚡", "🦅", "🦕", "🐧"]
+    const emoji = EMOJIS[Math.floor(Math.random() * EMOJIS.length)];
 
     return (
         <div className={styles[`${prefix}Links`]}>
