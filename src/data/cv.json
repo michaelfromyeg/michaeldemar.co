@@ -6,7 +6,7 @@
     "phone": "+1 (780) 680-9634",
     "website": "https://michaeldemar.co",
     "summary": "Computer Science third-year undergraduate student at The University of British Columbia, former software engineer at Samsung, and 7-time TA.",
-    "shortSummary": "3rd-year at UBC, currently at Amazon, 7-time TA",
+    "shortSummary": "3rd-year at UBC; formerly at Amazon, Samsung; 7-time TA",
     "location": {
         "address": "Redacted",
         "postalCode": "Redacted",
@@ -90,7 +90,7 @@
             "endDate": "Aug 2022",
             "summary": "Software engineer intern for the Summer 2022 cycle.",
             "highlights": [
-                "Enhancing user onboarding with tailored product tours in React frontend.",
+                "Enhanced user onboarding with tailored product tours in React frontend.",
                 "Developed API using TypeScript and Jest with >95% code coverage.",
                 "Introduced automated linting to surface and correct hundreds of type errors."
             ],
@@ -121,7 +121,7 @@
         },
         {
             "id": "samsung",
-            "organization": "Samsung Electronics",
+            "organization": "Samsung",
             "position": "Software Engineer Intern",
             "location": "Vancouver, British Columbia",
             "website": "https://samsungknox.com",
