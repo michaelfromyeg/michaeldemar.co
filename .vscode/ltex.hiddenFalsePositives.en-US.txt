@@ -1,2 +1,3 @@
 {"rule":"COPYRIGHT","sentence":"^\\QCopyright (c) 2022 Michael DeMarco\\E$"}
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qemail.png(And just like that, there goes my offer...)\\E$"}
+{"rule":"HE_VERB_AGR","sentence":"^\\QWhile I had a decent chunk of relevant React experience to leverage for my project, our application was still complex and tens of thousands of lines of code long.\\E$"}
