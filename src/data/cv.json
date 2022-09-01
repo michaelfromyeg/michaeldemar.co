@@ -5,8 +5,8 @@
     "email": "mdemar01@student.ubc.ca",
     "phone": "+1 (780) 680-9634",
     "website": "https://michaeldemar.co",
-    "summary": "Computer Science third-year undergraduate student at The University of British Columbia, former software engineer at Samsung, and 7-time TA.",
-    "shortSummary": "3rd-year at UBC; formerly at Amazon, Samsung; 7-time TA",
+    "summary": "Computer Science third-year undergraduate student at The University of British Columbia, former software engineer at Samsung, and 8-time TA.",
+    "shortSummary": "3rd-year at UBC; formerly at Amazon, Samsung; 8-time TA",
     "location": {
         "address": "Redacted",
         "postalCode": "Redacted",
@@ -69,7 +69,7 @@
         {
             "id": "tesla",
             "organization": "Tesla",
-            "position": "Software Engineer Intern (Incoming)",
+            "position": "Software Engineer Intern",
             "location": "Palo Alto, California",
             "website": "https://tesla.com/supercharger",
             "startDate": "Sep 2022",
@@ -110,7 +110,7 @@
             "location": "Vancouver, British Columbia",
             "website": "https://cs.ubc.ca",
             "startDate": "Jan 2020",
-            "endDate": "Apr 2022",
+            "endDate": "present",
             "summary": "Teaching assistant for seven courses in two years, ranging from data science to computer systems.",
             "highlights": [
                 "Earned 100% favorable rating from 100+ students in previous semester.",
@@ -529,7 +529,7 @@
             "location": "Vancouver, British Columbia",
             "website": "https://ams.ubc.ca/",
             "startDate": "May 2021",
-            "endDate": "Apr 2022",
+            "endDate": "present",
             "summary": "Served numerous students, faculty, and staff at the AMS Food Bank.",
             "highlights": [
                 "Served numerous UBC students, faculty, and staff at the food bank, ensuring discretion and providing timely service."
