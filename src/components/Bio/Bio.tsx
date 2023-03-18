@@ -55,7 +55,7 @@ const Bio = (): ReactElement => {
       <p>
         Written, designed, and programmed by <strong>{author.name}</strong> {author.summary}⚡🦅
         <br />
-        <FontAwesomeIcon icon={faTwitter} />{` `}
+        <FontAwesomeIcon height={`1em`} icon={faTwitter} />{` `}
         <a href={`https://twitter.com/${social.twitter}`} target="_blank" rel="noreferrer">
           See his thoughts in <span className="strikethrough">140 characters</span> 280 characters or less
         </a>.

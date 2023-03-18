@@ -15,24 +15,24 @@ An adventure-focused trip to Indonesia, starting in East Java and ending in Bali
 
 Other itineraries that have been done, covering East Java and Bali.
 
--   [BALI Itinerary \* EVERYTHING you need to Know (2023)](https://www.thebrokebackpacker.com/bali-itinerary/)
--   [Ultimate 1 Week East Java Itinerary: Temples, Volcanoes and Waterfalls - The Curated Travel List](https://www.thecuratedtravelist.com/east-java-itinerary-temples-volcanoes-waterfalls/)
--   [5-Day Bali Itinerary | First-Timers Guide to a Perfect Vacation in Indonesia](https://www.agoda.com/travel-guides/indonesia/bali/5-day-bali-itinerary-first-timers-guide-to-the-perfect-bali-vacation?cid=1844104)
+-   [BALI Itinerary \* EVERYTHING you need to Know (2023)](https://thebrokebackpacker.com/bali-itinerary/)
+-   [Ultimate 1 Week East Java Itinerary: Temples, Volcanoes and Waterfalls - The Curated Travel List](https://thecuratedtravelist.com/east-java-itinerary-temples-volcanoes-waterfalls/)
+-   [5-Day Bali Itinerary | First-Timers Guide to a Perfect Vacation in Indonesia](https://agoda.com/travel-guides/indonesia/bali/5-day-bali-itinerary-first-timers-guide-to-the-perfect-bali-vacation?cid=1844104)
 -   [Nusa Penida Bali : a complete guide (2023)](https://nusapenida.org/bali/nusa-penida/)
--   [Train travel in Indonesia | Trains Jakarta-Surabaya, ferry to Bali](https://www.seat61.com/Indonesia.htm#Eksekutif,_Bisnis_&_Ekonomi_class)
+-   [Train travel in Indonesia | Trains Jakarta-Surabaya, ferry to Bali](https://seat61.com/Indonesia.htm#Eksekutif,_Bisnis_&_Ekonomi_class)
 -   [Guide to Visiting Borobudur Temple - The Largest Buddhist Temple in Indonesia](https://trevallog.com/borobudur-temple/)
 
 ## Bookmarks
 
--   [Departing | Checking In | Singapore Changi Airport](https://www.changiairport.com/en/airport-guide/departing/checking-in.html)
--   [Trekking 40L Backpack Forclaz Travel 100 - Black](https://www.decathlon.sg/p/trekking-40l-backpack-forclaz-travel-100-black-forclaz-8554562.html?channable=40f1a86964003835353435363254&gclid=Cj0KCQiAic6eBhCoARIsANlox87O2Uc0uB6M7qWJLLF29Wpm2SJtrgfKUIPy0sQ6Q5ybPgH2bY1rrjcaAkaxEALw_wcB)
--   [Baggage Allowance, Policy & Rules](https://www.flyscoot.com/en/plan/booking-your-flight/baggage)
--   [Train travel in Indonesia | Trains Jakarta-Surabaya, ferry to Bali](https://www.seat61.com/Indonesia.htm#Eksekutif,_Bisnis_&_Ekonomi_class)
--   [](https://www.tripadvisor.com/Attraction_Review-g297715-d15528678-Reviews-TrippyTrip_Tour-Surabaya_East_Java_Java.html)
--   [Traveloka - Southeast Asia's Leading Travel Platform](https://www.traveloka.com/)
--   [](<https://www.traveloka.com/en-id/airport-transfer/search/v2?type=one_way&origin=TVLK%3B91561978253893%3BPOI%3BAIRPORT%3BAIRPORT%3BYogyakarta%20International%20Airport%20(YIA)%3BTemon%2C%20Kulon%20Progo%20Regency%2C%20Yogyakarta%20Province%2C%20Indonesia%3Bnull%3B-7.899125700000002%3B110.05919819999997%3Bnull&destination=TVLK%3B106581%3BGEO%3BAREA%3BAREA%3BBorobudur%3BMagelang%2C%20Central%20Java%3Bnull%3B-7.614527031684256%3B110.20050466060638%3Bnull&dd=04-02-2023&dt=12%3A00&adult=1&child=0&infant=0&redirectFrom=SHUTTLE_BUS&suggestedBusRouteSpec=%257B%2522originCode%2522%253A%2522107429%2522%252C%2522originLabel%2522%253A%2522Kulon%2520Progo%2520Regency%2522%252C%2522originType%2522%253A%2522CITY_GEO%2522%252C%2522destinationCode%2522%253A%2522106975%2522%252C%2522destinationLabel%2522%253A%2522Magelang%2522%252C%2522destinationType%2522%253A%2522CITY_GEO%2522%252C%2522departureDate%2522%253A%257B%2522month%2522%253A2%252C%2522day%2522%253A4%252C%2522year%2522%253A2023%257D%252C%2522numAdult%2522%253A1%252C%2522currency%2522%253A%2522IDR%2522%257D>)
--   [](https://www.traveloka.com/en-id/kereta-api/search?st=PB.BYW-A&dt=6-2-2023.null&ps=2.0&pd=KAI)
--   [Ijen Backpacker, Jalan Stasiun II, Lingkar Kampung Baru, Bulusan, Banyuwangi Regency, East Java, Indonesia](https://www.google.com/maps/dir/Ketapang,+Jalan+Gatot+Subroto,+Lingkar+Kampung+Baru,+Bulusan,+Banyuwangi+Regency,+East+Java,+Indonesia/Ijen+Backpacker,+Jalan+Stasiun+II,+Lingkar+Kampung+Baru,+Bulusan,+Banyuwangi+Regency,+East+Java,+Indonesia/@-8.1407903,114.3958514,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x2dd144272f8fcdfb:0xecafc136b7c03383!2m2!1d114.3971316!2d-8.1411879!1m5!1m1!1s0x2dd14562ea2cb28d:0xec7afb3f57e32946!2m2!1d114.3986301!2d-8.1404034!3e2)
+-   [Departing | Checking In | Singapore Changi Airport](https://changiairport.com/en/airport-guide/departing/checking-in.html)
+-   [Trekking 40L Backpack Forclaz Travel 100 - Black](https://decathlon.sg/p/trekking-40l-backpack-forclaz-travel-100-black-forclaz-8554562.html?channable=40f1a86964003835353435363254&gclid=Cj0KCQiAic6eBhCoARIsANlox87O2Uc0uB6M7qWJLLF29Wpm2SJtrgfKUIPy0sQ6Q5ybPgH2bY1rrjcaAkaxEALw_wcB)
+-   [Baggage Allowance, Policy & Rules](https://flyscoot.com/en/plan/booking-your-flight/baggage)
+-   [Train travel in Indonesia | Trains Jakarta-Surabaya, ferry to Bali](https://seat61.com/Indonesia.htm#Eksekutif,_Bisnis_&_Ekonomi_class)
+-   [](https://tripadvisor.com/Attraction_Review-g297715-d15528678-Reviews-TrippyTrip_Tour-Surabaya_East_Java_Java.html)
+-   [Traveloka - Southeast Asia's Leading Travel Platform](https://traveloka.com/)
+-   [](<https://traveloka.com/en-id/airport-transfer/search/v2?type=one_way&origin=TVLK%3B91561978253893%3BPOI%3BAIRPORT%3BAIRPORT%3BYogyakarta%20International%20Airport%20(YIA)%3BTemon%2C%20Kulon%20Progo%20Regency%2C%20Yogyakarta%20Province%2C%20Indonesia%3Bnull%3B-7.899125700000002%3B110.05919819999997%3Bnull&destination=TVLK%3B106581%3BGEO%3BAREA%3BAREA%3BBorobudur%3BMagelang%2C%20Central%20Java%3Bnull%3B-7.614527031684256%3B110.20050466060638%3Bnull&dd=04-02-2023&dt=12%3A00&adult=1&child=0&infant=0&redirectFrom=SHUTTLE_BUS&suggestedBusRouteSpec=%257B%2522originCode%2522%253A%2522107429%2522%252C%2522originLabel%2522%253A%2522Kulon%2520Progo%2520Regency%2522%252C%2522originType%2522%253A%2522CITY_GEO%2522%252C%2522destinationCode%2522%253A%2522106975%2522%252C%2522destinationLabel%2522%253A%2522Magelang%2522%252C%2522destinationType%2522%253A%2522CITY_GEO%2522%252C%2522departureDate%2522%253A%257B%2522month%2522%253A2%252C%2522day%2522%253A4%252C%2522year%2522%253A2023%257D%252C%2522numAdult%2522%253A1%252C%2522currency%2522%253A%2522IDR%2522%257D>)
+-   [](https://traveloka.com/en-id/kereta-api/search?st=PB.BYW-A&dt=6-2-2023.null&ps=2.0&pd=KAI)
+-   [Ijen Backpacker, Jalan Stasiun II, Lingkar Kampung Baru, Bulusan, Banyuwangi Regency, East Java, Indonesia](https://google.com/maps/dir/Ketapang,+Jalan+Gatot+Subroto,+Lingkar+Kampung+Baru,+Bulusan,+Banyuwangi+Regency,+East+Java,+Indonesia/Ijen+Backpacker,+Jalan+Stasiun+II,+Lingkar+Kampung+Baru,+Bulusan,+Banyuwangi+Regency,+East+Java,+Indonesia/@-8.1407903,114.3958514,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x2dd144272f8fcdfb:0xecafc136b7c03383!2m2!1d114.3971316!2d-8.1411879!1m5!1m1!1s0x2dd14562ea2cb28d:0xec7afb3f57e32946!2m2!1d114.3986301!2d-8.1404034!3e2)
 
 ## Shopping
 
@@ -59,7 +59,7 @@ Location: Yogyakarta, Indonesia
 
 Highlights: Konstantin arrives, Prambanan Temple
 
-Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
+Weather: [Link](https://accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
 
 Konstantin arrives in Indonesia in the morning, and heads to the Prambanan Temple. He then checks into his hostel, has food, and explores sites around the city.
 
@@ -73,7 +73,7 @@ Location: Yogyakarta, Indonesia
 
 Highlights: Michael arrives, Borobudur
 
-Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=6)
+Weather: [Link](https://accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=6)
 
 Spend the day in Borobudur and head to Malang.
 
@@ -99,7 +99,7 @@ Location: Malang, Indonesia
 
 Highlights: Arrive in Malang at 0306, and head to the Tumpak Sewu waterfall
 
-Weather: [Link](https://www.accuweather.com/en/id/malang/208996/daily-weather-forecast/208996?day=7)
+Weather: [Link](https://accuweather.com/en/id/malang/208996/daily-weather-forecast/208996?day=7)
 
 Arrive in Malang around 0306. Head to the waterfall around 0500 or 0530, via taxi (or some kind of driver). Then arrive at 0700 or 0730.
 
@@ -141,11 +141,11 @@ Location: Probolinggo, Indonesia
 
 Highlights: Mount Bromo; Mount Ijen (overnight)
 
-Weather: [Link](https://www.accuweather.com/en/id/malang/208996/daily-weather-forecast/208996?day=7)
+Weather: [Link](https://accuweather.com/en/id/malang/208996/daily-weather-forecast/208996?day=7)
 
 Start the day _very_ early by doing the Mount Bromo sunrise hike.
 
-[Guide to Mount Bromo](https://www.themandagies.com/ultimate-guide-to-mount-bromo/).
+[Guide to Mount Bromo](https://themandagies.com/ultimate-guide-to-mount-bromo/).
 
 Not too complicated; the tour will do it for us.
 
@@ -169,7 +169,7 @@ Location: Probolinggo, Indonesia
 
 Highlights: Mount Ijen (morning); Bali
 
-Weather: [Link](https://www.accuweather.com/en/id/probolinggo/203184/daily-weather-forecast/203184?day=9)
+Weather: [Link](https://accuweather.com/en/id/probolinggo/203184/daily-weather-forecast/203184?day=9)
 
 Start the day again, **very early,** atop Mount Ijen. Go from Mount Ijen on the ferry to Bali, and spend the day there.
 
@@ -191,7 +191,7 @@ Location: Bali, Indonesia
 
 Highlights:
 
-Weather: [Link](https://www.accuweather.com/en/id/denpasar/202196/daily-weather-forecast/202196?day=10)
+Weather: [Link](https://accuweather.com/en/id/denpasar/202196/daily-weather-forecast/202196?day=10)
 
 Spend the day in Bali. Head down to Nusa Penida for a bit, grab food and watch the sunset on a beach. Will take some planning later this week.
 
@@ -209,7 +209,7 @@ Location: Singapore, Singapore
 
 Highlights: Travel back to Singapore.
 
-Weather: [Link](https://www.accuweather.com/en/id/denpasar/202196/daily-weather-forecast/202196?day=11)
+Weather: [Link](https://accuweather.com/en/id/denpasar/202196/daily-weather-forecast/202196?day=11)
 
 Head to the airport and fly home.
 
@@ -219,7 +219,7 @@ Head to the airport and fly home.
 
 This travel is during the rainy season. Every day will be very, very rainy.
 
-[Surabaya, East Java, Indonesia Weather Forecast | AccuWeather](https://www.accuweather.com/en/id/surabaya/203449/weather-forecast/203449)
+[Surabaya, East Java, Indonesia Weather Forecast | AccuWeather](https://accuweather.com/en/id/surabaya/203449/weather-forecast/203449)
 
 [Bali Weather & Bali Climate | The Best Time to Travel](https://bali.com/bali/weather/)
 
@@ -245,9 +245,9 @@ R.A.K. coffee
 
 [5-Day Itinerary in Bali for First-Timers](https://juliasomething.com/5-day-itinerary-in-bali-for-first-timers/)
 
-[BALI Itinerary \* EVERYTHING you need to Know (2023)](https://www.thebrokebackpacker.com/bali-itinerary/)
+[BALI Itinerary \* EVERYTHING you need to Know (2023)](https://thebrokebackpacker.com/bali-itinerary/)
 
-[Kelingking BEACH (SECRET POINT) ON Nusa Penida - Journey Era](https://www.journeyera.com/kelingking-beach/)
+[Kelingking BEACH (SECRET POINT) ON Nusa Penida - Journey Era](https://journeyera.com/kelingking-beach/)
 
 ## Future
 

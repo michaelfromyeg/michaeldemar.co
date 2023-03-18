@@ -19,7 +19,7 @@ Save Chiang Mai, others for future trip.
 
 \***\*3-days in Bangkok\*\***
 
-[The PERFECT 3 Days in Bangkok Itinerary (2023 Guide)](https://www.nomadasaurus.com/3-days-in-bangkok-itinerary/)
+[The PERFECT 3 Days in Bangkok Itinerary (2023 Guide)](https://nomadasaurus.com/3-days-in-bangkok-itinerary/)
 
 ****\*\*\*\*****\*\*\*****\*\*\*\*****7 days in Southern Thailand****\*\*\*\*****\*\*\*****\*\*\*\*****
 
@@ -37,7 +37,7 @@ _Thailand Travel Guide_
 
 **\*\***\*\*\***\*\***Florian’s plan**\*\***\*\*\***\*\***
 
-[Thailand](https://www.notion.so/Thailand-ab0120e4d56249d7a515e4f02621ba4b)
+[Thailand](https://notion.so/Thailand-ab0120e4d56249d7a515e4f02621ba4b)
 
 ## Food
 
@@ -60,7 +60,7 @@ Location: Bangkok, Thailand
 
 Highlights: Michael arrives in the morning; Florian, Leo join in the late evening
 
-Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
+Weather: [Link](https://accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
 
 _Play-by-play and tips_
 
@@ -68,7 +68,7 @@ Michael’s first day in Bangkok. Can meet up with Thomas as well.
 
 Doing a day trip to Ayutthaya.
 
-Here’s a [guide](https://www.voyagetips.com/en/ayutthaya/). This website is also fantastic for Chiang Mai (…and I’ll definitely be consulting for my trip north, and to Cambodia and hopefully Laos).
+Here’s a [guide](https://voyagetips.com/en/ayutthaya/). This website is also fantastic for Chiang Mai (…and I’ll definitely be consulting for my trip north, and to Cambodia and hopefully Laos).
 
 Check-in to to Revolution Hostel Asoke at night. (They were nice and emailed to confirm.)
 
@@ -82,7 +82,7 @@ Location: Bangkok, Thailand
 
 Highlights: Spend the day in Bangkok!
 
-Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
+Weather: [Link](https://accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
 
 _Play-by-play and tips_
 
@@ -124,7 +124,7 @@ Location: Bangkok, Thailand
 
 Highlights: The last day in Bangkok; depart for Surat Thani via train at night.
 
-Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
+Weather: [Link](https://accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
 
 _Play-by-play and tips_
 
@@ -146,7 +146,7 @@ Location: Surat Thani, Thailand
 
 Highlights: Arrive in Surat Thani in the morning and head for Koh Samui right away.
 
-Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
+Weather: [Link](https://accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
 
 _Play-by-play and tips_
 
@@ -175,15 +175,15 @@ Location: Surat Thani, Thailand
 
 Highlights: Enjoy another day in Koh Samui.
 
-Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
+Weather: [Link](https://accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
 
 _Play-by-play and tips_
 
 Enjoy Koh Samui.
 
-This day we could spend mostly at the Ang Thong National Marine Park. Other options: Koh Tao, [Koh Phangan](https://www.backpackerswanderlust.com/koh-phangan-backpacking/).
+This day we could spend mostly at the Ang Thong National Marine Park. Other options: Koh Tao, [Koh Phangan](https://backpackerswanderlust.com/koh-phangan-backpacking/).
 
-(Unrelated, but per [this](https://www.thebrokebackpacker.com/backpacking-thailand/) there’s some pretty good backpacking just north of Bangkok en route to Chiang Mai; might be able to rope that into my next trip.)
+(Unrelated, but per [this](https://thebrokebackpacker.com/backpacking-thailand/) there’s some pretty good backpacking just north of Bangkok en route to Chiang Mai; might be able to rope that into my next trip.)
 
 Another day in P&T Hostel.
 
@@ -197,7 +197,7 @@ Location: Krabi, Thailand
 
 Highlights: Head to Krabi; first day in Krabi!
 
-Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
+Weather: [Link](https://accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
 
 _Play-by-play and tips_
 
@@ -230,7 +230,7 @@ Location: Krabi, Thailand
 
 Highlights: The first full day in Krabi.
 
-Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
+Weather: [Link](https://accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
 
 _Play-by-play and tips_
 
@@ -250,7 +250,7 @@ Location: Krabi, Thailand
 
 Highlights: Fly back to Singapore!
 
-Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
+Weather: [Link](https://accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
 
 _Play-by-play and tips_
 

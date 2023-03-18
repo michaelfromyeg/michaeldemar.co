@@ -25,7 +25,7 @@ This piece is especially important when you're just getting started with recruit
 
 Use social media to be open about projects you're working on and roles you're looking for. Keep your profiles up-to-date and try to stay somewhat active throughout the year. I think everyone feels a bit of anxiety around posting on LinkedIn, but that's easily one of the most effective channels. I've had 25,000+ impressions on my latest post. "Tech Twitter" is also a great place to stay active; I often find early-stage founders recruit directly from the site. Relying on visible, open job applications like Indeed or LinkedIn is merely the tip of iceberg of what's out there!
 
-(Another more "bold" strategy is becoming a content creator YouTube. I've met a ton of cool people after posting [this](https://www.youtube.com/watch?v=9FP8esDPPKY) video on advice for getting into the computer science major at UBC. To this day, I continue to get emails and DMs from students all across the globe!)
+(Another more "bold" strategy is becoming a content creator YouTube. I've met a ton of cool people after posting [this](https://youtube.com/watch?v=9FP8esDPPKY) video on advice for getting into the computer science major at UBC. To this day, I continue to get emails and DMs from students all across the globe!)
 
 Also, go to stuff! I love using apps like Eventbrite and Meetup to see what's happening in my area. Attending events is bar-none the best way to meet people; networking "online" is not nearly as effective as just bumping into strangers at a conference. Try to step out of your comfort zone and put yourself out there. You'd be surprised what can turn up!
 

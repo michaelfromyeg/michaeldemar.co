@@ -15,9 +15,9 @@ interface AboutBioProps {
 const AboutBio = ({ universityYear }: AboutBioProps): ReactElement => {
     return (
         <p>
-            Hey there! {`I'm`} Michael, a {universityYear} Computer Science Honours student from the <a href="https://ubc.ca/" target="_blank" rel="noreferrer">University of British Columbia (UBC)</a> in Vancouver, Canada.
-            I am originally from Edmonton, Alberta; I made the leap over to pursue my undergraduate degree in the fall of 2019.
-            Alongside my major, I am working towards a <a href="https://datascience.ubc.ca/minor" target="_blank" rel="noreferrer">minor in Data Science</a> and am a participant in the <a href="https://sciencecoop.ubc.ca/" target="_blank" rel="noreferrer">co-op program</a>.
+            Hey there! {`I'm`} Michael, a {universityYear} Honours Computer Science student from the <a href="https://ubc.ca" target="_blank" rel="noreferrer">University of British Columbia (UBC)</a> in Vancouver, Canada.
+            I am originally from Edmonton, Alberta; I made the leap one province over to pursue my undergraduate studies in the fall of 2019.
+            Alongside my major, I am working towards a <a href="https://datascience.ubc.ca/minor" target="_blank" rel="noreferrer">minor in Data Science</a> and am a participant in the <a href="https://sciencecoop.ubc.ca" target="_blank" rel="noreferrer">co-op program</a>. I also am completing a study abroad at the <a href="https://nus.edu.sg">National University of Singapore</a>.
             In the past, {`I've`} worked at <a href="https://curo46.com/" target="_blank" rel="noreferrer">General Genomics</a>, <a href="https://research.samsung.com/srca" target="_blank" rel="noreferrer">Samsung Electronics</a> (at SRCA), and as an <a href="https://cs.ubc.ca/ta/" target="_blank" rel="noreferrer">Undergraduate Teaching Assistant (UTA)</a>.
             To date, {`I've`} taught seven separate courses, ranging from <a href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=213" target="_blank" rel="noreferrer">computer systems</a> (using C and Assembly) to <a href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=103" target="_blank" rel="noreferrer">introductory programming in Python</a>!
         </p>

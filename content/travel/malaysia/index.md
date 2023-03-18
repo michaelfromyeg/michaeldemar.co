@@ -13,17 +13,17 @@ tags: ["malaysia", "one-week"]
 
 Note the inclusion of Cameron Highlands, Melaka. Both must-sees!
 
-[The Ultimate Malaysia One-Week Itinerary | Kevin & Amanda Travel](https://www.kevinandamanda.com/ultimate-malaysia-itinerary/)
+[The Ultimate Malaysia One-Week Itinerary | Kevin & Amanda Travel](https://kevinandamanda.com/ultimate-malaysia-itinerary/)
 
 ## Bookmarks
 
 [Johor Bahru to Penang by flight, bus from MYR 194 Feb 2023 ✅](https://secure.12go.asia/en/travel/johor-bahru/penang?date=2023-01-20&people=1&direction=forward)
 
-[Larkin Sentral, Jalan Garuda, Larkin Jaya, Johor Bahru, Johor, Malaysia](https://www.google.com/maps/dir/1.3057328,103.7727344/Larkin+Sentral,+Jalan+Garuda,+Larkin+Jaya,+Johor+Bahru,+Johor,+Malaysia/@1.3862659,103.7263363,12z/am=t/data=!4m14!4m13!1m1!4e1!1m5!1m1!1s0x31da12c72bdd85f5:0x892f93d5e18b2b47!2m2!1d103.7426484!2d1.4950872!2m3!6e0!7e2!8j1674226800!3e3)
+[Larkin Sentral, Jalan Garuda, Larkin Jaya, Johor Bahru, Johor, Malaysia](https://google.com/maps/dir/1.3057328,103.7727344/Larkin+Sentral,+Jalan+Garuda,+Larkin+Jaya,+Johor+Bahru,+Johor,+Malaysia/@1.3862659,103.7263363,12z/am=t/data=!4m14!4m13!1m1!4e1!1m5!1m1!1s0x31da12c72bdd85f5:0x892f93d5e18b2b47!2m2!1d103.7426484!2d1.4950872!2m3!6e0!7e2!8j1674226800!3e3)
 
 [Singapore-Johore Express SJE: Queen Street - Larkin | Bus Service Information | Johor Bahru Citybus Routes | Bus Interchange](https://businterchange.net/johorbus/routes/routeinfo.php?service=SJE)
 
-[Penang Port, Malaysia - Schedule](https://www.penangport.com.my/services/ferry-services/schedule)
+[Penang Port, Malaysia - Schedule](https://penangport.com.my/services/ferry-services/schedule)
 
 [KTM Train Singapore Guide: How To Travel to JB & Back via the KTM Train & Avoid Jams](https://blog.seedly.sg/comprehensive-guide-to-johor-bahru-jb-ktm-train/#bus)
 
@@ -52,7 +52,7 @@ Location: Singapore, Singapore
 
 Highlights: Depart for Penang, Malaysia
 
-Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
+Weather: [Link](https://accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
 
 _Play-by-play and tips_
 
@@ -70,7 +70,7 @@ Location: Penang, Malaysia
 
 Highlights: Arrive in Penang; spend the day
 
-Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
+Weather: [Link](https://accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
 
 _Play-by-play and tips_
 
@@ -90,7 +90,7 @@ Location: Cameron Highlands, Malaysia
 
 Highlights: Arrive in Cameron Highlands; explore a tea planation
 
-Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
+Weather: [Link](https://accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
 
 _Play-by-play and tips_
 
@@ -102,7 +102,7 @@ For the hostel, stay in Hiker’s Sleep Port.
 
 ### Day 4
 
-[https://www.notion.so](https://www.notion.so)
+[https://notion.so](https://notion.so)
 
 Date: Sunday, January 22nd
 
@@ -110,7 +110,7 @@ Location: Cameron Highlands, Malaysia
 
 Highlights: Arrive in Cameron Highlands; explore a tea planation
 
-Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
+Weather: [Link](https://accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
 
 _Play-by-play and tips_
 
