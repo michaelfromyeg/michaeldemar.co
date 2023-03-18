@@ -21,11 +21,11 @@ Save Chiang Mai, others for future trip.
 
 [The PERFECT 3 Days in Bangkok Itinerary (2023 Guide)](https://www.nomadasaurus.com/3-days-in-bangkok-itinerary/)
 
-************\*\*\*************7 days in Southern Thailand************\*\*\*************
+****\*\*\*\*****\*\*\*****\*\*\*\*****7 days in Southern Thailand****\*\*\*\*****\*\*\*****\*\*\*\*****
 
 [7 Days in Southern Thailand Itinerary - TRAVELTIPSTER - Travel Ideas, Itinerary and Travel Tips](https://gotraveltipster.com/southern-thailand-itinerary/)
 
-**********\*\*\*\***********2-week South Thailand Itinerary**********\*\*\*\***********
+****\*\*****\*\*\*\*****\*\*****2-week South Thailand Itinerary****\*\*****\*\*\*\*****\*\*****
 
 [The Best 2 week South Thailand Itinerary (2022)](https://thesunrisedreamers.com/thailand/2-week-south-thailand-itinerary/)
 
@@ -35,7 +35,7 @@ _Thailand Travel Guide_
 
 [Thailand Travel Guide](https://12go.asia/en/thailand)
 
-******\*\*\*******Florian’s plan******\*\*\*******
+**\*\***\*\*\***\*\***Florian’s plan**\*\***\*\*\***\*\***
 
 [Thailand](https://www.notion.so/Thailand-ab0120e4d56249d7a515e4f02621ba4b)
 

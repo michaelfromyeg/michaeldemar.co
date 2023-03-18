@@ -179,7 +179,7 @@ Check out the rice plantations, before Konstantin heads to the airport.
 
 Tanah Lot, Monkey sanctuary, rice plantations
 
-****\*\*\*\*****TODO:****\*\*\*\***** Michael book hostel
+\***\*\*\*\*\*\*\***TODO:\***\*\*\*\*\*\*\*** Michael book hostel
 
 ### Day 6
 
