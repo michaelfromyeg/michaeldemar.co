@@ -55,7 +55,7 @@ If I could only pick one rule to keep, it'd be this one. The beauty of computer 
 
 Left without a job, there are countless ways to upskill and get ready for the next round. My favorite is building out 'little apps' (though a fully-fledged start-up is great, too). Participating in hackathons is a great way to get this going. Ask your friends and family what kinds of problems there having, and make little hacks for them. Keep them accessible for others online, and do it [in public](https://swyx.io/learn-in-public). Another good trick for easy adoption is building products for other developers; some good examples are CLI tools and IDE extensions.
 
-The best experience I had with this was in Summer 2020 participating in an ex-Uber engineer-led program called ["Summer of Shipping"](https://summerofshipping.com/). It was an awesome community to helped folks bounce back from a summer with a _ton_ of offers rescinded. I even worked at a start-up idea [weNote](https://wenote.ca) that I'm hoping to return to this upcoming year!
+The best experience I had with this was in Summer 2020 participating in an ex-Uber engineer-led program called ["Summer of Shipping"](https://summerofshipping.com). It was an awesome community to helped folks bounce back from a summer with a _ton_ of offers rescinded. I even worked at a start-up idea [weNote](https://wenote.ca) that I'm hoping to return to this upcoming year!
 
 ![The landing page for weNote](wenote.png "The landing page for weNote.")
 

@@ -11,9 +11,9 @@ tags: ["malaysia", "one-week"]
 
 ## Examples
 
-Note the inclusion of Cameron Highlands, Melaka. Both must-sees!
+Note the inclusion of Cameron Highlands, Melacca. Both must-sees!
 
-[The Ultimate Malaysia One-Week Itinerary | Kevin & Amanda Travel](https://kevinandamanda.com/ultimate-malaysia-itinerary/)
+[The Ultimate Malaysia One-Week Itinerary | Kevin & Amanda Travel](https://kevinandamanda.com/ultimate-malaysia-itinerary)
 
 ## Bookmarks
 
@@ -27,7 +27,7 @@ Note the inclusion of Cameron Highlands, Melaka. Both must-sees!
 
 [KTM Train Singapore Guide: How To Travel to JB & Back via the KTM Train & Avoid Jams](https://blog.seedly.sg/comprehensive-guide-to-johor-bahru-jb-ktm-train/#bus)
 
-[](https://online.ktmb.com.my/)
+[](https://online.ktmb.com.my)
 
 [Woodlands & Tuas Checkpoint](https://onemotoring.lta.gov.sg/content/onemotoring/home/driving/traffic_information/traffic-cameras/woodlands.html#trafficCameras)
 
@@ -35,8 +35,8 @@ Note the inclusion of Cameron Highlands, Melaka. Both must-sees!
 
 ## Shopping
 
--   [x] Hiking bag
--   [x] Hiking boots
+- [x] Hiking bag
+- [x] Hiking boots
 
 ## Itinerary
 

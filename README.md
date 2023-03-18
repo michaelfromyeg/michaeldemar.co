@@ -8,8 +8,8 @@ My personal website built using Gatsby (with React) and SCSS. Contains a blog, a
 
 There's just a couple of dependencies to install before running this project locally.
 
--   [Node.js](https://nodejs.org/en/) and preferably [nvm](https://github.com/nvm-sh/nvm)
--   [gatsby-cli](https://gatsbyjs.com/docs/reference/gatsby-cli/#how-to-use-gatsby-cli)
+- [Node.js](https://nodejs.org/en) and preferably [nvm](https://github.com/nvm-sh/nvm)
+- [gatsby-cli](https://gatsbyjs.com/docs/reference/gatsby-cli/#how-to-use-gatsby-cli)
 
 If you're on macOS, Linux, or WSL:
 
@@ -38,7 +38,7 @@ $ yarn start
     To create a production build, use gatsby build
 ```
 
-If you're looking to publish your Gatsby site to GitHub pages after forking this project, see the [Gatsby documentation](https://gatsbyjs.org/docs/how-gatsby-works-with-github-pages/) for more information. If you're interested in helping me turn this project into a re-usable Gatsby template, feel free to open an issue or PR.
+If you're looking to publish your Gatsby site to GitHub pages after forking this project, see the [Gatsby documentation](https://gatsbyjs.org/docs/how-gatsby-works-with-github-pages) for more information. If you're interested in helping me turn this project into a re-usable Gatsby template, feel free to open an issue or PR.
 
 ## Notes
 
@@ -46,7 +46,7 @@ Anything I think is helpful to know for future me I'll leave here!
 
 ### The `static/` folder
 
-The static folder contains files that are "directly" copied (i.e., they are unmodified during copying) to the `public/` folder. [You should avoid using it!](https://gatsbyjs.com/docs/how-to/images-and-media/static-folder/)
+The static folder contains files that are "directly" copied (i.e., they are unmodified during copying) to the `public/` folder. [You should avoid using it!](https://gatsbyjs.com/docs/how-to/images-and-media/static-folder)
 
 It's fine for the `favicon.ico` and `robots.txt` files to live here. The `CNAME` doesn't have to live here; GitHub Pages will pick it up from the project root.
 

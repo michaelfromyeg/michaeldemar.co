@@ -21,7 +21,7 @@ I then completed two online assessments (OAs). The first was a fairly standard s
 
 ## Getting settled in Toronto
 
-Moving to Toronto was a rather involved experience. Immediately after wrapping up one of my most brutal final exam schedules to date, I had to pack, donate, or dump my items from BC that I had nested during the pandemic. (It was… a lot of stuff.) Then I was busy with Amazon's pre-onboarding while also recruiting for Fall 2022 internships. (That's a whole [other story](https://michaeldemar.co/blog/rescind-playbook/).)
+Moving to Toronto was a rather involved experience. Immediately after wrapping up one of my most brutal final exam schedules to date, I had to pack, donate, or dump my items from BC that I had nested during the pandemic. (It was… a lot of stuff.) Then I was busy with Amazon's pre-onboarding while also recruiting for Fall 2022 internships. (That's a whole [other story](https://michaeldemar.co/blog/rescind-playbook).)
 
 ![My final exam schedule. Back-to-back networking, databases, and operating systems was not fun.](exam-schedule.png)
 
@@ -37,7 +37,7 @@ The next major adjustment for me came in navigating life at a huge company. Make
 
 Thankfully, I had an awesome team and intern class around me to support me throughout the onboarding process. Amazon's onboarding, while extensive, is also exhaustive, leaving you with a full set of tools and knowledge to thrive in your time there. My initial nerves were replaced by excitement, and I dove head-first into our tech stack.
 
-I got onboarded to my project relatively quickly. Within the Supply Chain Optimization Technologies (SCOT) organization, I had the chance to work on a "product tour." (Here's [an article](https://blog.asana.com/2018/10/move-fast-without-technical-debt-product-tours-react/) from a former Asana intern about an analogous project for their core application.) It was built on top of a complex, multipage booking portal that used React. While I didn't anticipate being placed on a frontend project, I enjoyed it far more than I thought I would, and I learned a ton about today's challenges in scaling modern frontend technologies. (I'm even following this experience up by giving a React workshop at this year's [Hack The North](https://hackthenorth.com/) in Waterloo—make sure to tune in.)
+I got onboarded to my project relatively quickly. Within the Supply Chain Optimization Technologies (SCOT) organization, I had the chance to work on a "product tour." (Here's [an article](https://blog.asana.com/2018/10/move-fast-without-technical-debt-product-tours-react) from a former Asana intern about an analogous project for their core application.) It was built on top of a complex, multipage booking portal that used React. While I didn't anticipate being placed on a frontend project, I enjoyed it far more than I thought I would, and I learned a ton about today's challenges in scaling modern frontend technologies. (I'm even following this experience up by giving a React workshop at this year's [Hack The North](https://hackthenorth.com) in Waterloo—make sure to tune in.)
 
 ![My desk!](amazon-desk.png)
 
@@ -55,7 +55,7 @@ Personally, my Achilles' heel as an engineer is getting bogged down by particula
 
 There is one special question you can ask: "why?" Asking the right "why?" can help determine what exactly is desired by your end-user (or "customer," in Amazon terms) and minimize feature bloat. In particular, I had chats with PMs from separate teams (…in entirely different continents), so finding cohesion in product vision and preventing unneeded complexity required careful question-asking.
 
-(As any good [Grug-brain developer](https://grugbrain.dev/) knows, complexity is an existential threat, so it should be eliminated at all costs!)
+(As any good [Grug-brain developer](https://grugbrain.dev) knows, complexity is an existential threat, so it should be eliminated at all costs!)
 
 ### Lesson #3: Agility is your friend
 

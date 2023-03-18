@@ -19,15 +19,15 @@ Save Chiang Mai, others for future trip.
 
 \***\*3-days in Bangkok\*\***
 
-[The PERFECT 3 Days in Bangkok Itinerary (2023 Guide)](https://nomadasaurus.com/3-days-in-bangkok-itinerary/)
+[The PERFECT 3 Days in Bangkok Itinerary (2023 Guide)](https://nomadasaurus.com/3-days-in-bangkok-itinerary)
 
 ****\*\*\*\*****\*\*\*****\*\*\*\*****7 days in Southern Thailand****\*\*\*\*****\*\*\*****\*\*\*\*****
 
-[7 Days in Southern Thailand Itinerary - TRAVELTIPSTER - Travel Ideas, Itinerary and Travel Tips](https://gotraveltipster.com/southern-thailand-itinerary/)
+[7 Days in Southern Thailand Itinerary - TRAVELTIPSTER - Travel Ideas, Itinerary and Travel Tips](https://gotraveltipster.com/southern-thailand-itinerary)
 
 ****\*\*****\*\*\*\*****\*\*****2-week South Thailand Itinerary****\*\*****\*\*\*\*****\*\*****
 
-[The Best 2 week South Thailand Itinerary (2022)](https://thesunrisedreamers.com/thailand/2-week-south-thailand-itinerary/)
+[The Best 2 week South Thailand Itinerary (2022)](https://thesunrisedreamers.com/thailand/2-week-south-thailand-itinerary)
 
 ## Bookmarks
 
@@ -41,10 +41,10 @@ _Thailand Travel Guide_
 
 ## Food
 
--   Phat kaphrao
--   Pad See Ew (which is really just authentic pad thai),
--   Thai Milk Tea
--   (Thai curry)
+- Phat kaphrao
+- Pad See Ew (which is really just authentic pad thai),
+- Thai Milk Tea
+- (Thai curry)
 
 ## Itinerary
 
@@ -68,7 +68,7 @@ Michael’s first day in Bangkok. Can meet up with Thomas as well.
 
 Doing a day trip to Ayutthaya.
 
-Here’s a [guide](https://voyagetips.com/en/ayutthaya/). This website is also fantastic for Chiang Mai (…and I’ll definitely be consulting for my trip north, and to Cambodia and hopefully Laos).
+Here’s a [guide](https://voyagetips.com/en/ayutthaya). This website is also fantastic for Chiang Mai (…and I’ll definitely be consulting for my trip north, and to Cambodia and hopefully Laos).
 
 Check-in to to Revolution Hostel Asoke at night. (They were nice and emailed to confirm.)
 
@@ -90,23 +90,23 @@ The group’s first full day in Bangkok!
 
 Areas of the city to explore…
 
--   Sukhumvit (party scene)
--   Chinatown
--   Old City (…especially Khao San Road)
+- Sukhumvit (party scene)
+- Chinatown
+- Old City (…especially Khao San Road)
 
 Sightseeing…
 
 Chatuchak Weekend Market. River cruise exists as well.
 
--   Group A
-    -   Wat Pho (near Sanam Chai MRT, USD$6.30pp, takes ~1hr), has recling Buddha
-        -   Lunch near here: along Chao Phraya River, many restaurants
-    -   The Grand Palace / Wat Phra Kaew (5-10min walk from Wat Pho, USD$15.73pp, takes ~1-2hr)
-    -   (then) walk down the Chao Phraya River and explore Wat Arun (USD$1.57, ~1-3hr, depending if you climb it)
--   Group B
-    -   The Marble Temple or Wat Banchamabophit (USD$0.63, near Phaya Thai, can tuk tuk the rest of the distance, takes ~1-2hr)
-    -   Jim Thompson House (near Siam BTS station, USD$3.15 with a student discount, takes ~1hr)
-    -   The Golden Mount or Wat Saket (takes bus #8 from the Victory Monument, USD$1.58, takes ~1-2hr)
+- Group A
+  - Wat Pho (near Sanam Chai MRT, USD$6.30pp, takes ~1hr), has recling Buddha
+    - Lunch near here: along Chao Phraya River, many restaurants
+  - The Grand Palace / Wat Phra Kaew (5-10min walk from Wat Pho, USD$15.73pp, takes ~1-2hr)
+  - (then) walk down the Chao Phraya River and explore Wat Arun (USD$1.57, ~1-3hr, depending if you climb it)
+- Group B
+  - The Marble Temple or Wat Banchamabophit (USD$0.63, near Phaya Thai, can tuk tuk the rest of the distance, takes ~1-2hr)
+  - Jim Thompson House (near Siam BTS station, USD$3.15 with a student discount, takes ~1hr)
+  - The Golden Mount or Wat Saket (takes bus #8 from the Victory Monument, USD$1.58, takes ~1-2hr)
 
 Must stop by Khao San Road! Cool tourist hub, will be good to spend the night there. Walkable from The Golden Mount; else take a canal boat to Phra Arthit Pier.
 
@@ -154,14 +154,14 @@ First day in Koh Samui!
 
 It’s an amazing island. Here’s a few ideas…
 
--   Big Buddha
--   Tree-top zipline; close to Tan Rua waterfall (can do afterward)
--   Mummified Monk, Wat Khunaram
--   Laem Sor Pagoda
--   Secret Buddha Garden (USD$3)
--   Coral Cove beach
--   A “walking street”… Fisherman’s Village, Maenam Market, Chaweng Night Market
--   Hin Ta & Hin Yai, grandmother and grandfather rocks
+- Big Buddha
+- Tree-top zipline; close to Tan Rua waterfall (can do afterward)
+- Mummified Monk, Wat Khunaram
+- Laem Sor Pagoda
+- Secret Buddha Garden (USD$3)
+- Coral Cove beach
+- A “walking street”… Fisherman’s Village, Maenam Market, Chaweng Night Market
+- Hin Ta & Hin Yai, grandmother and grandfather rocks
 
 Check-in to P&T Hostel.
 
@@ -181,9 +181,9 @@ _Play-by-play and tips_
 
 Enjoy Koh Samui.
 
-This day we could spend mostly at the Ang Thong National Marine Park. Other options: Koh Tao, [Koh Phangan](https://backpackerswanderlust.com/koh-phangan-backpacking/).
+This day we could spend mostly at the Ang Thong National Marine Park. Other options: Koh Tao, [Koh Phangan](https://backpackerswanderlust.com/koh-phangan-backpacking).
 
-(Unrelated, but per [this](https://thebrokebackpacker.com/backpacking-thailand/) there’s some pretty good backpacking just north of Bangkok en route to Chiang Mai; might be able to rope that into my next trip.)
+(Unrelated, but per [this](https://thebrokebackpacker.com/backpacking-thailand) there’s some pretty good backpacking just north of Bangkok en route to Chiang Mai; might be able to rope that into my next trip.)
 
 Another day in P&T Hostel.
 
@@ -203,16 +203,16 @@ _Play-by-play and tips_
 
 A quick morning in Surat Thani before departing for Krabi.
 
--   Wat Tham Suea (Tiger Cave Temple)
--   Khao Khanab Nam Mountains (USD$9.41)
--   Au Luk Mangroves (where are these?!)
--   Klong Thom Hot Springs (USD$2.82 for the hot springs, USD$6.27 for the nature reserve)
--   Emerald Pool (USD$6.27)
--   Wat Kaew Temple (USD$15.67)
--   Elephant Sactuary (USD$78.35…)
--   Thung Teao Forest Natural Pkar (USD$2.82)
--   Phra Ae Beach
--   Tonsai Bay
+- Wat Tham Suea (Tiger Cave Temple)
+- Khao Khanab Nam Mountains (USD$9.41)
+- Au Luk Mangroves (where are these?!)
+- Klong Thom Hot Springs (USD$2.82 for the hot springs, USD$6.27 for the nature reserve)
+- Emerald Pool (USD$6.27)
+- Wat Kaew Temple (USD$15.67)
+- Elephant Sactuary (USD$78.35…)
+- Thung Teao Forest Natural Pkar (USD$2.82)
+- Phra Ae Beach
+- Tonsai Bay
 
 Check-out of P&T Hostel.
 
