@@ -36,7 +36,7 @@
         "t": "yarn test",
         "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 0",
         "build": "gatsby build",
-        "format": "prettier --write \"**/*.{js,jsx,json,md,css,scss}\"",
+        "format": "prettier --write \"**/*.{js,jsx,json,yaml,yml,css,scss}\"",
         "lint": "eslint . --fix --ext js,jsx,ts,tsx",
         "deploy": "gatsby build && echo michaeldemar.co > public/CNAME && gh-pages -d public",
         "prepare": "husky install"
