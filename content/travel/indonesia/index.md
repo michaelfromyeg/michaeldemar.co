@@ -49,14 +49,14 @@ Useful links I kept on hand throughout the trip.
 
 Products I would consider purchasing before you leave! (I'll try and come back later to add recommended product links.)
 
-- [x] Head lamp
-- [x] Hiking sandals
-- [x] Hiking socks (long socks)
-- [x] Hiking pants
-- [x] Water safe bags; things to prevent stuff from getting wet
-- [x] Bandana or some kind of face covering (neck gaiter)
-- [x] Beanie, gloves
-- [x] Day pack
+- Head lamp
+- Hiking sandals
+- Hiking socks (long socks)
+- Hiking pants
+- Water safe bags; things to prevent stuff from getting wet
+- Bandana or some kind of face covering (neck gaiter)
+- Beanie, gloves
+- Day pack
 
 ## Itinerary
 

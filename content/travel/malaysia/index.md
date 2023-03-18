@@ -35,8 +35,8 @@ Note the inclusion of Cameron Highlands, Melacca. Both must-sees!
 
 ## Shopping
 
-- [x] Hiking bag
-- [x] Hiking boots
+- Hiking bag
+- Hiking boots
 
 ## Itinerary
 
