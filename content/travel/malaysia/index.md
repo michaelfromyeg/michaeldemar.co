@@ -33,6 +33,7 @@ Useful links I kept on hand throughout the trip.
 - [KTMB](https://online.ktmb.com.my)
 - [Woodlands & Tuas Checkpoint](https://onemotoring.lta.gov.sg/content/onemotoring/home/driving/traffic_information/traffic-cameras/woodlands.html#trafficCameras)
 - [SG to JB Guide](https://businterchange.net/images/guide/Easy_Guide_SG-JB_via_Woodlands_20220605.png)
+- [Guide to Batu Caves](https://diveintomalaysia.com/batu-caves)
 
 ## Shopping
 
