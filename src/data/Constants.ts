@@ -28,9 +28,6 @@ const getUniversityYear = (universityId: string): number => {
         throw new Error("Could not find UBC in CV!");
     }
 
-    // const { startDate, endDate } = ubc;
-    // const sd = DateTime.fromISO(startDate);
-    // const ed = DateTime.fromISO(endDate);
     const sd = DateTime.fromISO("2019-09-01");
     const ed = DateTime.fromISO("2024-04-30");
 

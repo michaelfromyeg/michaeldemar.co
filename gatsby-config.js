@@ -51,6 +51,13 @@ module.exports = {
         {
             resolve: `gatsby-source-filesystem`,
             options: {
+                path: `${__dirname}/content/travel`,
+                name: `travel`,
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
                 path: `${__dirname}/content/assets`,
                 name: `assets`,
             },
@@ -132,23 +139,22 @@ module.exports = {
                         },
                         query: `
                         {
-                          allMarkdownRemark(
-                            sort: { order: DESC, fields: [frontmatter___date] },
-                          ) {
-                            nodes {
-                              excerpt
-                              html
-                              fields {
-                                slug
-                              }
-                              frontmatter {
-                                title
-                                date
-                              }
+                            allMarkdownRemark(
+                                sort: { order: DESC, fields: [frontmatter___date] },
+                            ) {
+                                nodes {
+                                    excerpt
+                                    html
+                                    fields {
+                                        slug
+                                    }
+                                    frontmatter {
+                                        title
+                                        date
+                                    }
+                                }
                             }
-                          }
-                        }
-                      `,
+                        }`,
                         output: "/rss.xml",
                         title: "Michael's Blog",
                         match: "^/blog/",

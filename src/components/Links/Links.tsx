@@ -21,6 +21,9 @@ export const Destinations = [
         name: "design",
     },
     {
+        name: "travel",
+    },
+    {
         name: "about",
     },
 ];

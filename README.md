@@ -11,7 +11,7 @@ There's just a couple of dependencies to install before running this project loc
 - [Node.js](https://nodejs.org/en/) and preferably [nvm](https://github.com/nvm-sh/nvm)
 - [gatsby-cli](https://gatsbyjs.com/docs/reference/gatsby-cli/#how-to-use-gatsby-cli)
 
-If you're on MacOS, Linux, or WSL:
+If you're on macOS, Linux, or WSL:
 
 ```shellscript
 # Install Homebrew (or Linuxbrew) if you haven't already!
@@ -52,7 +52,7 @@ It's fine for the `favicon.ico` and `robots.txt` files to live here. The `CNAME`
 
 ## Screenshots
 
-Here's a few screenshots of the site (...though it changes often).
+Here's a few screenshots of the site (...though it often changes).
 
 ![The homepage](images/homepage.png)
 

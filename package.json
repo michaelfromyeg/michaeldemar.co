@@ -1,7 +1,7 @@
 {
     "name": "michaeldemar.co",
-    "private": true,
     "description": "michaeldemar.co",
+    "private": true,
     "version": "0.1.0",
     "author": "Michael DeMarco <michaelfromyeg@gmail.com>",
     "bugs": {
@@ -10,6 +10,35 @@
     "engines": {
         "node": ">=16.0.0 <17.0.0",
         "npm" : ">=8.0.0 <10.0.0"
+    },
+    "homepage": ".",
+    "keywords": [
+        "gatsby",
+        "michael demarco"
+    ],
+    "license": "MIT",
+    "main": "n/a",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/michaelfromyeg/michaeldemar.co"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "scripts": {
+        "s": "yarn start",
+        "start": "gatsby develop",
+        "dev": "echo \"Use yarn start instead!\" && gatsby develop",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean",
+        "t": "yarn test",
+        "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+        "build": "gatsby build",
+        "format": "prettier --write \"**/*.{js,jsx,json,md,css,scss}\"",
+        "lint": "eslint . --fix --ext js,jsx,ts,tsx",
+        "deploy": "gatsby build && echo michaeldemar.co > public/CNAME && gh-pages -d public"
     },
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.30",
@@ -72,34 +101,5 @@
         "luxon": "2.5.2",
         "prettier": "2.0.4",
         "typescript": "3.9.4"
-    },
-    "homepage": ".",
-    "keywords": [
-        "gatsby",
-        "michael demarco"
-    ],
-    "license": "MIT",
-    "main": "n/a",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/michaelfromyeg/michaeldemar.co"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "scripts": {
-        "s": "yarn start",
-        "start": "gatsby develop",
-        "dev": "echo \"Use yarn start instead!\" && gatsby develop",
-        "serve": "gatsby serve",
-        "clean": "gatsby clean",
-        "t": "yarn test",
-        "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-        "build": "gatsby build",
-        "format": "prettier --write \"**/*.{js,jsx,json,md,css,scss}\"",
-        "lint": "eslint . --fix --ext js,jsx,ts,tsx",
-        "deploy": "gatsby build && echo michaeldemar.co > public/CNAME && gh-pages -d public"
     }
 }

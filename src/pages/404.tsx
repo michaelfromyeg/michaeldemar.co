@@ -20,9 +20,26 @@ const NotFoundPage = ({ data, location }: NotFoundPageProps): ReactElement => {
 
     return (
         <Format location={location} title={title}>
-            <SEO title="404: Not Found" />
-            <h1>Not Found</h1>
-            <p>You just hit a route that {`doesn't`} exist... the sadness.</p>
+            <SEO title="Not Found" />
+            <h1>404: Not Found</h1>
+            <p>Unfortunately that route {`doesn't`} exist. (Should it? <a href="mailto:michaelfromyeg@gmail.com">Shoot me a message</a>.)</p>
+            <div style={{
+                margin: `0 auto`,
+                textAlign: `center`,
+            }}>
+            <iframe
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                height="315"
+                src="https://youtube.com/embed/bjs77sPT04s?start=106"
+                style={{
+                    border: `0px`,
+                }}
+                title="YouTube video player"
+                width="560"
+            >
+            </iframe>
+            </div>
         </Format>
     );
 };

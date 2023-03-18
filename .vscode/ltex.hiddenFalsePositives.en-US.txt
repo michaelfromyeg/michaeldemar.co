@@ -1,3 +1,6 @@
 {"rule":"COPYRIGHT","sentence":"^\\QCopyright (c) 2022 Michael DeMarco\\E$"}
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qemail.png(And just like that, there goes my offer...)\\E$"}
 {"rule":"HE_VERB_AGR","sentence":"^\\QWhile I had a decent chunk of relevant React experience to leverage for my project, our application was still complex and tens of thousands of lines of code long.\\E$"}
+{"rule":"THE_SUPERLATIVE","sentence":"^\\QBALI Itinerary * EVERYTHING you need to Know (2023)\nUltimate 1 Week East Java Itinerary: Temples, Volcanoes and Waterfalls - The Curated Travelist\n5-Day Bali Itinerary | First-Timers Guide to a Perfect Vacation in Indonesia\nNusa Penida Bali : a complete guide (2023)\nTrain travel in Indonesia | Trains Jakarta-Surabaya, ferry to Bali\nGuide to Visiting Borobudur Temple - Largest Buddhist Temple in Indonesia\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QWe can head to the Lumajang side first, early in the morning, and then down to the falls.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIjen Backpacker, Jalan Stasiun II, Lingkar Kampung Baru, Bulusan, Banyuwangi Regency, East Java, Indonesia\\E$"}

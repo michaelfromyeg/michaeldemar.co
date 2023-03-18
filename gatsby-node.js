@@ -46,6 +46,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     createPagesByType("blog", posts, createPage);
     createPagesByType("design", posts, createPage);
     createPagesByType("projects", posts, createPage);
+    createPagesByType("travel", posts, createPage);
 };
 
 /**
