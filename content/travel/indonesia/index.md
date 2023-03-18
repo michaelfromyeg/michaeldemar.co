@@ -160,7 +160,7 @@ From our hostel, we can get a ride to Ijen around midnight. See the article for 
 - Date: Tuesday, February 7th
 - Location: Probolinggo, Indonesia
 - Highlights: Mount Ijen (morning); Bali
-- Weather: [Link](https://accuweather.com/en/id/probolinggo/203184/daily-weather-forecast/203184?day=9)
+- Weather: [AccuWeather](https://accuweather.com/en/id/probolinggo/203184/daily-weather-forecast/203184?day=9)
 
 Start the day again, **very early,** atop Mount Ijen. Go from Mount Ijen on the ferry to Bali, and spend the day there.
 
@@ -190,7 +190,7 @@ Spend the day in Bali. Head down to Nusa Penida for a bit, grab food and watch t
 - Date: Thursday, February 9th
 - Location: Singapore, Singapore
 - Highlights: Travel back to Singapore.
-- Weather: [Link](https://accuweather.com/en/id/denpasar/202196/daily-weather-forecast/202196?day=11)
+- Weather: [AccuWeather](https://accuweather.com/en/id/denpasar/202196/daily-weather-forecast/202196?day=11)
 
 Head to the airport and fly home.
 

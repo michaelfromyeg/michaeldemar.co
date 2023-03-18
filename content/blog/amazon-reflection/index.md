@@ -21,7 +21,7 @@ I then completed two online assessments (OAs). The first was a fairly standard s
 
 ## Getting settled in Toronto
 
-Moving to Toronto was a rather involved experience. Immediately after wrapping up one of my most brutal final exam schedules to date, I had to pack, donate, or dump my items from BC that I had nested during the pandemic. (It was… a lot of stuff.) Then I was busy with Amazon's pre-onboarding while also recruiting for Fall 2022 internships. (That's a whole [other story](https://michaeldemar.co/blog/rescind-playbook).)
+Moving to Toronto was a rather involved experience. Immediately after wrapping up one of my most brutal final exam schedules to date, I had to pack, donate, or dump my items from BC that I had nested during the pandemic. (It was... a lot of stuff.) Then I was busy with Amazon's pre-onboarding while also recruiting for Fall 2022 internships. (That's a whole [other story](https://michaeldemar.co/blog/rescind-playbook).)
 
 ![My final exam schedule. Back-to-back networking, databases, and operating systems was not fun.](exam-schedule.png)
 
@@ -53,7 +53,7 @@ Personally, my Achilles' heel as an engineer is getting bogged down by particula
 
 ### Lesson #2: Complexity is evil
 
-There is one special question you can ask: "why?" Asking the right "why?" can help determine what exactly is desired by your end-user (or "customer," in Amazon terms) and minimize feature bloat. In particular, I had chats with PMs from separate teams (…in entirely different continents), so finding cohesion in product vision and preventing unneeded complexity required careful question-asking.
+There is one special question you can ask: "why?" Asking the right "why?" can help determine what exactly is desired by your end-user (or "customer," in Amazon terms) and minimize feature bloat. In particular, I had chats with PMs from separate teams (...in entirely different continents), so finding cohesion in product vision and preventing unneeded complexity required careful question-asking.
 
 (As any good [Grug-brain developer](https://grugbrain.dev) knows, complexity is an existential threat, so it should be eliminated at all costs!)
 
@@ -80,7 +80,7 @@ Amazon's leadership principles (LPs) are embedded into the DNA of the company. M
 
 It's easy to get wrapped up in work and find yourself constantly worrying about return offers, your next internship, and the various other stressors of everyday life. Kick back with your co-workers when the chance arises and make the most of your internship. To help center myself, I would often reflect on where I came from to end up at Amazon. This kind of mindfulness exercise helped me make the most of my time at Amazon.
 
-## So… what's next?
+## So... what's next?
 
 While I could not be more grateful for my time at Amazon, I also could not be more excited for what this next year has in store. I have a chance this August to rest and reconnect with family before I join Tesla this fall on the Supercharging team. I'll also be serving as an Undergraduate Teaching Assistant (UTA) for my first-ever 300-level course; namely, "Internet Computing" (CPSC 317) at UBC with Professor Alan Wagner.
 

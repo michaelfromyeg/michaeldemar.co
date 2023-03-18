@@ -5,8 +5,8 @@
     "email": "mdemar01@student.ubc.ca",
     "phone": "+1 (780) 680-9634",
     "website": "https://michaeldemar.co",
-    "summary": "Computer Science third-year undergraduate student at The University of British Columbia, former software engineer at Samsung, and 8-time TA.",
-    "shortSummary": "3rd-year at UBC; formerly at Amazon, Samsung; 8-time TA",
+    "summary": "Computer Science fourth-year undergraduate student at The University of British Columbia, former software engineer at Tesla, and 8-time TA.",
+    "shortSummary": "4th-year at UBC; formerly at Tesla, Amazon; 8-time TA",
     "location": {
         "address": "Redacted",
         "postalCode": "Redacted",
@@ -76,9 +76,34 @@
             "endDate": "Dec 2022",
             "summary": "Software engineer intern for the Fall 2022 cycle.",
             "highlights": [
-                "Supporting the transition to sustainable energy on the Supercharging team."
+                "Collaborated on internal mapping tool to optimize Supercharger placement.",
+                "Overhauled parts of React codebase to improve modularity and testability.",
+                "Added test infrastructure to Flask API; achieved 80% coverage overall."
             ],
-            "technologies": ["TypeScript", "React", "Python"]
+            "technologies": [
+                "TypeScript",
+                "React",
+                "Python",
+                "Docker"
+            ]
+        },
+        {
+            "id": "ubc-ra",
+            "organization": "University of British Columbia",
+            "position": "Undergraduate Research Assistant",
+            "location": "Vancouver, British Columbia",
+            "website": "https://cs.ubc.ca",
+            "startDate": "May 2022",
+            "endDate": "Aug 2022",
+            "summary": "Supported research on the TEC4HOME project, using Python.",
+            "highlights": [
+                "Used machine learning techniques to try to reduce hospital re-admissions; experimented with timeseries approaches and upsampling methods.",
+                "Leveraged Python to perform survival analysis on patient biometrics.",
+                "Conducted literature reviews and led presentations for stakeholders."
+            ],
+            "technologies": [
+                "Python"
+            ]
         },
         {
             "id": "amazon",
@@ -114,10 +139,17 @@
             "summary": "Teaching assistant for seven courses in two years, ranging from data science to computer systems.",
             "highlights": [
                 "Earned 100% favorable rating from 100+ students in previous semester.",
-                "Taught six unique courses using Racket, Python, R, C, and C++.",
-                "Refined instruction materials across 9+ lab sections led."
+                "Taught seven unique courses using Racket, Python, R, C, and C++.",
+                "Refined instructional materials across 10+ tutorial sections led."
             ],
-            "technologies": ["Python", "C", "Assembly", "C++", "R", "Racket"]
+            "technologies": [
+                "Python",
+                "C",
+                "Assembly",
+                "C++",
+                "R",
+                "Racket"
+            ]
         },
         {
             "id": "samsung",
@@ -205,7 +237,11 @@
                 "Coordinated and executed promotional strategy with team of fourteen across Canada. Worked with digital marketing tools such as Buffer, AdWords, and Facebook Ads.",
                 "Assisted in numerous portfolios pertaining to the education of youth in Alberta on international affairs and sustainable development."
             ],
-            "technologies": ["Python", "TypeScript", "Clasp by Google"]
+            "technologies": [
+                "Python",
+                "TypeScript",
+                "Clasp by Google"
+            ]
         },
         {
             "id": "ubc-ece",
@@ -221,7 +257,12 @@
                 "Developed Python script to gather department research data to be displayed on the new website.",
                 "Conducted interviews and wrote blog posts about the latest research being done."
             ],
-            "technologies": ["Python", "HTML", "CSS", "JavaScript"]
+            "technologies": [
+                "Python",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
         },
         {
             "id": "metro",
@@ -269,13 +310,27 @@
     ],
     "projects": [
         {
+            "id": "midtermr",
+            "name": "Midtermr",
+            "position": "Software Engineer",
+            "location": "Vancouver, British Columbia",
+            "website": "https://midtermr.michaeldemar.co",
+            "github": "https://github.com/michaelfromyeg/midtermr",
+            "date": "Nov 2022",
+            "summary": "generate practice exams using web-scraping and Svelte",
+            "highlights": [
+                "Built app to create exams from online content using Svelte and Python.",
+                "Demo video has 2,000+ views, and tool has generated hundreds of exams."
+            ]
+        },
+        {
             "id": "credit-card",
             "name": "Predicting Defaults",
             "position": "Data Scientist",
             "location": "Vancouver, British Columbia",
             "website": "https://michaeldemar.co/projects/predicting-defaults",
             "github": "https://github.com/michaelfromyeg/credit-card-defaults",
-            "date": "Nov 2022",
+            "date": "Nov 2021",
             "summary": "predicting credit card defaults using machine learning",
             "highlights": [
                 "Tuned LightGBM model with Python to 0.82 accuracy and 0.38 recall.",
@@ -432,7 +487,7 @@
             "summary": "simplify technical interview problem practice",
             "highlights": [
                 "Built tool to bring interview \"puzzles\" into an IDE using TypeScript.",
-                "Won Microsoft's \"Best Use of External API\" award and has 170+ users."
+                "Won Microsoft's \"Best Use of External API\" award and has 200+ users."
             ]
         },
         {
@@ -459,7 +514,7 @@
             "date": "Mar 2020",
             "summary": "facilitate paperless nominations for student elections",
             "highlights": [
-                "Built tool to comb survey data and send bulk emails using Java and AWS.",
+                "Created utility to comb survey data and send emails using Java and AWS.",
                 "Sent 500+ emails in production saving 20+ hours of work for election team."
             ]
         },
@@ -517,10 +572,14 @@
             "endDate": "present",
             "summary": "Spearheaded philanthropic events to support various charities and the local community.",
             "highlights": [
-                "Led beach clean-up with over 30+ volunteers whiched cleaned 15kg of trash from ~3km of beach.",
+                "Led beach clean-up with over 30+ volunteers which cleaned 15kg of trash from ~3km of beach.",
                 "Co-hosted Valentine's Day fundraiser which yielded $2,000 for Convenant House Vancouver."
             ],
-            "skills": ["Leadership", "Service", "Event Planning"]
+            "skills": [
+                "Leadership",
+                "Service",
+                "Event Planning"
+            ]
         },
         {
             "id": "ams-food-bank",
@@ -534,7 +593,11 @@
             "highlights": [
                 "Served numerous UBC students, faculty, and staff at the food bank, ensuring discretion and providing timely service."
             ],
-            "skills": ["Volunteering", "Organization", "Service"]
+            "skills": [
+                "Volunteering",
+                "Organization",
+                "Service"
+            ]
         },
         {
             "id": "fiji-scholarship",
@@ -553,7 +616,7 @@
         {
             "id": "sus-atp",
             "organization": "The Science Undergraduate Society",
-            "position": "Assistant to the President (ATP)",
+            "position": "Assistant to the President",
             "location": "Vancouver, British Columbia",
             "website": "https://sus.ubc.ca",
             "startDate": "May 2021",
@@ -589,7 +652,11 @@
                 "Led three workshops with 100+ attendees and 300+ views on YouTube.",
                 "Developed engaging delivery style that actively involves participants."
             ],
-            "skills": ["Leadership", "Service", "Event Planning"]
+            "skills": [
+                "Leadership",
+                "Service",
+                "Event Planning"
+            ]
         },
         {
             "id": "sus-ea",
@@ -611,12 +678,12 @@
             "organization": "nwPlus",
             "position": "Software Developer",
             "location": "Vancouver, British Columbia",
-            "website": "https://nwplus.io",
+            "website": "http://nwplus.io",
             "startDate": "May 2020",
             "endDate": "Apr 2021",
-            "summary": "Assisted with creating website and resources behind three flagship hack-a-thon events at UBC.",
+            "summary": "Assisted with creating website and resources behind three flagship hackathon events at UBC.",
             "highlights": [
-                "Assisted with creating website and resources behind three flagship hack-a-thon events at UBC."
+                "Assisted with creating website and resources behind three flagship hackathon events at UBC."
             ]
         },
         {
@@ -637,7 +704,7 @@
             "organization": "Code The Change Foundation",
             "position": "Back End Developer",
             "location": "Vancouver, British Columbia",
-            "website": "https://codethechange.ca",
+            "website": "http://codethechange.ca",
             "startDate": "Sep 2019",
             "endDate": "Apr 2020",
             "summary": "Served as a student developer on a project team to create a volunteer management tool for a local nonprofit.",
@@ -709,12 +776,12 @@
         {
             "id": "ubc",
             "institution": "University of British Columbia",
-            "degree": "B.Sc. Honours Computer Science (Co-op), minor in Data Science",
+            "degree": "B.Sc. Honors Computer Science (Co-op), minor in Data Science",
             "location": "Vancouver, British Columbia",
             "website": "https://cs.ubc.ca",
             "startDate": "Sep 2019",
             "endDate": "Apr 2024",
-            "gpa": "4.33 (94%)",
+            "gpa": "4.33 (93%)",
             "courses": [
                 "Data Structures and Algorithms (96%)",
                 "Computer Systems (95%)",
@@ -788,7 +855,7 @@
             "date": "Apr 2019",
             "website": "https://epsb.ca",
             "awarder": "Edmonton Public Schools",
-            "summary": "Nominated by McNally High School for Michael A. Strembitsky award, which recognizes accomplishments in academics and leadership, on behalf of McNally. All Edmonton high schools choose one nominee. Out of the the 19 nominees, I was awarded the gold medallion, recognizing my achievements in both academic and leadership settings."
+            "summary": "Nominated by McNally High School for Michael A. Strembitsky award, which recognizes accomplishments in academics and leadership, on behalf of McNally. All Edmonton high schools choose one nominee. Out of the 19 nominees, I was awarded the gold medallion, recognizing my achievements in both academic and leadership settings."
         },
         {
             "id": "td",
@@ -834,7 +901,7 @@
                 "Java",
                 "Node",
                 "React",
-                "Mongo",
+                "MongoDB",
                 "Bash",
                 "PostgreSQL",
                 "Docker",
