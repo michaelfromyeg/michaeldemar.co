@@ -40,6 +40,7 @@ const PostHeader = ({ node, type }: PostHeaderProps): ReactElement => {
         <article className={styles.post}>
             <header>
                 <GatsbyImage
+                    backgroundColor={"var(--background)"}
                     image={image}
                     alt={`${title} header`}
                     className={styles.image}
