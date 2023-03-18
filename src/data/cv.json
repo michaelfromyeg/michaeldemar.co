@@ -80,12 +80,7 @@
                 "Overhauled parts of React codebase to improve modularity and testability.",
                 "Added test infrastructure to Flask API; achieved 80% coverage overall."
             ],
-            "technologies": [
-                "TypeScript",
-                "React",
-                "Python",
-                "Docker"
-            ]
+            "technologies": ["TypeScript", "React", "Python", "Docker"]
         },
         {
             "id": "ubc-ra",
@@ -101,9 +96,7 @@
                 "Leveraged Python to perform survival analysis on patient biometrics.",
                 "Conducted literature reviews and led presentations for stakeholders."
             ],
-            "technologies": [
-                "Python"
-            ]
+            "technologies": ["Python"]
         },
         {
             "id": "amazon",
@@ -142,14 +135,7 @@
                 "Taught seven unique courses using Racket, Python, R, C, and C++.",
                 "Refined instructional materials across 10+ tutorial sections led."
             ],
-            "technologies": [
-                "Python",
-                "C",
-                "Assembly",
-                "C++",
-                "R",
-                "Racket"
-            ]
+            "technologies": ["Python", "C", "Assembly", "C++", "R", "Racket"]
         },
         {
             "id": "samsung",
@@ -237,11 +223,7 @@
                 "Coordinated and executed promotional strategy with team of fourteen across Canada. Worked with digital marketing tools such as Buffer, AdWords, and Facebook Ads.",
                 "Assisted in numerous portfolios pertaining to the education of youth in Alberta on international affairs and sustainable development."
             ],
-            "technologies": [
-                "Python",
-                "TypeScript",
-                "Clasp by Google"
-            ]
+            "technologies": ["Python", "TypeScript", "Clasp by Google"]
         },
         {
             "id": "ubc-ece",
@@ -257,12 +239,7 @@
                 "Developed Python script to gather department research data to be displayed on the new website.",
                 "Conducted interviews and wrote blog posts about the latest research being done."
             ],
-            "technologies": [
-                "Python",
-                "HTML",
-                "CSS",
-                "JavaScript"
-            ]
+            "technologies": ["Python", "HTML", "CSS", "JavaScript"]
         },
         {
             "id": "metro",
@@ -575,11 +552,7 @@
                 "Led beach clean-up with over 30+ volunteers which cleaned 15kg of trash from ~3km of beach.",
                 "Co-hosted Valentine's Day fundraiser which yielded $2,000 for Convenant House Vancouver."
             ],
-            "skills": [
-                "Leadership",
-                "Service",
-                "Event Planning"
-            ]
+            "skills": ["Leadership", "Service", "Event Planning"]
         },
         {
             "id": "ams-food-bank",
@@ -593,11 +566,7 @@
             "highlights": [
                 "Served numerous UBC students, faculty, and staff at the food bank, ensuring discretion and providing timely service."
             ],
-            "skills": [
-                "Volunteering",
-                "Organization",
-                "Service"
-            ]
+            "skills": ["Volunteering", "Organization", "Service"]
         },
         {
             "id": "fiji-scholarship",
@@ -652,11 +621,7 @@
                 "Led three workshops with 100+ attendees and 300+ views on YouTube.",
                 "Developed engaging delivery style that actively involves participants."
             ],
-            "skills": [
-                "Leadership",
-                "Service",
-                "Event Planning"
-            ]
+            "skills": ["Leadership", "Service", "Event Planning"]
         },
         {
             "id": "sus-ea",

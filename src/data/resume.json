@@ -1,7 +1,11 @@
 {
     "experience": ["ubc-ta", "tesla", "amazon", "samsung"],
     "projects": [
-        "midtermr", "nominatr", "vscode-puzzles", "showrooms", "rapviz"
+        "midtermr",
+        "nominatr",
+        "vscode-puzzles",
+        "showrooms",
+        "rapviz"
     ],
     "extracurriculars": ["fiji-philanthropy", "ams-food-bank", "mlh-workshops"],
     "education": ["ubc", "ib"]
