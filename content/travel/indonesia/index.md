@@ -15,35 +15,35 @@ An adventure-focused trip to Indonesia, starting in East Java and ending in Bali
 
 Other itineraries that have been done, covering East Java and Bali.
 
-- [BALI Itinerary * EVERYTHING you need to Know (2023)](https://www.thebrokebackpacker.com/bali-itinerary/)
-- [Ultimate 1 Week East Java Itinerary: Temples, Volcanoes and Waterfalls - The Curated Travel List](https://www.thecuratedtravelist.com/east-java-itinerary-temples-volcanoes-waterfalls/)
-- [5-Day Bali Itinerary | First-Timers Guide to a Perfect Vacation in Indonesia](https://www.agoda.com/travel-guides/indonesia/bali/5-day-bali-itinerary-first-timers-guide-to-the-perfect-bali-vacation?cid=1844104)
-- [Nusa Penida Bali : a complete guide (2023)](https://nusapenida.org/bali/nusa-penida/)
-- [Train travel in Indonesia | Trains Jakarta-Surabaya, ferry to Bali](https://www.seat61.com/Indonesia.htm#Eksekutif,_Bisnis_&_Ekonomi_class)
-- [Guide to Visiting Borobudur Temple - The Largest Buddhist Temple in Indonesia](https://trevallog.com/borobudur-temple/)
+-   [BALI Itinerary \* EVERYTHING you need to Know (2023)](https://www.thebrokebackpacker.com/bali-itinerary/)
+-   [Ultimate 1 Week East Java Itinerary: Temples, Volcanoes and Waterfalls - The Curated Travel List](https://www.thecuratedtravelist.com/east-java-itinerary-temples-volcanoes-waterfalls/)
+-   [5-Day Bali Itinerary | First-Timers Guide to a Perfect Vacation in Indonesia](https://www.agoda.com/travel-guides/indonesia/bali/5-day-bali-itinerary-first-timers-guide-to-the-perfect-bali-vacation?cid=1844104)
+-   [Nusa Penida Bali : a complete guide (2023)](https://nusapenida.org/bali/nusa-penida/)
+-   [Train travel in Indonesia | Trains Jakarta-Surabaya, ferry to Bali](https://www.seat61.com/Indonesia.htm#Eksekutif,_Bisnis_&_Ekonomi_class)
+-   [Guide to Visiting Borobudur Temple - The Largest Buddhist Temple in Indonesia](https://trevallog.com/borobudur-temple/)
 
 ## Bookmarks
 
-- [Departing | Checking In | Singapore Changi Airport](https://www.changiairport.com/en/airport-guide/departing/checking-in.html)
-- [Trekking 40L Backpack Forclaz Travel 100 - Black](https://www.decathlon.sg/p/trekking-40l-backpack-forclaz-travel-100-black-forclaz-8554562.html?channable=40f1a86964003835353435363254&gclid=Cj0KCQiAic6eBhCoARIsANlox87O2Uc0uB6M7qWJLLF29Wpm2SJtrgfKUIPy0sQ6Q5ybPgH2bY1rrjcaAkaxEALw_wcB)
-- [Baggage Allowance, Policy & Rules](https://www.flyscoot.com/en/plan/booking-your-flight/baggage)
-- [Train travel in Indonesia | Trains Jakarta-Surabaya, ferry to Bali](https://www.seat61.com/Indonesia.htm#Eksekutif,_Bisnis_&_Ekonomi_class)
-- [](https://www.tripadvisor.com/Attraction_Review-g297715-d15528678-Reviews-TrippyTrip_Tour-Surabaya_East_Java_Java.html)
-- [Traveloka - Southeast Asia's Leading Travel Platform](https://www.traveloka.com/)
-- [](https://www.traveloka.com/en-id/airport-transfer/search/v2?type=one_way&origin=TVLK%3B91561978253893%3BPOI%3BAIRPORT%3BAIRPORT%3BYogyakarta%20International%20Airport%20(YIA)%3BTemon%2C%20Kulon%20Progo%20Regency%2C%20Yogyakarta%20Province%2C%20Indonesia%3Bnull%3B-7.899125700000002%3B110.05919819999997%3Bnull&destination=TVLK%3B106581%3BGEO%3BAREA%3BAREA%3BBorobudur%3BMagelang%2C%20Central%20Java%3Bnull%3B-7.614527031684256%3B110.20050466060638%3Bnull&dd=04-02-2023&dt=12%3A00&adult=1&child=0&infant=0&redirectFrom=SHUTTLE_BUS&suggestedBusRouteSpec=%257B%2522originCode%2522%253A%2522107429%2522%252C%2522originLabel%2522%253A%2522Kulon%2520Progo%2520Regency%2522%252C%2522originType%2522%253A%2522CITY_GEO%2522%252C%2522destinationCode%2522%253A%2522106975%2522%252C%2522destinationLabel%2522%253A%2522Magelang%2522%252C%2522destinationType%2522%253A%2522CITY_GEO%2522%252C%2522departureDate%2522%253A%257B%2522month%2522%253A2%252C%2522day%2522%253A4%252C%2522year%2522%253A2023%257D%252C%2522numAdult%2522%253A1%252C%2522currency%2522%253A%2522IDR%2522%257D)
-- [](https://www.traveloka.com/en-id/kereta-api/search?st=PB.BYW-A&dt=6-2-2023.null&ps=2.0&pd=KAI)
-- [Ijen Backpacker, Jalan Stasiun II, Lingkar Kampung Baru, Bulusan, Banyuwangi Regency, East Java, Indonesia](https://www.google.com/maps/dir/Ketapang,+Jalan+Gatot+Subroto,+Lingkar+Kampung+Baru,+Bulusan,+Banyuwangi+Regency,+East+Java,+Indonesia/Ijen+Backpacker,+Jalan+Stasiun+II,+Lingkar+Kampung+Baru,+Bulusan,+Banyuwangi+Regency,+East+Java,+Indonesia/@-8.1407903,114.3958514,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x2dd144272f8fcdfb:0xecafc136b7c03383!2m2!1d114.3971316!2d-8.1411879!1m5!1m1!1s0x2dd14562ea2cb28d:0xec7afb3f57e32946!2m2!1d114.3986301!2d-8.1404034!3e2)
+-   [Departing | Checking In | Singapore Changi Airport](https://www.changiairport.com/en/airport-guide/departing/checking-in.html)
+-   [Trekking 40L Backpack Forclaz Travel 100 - Black](https://www.decathlon.sg/p/trekking-40l-backpack-forclaz-travel-100-black-forclaz-8554562.html?channable=40f1a86964003835353435363254&gclid=Cj0KCQiAic6eBhCoARIsANlox87O2Uc0uB6M7qWJLLF29Wpm2SJtrgfKUIPy0sQ6Q5ybPgH2bY1rrjcaAkaxEALw_wcB)
+-   [Baggage Allowance, Policy & Rules](https://www.flyscoot.com/en/plan/booking-your-flight/baggage)
+-   [Train travel in Indonesia | Trains Jakarta-Surabaya, ferry to Bali](https://www.seat61.com/Indonesia.htm#Eksekutif,_Bisnis_&_Ekonomi_class)
+-   [](https://www.tripadvisor.com/Attraction_Review-g297715-d15528678-Reviews-TrippyTrip_Tour-Surabaya_East_Java_Java.html)
+-   [Traveloka - Southeast Asia's Leading Travel Platform](https://www.traveloka.com/)
+-   [](<https://www.traveloka.com/en-id/airport-transfer/search/v2?type=one_way&origin=TVLK%3B91561978253893%3BPOI%3BAIRPORT%3BAIRPORT%3BYogyakarta%20International%20Airport%20(YIA)%3BTemon%2C%20Kulon%20Progo%20Regency%2C%20Yogyakarta%20Province%2C%20Indonesia%3Bnull%3B-7.899125700000002%3B110.05919819999997%3Bnull&destination=TVLK%3B106581%3BGEO%3BAREA%3BAREA%3BBorobudur%3BMagelang%2C%20Central%20Java%3Bnull%3B-7.614527031684256%3B110.20050466060638%3Bnull&dd=04-02-2023&dt=12%3A00&adult=1&child=0&infant=0&redirectFrom=SHUTTLE_BUS&suggestedBusRouteSpec=%257B%2522originCode%2522%253A%2522107429%2522%252C%2522originLabel%2522%253A%2522Kulon%2520Progo%2520Regency%2522%252C%2522originType%2522%253A%2522CITY_GEO%2522%252C%2522destinationCode%2522%253A%2522106975%2522%252C%2522destinationLabel%2522%253A%2522Magelang%2522%252C%2522destinationType%2522%253A%2522CITY_GEO%2522%252C%2522departureDate%2522%253A%257B%2522month%2522%253A2%252C%2522day%2522%253A4%252C%2522year%2522%253A2023%257D%252C%2522numAdult%2522%253A1%252C%2522currency%2522%253A%2522IDR%2522%257D>)
+-   [](https://www.traveloka.com/en-id/kereta-api/search?st=PB.BYW-A&dt=6-2-2023.null&ps=2.0&pd=KAI)
+-   [Ijen Backpacker, Jalan Stasiun II, Lingkar Kampung Baru, Bulusan, Banyuwangi Regency, East Java, Indonesia](https://www.google.com/maps/dir/Ketapang,+Jalan+Gatot+Subroto,+Lingkar+Kampung+Baru,+Bulusan,+Banyuwangi+Regency,+East+Java,+Indonesia/Ijen+Backpacker,+Jalan+Stasiun+II,+Lingkar+Kampung+Baru,+Bulusan,+Banyuwangi+Regency,+East+Java,+Indonesia/@-8.1407903,114.3958514,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x2dd144272f8fcdfb:0xecafc136b7c03383!2m2!1d114.3971316!2d-8.1411879!1m5!1m1!1s0x2dd14562ea2cb28d:0xec7afb3f57e32946!2m2!1d114.3986301!2d-8.1404034!3e2)
 
 ## Shopping
 
-- [x] Head lamp
-- [x] Hiking sandals
-- [ ] Water safe bags; things to prevent stuff from getting wet
-- [x] Hiking socks (long socks)
-- [x] Bandana or some kind of face covering (neck gaiter)
-- [x] Beanie, gloves
-- [x] Day pack
-- [x] Pants
+-   [x] Head lamp
+-   [x] Hiking sandals
+-   [ ] Water safe bags; things to prevent stuff from getting wet
+-   [x] Hiking socks (long socks)
+-   [x] Bandana or some kind of face covering (neck gaiter)
+-   [x] Beanie, gloves
+-   [x] Day pack
+-   [x] Pants
 
 ## Itinerary
 
@@ -123,13 +123,13 @@ Pricing
 
 Our preference: approx. 184pp (so 368 total) euros to do the tour (as-is; could modify)
 
-*or,* could book piecemeal
+_or,_ could book piecemeal
 
-- Taxi from Malang to Tumpak Sewu, 48
-- Taxi from Tumpak Sewu to Bromo, ~60 (depends on exact destination)
-- Bromo tour, TODO (drop-off in Probolinggo)
-  - Either USD17 and USD60 (maximum) for a jeep rental; plus a trip to Probolinggo (probably), say USD50; and a hostel (say USD20)
-  - (Or a separate tour?)
+-   Taxi from Malang to Tumpak Sewu, 48
+-   Taxi from Tumpak Sewu to Bromo, ~60 (depends on exact destination)
+-   Bromo tour, TODO (drop-off in Probolinggo)
+    -   Either USD17 and USD60 (maximum) for a jeep rental; plus a trip to Probolinggo (probably), say USD50; and a hostel (say USD20)
+    -   (Or a separate tour?)
 
 ### Day 4
 
@@ -143,7 +143,7 @@ Highlights: Mount Bromo; Mount Ijen (overnight)
 
 Weather: [Link](https://www.accuweather.com/en/id/malang/208996/daily-weather-forecast/208996?day=7)
 
-Start the day *very* early by doing the Mount Bromo sunrise hike.
+Start the day _very_ early by doing the Mount Bromo sunrise hike.
 
 [Guide to Mount Bromo](https://www.themandagies.com/ultimate-guide-to-mount-bromo/).
 
@@ -179,7 +179,7 @@ Check out the rice plantations, before Konstantin heads to the airport.
 
 Tanah Lot, Monkey sanctuary, rice plantations
 
-************TODO:************ Michael book hostel
+****\*\*\*\*****TODO:****\*\*\*\***** Michael book hostel
 
 ### Day 6
 
@@ -245,11 +245,11 @@ R.A.K. coffee
 
 [5-Day Itinerary in Bali for First-Timers](https://juliasomething.com/5-day-itinerary-in-bali-for-first-timers/)
 
-[BALI Itinerary * EVERYTHING you need to Know (2023)](https://www.thebrokebackpacker.com/bali-itinerary/)
+[BALI Itinerary \* EVERYTHING you need to Know (2023)](https://www.thebrokebackpacker.com/bali-itinerary/)
 
 [Kelingking BEACH (SECRET POINT) ON Nusa Penida - Journey Era](https://www.journeyera.com/kelingking-beach/)
 
 ## Future
 
-- Sumatra (see orangutans!)
-- Cities: Jakarta, Surabaya
+-   Sumatra (see orangutans!)
+-   Cities: Jakarta, Surabaya

@@ -6,6 +6,7 @@
     },
     "files.insertFinalNewline": true,
     "files.associations": {
-        "CNAME": "plaintext"
+        "CNAME": "plaintext",
+        "pre-commit": "shellscript"
     }
 }

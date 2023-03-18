@@ -43,7 +43,7 @@ We have 225,000 rows in our data available for training use, each representing a
 
 The "average" demographic in this data is someone who's single (instead of married), has a university-level education, and an age of about 35.
 
-The individual with the highest limit balance is a 47 year old female with precisely NT$1,000,000  available, equivalent to roughly USD$100,000. This is definitely an outlier; the distribution for the rest of the balances is shown below. (Note dollar amounts are in New Taiwan dollars.)
+The individual with the highest limit balance is a 47 year old female with precisely NT$1,000,000 available, equivalent to roughly USD$100,000. This is definitely an outlier; the distribution for the rest of the balances is shown below. (Note dollar amounts are in New Taiwan dollars.)
 
 ![The distribution of limit balances](distribution-of-limitbal.png)
 

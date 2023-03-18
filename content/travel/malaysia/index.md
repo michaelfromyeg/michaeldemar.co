@@ -35,8 +35,8 @@ Note the inclusion of Cameron Highlands, Melaka. Both must-sees!
 
 ## Shopping
 
-- [x]  Hiking bag
-- [x]  Hiking boots
+-   [x] Hiking bag
+-   [x] Hiking boots
 
 ## Itinerary
 
@@ -54,7 +54,7 @@ Highlights: Depart for Penang, Malaysia
 
 Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
 
-*Play-by-play and tips*
+_Play-by-play and tips_
 
 Head to Malaysia by first going through Johor, then hopping on an overnight bus to Penang.
 
@@ -72,7 +72,7 @@ Highlights: Arrive in Penang; spend the day
 
 Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
 
-*Play-by-play and tips*
+_Play-by-play and tips_
 
 If you arrive in Butterworth, you can take the ferry into Georgetown. Super cheap and offers a nice view and intro of the island.
 
@@ -92,7 +92,7 @@ Highlights: Arrive in Cameron Highlands; explore a tea planation
 
 Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
 
-*Play-by-play and tips*
+_Play-by-play and tips_
 
 This day is pretty chill. Depart for Cameron Highlands in the morning and enjoy the afternoon and evening at Cameron Valley Tea House 1 (or Bharat Tea Plantations Sdn. Bhd).
 
@@ -112,7 +112,7 @@ Highlights: Arrive in Cameron Highlands; explore a tea planation
 
 Weather: [Link](https://www.accuweather.com/en/id/yogyakarta/211671/daily-weather-forecast/211671?day=5)
 
-*Play-by-play and tips*
+_Play-by-play and tips_
 
 This day is pretty chill. Depart for Cameron Highlands in the morning and enjoy the afternoon and evening at Cameron Valley Tea House 1 (or Bharat Tea Plantations Sdn. Bhd).
 

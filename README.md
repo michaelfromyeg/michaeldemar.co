@@ -8,8 +8,8 @@ My personal website built using Gatsby (with React) and SCSS. Contains a blog, a
 
 There's just a couple of dependencies to install before running this project locally.
 
-- [Node.js](https://nodejs.org/en/) and preferably [nvm](https://github.com/nvm-sh/nvm)
-- [gatsby-cli](https://gatsbyjs.com/docs/reference/gatsby-cli/#how-to-use-gatsby-cli)
+-   [Node.js](https://nodejs.org/en/) and preferably [nvm](https://github.com/nvm-sh/nvm)
+-   [gatsby-cli](https://gatsbyjs.com/docs/reference/gatsby-cli/#how-to-use-gatsby-cli)
 
 If you're on macOS, Linux, or WSL:
 

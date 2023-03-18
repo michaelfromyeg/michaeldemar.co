@@ -16,9 +16,9 @@ module.exports = {
             twitter: "michaelfromyeg",
         },
     },
+    trailingSlash: `never`,
     plugins: [
         `gatsby-plugin-sass`,
-        "gatsby-plugin-eslint",
         {
             resolve: "gatsby-plugin-react-svg",
             options: {
