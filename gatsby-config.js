@@ -10,7 +10,7 @@ module.exports = {
             summary: `an aspiring computer scientist completing his undergrad at the University of British Columbia (UBC) in Vancouver, BC.`,
         },
         description:
-            "Michael DeMarco's personal website! Software development, education, linguistics, and more.",
+            "Michael DeMarco's personal blog. Software development, design, travel, and more.",
         siteUrl: "https://michaeldemar.co",
         social: {
             twitter: "michaelfromyeg",
