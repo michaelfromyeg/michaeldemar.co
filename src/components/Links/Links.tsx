@@ -41,26 +41,24 @@ const InnerLinks = (props: InnerLinksProps): ReactElement => {
 
     return (
         <div className={styles[`${prefix}Links`]}>
-            <div>
             <Link className={styles.headerLink} to={"/"}>
                 <h1 className={styles[`${prefix}Title`]}><span style={{ "marginRight": 5 }}>{emoji}</span>michaeldemar.co</h1>
             </Link>
+            <div className={styles.linksAndLights}>
+                {Destinations.map((d, index) => {
+                        return (
+                            <Link
+                                key={index}
+                                className={styles[`${prefix}Link`]}
+                                to={`/${d.name}`}
+                            >
+                                [{d.name}]
+                            </Link>
+                        );
+                })}
+                {location !== Locations.HOMEPAGE && <br />}
             </div>
-            <div>
-            {Destinations.map((d, index) => {
-                    return (
-                        <Link
-                            key={index}
-                            className={styles[`${prefix}Link`]}
-                            to={`/${d.name}`}
-                        >
-                            [{d.name}]
-                        </Link>
-                    );
-            })}
-            {location !== Locations.HOMEPAGE && <br />}
             <Toggle location={location} />
-            </div>
         </div>
     );
 };
