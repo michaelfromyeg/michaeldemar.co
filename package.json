@@ -46,7 +46,7 @@
         "@fortawesome/free-solid-svg-icons": "^5.15.4",
         "@fortawesome/react-fontawesome": "^0.1.11",
         "dotenv": "^10.0.0",
-        "gatsby": "4.4.0",
+        "gatsby": "4.25.5",
         "gatsby-plugin-dark-mode": "^1.1.2",
         "gatsby-plugin-feed": "^4.4.0",
         "gatsby-plugin-google-gtag": "^4.17.0",
