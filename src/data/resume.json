@@ -8,22 +8,8 @@
         "amazon",
         "samsung"
     ],
-    "projects": [
-        "midtermr",
-        "vscode-puzzles",
-        "rapviz"
-    ],
-    "volunteer": [
-        "k8s-release",
-        "mlh-workshops"
-    ],
-    "education": [
-        "ubc",
-        "ib"
-    ],
-    "courses": [
-        "cpsc-320",
-        "cpsc-313",
-        "cpsc-317"
-    ]
+    "projects": ["midtermr", "vscode-puzzles", "rapviz"],
+    "volunteer": ["k8s-release", "mlh-workshops"],
+    "education": ["ubc", "ib"],
+    "courses": ["cpsc-320", "cpsc-313", "cpsc-317"]
 }

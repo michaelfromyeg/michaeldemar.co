@@ -100,9 +100,7 @@
                 "RedHat OpenShift",
                 "Kubernetes"
             ],
-            "teams": [
-                "Lunar Exploration Accelerator Program (LEAP)"
-            ]
+            "teams": ["Lunar Exploration Accelerator Program (LEAP)"]
         },
         {
             "id": "ubc-ra",
@@ -123,9 +121,7 @@
                 "SAT",
                 "algorithm configuration"
             ],
-            "teams": [
-                "Algorithms Lab"
-            ]
+            "teams": ["Algorithms Lab"]
         },
         {
             "id": "tesla",
@@ -141,16 +137,8 @@
                 "Led development of feature to efficiently visualize **thousands of site opportunities** with existing sites using Flask and React.",
                 "Leveraged React best practices to improve code re-use in map UI and its related filters and tools, enabling future extensibility."
             ],
-            "skills": [
-                "TypeScript",
-                "React",
-                "Python",
-                "Flask",
-                "Docker"
-            ],
-            "teams": [
-                "Energy UI"
-            ]
+            "skills": ["TypeScript", "React", "Python", "Flask", "Docker"],
+            "teams": ["Energy UI"]
         },
         {
             "id": "ubc-directed-studies",
@@ -166,13 +154,8 @@
                 "Leveraged Python to perform survival analysis on patient biometrics to estimate top-K at-risk patients for follow-up intervention.",
                 "Conducted **20+ literature reviews** and produced survey of state-of-the art for key stakeholders."
             ],
-            "skills": [
-                "Python",
-                "machine learning"
-            ],
-            "teams": [
-                "Digital Emergency Medicine Lab"
-            ]
+            "skills": ["Python", "machine learning"],
+            "teams": ["Digital Emergency Medicine Lab"]
         },
         {
             "id": "amazon",
@@ -197,9 +180,7 @@
                 "Docker",
                 "Kubernetes"
             ],
-            "teams": [
-                "Supply Chain Optimization Technologies (SCOT)"
-            ]
+            "teams": ["Supply Chain Optimization Technologies (SCOT)"]
         },
         {
             "id": "ubc-ta",
@@ -214,14 +195,7 @@
                 "Earned **>99% approval rating** from students across all courses taught to date and am two-time recipient of undergraduate teaching award.",
                 "Developed material to support future course iterations, including a guide to GNU make and a tutorial on C server programming."
             ],
-            "skills": [
-                "Python",
-                "C",
-                "Assembly",
-                "C++",
-                "R",
-                "Racket"
-            ],
+            "skills": ["Python", "C", "Assembly", "C++", "R", "Racket"],
             "teams": [
                 "CPSC 107 \"Systematic Program Design\" (Allen, 2019W2)",
                 "CPSC 103 \"Introduction to Systematic Program Design\" (Wong, 2020S1)",
@@ -262,9 +236,7 @@
                 "Java",
                 "CSS"
             ],
-            "teams": [
-                "Samsung Knox"
-            ]
+            "teams": ["Samsung Knox"]
         },
         {
             "id": "artesian",
@@ -290,9 +262,7 @@
                 "SCSS",
                 "Docker"
             ],
-            "teams": [
-                "Core"
-            ]
+            "teams": ["Core"]
         },
         {
             "id": "ubc-varsity",
@@ -308,9 +278,7 @@
                 "Created welcoming environment for fans of the sport and communicated effectively with team leads to ensure events ran smoothly."
             ],
             "skills": [],
-            "teams": [
-                "Table Tech"
-            ]
+            "teams": ["Table Tech"]
         },
         {
             "id": "ubc-ece",
@@ -326,15 +294,8 @@
                 "Developed Python script to gather department research data to be displayed on the new website.",
                 "Conducted three interviews with faculty and wrote blog posts summarizing the latest research being done in the department."
             ],
-            "skills": [
-                "Python",
-                "HTML",
-                "CSS",
-                "JavaScript"
-            ],
-            "teams": [
-                "Core"
-            ]
+            "skills": ["Python", "HTML", "CSS", "JavaScript"],
+            "teams": ["Core"]
         },
         {
             "id": "metro",
@@ -350,9 +311,7 @@
                 "Ran week-long summer camps teaching children aged 8 to 11 how to program basic 3D games in Unity."
             ],
             "skills": [],
-            "teams": [
-                "Core"
-            ]
+            "teams": ["Core"]
         },
         {
             "id": "epl",
@@ -367,9 +326,7 @@
                 "Facilitated atmosphere at local public library, ensuring returned books made it to shelves in a timely fashion and library was kept clean."
             ],
             "skills": [],
-            "teams": [
-                "Core"
-            ]
+            "teams": ["Core"]
         },
         {
             "id": "referee",
@@ -384,9 +341,7 @@
                 "Officiated 200+ games for both youth and teenage players at all levels of competition."
             ],
             "skills": [],
-            "teams": [
-                "Core"
-            ]
+            "teams": ["Core"]
         }
     ],
     "projects": [
@@ -695,10 +650,7 @@
                 "Curated and edited release notes from relevant pull requests for the v1.28 release of Kubernetes.",
                 "Coordinated with special interest groups (SIGs) to ensure release note accuracy and determined major themes."
             ],
-            "skills": [
-                "Documentation",
-                "Leadership"
-            ]
+            "skills": ["Documentation", "Leadership"]
         },
         {
             "id": "fiji-philanthropy",
@@ -712,11 +664,7 @@
                 "Led beach clean-up with over 30+ volunteers which cleaned 15 kg of trash from ~3 km of beach.",
                 "Co-hosted Valentine's Day fundraiser which yielded $2,000 for Covenant House Vancouver."
             ],
-            "skills": [
-                "Leadership",
-                "Service",
-                "Event Planning"
-            ]
+            "skills": ["Leadership", "Service", "Event Planning"]
         },
         {
             "id": "ams-food-bank",
@@ -729,11 +677,7 @@
             "highlights": [
                 "Served numerous UBC students, faculty, and staff at the food bank, ensuring discretion and providing timely service."
             ],
-            "skills": [
-                "Volunteering",
-                "Organization",
-                "Service"
-            ]
+            "skills": ["Volunteering", "Organization", "Service"]
         },
         {
             "id": "fiji-scholarship",
@@ -790,11 +734,7 @@
                 "Led **4 workshops** at hackathons for **250+ participants** on topics such as React, data science, and machine learning.",
                 "Developed engaging delivery style that actively involves participants throughout workshop; recordings have garnered **500+ views.**"
             ],
-            "skills": [
-                "Leadership",
-                "Service",
-                "Event Planning"
-            ]
+            "skills": ["Leadership", "Service", "Event Planning"]
         },
         {
             "id": "sus-ea",
@@ -931,11 +871,7 @@
                 "Coordinated and executed promotional strategy with team of fourteen across Canada. Worked with digital marketing tools such as Buffer, Google Ads, and Facebook Ads.",
                 "Assisted in numerous portfolios pertaining to the education of youth in Alberta on international affairs and sustainable development."
             ],
-            "skills": [
-                "Python",
-                "TypeScript",
-                "Clasp by Google"
-            ]
+            "skills": ["Python", "TypeScript", "Clasp by Google"]
         }
     ],
     "courses": [
@@ -1480,32 +1416,22 @@
         {
             "id": "computer-science",
             "name": "Computer Science",
-            "keywords": [
-                "Computational Complexity",
-                "Computer Systems"
-            ]
+            "keywords": ["Computational Complexity", "Computer Systems"]
         },
         {
             "id": "academic",
             "name": "Academic",
-            "keywords": [
-                "Linguistics",
-                "Physics"
-            ]
+            "keywords": ["Linguistics", "Physics"]
         },
         {
             "id": "sports",
             "name": "Sports",
-            "keywords": [
-                "Soccer"
-            ]
+            "keywords": ["Soccer"]
         },
         {
             "id": "music",
             "name": "Music",
-            "keywords": [
-                "Piano"
-            ]
+            "keywords": ["Piano"]
         }
     ],
     "references": [
