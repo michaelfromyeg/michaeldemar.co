@@ -1,12 +1,29 @@
 {
-    "experience": ["ubc-ta", "tesla", "amazon", "samsung"],
+    "work": [
+        "csa",
+        "ubc-ra",
+        "ubc-ta",
+        "tesla",
+        "ubc-directed-studies",
+        "amazon",
+        "samsung"
+    ],
     "projects": [
         "midtermr",
-        "nominatr",
         "vscode-puzzles",
-        "showrooms",
         "rapviz"
     ],
-    "extracurriculars": ["fiji-philanthropy", "ams-food-bank", "mlh-workshops"],
-    "education": ["ubc", "ib"]
+    "volunteer": [
+        "k8s-release",
+        "mlh-workshops"
+    ],
+    "education": [
+        "ubc",
+        "ib"
+    ],
+    "courses": [
+        "cpsc-320",
+        "cpsc-313",
+        "cpsc-317"
+    ]
 }

@@ -1,13 +1,15 @@
+import { Link } from "gatsby";
 import React, { ReactElement } from "react";
 import Collapsible from "react-collapsible";
-import { Link } from "gatsby";
 
-import resume from "../../../data/resume.json";
+import { formatDate } from "../../../utils/formatDate";
+
 import cv from "../../../data/cv.json";
+import resume from "../../../data/resume.json";
 
 const Extracurriculars = (): ReactElement => {
-    const ecIds = resume.extracurriculars;
-    const ecs = cv.extracurriculars.filter((ec) => {
+    const ecIds = resume.volunteer;
+    const ecs = cv.volunteer.filter((ec) => {
         return ecIds.includes(ec.id);
     })
 
@@ -45,26 +47,14 @@ const Extracurriculars = (): ReactElement => {
                         >
                             <div className="entry" key={i}>
                                 <h5>
-                                    {ec.location}—{ec.startDate} to{" "}
-                                    {ec.endDate}
+                                    {ec.location}—{formatDate(ec.startDate)} to{" "}
+                                    {ec.endDate ? formatDate(ec.endDate) : "present"}
                                 </h5>
                                 <ul className="description">
                                     {ec.highlights.map((bullet, i) => {
                                         return <li key={i}>{bullet}</li>;
                                     })}
                                 </ul>
-                                {/* TODO: remove guard when all ECs have skills */}
-                                {ec.skills &&
-                                    <div className="techstack">
-                                    {ec.skills.map((skill, i) => {
-                                        return (
-                                            <div key={i} className="tech">
-                                                {skill}
-                                            </div>
-                                        );
-                                    })}
-                                    </div>
-                                }
                             </div>
                         </Collapsible>
                     );

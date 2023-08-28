@@ -1,159 +1,254 @@
 {
-    "name": "Michael DeMarco",
-    "title": "Software Engineer",
-    "picture": "https://demarco-headshots.s3.ca-central-1.amazonaws.com/demarco6.jpg?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQD%2FhZnrdmdRkJZaLhzLzP5ofvMpve%2BOZ%2FLSkTliMBaXuQIhAJwVE11hSDu3O2YvKvrmJSJFuoO%2Fk9jAjWkR9BjV4G3KKv8CCIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAhoMMDI3MTQ5MDA2NzM2IgwRT8u%2BRkg7bck0%2BMoq0wJztX7UH1NPMHfgsUPmzX1FZxwGB6VlTWJpH%2BXcWZlnbOz6PhDsDchAQ%2BMC7bSdQQKT5NZiBjCnuExLoWWypmWN2uHeUkuLyosBOaC6ZZlAh67y46deumoyjuHeIqau%2F12K4TaQ5fl%2FJAvZ69hf6tptcNmLxVGxQkYi8eqOP%2BZ8BLVfjHP8gIRypct%2BiZm8StyW4vTjk5QMLrJ3XJzfX5tSoLB8%2FTCQ93BpjE%2FLR7MdWeuhmFyTH2YRtOpHP0pzcoDwMXmMZX56n7VSok6GA87NJUoZOJ2w7Z51paEjVXZ8CxvFBk4uoHiz%2FfXQfODCarlgXoShyCClfUfkU9JQYFqlPUZ7RawNc4Vygy3JyQNXVRiIhwOxx47xsDhaZvEO%2Fl1a07V%2BCuqc52ePgqMrfKFVywXc5j5iR4Mtkm3%2FKBGaL6VjHAPr%2FvwECl1j6bns6yGEch0w4bu2hgY6sgJ%2FlGVwg2vQA8Tknt7WCXQYfXoF2uYrB%2Bcdr2XFW37FAB5QhGaknhlEpW1fmJCNFtEIsFgIXAWhaijfc6QPfY2wTgaKc%2BzvimU2d3ZP1%2BtbjppMEIxV3FH5Hfec403bEbkubd53CwjLq6VY6ZUB%2BEMgdZh5v5cHACpqn11JB9IUxqQwrz%2BEhDkSPLBQ9996C7Ibb31fds0lw8BprPTtHbaxF8vkKPmG%2Bk1mJYL2re7Ze1bkgECFTpPNB1Lro4u%2FtPFxGELvtccDJtYQ392CybwNolBlHhdaebXm4YpqFZxmKd3C0YOz3vJRPkqsP5bVuG%2BGrYYCINXP7JbK0xU6W1dkxYV4y4tws8497LUZgL2Erjgx5dpKBUHFLfotQICuQRDt%2BI44PJAoIIZlg33tX%2FViFOM%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20210619T073519Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQMURU66IAD6M4QO6%2F20210619%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Signature=a4f60340b657caefeb2085942cc20eda2e2bdc882f2f7657d79be21c306f36a3",
-    "email": "mdemar01@student.ubc.ca",
-    "phone": "+1 (780) 680-9634",
-    "website": "https://michaeldemar.co",
-    "summary": "Computer Science fourth-year undergraduate student at The University of British Columbia, former software engineer at Tesla, and 8-time TA.",
-    "shortSummary": "4th-year at UBC; formerly at Tesla, Amazon; 8-time TA",
-    "location": {
-        "address": "Redacted",
-        "postalCode": "Redacted",
-        "city": "Vancouver",
-        "countryCode": "CA",
-        "region": "British Columbia"
+    "basics": {
+        "name": "Michael DeMarco",
+        "label": "Software Engineer",
+        "image": "https://en.gravatar.com",
+        "email": "mdemar01@student.ubc.ca",
+        "phone": "+1 (780) 680-9634",
+        "url": "https://michaeldemar.co",
+        "summary": "Fifth-year computer science undergraduate at The University of British Columbia; former software engineer at Tesla, Amazon; 10-time teaching assistant.",
+        "shortSummary": "5th-year at The University of British Columbia; formerly at Tesla, Amazon; 10-time TA",
+        "location": {
+            "address": "Redacted",
+            "postalCode": "Redacted",
+            "city": "Vancouver",
+            "countryCode": "CA",
+            "region": "British Columbia"
+        },
+        "profiles": [
+            {
+                "id": "gh",
+                "title": "GitHub",
+                "network": "github",
+                "username": "michaelfromyeg",
+                "url": "https://github.com/michaelfromyeg"
+            },
+            {
+                "id": "li",
+                "title": "LinkedIn",
+                "network": "linkedin",
+                "username": "michaelfromyeg",
+                "url": "https://linkedin.com/in/michaelfromyeg"
+            },
+            {
+                "id": "so",
+                "title": "Stack Overflow",
+                "network": "stack-overflow",
+                "username": "michael-demarco",
+                "url": "https://stackoverflow.com/users/10660585/michael-demarco"
+            },
+            {
+                "id": "dp",
+                "title": "Devpost",
+                "network": "devpost",
+                "username": "michaelfromyeg",
+                "url": "https://devpost.com/michaelfromyeg"
+            },
+            {
+                "id": "tw",
+                "title": "Twitter",
+                "network": "twitter",
+                "username": "michaelfromyeg",
+                "url": "https://twitter.com/michaelfromyeg"
+            },
+            {
+                "id": "fb",
+                "title": "Facebook",
+                "network": "facebook",
+                "username": "michaelfromyeg",
+                "url": "https://facebook.com/michaelfromyeg"
+            },
+            {
+                "id": "ig",
+                "title": "Instagram",
+                "network": "instagram",
+                "username": "michaelfromyeg",
+                "url": "https://instagram.com/michaelfromyeg"
+            },
+            {
+                "id": "yt",
+                "title": "YouTube",
+                "network": "youtube",
+                "username": "michaelfromyeg",
+                "url": "https://youtube.com/@michaelfromyeg"
+            }
+        ]
     },
-    "profiles": [
+    "work": [
         {
-            "id": "gh",
-            "title": "GitHub",
-            "network": "github",
-            "username": "michaelfromyeg",
-            "url": "https://github.com/michaelfromyeg"
-        },
-        {
-            "id": "li",
-            "title": "LinkedIn",
-            "network": "linkedin",
-            "username": "michaelfromyeg",
-            "url": "https://linkedin.com/in/michaelfromyeg"
-        },
-        {
-            "id": "so",
-            "title": "Stack Overflow",
-            "network": "stack-overflow",
-            "username": "michael-demarco",
-            "url": "https://stackoverflow.com/users/10660585/michael-demarco"
-        },
-        {
-            "id": "dp",
-            "title": "Devpost",
-            "network": "devpost",
-            "username": "michaelfromyeg",
-            "url": "https://devpost.com/michaelfromyeg"
-        },
-        {
-            "id": "tw",
-            "title": "Twitter",
-            "network": "twitter",
-            "username": "michaelfromyeg",
-            "url": "https://twitter.com/michaelfromyeg"
-        },
-        {
-            "id": "fb",
-            "title": "Facebook",
-            "network": "facebook",
-            "username": "michaelfromyeg",
-            "url": "https://facebook.com/michaelfromyeg"
-        },
-        {
-            "id": "ig",
-            "title": "Instagram",
-            "network": "instagram",
-            "username": "michaelfromyeg",
-            "url": "https://instagram.com/michaelfromyeg"
-        }
-    ],
-    "experiences": [
-        {
-            "id": "tesla",
-            "organization": "Tesla",
+            "id": "csa",
+            "name": "The Canadian Space Agency",
             "position": "Software Engineer Intern",
-            "location": "Palo Alto, California",
-            "website": "https://tesla.com/supercharger",
-            "startDate": "Sep 2022",
-            "endDate": "Dec 2022",
-            "summary": "Software engineer intern for the Fall 2022 cycle.",
+            "location": "Saint-Hubert, Québec",
+            "url": "https://asc-csa.gc.ca/eng/astronomy/moon-exploration/first-canadian-rover-to-explore-the-moon.asp",
+            "startDate": "2023-05-01",
+            "summary": "Developed algorithm to enable first Canadian Lunar rover to choose waypoints of interest and navigate obstacles.",
             "highlights": [
-                "Collaborated on internal mapping tool to optimize Supercharger placement.",
-                "Overhauled parts of React codebase to improve modularity and testability.",
-                "Added test infrastructure to Flask API; achieved 80% coverage overall."
+                "Implemented a genetic algorithm for selecting waypoints based on scientific value, distance, and Lunar rover capability.",
+                "Leveraged caching, parallelization, and data structures to reduce computation time **by 90%** for A-to-B shortest path subroutine.",
+                "Developed multi-directional search algorithm using random trees to navigate static and dynamic obstacles between chosen waypoints.",
+                "Integrated algorithm with web interface using React and Django to empower 10+ scientists to plan missions for 2027 launch."
             ],
-            "technologies": ["TypeScript", "React", "Python", "Docker"]
+            "skills": [
+                "Python",
+                "Django",
+                "React",
+                "GIS",
+                "genetic algorithms",
+                "R-trees",
+                "Docker",
+                "RedHat OpenShift",
+                "Kubernetes"
+            ],
+            "teams": [
+                "Lunar Exploration Accelerator Program (LEAP)"
+            ]
         },
         {
             "id": "ubc-ra",
-            "organization": "University of British Columbia",
+            "name": "The University of British Columbia (Algorithms Lab)",
             "position": "Undergraduate Research Assistant",
             "location": "Vancouver, British Columbia",
-            "website": "https://cs.ubc.ca",
-            "startDate": "May 2022",
-            "endDate": "Aug 2022",
+            "url": "https://cs.ubc.ca",
+            "startDate": "2023-05-01",
+            "summary": "Collaborated on efforts to synthesize efficient algorithms for solving SAT.",
+            "highlights": [
+                "Developed SAT solver using Python and C++ to make intelligent branching decisions using reinforcement learning techniques.",
+                "Leveraged empirical performance models to estimate algorithm runtime and enable efficient configuration of hyperparameters."
+            ],
+            "skills": [
+                "Python",
+                "C++",
+                "reinforcement learning",
+                "SAT",
+                "algorithm configuration"
+            ],
+            "teams": [
+                "Algorithms Lab"
+            ]
+        },
+        {
+            "id": "tesla",
+            "name": "Tesla",
+            "position": "Software Engineer Intern",
+            "location": "Palo Alto, California",
+            "url": "https://tesla.com/supercharger",
+            "startDate": "2022-09-01",
+            "endDate": "2022-12-31",
+            "summary": "Extended internal mapping tool to optimize placement of future Supercharger stations.",
+            "highlights": [
+                "Collaborated on internal mapping tool to assess and optimize placement of Supercharger stations around the globe.",
+                "Led development of feature to efficiently visualize **thousands of site opportunities** with existing sites using Flask and React.",
+                "Leveraged React best practices to improve code re-use in map UI and its related filters and tools, enabling future extensibility."
+            ],
+            "skills": [
+                "TypeScript",
+                "React",
+                "Python",
+                "Flask",
+                "Docker"
+            ],
+            "teams": [
+                "Energy UI"
+            ]
+        },
+        {
+            "id": "ubc-directed-studies",
+            "name": "The University of British Columbia (Digital Emergency Medicine Lab)",
+            "position": "Undergraduate Research Assistant",
+            "location": "Vancouver, British Columbia",
+            "url": "https://cs.ubc.ca",
+            "startDate": "2022-05-01",
+            "endDate": "2022-08-31",
             "summary": "Supported research on the TEC4HOME project, using Python.",
             "highlights": [
-                "Used machine learning techniques to try to reduce hospital re-admissions; experimented with timeseries approaches and upsampling methods.",
-                "Leveraged Python to perform survival analysis on patient biometrics.",
-                "Conducted literature reviews and led presentations for stakeholders."
+                "Applied machine learning techniques to predict hospital re-admissions; experimented with timeseries approaches and upsampling methods.",
+                "Leveraged Python to perform survival analysis on patient biometrics to estimate top-K at-risk patients for follow-up intervention.",
+                "Conducted **20+ literature reviews** and produced survey of state-of-the art for key stakeholders."
             ],
-            "technologies": ["Python"]
+            "skills": [
+                "Python",
+                "machine learning"
+            ],
+            "teams": [
+                "Digital Emergency Medicine Lab"
+            ]
         },
         {
             "id": "amazon",
-            "organization": "Amazon",
+            "name": "Amazon",
             "position": "Software Engineer Intern",
             "location": "Toronto, Ontario",
-            "website": "https://amazon.jobs/en/teams/scot",
-            "startDate": "May 2022",
-            "endDate": "Aug 2022",
-            "summary": "Software engineer intern for the Summer 2022 cycle.",
+            "url": "https://amazon.jobs/en/teams/scot",
+            "startDate": "2022-05-01",
+            "endDate": "2022-08-31",
+            "summary": "Built product tour for complex supply chain vendor intake form, using React.",
             "highlights": [
-                "Enhanced user onboarding with tailored product tours in React frontend.",
-                "Developed API using TypeScript and Jest with >95% code coverage.",
-                "Introduced automated linting to surface and correct hundreds of type errors."
+                "Enhanced supply chain vendor onboarding for complex, six-step multipage form with tailored product tours in React.",
+                "Introduced proxy layer for API calls to enable form experimentation during tours with minimal impact to existing codebase.",
+                "Eliminated need for weekly synchronous vendor on-boarding sessions and reduced FAQ-like tickets given to support team **by 90%.**",
+                "Developed API to track engagement with tours using TypeScript and Jest, achieving **>95% code coverage.**"
             ],
-            "technologies": [
+            "skills": [
                 "TypeScript",
                 "Java",
                 "React",
                 "Spring",
                 "Docker",
                 "Kubernetes"
+            ],
+            "teams": [
+                "Supply Chain Optimization Technologies (SCOT)"
             ]
         },
         {
             "id": "ubc-ta",
-            "organization": "University of British Columbia",
+            "name": "The University of British Columbia (Department of Computer Science)",
             "position": "Undergraduate Teaching Assistant",
             "location": "Vancouver, British Columbia",
-            "website": "https://cs.ubc.ca",
-            "startDate": "Jan 2020",
-            "endDate": "present",
-            "summary": "Teaching assistant for seven courses in two years, ranging from data science to computer systems.",
+            "url": "https://cs.ubc.ca",
+            "startDate": "2020-01-01",
+            "summary": "Taught nine courses in three years, ranging from data science to computer systems.",
             "highlights": [
-                "Earned 100% favorable rating from 100+ students in previous semester.",
-                "Taught seven unique courses using Racket, Python, R, C, and C++.",
-                "Refined instructional materials across 10+ tutorial sections led."
+                "Taught eight courses over ten semesters, including data structures and algorithms in C++, data science in R, and computer networking in C.",
+                "Earned **>99% approval rating** from students across all courses taught to date and am two-time recipient of undergraduate teaching award.",
+                "Developed material to support future course iterations, including a guide to GNU make and a tutorial on C server programming."
             ],
-            "technologies": ["Python", "C", "Assembly", "C++", "R", "Racket"]
+            "skills": [
+                "Python",
+                "C",
+                "Assembly",
+                "C++",
+                "R",
+                "Racket"
+            ],
+            "teams": [
+                "CPSC 107 \"Systematic Program Design\" (Allen, 2019W2)",
+                "CPSC 103 \"Introduction to Systematic Program Design\" (Wong, 2020S1)",
+                "DSCI 100 \"Introduction to Data Science\" (Campbell, 2020W1)",
+                "CPSC 121 \"Models of Computation\" (Mochetti, 2020W2)",
+                "CPSC 213 \"Introduction to Computer Systems\" (Schroeder, 2021S1; Feeley, 2021W1; Feeley, 2023W1)",
+                "CPSC 221 \"Basic Algorithms and Data Structures\" (Wolfman, 2021W2)",
+                "CPSC 317 \"Computer Networking\" (Wagner, 2022W1)",
+                "CPSC 330 \"Applied Machine Learning\" (Oveisi-Fordoei, 2023S1)"
+            ]
         },
         {
             "id": "samsung",
-            "organization": "Samsung",
+            "name": "Samsung",
             "position": "Software Engineer Intern",
             "location": "Vancouver, British Columbia",
-            "website": "https://samsungknox.com",
-            "startDate": "Jan 2021",
-            "endDate": "Aug 2021",
-            "summary": "Engineer on the Samsung Knox B2B team where I helped rewrite legacy applications and create new services from scratch.",
+            "url": "https://samsungknox.com",
+            "startDate": "2021-01-01",
+            "endDate": "2021-08-31",
+            "summary": "Re-wrote legacy applications and created new data ingestion service for Samsung's B2B efforts.",
             "highlights": [
-                "Migrated monolith to service-oriented architecture with React and Node.",
-                "Integrated headless UI library to streamline logic across 15+ dashboards.",
-                "Improved test coverage from 70% to >90% across core Node services.",
-                "Created Node service to transform data from an ETL pipeline and Kafka event stream into analytics rendered on React dashboard.",
-                "Refactored MongoDB queries to improve performance by up to 50%."
+                "Migrated legacy web app written in Drupal to service-oriented architecture with React and Node, complete with unit tests.",
+                "Improved coverage from **70% to >90%** across Node services, including tests for code validating APKs approved for Knox devices.",
+                "Created ETL pipeline and Node service to summarize QR code data from **800,000+ phones** for analytics dashboard.",
+                "Refactored MongoDB aggregation queries and refined indexes to improve endpoint response time by **up to 50%.**"
             ],
-            "technologies": [
+            "skills": [
                 "JavaScript",
                 "React",
                 "Node",
@@ -166,23 +261,26 @@
                 "MongoDB",
                 "Java",
                 "CSS"
+            ],
+            "teams": [
+                "Samsung Knox"
             ]
         },
         {
             "id": "artesian",
-            "organization": "General Genomics",
+            "name": "General Genomics",
             "position": "Software Engineer Intern",
             "location": "Calgary, Alberta",
-            "website": "https://curo46.com",
-            "startDate": "May 2020",
-            "endDate": "Aug 2020",
-            "summary": "Engineer at small consulting firm where I helped created a fullstack COVID-19 related web application from scratch in 3 months.",
+            "url": "https://curo46.com",
+            "startDate": "2020-05-01",
+            "endDate": "2020-08-31",
+            "summary": "Developed full stack COVID-19 related web application from scratch in 3 months.",
             "highlights": [
-                "Implemented Node services to process over $50,000+ in transactions via Stripe, manage survey data, and interface with PostgreSQL.",
-                "Created, styled, and tested React components with Sass and Jest.",
-                "Developed COVID-19 related app from scratch in 3 months which attracted early investment from Reno Chamber of Commerce, among others."
+                "Developed COVID-19 related app for small businesses in 3 months which attracted early investment from Reno Chamber of Commerce.",
+                "Implemented Node service to handle sensitive survey data, process $50,000+ in transactions, and interface with PostgreSQL data store.",
+                "Spearheaded development of React front-end, including user authentication, survey input, and data visualization with D3."
             ],
-            "technologies": [
+            "skills": [
                 "JavaScript",
                 "React",
                 "Node",
@@ -191,113 +289,147 @@
                 "AWS",
                 "SCSS",
                 "Docker"
+            ],
+            "teams": [
+                "Core"
             ]
         },
         {
             "id": "ubc-varsity",
-            "organization": "University of British Columbia",
-            "position": "Varsity Event Staff",
+            "name": "The University of British Columbia (Varsity Athletics)",
+            "position": "Event Staff",
             "location": "Vancouver, British Columbia",
-            "website": "https://gothunderbirds.ca",
-            "startDate": "Aug 2019",
-            "endDate": "Jul 2020",
+            "url": "https://gothunderbirds.ca",
+            "startDate": "2019-08-01",
+            "endDate": "2020-08-31",
             "summary": "Supported varsity athletics events throughout the academic year at UBC.",
             "highlights": [
                 "Worked in numerous roles to facilitate the successful execution of 50+ varsity athletics events hosting up to 1,000 students each.",
                 "Created welcoming environment for fans of the sport and communicated effectively with team leads to ensure events ran smoothly."
             ],
-            "technologies": []
-        },
-        {
-            "id": "sunia",
-            "organization": "Seminar on the United Nations and International Affairs (SUNIA)",
-            "position": "Chief Technology Officer & Registrar",
-            "location": "Vancouver, British Columbia",
-            "website": "https://sunia.ca",
-            "startDate": "Jan 2018",
-            "endDate": "Oct 2020",
-            "summary": "Co-directed a non-profit summer program in Alberta's Rocky Mountains focused on the United Nations and international conflicts.",
-            "highlights": [
-                "Utilized TypeScript, Python, and Google Sheets backend to create novel system for contacting and sorting 150+ registrants, saving 20+ hours of work annually.",
-                "Delivered educational content related to international affairs and the UN’s sustainable development goals.",
-                "Coordinated and executed promotional strategy with team of fourteen across Canada. Worked with digital marketing tools such as Buffer, AdWords, and Facebook Ads.",
-                "Assisted in numerous portfolios pertaining to the education of youth in Alberta on international affairs and sustainable development."
-            ],
-            "technologies": ["Python", "TypeScript", "Clasp by Google"]
+            "skills": [],
+            "teams": [
+                "Table Tech"
+            ]
         },
         {
             "id": "ubc-ece",
-            "organization": "UBC Electrical and Computer Engineering",
+            "name": "The University of British Columbia (Department of Electrical and Computer Engineering)",
             "position": "Undergraduate Academic Assistant",
             "location": "Vancouver, British Columbia",
-            "website": "https://cs.ubc.ca",
-            "startDate": "Jan 2020",
-            "endDate": "present",
+            "url": "https://cs.ubc.ca",
+            "startDate": "2020-05-01",
+            "endDate": "2020-08-31",
             "summary": "Assisted UBC's ECE department with navigating online learning and website overhaul.",
             "highlights": [
                 "Migrated legacy Drupal site to WordPress, improving site responsiveness and aesthetic using HTML, CSS, and JavaScript.",
                 "Developed Python script to gather department research data to be displayed on the new website.",
-                "Conducted interviews and wrote blog posts about the latest research being done."
+                "Conducted three interviews with faculty and wrote blog posts summarizing the latest research being done in the department."
             ],
-            "technologies": ["Python", "HTML", "CSS", "JavaScript"]
+            "skills": [
+                "Python",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "teams": [
+                "Core"
+            ]
         },
         {
             "id": "metro",
-            "organization": "Metro Continuing Education",
+            "name": "Metro Continuing Education",
             "position": "Program Coordinator",
             "location": "Edmonton, Alberta",
-            "website": "https://metrocontinuingeducation.ca",
-            "startDate": "Aug 2017",
-            "endDate": "Jul 2019",
+            "url": "https://metrocontinuingeducation.ca",
+            "startDate": "2017-08-01",
+            "endDate": "2019-07-31",
             "summary": "Ran non-profit summer camps on programming for children of families who were new to Canada.",
             "highlights": [
-                "While parents attended English classes at Metro, ran day camps for immigrant children at no cost to parents to make class accessible.",
-                "Ran week-long summer camps teaching children aged 8 to 11 how to program basic 3D games in Unity. Delivered curriculum produced by Black Rocket Productions."
+                "Facilitated day camps for children of families who were new to Canada, while their parents enrolled in English classes.",
+                "Ran week-long summer camps teaching children aged 8 to 11 how to program basic 3D games in Unity."
             ],
-            "technologies": []
+            "skills": [],
+            "teams": [
+                "Core"
+            ]
         },
         {
             "id": "epl",
-            "organization": "Edmonton Public Library",
+            "name": "Edmonton Public Library",
             "position": "Student Page",
             "location": "Edmonton, Alberta",
-            "website": "https://epl.ca",
-            "startDate": "Apr 2016",
-            "endDate": "Apr 2017",
+            "url": "https://epl.ca",
+            "startDate": "2016-04-01",
+            "endDate": "2017-04-30",
             "summary": "Facilitated atmosphere at Idylwylde of EPL, ensuring returned books made it to shelves in a timely fashion and library was kept clean.",
             "highlights": [
-                "Facilitated atmosphere at Idylwylde of EPL, ensuring returned books made it to shelves in a timely fashion and library was kept clean."
+                "Facilitated atmosphere at local public library, ensuring returned books made it to shelves in a timely fashion and library was kept clean."
             ],
-            "technologies": []
+            "skills": [],
+            "teams": [
+                "Core"
+            ]
         },
         {
             "id": "referee",
-            "organization": "Canada Soccer",
-            "position": "Soccer Referee",
+            "name": "The Canadian Soccer Association",
+            "position": "Referee",
             "location": "Edmonton, Alberta",
-            "website": "https://canadasoccer.com/",
-            "startDate": "Jun 2015",
-            "endDate": "Aug 2018",
+            "url": "https://canadasoccer.com",
+            "startDate": "2015-06-01",
+            "endDate": "2018-08-31",
             "summary": "Officiated games for both youth and teenage players, at all levels of competition.",
             "highlights": [
-                "Officiated games for both youth and teenage players, at all levels of competition."
+                "Officiated 200+ games for both youth and teenage players at all levels of competition."
             ],
-            "technologies": []
+            "skills": [],
+            "teams": [
+                "Core"
+            ]
         }
     ],
     "projects": [
+        {
+            "id": "prairie-learn",
+            "name": "PrairieLearn",
+            "position": "Open Source Contributor",
+            "location": "Vancouver, British Columbia",
+            "url": "https://prairielearn.com",
+            "githubUrl": "https://github.com/PrairieLearn/PrairieLearn",
+            "startDate": "2022-05-01",
+            "summary": "open-source contributor for assessment platform used by over 100,000",
+            "highlights": [
+                "Introduced color library to better adhere to W3C accessibility standards, enhance UX, and improve maintainability.",
+                "Achieved >90% coverage of feature with pytest and added type annotations to old files."
+            ]
+        },
+        {
+            "id": "garden",
+            "name": "Garden",
+            "position": "Software Engineer",
+            "location": "Vancouver, British Columbia",
+            "url": "https://garden.michaeldemar.co",
+            "githubUrl": "https://github.com/michaelfromyeg/garden",
+            "startDate": "2023-07-01",
+            "summary": "created tool to turn Joplin Markdown notes into digital garden",
+            "highlights": [
+                "Tailored existing open-source tool to create digital garden from Markdown notes hosted on Joplin.",
+                "Leveraged Scheduled Tasks on Windows and Python to automate daily updates to garden."
+            ]
+        },
         {
             "id": "midtermr",
             "name": "Midtermr",
             "position": "Software Engineer",
             "location": "Vancouver, British Columbia",
-            "website": "https://midtermr.michaeldemar.co",
-            "github": "https://github.com/michaelfromyeg/midtermr",
-            "date": "Nov 2022",
+            "url": "https://midtermr.michaeldemar.co",
+            "githubUrl": "https://github.com/michaelfromyeg/midtermr",
+            "startDate": "2022-11-01",
             "summary": "generate practice exams using web-scraping and Svelte",
             "highlights": [
-                "Built app to create exams from online content using Svelte and Python.",
-                "Demo video has 2,000+ views, and tool has generated hundreds of exams."
+                "Built web app to create practice exams from publicly available online textbooks using Svelte and Python.",
+                "Demo video has **2,000+** views and project has generated hundreds of exams for core UBC undergraduate math courses."
             ]
         },
         {
@@ -305,12 +437,13 @@
             "name": "Predicting Defaults",
             "position": "Data Scientist",
             "location": "Vancouver, British Columbia",
-            "website": "https://michaeldemar.co/projects/predicting-defaults",
-            "github": "https://github.com/michaelfromyeg/credit-card-defaults",
-            "date": "Nov 2021",
+            "url": "https://michaeldemar.co/projects/predicting-defaults",
+            "githubUrl": "https://github.com/michaelfromyeg/credit-card-defaults",
+            "startDate": "2021-11-01",
+            "endDate": "2021-11-30",
             "summary": "predicting credit card defaults using machine learning",
             "highlights": [
-                "Tuned LightGBM model with Python to 0.82 accuracy and 0.38 recall.",
+                "Tuned LightGBM model built with Python to predict credit card defaults; achieved 0.82 accuracy and 0.38 recall.",
                 "Conducted feature engineering and extracted feature importance."
             ]
         },
@@ -319,9 +452,9 @@
             "name": "weNote",
             "position": "Founder",
             "location": "Edmonton, Alberta",
-            "website": "https://wenote.ca",
-            "github": "https://github.com/michaelfromyeg/weNote",
-            "date": "Jul 2021",
+            "url": "https://wenote.ca",
+            "githubUrl": "https://github.com/michaelfromyeg/weNote",
+            "startDate": "2021-07-01",
             "summary": "a start-up focused on enhancing collaborative learning",
             "highlights": [
                 "Founded start-up that allows students to build lecture notes collaboratively.",
@@ -333,9 +466,10 @@
             "name": "Jobs Notify",
             "position": "Software Engineer",
             "location": "Vancouver, British Columbia",
-            "website": "https://github.com/michaelfromyeg/jobs-notify",
-            "github": "https://github.com/michaelfromyeg/jobs-notify",
-            "date": "Jul 2021",
+            "url": "https://github.com/michaelfromyeg/jobs-notify",
+            "githubUrl": "https://github.com/michaelfromyeg/jobs-notify",
+            "startDate": "2021-06-01",
+            "endDate": "2021-06-30",
             "summary": "be the first to apply to software internships",
             "highlights": [
                 "Created e-mail newsletter which scrapes online job boards and hydrates HTML template.",
@@ -347,9 +481,10 @@
             "name": "mystatements",
             "position": "Software Engineer",
             "location": "Vancouver, British Columbia",
-            "website": "https://github.com/michaelfromyeg/mystatements",
-            "github": "https://github.com/michaelfromyeg/mystatements",
-            "date": "Jul 2021",
+            "url": "https://github.com/michaelfromyeg/mystatements",
+            "githubUrl": "https://github.com/michaelfromyeg/mystatements",
+            "startDate": "2021-07-01",
+            "endDate": "2021-07-31",
             "summary": "become the true owner of your financial history",
             "highlights": [
                 "Developed Python script to turn PDF financial statements into CSV format for personal use.",
@@ -357,13 +492,13 @@
             ]
         },
         {
-            "id": "cvc",
-            "name": "cvc",
+            "id": "vcv",
+            "name": "vcv",
             "position": "Software Engineer",
             "location": "Vancouver, British Columbia",
-            "website": "https://github.com/michaelfromyeg/vcv",
-            "github": "https://github.com/michaelfromyeg/vcv",
-            "date": "Jul 2021",
+            "url": "https://github.com/michaelfromyeg/vcv",
+            "githubUrl": "https://github.com/michaelfromyeg/vcv",
+            "startDate": "2021-07-01",
             "summary": "manage your resume with the power of git",
             "highlights": [
                 "Created tool with Python to allow users to template resume and tailor to job descriptions."
@@ -374,12 +509,13 @@
             "name": "Course Compare",
             "position": "Software Engineer",
             "location": "Vancouver, British Columbia",
-            "website": "https://github.com/michaelfromyeg/course-compare",
-            "github": "https://github.com/michaelfromyeg/course-compare",
-            "date": "Jul 2021",
+            "url": "https://github.com/michaelfromyeg/course-compare",
+            "githubUrl": "https://github.com/michaelfromyeg/course-compare",
+            "startDate": "2021-07-01",
+            "endDate": "2021-07-31",
             "summary": "compare classes with your peers without the headache",
             "highlights": [
-                "Developed Python backend to parse .ical files and find overlap in schedules.",
+                "Developed Python backend to parse calendar files and find overlap in schedules.",
                 "Received overwhelmingly positive feedback in 'family and friends' release."
             ]
         },
@@ -388,9 +524,10 @@
             "name": "COVID-19 and Crime",
             "position": "Data Scientist",
             "location": "Vancouver, British Columbia",
-            "website": "https://adammitha.com/STAT201-group-project/",
-            "github": "https://github.com/adammitha/STAT201-group-project",
-            "date": "Jan 2021",
+            "url": "https://adammitha.com/STAT201-group-project",
+            "githubUrl": "https://github.com/adammitha/STAT201-group-project",
+            "startDate": "2021-01-01",
+            "endDate": "2021-01-31",
             "summary": "performing statistical inference on open crime data",
             "highlights": [
                 "Examined relationship between COVID-19 and petty crime with R.",
@@ -402,9 +539,10 @@
             "name": "Conway's Game of Life",
             "position": "Software Engineer",
             "location": "Vancouver, British Columbia",
-            "website": "https://github.com/michaelfromyeg/conway-gol",
-            "github": "https://github.com/michaelfromyeg/conway-gol",
-            "date": "Feb 2021",
+            "url": "https://github.com/michaelfromyeg/conway-gol",
+            "githubUrl": "https://github.com/michaelfromyeg/conway-gol",
+            "startDate": "2021-02-01",
+            "endDate": "2021-02-28",
             "summary": "in tribute to Conway, an animation of his Game of Life with Python",
             "highlights": [
                 "Developed simulation of Conway's Game of Life using Python.",
@@ -416,9 +554,10 @@
             "name": "Showrooms",
             "position": "Software Engineer",
             "location": "Vancouver, British Columbia",
-            "website": "https://bestbuyshow.space",
-            "github": "https://github.com/michaelfromyeg/showrooms",
-            "date": "Jan 2021",
+            "url": "https://bestbuyshow.space",
+            "githubUrl": "https://github.com/michaelfromyeg/showrooms",
+            "startDate": "2021-01-01",
+            "endDate": "2021-01-31",
             "summary": "show off your desktop setup and make money from it",
             "highlights": [
                 "Co-created app with React and Node to allow users to share desk setups.",
@@ -430,9 +569,10 @@
             "name": "Parkinson's Prediction",
             "position": "Data Scientist",
             "location": "Vancouver, British Columbia",
-            "website": "https://michaelfromyeg.github.io/pd-classification",
-            "github": "https://github.com/michaelfromyeg/pd-classification",
-            "date": "Jan 2021",
+            "url": "https://michaelfromyeg.github.io/pd-classification",
+            "githubUrl": "https://github.com/michaelfromyeg/pd-classification",
+            "startDate": "2021-01-01",
+            "endDate": "2021-01-31",
             "summary": "detect Parkinson's disease from speech data",
             "highlights": [
                 "Co-wrote report with R to predict Parkinson's from a patient's speech data.",
@@ -444,9 +584,10 @@
             "name": "groUber",
             "position": "Software Engineer",
             "location": "Vancouver, British Columbia",
-            "website": "https://grouber.online",
-            "github": "https://github.com/michaelfromyeg/groUber",
-            "date": "Jun 2020",
+            "url": "https://grouber.online",
+            "githubUrl": "https://github.com/michaelfromyeg/groUber",
+            "startDate": "2020-06-01",
+            "endDate": "2020-06-30",
             "summary": "ride-sharing for you and your friends",
             "highlights": [
                 "Built app to enable groups to carpool using React, Node, and Firebase.",
@@ -458,13 +599,13 @@
             "name": "Visual Studio Code Puzzles",
             "position": "Software Engineer",
             "location": "Vancouver, British Columbia",
-            "website": "https://marketplace.visualstudio.com/items?itemName=michaelfromyeg.vscode-puzzle",
-            "github": "https://github.com/michaelfromyeg/vscode-puzzles",
-            "date": "Jun 2020",
+            "url": "https://marketplace.visualstudio.com/items?itemName=michaelfromyeg.vscode-puzzle",
+            "githubUrl": "https://github.com/michaelfromyeg/vscode-puzzles",
+            "startDate": "2020-06-01",
             "summary": "simplify technical interview problem practice",
             "highlights": [
-                "Built tool to bring interview \"puzzles\" into an IDE using TypeScript.",
-                "Won Microsoft's \"Best Use of External API\" award and has 200+ users."
+                "Built tool to bring technical interview problems into your IDE using TypeScript.",
+                "Won Microsoft's \"Best Use of External API\" award and has roughly 250 installs."
             ]
         },
         {
@@ -472,9 +613,10 @@
             "name": "jCite",
             "position": "Software Engineer",
             "location": "Vancouver, British Columbia",
-            "website": "https://michaeldemar.co/projects/jcite",
-            "github": "https://github.com/michaelfromyeg/jCite",
-            "date": "Apr 2020",
+            "url": "https://michaeldemar.co/projects/jcite",
+            "githubUrl": "https://github.com/michaelfromyeg/jCite",
+            "startDate": "2020-01-01",
+            "endDate": "2020-04-30",
             "summary": "manage research papers and generate citations",
             "highlights": [
                 "Developed desktop app using Java to help scholars manage research.",
@@ -486,9 +628,10 @@
             "name": "Nominatr",
             "position": "Software Engineer",
             "location": "Vancouver, British Columbia",
-            "website": "https://michaeldemar.co/projects/nominatr",
-            "github": "https://github.com/michaelfromyeg/nominatr",
-            "date": "Mar 2020",
+            "url": "https://michaeldemar.co/projects/nominatr",
+            "githubUrl": "https://github.com/michaelfromyeg/nominatr",
+            "startDate": "2020-01-01",
+            "endDate": "2020-03-31",
             "summary": "facilitate paperless nominations for student elections",
             "highlights": [
                 "Created utility to comb survey data and send emails using Java and AWS.",
@@ -500,9 +643,9 @@
             "name": "michaeldemar.co",
             "position": "Software Engineer",
             "location": "Vancouver, British Columbia",
-            "website": "https://michaeldemar.co",
-            "github": "https://github.com/michaelfromyeg/michaeldemar.co",
-            "date": "Apr 2019",
+            "url": "https://michaeldemar.co",
+            "githubUrl": "https://github.com/michaelfromyeg/michaeldemar.co",
+            "startDate": "2019-04-01",
             "summary": "a personal website with a ton of bells and whistles!",
             "highlights": [
                 "Created personal website using Gatsby (React, TypeScript) and Sass.",
@@ -514,13 +657,13 @@
             "name": "RapViz",
             "position": "Software Engineer",
             "location": "Vancouver, British Columbia",
-            "website": "https://rapviz.appspot.com",
-            "github": "https://github.com/michaelfromyeg/RapViz",
-            "date": "Mar 2019",
+            "url": "https://rapviz.appspot.com",
+            "githubUrl": "https://github.com/michaelfromyeg/RapViz",
+            "startDate": "2019-03-01",
             "summary": "visualize 'bars' right in the browser",
             "highlights": [
-                "Built app to visualize rhyme schemes in rap using React, Flask, and GCP.",
-                "Earned finalist distinction in the Entertainment Track at HackTech 2019."
+                "Created web app to visualize rhyme schemes in lyrics using React, Flask, CSS, and the Spotify Web SDK.",
+                "Earned finalist distinction at Caltech hackathon and project has generated rhyme schemes for **thousands of songs** to date."
             ]
         },
         {
@@ -528,9 +671,10 @@
             "name": "ACKLeast",
             "position": "Software Engineer",
             "location": "Edmonton, Alberta",
-            "website": "https://github.com/suniacamp/ackleast",
-            "github": "https://github.com/suniacamp/ackleast",
-            "date": "Jul 2019",
+            "url": "https://github.com/suniacamp/ackleast",
+            "githubUrl": "https://github.com/suniacamp/ackleast",
+            "startDate": "2019-07-01",
+            "endDate": "2019-07-31",
             "summary": "sort camp participants into groups using a novel algorithm",
             "highlights": [
                 "Developed novel Python algorithm to sort students in groups abiding business logic.",
@@ -538,312 +682,690 @@
             ]
         }
     ],
-    "extracurriculars": [
+    "volunteer": [
+        {
+            "id": "k8s-release",
+            "organization": "Cloud Native Computing Foundation (CNCF)",
+            "position": "Kubernetes Release Shadow",
+            "location": "Remote, Remote",
+            "url": "https://kubernetes.io",
+            "startDate": "2023-05-01",
+            "summary": "Supported the release of v1.28 release of Kubernetes as a shadow on Release Notes team.",
+            "highlights": [
+                "Curated and edited release notes from relevant pull requests for the v1.28 release of Kubernetes.",
+                "Coordinated with special interest groups (SIGs) to ensure release note accuracy and determined major themes."
+            ],
+            "skills": [
+                "Documentation",
+                "Leadership"
+            ]
+        },
         {
             "id": "fiji-philanthropy",
             "organization": "Phi Gamma Delta",
             "position": "Philanthropy Chairman",
             "location": "Vancouver, British Columbia",
-            "website": "https://ubcfiji.com",
-            "startDate": "Jan 2022",
-            "endDate": "present",
+            "url": "https://ubcfiji.com",
+            "startDate": "2022-01-01",
             "summary": "Spearheaded philanthropic events to support various charities and the local community.",
             "highlights": [
-                "Led beach clean-up with over 30+ volunteers which cleaned 15kg of trash from ~3km of beach.",
-                "Co-hosted Valentine's Day fundraiser which yielded $2,000 for Convenant House Vancouver."
+                "Led beach clean-up with over 30+ volunteers which cleaned 15 kg of trash from ~3 km of beach.",
+                "Co-hosted Valentine's Day fundraiser which yielded $2,000 for Covenant House Vancouver."
             ],
-            "skills": ["Leadership", "Service", "Event Planning"]
+            "skills": [
+                "Leadership",
+                "Service",
+                "Event Planning"
+            ]
         },
         {
             "id": "ams-food-bank",
-            "organization": "AMS of UBC Vancouver",
-            "position": "Food Bank Volunteer",
+            "organization": "AMS Food Bank",
+            "position": "Volunteer",
             "location": "Vancouver, British Columbia",
-            "website": "https://ams.ubc.ca/",
-            "startDate": "May 2021",
-            "endDate": "present",
+            "url": "https://ams.ubc.ca",
+            "startDate": "2021-05-01",
             "summary": "Served numerous students, faculty, and staff at the AMS Food Bank.",
             "highlights": [
                 "Served numerous UBC students, faculty, and staff at the food bank, ensuring discretion and providing timely service."
             ],
-            "skills": ["Volunteering", "Organization", "Service"]
+            "skills": [
+                "Volunteering",
+                "Organization",
+                "Service"
+            ]
         },
         {
             "id": "fiji-scholarship",
             "organization": "Phi Gamma Delta",
             "position": "Scholarship Chairman",
             "location": "Vancouver, British Columbia",
-            "website": "https://ubcfiji.com",
-            "startDate": "Jan 2020",
-            "endDate": "Dec 2021",
+            "url": "https://ubcfiji.com",
+            "startDate": "2020-01-01",
+            "endDate": "2021-12-31",
             "summary": "Supporting undergraduate chapter with all aspects of their education.",
             "highlights": [
                 "Provided chapter with educational resources, gave study tips, and managed chapter house study room.",
                 "Developed internal tool to allow members to share which courses they had taken and rate them."
-            ]
+            ],
+            "skills": []
         },
         {
             "id": "sus-atp",
             "organization": "The Science Undergraduate Society",
             "position": "Assistant to the President",
             "location": "Vancouver, British Columbia",
-            "website": "https://sus.ubc.ca",
-            "startDate": "May 2021",
-            "endDate": "Dec 2021",
+            "url": "https://sus.ubc.ca",
+            "startDate": "2021-05-01",
+            "endDate": "2021-12-31",
             "summary": "Supported the mission and mandate of the Science Undergraduate Society on the Presidential Portfolio.",
             "highlights": [
                 "Served on both First Week and BIPOC working groups to support Science students at UBC."
-            ]
+            ],
+            "skills": []
         },
         {
             "id": "tci-rnd",
             "organization": "The C.O.D.E. Initiative",
             "position": "Research and Design",
             "location": "Vancouver, British Columbia",
-            "website": "https://thecodeinitiative.ca",
-            "startDate": "Mar 2021",
-            "endDate": "Sep 2021",
+            "url": "https://thecodeinitiative.ca",
+            "startDate": "2021-03-01",
+            "endDate": "2021-09-30",
             "summary": "Developing a computer science curriculum for neurodiverse adults.",
             "highlights": [
                 "Consulted with industry experts to gauge appropriate content for neurodiverse adult CS education."
-            ]
+            ],
+            "skills": []
         },
         {
             "id": "mlh-workshops",
             "organization": "Major League Hacking",
-            "position": "Workshop Lead (3x)",
-            "location": "Remote",
-            "website": "https://mlh.io",
-            "startDate": "Sep 2020",
-            "endDate": "present",
+            "position": "Workshop Lead",
+            "location": "Remote, Remote",
+            "url": "https://mlh.io",
+            "startDate": "2020-09-01",
             "summary": "Led workshops on data science and web development at hackathons across North America.",
             "highlights": [
-                "Led three workshops with 100+ attendees and 300+ views on YouTube.",
-                "Developed engaging delivery style that actively involves participants."
+                "Led **4 workshops** at hackathons for **250+ participants** on topics such as React, data science, and machine learning.",
+                "Developed engaging delivery style that actively involves participants throughout workshop; recordings have garnered **500+ views.**"
             ],
-            "skills": ["Leadership", "Service", "Event Planning"]
+            "skills": [
+                "Leadership",
+                "Service",
+                "Event Planning"
+            ]
         },
         {
             "id": "sus-ea",
             "organization": "The Science Undergraduate Society",
             "position": "Elections Administrator",
             "location": "Vancouver, British Columbia",
-            "website": "https://sus.ubc.ca",
-            "startDate": "May 2020",
-            "endDate": "Apr 2021",
+            "url": "https://sus.ubc.ca",
+            "startDate": "2020-05-01",
+            "endDate": "2021-04-30",
             "summary": "Facilitated first-ever completely virtual student election.",
             "highlights": [
                 "Hosted events to reduce apathy; saw +3.1% votes relative to previous year.",
                 "Developed tool to facilitate nominees and nominators using Java, the Qualtrics API, and Freemarker.",
                 "Coordinated All-Candidates Meeting and Candidates' Forum, receiving unanimously positive feedback from candidates regarding both events."
-            ]
+            ],
+            "skills": []
         },
         {
             "id": "nwplus",
             "organization": "nwPlus",
             "position": "Software Developer",
             "location": "Vancouver, British Columbia",
-            "website": "http://nwplus.io",
-            "startDate": "May 2020",
-            "endDate": "Apr 2021",
+            "url": "http://nwplus.io",
+            "startDate": "2020-05-01",
+            "endDate": "2021-04-03",
             "summary": "Assisted with creating website and resources behind three flagship hackathon events at UBC.",
             "highlights": [
                 "Assisted with creating website and resources behind three flagship hackathon events at UBC."
-            ]
+            ],
+            "skills": []
         },
         {
             "id": "tci-volunteer",
             "organization": "The C.O.D.E. Initiative",
             "position": "Program Volunteer",
             "location": "Vancouver, British Columbia",
-            "website": "https://thecodeinitiative.ca",
-            "startDate": "Feb 2020",
-            "endDate": "Mar 2020",
-            "summary": "Assisted in delivering introductory computer science concepts to elementary school aged children through the Sphero robot. ",
+            "url": "https://thecodeinitiative.ca",
+            "startDate": "2020-02-01",
+            "endDate": "2020-03-31",
+            "summary": "Assisted in delivering introductory computer science concepts to elementary school aged children through the Sphero robot.",
             "highlights": [
                 "Assisted in delivering introductory computer science concepts to elementary school aged children through the Sphero robot."
-            ]
+            ],
+            "skills": []
         },
         {
             "id": "ctc",
             "organization": "Code The Change Foundation",
             "position": "Back End Developer",
             "location": "Vancouver, British Columbia",
-            "website": "http://codethechange.ca",
-            "startDate": "Sep 2019",
-            "endDate": "Apr 2020",
+            "url": "http://codethechange.ca",
+            "startDate": "2019-09-01",
+            "endDate": "2020-04-30",
             "summary": "Served as a student developer on a project team to create a volunteer management tool for a local nonprofit.",
             "highlights": [
                 "Developed a web application for a local non-profit to manage network of 1000+ volunteers along with a team of five other upper year students.",
                 "Created RESTful API using Azure functions and Node, built React components, wrote queries for MSSQL database, conducted code review, and created documentation to transfer completed project to client."
-            ]
+            ],
+            "skills": []
         },
         {
             "id": "sus-fyc",
             "organization": "The Science Undergraduate Society",
             "position": "First Year Committee Member",
             "location": "Vancouver, British Columbia",
-            "website": "https://sus.ubc.ca",
-            "startDate": "Sep 2019",
-            "endDate": "Apr 2020",
+            "url": "https://sus.ubc.ca",
+            "startDate": "2019-09-01",
+            "endDate": "2020-04-30",
             "summary": "Coordinated events and advocacy campaigns to support the first-year experience of UBC Science students.",
             "highlights": [
                 "Coordinated events which sought to improve the experience of a first-year student in the Faculty of Science at UBC.",
                 "Created digital marketing content for annual dance which sold out two weeks early and was the first profitable event in the history of the society.",
                 "Led logistics committee for community event in which our committee served hot chocolate to over 300+ UBC students and staff.",
                 "Assisted with marketing for other events through creation of blurbs and graphics, and distributed them via a variety of digital channels."
-            ]
+            ],
+            "skills": []
         },
         {
             "id": "ocra",
             "organization": "Orchard Commons Residence Association",
             "position": "Branch President",
             "location": "Vancouver, British Columbia",
-            "website": "https://vancouver.housing.ubc.ca/residences/orchard-commons/",
-            "startDate": "Sep 2019",
-            "endDate": "Apr 2020",
+            "url": "https://vancouver.housing.ubc.ca/residences/orchard-commons",
+            "startDate": "2019-09-01",
+            "endDate": "2020-04-30",
             "summary": "Supported for the first-year experience for my floor mates as Branch President in Orchard Commons at UBC.",
             "highlights": [
                 "Directed events with the goal of improving first-year experience in residence.",
                 "Distributed promotional materials, organized logistics, and created welcoming and inclusive environment."
-            ]
+            ],
+            "skills": []
         },
         {
             "id": "ceyc",
             "organization": "City of Edmonton",
             "position": "Youth Councillor",
             "location": "Edmonton, Alberta",
-            "website": "https://ceyc.ca/",
-            "startDate": "Aug 2018",
-            "endDate": "Aug 2019",
+            "url": "https://ceyc.ca",
+            "startDate": "2018-08-01",
+            "endDate": "2019-08-31",
             "summary": "Served on the City of Edmonton's Youth Council for one-term, supporting Urban & Regional Planning within the city.",
             "highlights": [
                 "Provided meaningful input to our municipal government and took action on local issues.",
                 "Acted as member of the Urban & Regional Planning Committee."
-            ]
+            ],
+            "skills": []
         },
         {
             "id": "student-senate",
             "organization": "Edmonton Public Schools (EPSB)",
             "position": "Student Senator",
             "location": "Edmonton, Alberta",
-            "website": "https://sites.google.com/epsb.ca/studentsenate",
-            "startDate": "Sep 2017",
-            "endDate": "Jun 2019",
+            "url": "https://sites.google.com/epsb.ca/studentsenate",
+            "startDate": "2017-09-01",
+            "endDate": "2019-06-30",
             "summary": "Served on EPSB Student Senate for two-terms, as a general member and Vice-Chair respectively, pursuing issues that mattered to students district-wide.",
             "highlights": [
                 "Served on EPSB Student Senate for two-terms, engaging students across the district on issues that mattered to them, and pursuing project work based on their insight.",
                 "Responsible for graphic design of time management themed brochures in first-year. Assisted with senate proceedings in second-year as vice-chair."
+            ],
+            "skills": []
+        },
+        {
+            "id": "sunia",
+            "organization": "The Seminar on the United Nations and International Affairs (SUNIA)",
+            "position": "Board Member",
+            "location": "Vancouver, British Columbia",
+            "url": "https://sunia.ca",
+            "startDate": "2018-01-01",
+            "summary": "Co-directed a non-profit summer program in Alberta's Rocky Mountains focused on the United Nations and international conflicts.",
+            "highlights": [
+                "Utilized TypeScript, Python, and Google Sheets backend to create novel system for contacting and sorting 150+ registrants, saving 20+ hours of work annually.",
+                "Delivered educational content related to international affairs and the UN's sustainable development goals.",
+                "Coordinated and executed promotional strategy with team of fourteen across Canada. Worked with digital marketing tools such as Buffer, Google Ads, and Facebook Ads.",
+                "Assisted in numerous portfolios pertaining to the education of youth in Alberta on international affairs and sustainable development."
+            ],
+            "skills": [
+                "Python",
+                "TypeScript",
+                "Clasp by Google"
             ]
+        }
+    ],
+    "courses": [
+        {
+            "id": "cpsc-330",
+            "name": "Applied Machine Learning",
+            "code": "CPSC 330",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "atsc-113",
+            "name": "Applied Meteorology",
+            "code": "ATSC 113",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "cpsc-121",
+            "name": "Basic Algorithms and Data Structures",
+            "code": "CPSC 121",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "math-100",
+            "name": "Calculus I",
+            "code": "MATH 100",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "math-101",
+            "name": "Calculus II",
+            "code": "MATH 101",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "math-200",
+            "name": "Calculus III",
+            "code": "MATH 200",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "cpsc-313",
+            "name": "Computer Hardware and Operating Systems",
+            "code": "CPSC 313",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "cpsc-448",
+            "name": "Directed Studies (TEC4HOME)",
+            "code": "CPSC 448",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "phys-117",
+            "name": "Dynamics and Waves",
+            "code": "PHYS 117",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "phys-118",
+            "name": "Electricity, Light and Radiation",
+            "code": "PHYS 118",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "stat-200",
+            "name": "Elementary Statistics for Applications",
+            "code": "STAT 200",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "cpsc-320",
+            "name": "Intermediate Algorithm Design and Analysis",
+            "code": "CPSC 320",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "cpsc-317",
+            "name": "Internet Computing",
+            "code": "CPSC 317",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "cpsc-213",
+            "name": "Introduction to Computer Systems",
+            "code": "CPSC 213",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "dsci-100",
+            "name": "Introduction to Data Science",
+            "code": "DSCI 100",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "ling-100",
+            "name": "Introduction to Language and Linguistics",
+            "code": "LING 100",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "biol-111",
+            "name": "Introduction to Modern Biology",
+            "code": "BIOL 111",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "stat-302",
+            "name": "Introduction to Probability",
+            "code": "STAT 302",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "cpsc-304",
+            "name": "Introduction to Relational Databases",
+            "code": "CPSC 304",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "cpsc-310",
+            "name": "Introduction to Software Engineering",
+            "code": "CPSC 310",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "ling-200",
+            "name": "Linguistic Theory and Analysis I",
+            "code": "LING 200",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "ling-201",
+            "name": "Linguistic Theory and Analysis II",
+            "code": "LING 201",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "math-221",
+            "name": "Matrix Algebra",
+            "code": "MATH 221",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "cpsc-121",
+            "name": "Models of Computation",
+            "code": "CPSC 121",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "econ-310",
+            "name": "Principles of Microeconomics",
+            "code": "ECON 310",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "cpsc-210",
+            "name": "Software Construction",
+            "code": "CPSC 210",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "stat-201",
+            "name": "Statistical Inference for Data Science",
+            "code": "STAT 201",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "cpsc-110",
+            "name": "Systematic Program Design",
+            "code": "CPSC 110",
+            "grade": 0.0,
+            "associatedWith": "ubc"
+        },
+        {
+            "id": "cs3223",
+            "name": "Database Implementation",
+            "code": "CS3223",
+            "grade": "B+",
+            "associatedWith": "nus"
+        },
+        {
+            "id": "cs3236",
+            "name": "Information Theory",
+            "code": "CS3236",
+            "grade": "B",
+            "associatedWith": "nus"
+        },
+        {
+            "id": "el3213",
+            "name": "Linguistic Typology",
+            "code": "EL3213",
+            "grade": "A",
+            "associatedWith": "nus"
+        },
+        {
+            "id": "history-hl",
+            "name": "History HL",
+            "code": "History HL",
+            "grade": 7,
+            "associatedWith": "ib"
+        },
+        {
+            "id": "chemistry-hl",
+            "name": "Chemistry HL",
+            "code": "Chemistry HL",
+            "grade": 7,
+            "associatedWith": "ib"
+        },
+        {
+            "id": "english-hl",
+            "name": "English HL",
+            "code": "English HL",
+            "grade": 7,
+            "associatedWith": "ib"
+        },
+        {
+            "id": "math-sl",
+            "name": "Math SL",
+            "code": "Math SL",
+            "grade": 7,
+            "associatedWith": "ib"
+        },
+        {
+            "id": "french-sl",
+            "name": "French SL",
+            "code": "French SL",
+            "grade": 5,
+            "associatedWith": "ib"
+        },
+        {
+            "id": "physics-sl",
+            "name": "Physics SL",
+            "code": "Physics SL",
+            "grade": 7,
+            "associatedWith": "ib"
+        },
+        {
+            "id": "computer-science-sl",
+            "name": "Computer Science SL",
+            "code": "Computer Science SL",
+            "grade": 6,
+            "associatedWith": "ib"
         }
     ],
     "education": [
         {
             "id": "ubc",
-            "institution": "University of British Columbia",
-            "degree": "B.Sc. Honors Computer Science (Co-op), minor in Data Science",
+            "institution": "The University of British Columbia",
+            "area": "Computer Science",
+            "studyType": "B.Sc. Honors Computer Science (Co-op), minor in Data Science",
             "location": "Vancouver, British Columbia",
-            "website": "https://cs.ubc.ca",
-            "startDate": "Sep 2019",
-            "endDate": "Apr 2024",
-            "gpa": "4.33 (93%)",
-            "courses": [
-                "Data Structures and Algorithms (96%)",
-                "Computer Systems (95%)",
-                "Software Construction (95%)"
-            ]
+            "url": "https://cs.ubc.ca",
+            "startDate": "2019-09-01",
+            "endDate": "2024-04-30",
+            "score": "93% (4.33/4.33)"
+        },
+        {
+            "id": "nus",
+            "institution": "The National University of Singapore",
+            "area": "Computer Science",
+            "studyType": "Exchange",
+            "location": "Singapore, Singapore",
+            "url": "https://nus.edu.sg",
+            "startDate": "2023-01-01",
+            "endDate": "2023-04-30",
+            "score": "Pass"
         },
         {
             "id": "ib",
             "institution": "McNally Composite High School",
-            "degree": "International Baccalaureate",
+            "area": "General Studies",
+            "studyType": "International Baccalaureate",
             "location": "Edmonton, Alberta",
-            "website": "https://mcnally.epsb.ca",
-            "startDate": "Sep 2016",
-            "endDate": "Jun 2019",
-            "gpa": "41/45 (IB) / 98% (Alberta Education)",
-            "courses": [
-                "History HL (7)",
-                "Chemistry HL (7)",
-                "English HL (7)",
-                "Math SL (7)",
-                "French SL (5)",
-                "Physics SL (7)",
-                "Computer Science SL (6)"
-            ]
+            "url": "https://mcnally.epsb.ca",
+            "startDate": "2016-09-01",
+            "endDate": "2019-06-30",
+            "score": "41/45 (IB) / 98% (Alberta Education)"
         }
     ],
     "awards": [
         {
+            "id": "community-building",
+            "title": "Student Community Building Award",
+            "date": "2023-05-01",
+            "url": "https://ubc.ca",
+            "awarder": "The University of British Columbia",
+            "associatedWith": "ubc",
+            "summary": "Awarded based upon the recommendation of the Department of Computer Science."
+        },
+        {
             "id": "uta-award",
-            "title": "Undergraduate Teaching Assistant Award",
-            "date": "May 2022",
-            "website": "https://ubc.ca",
-            "awarder": "University of British Columbia",
+            "title": "Undergraduate Teaching Assistant Award (x2)",
+            "date": "2023-05-01",
+            "url": "https://ubc.ca",
+            "awarder": "The University of British Columbia",
+            "associatedWith": "ubc",
             "summary": "Awarded to the Computer Science Department's top teaching assistants."
         },
         {
+            "id": "sure",
+            "title": "Science Undergraduate Research Experience Award (SURE)",
+            "date": "2023-04-01",
+            "url": "https://ubc.ca",
+            "awarder": "The University of British Columbia",
+            "associatedWith": "ubc",
+            "summary": "Awarded in support of \"[a]utomatically synthesizing efficient algorithms for solving SAT\" project under supervision of Kevin-Leyton Brown and the Algorithms Lab."
+        },
+        {
+            "id": "alumni",
+            "title": "University of BC Alumni Association Scholarship",
+            "date": "2023-03-01",
+            "url": "https://ubc.ca",
+            "awarder": "The University of British Columbia",
+            "associatedWith": "ubc",
+            "summary": "Awarded to students entering the final year of a baccalaureate program who have demonstrated strong leadership in their communities at UBC and greater Vancouver."
+        },
+        {
+            "id": "charles-and-jane-banks",
+            "title": "Charles and Jane Banks Scholarship",
+            "date": "2022-09-01",
+            "url": "https://ubc.ca",
+            "awarder": "The University of British Columbia",
+            "associatedWith": "ubc",
+            "summary": "Scholarships have been provided by the late Honorable Charles A. Banks for worthy and deserving students continuing their undergraduate studies. The awards are offered on the recommendation of their respective faculty."
+        },
+        {
             "id": "trek-excellence",
-            "title": "Trek Excellence Scholarship (Top 5%)",
-            "date": "Sep 2021",
-            "website": "https://ubc.ca",
-            "awarder": "University of British Columbia",
+            "title": "Trek Excellence Award (Top 5%) (x2)",
+            "date": "2022-09-01",
+            "url": "https://ubc.ca",
+            "awarder": "The University of British Columbia",
+            "associatedWith": "ubc",
             "summary": "Offered to top 5% of undergraduate students at UBC-Vancouver."
+        },
+        {
+            "id": "ubc-nus-award",
+            "title": "UBC-NUS Award",
+            "date": "2022-07-01",
+            "url": "https://ubc.ca",
+            "awarder": "The University of British Columbia",
+            "associatedWith": "nus",
+            "summary": "Offered to outstanding undergraduates attending NUS, from UBC, as part of an exchange program."
         },
         {
             "id": "j-fred-muir",
             "title": "J. Fred Muir Memorial Scholarship in Science",
-            "date": "Sep 2021",
-            "website": "https://cs.ubc.ca",
-            "awarder": "University of British Columbia",
+            "date": "2021-09-01",
+            "url": "https://cs.ubc.ca",
+            "awarder": "The University of British Columbia",
+            "associatedWith": "ubc",
             "summary": "Offered to UBC Science students on the recommendation of the Faculty of Science."
         },
         {
             "id": "science-scholar",
-            "title": "Science Scholar/Dean's Honour List",
-            "date": "May 2021",
-            "website": "https://cs.ubc.ca",
-            "awarder": "University of British Columbia",
+            "title": "Science Scholar/Dean's Honor List",
+            "date": "2021-05-01",
+            "url": "https://cs.ubc.ca",
+            "awarder": "The University of British Columbia",
+            "associatedWith": "ubc",
             "summary": "Standing of 90% or better in the previous Winter Session."
         },
         {
             "id": "dm",
-            "title": "Djavad Mowafaghian Presidential Scholar",
-            "date": "Apr 2019",
-            "website": "https://cs.ubc.ca",
-            "awarder": "University of British Columbia",
-            "summary": "Full-ride scholarship awarded upon acceptance to UBC."
+            "title": "Presidential Scholar",
+            "date": "2019-04-01",
+            "url": "https://cs.ubc.ca",
+            "awarder": "The University of British Columbia",
+            "associatedWith": "ubc",
+            "summary": "Full-ride scholarship awarded upon acceptance to UBC. Awarded by Djavad Mowafaghian Foundation."
         },
         {
             "id": "strem",
             "title": "Michael A. Strembitsky Gold Medalist",
-            "date": "Apr 2019",
-            "website": "https://epsb.ca",
+            "date": "2019-04-01",
+            "url": "https://epsb.ca",
             "awarder": "Edmonton Public Schools",
+            "associatedWith": "ib",
             "summary": "Nominated by McNally High School for Michael A. Strembitsky award, which recognizes accomplishments in academics and leadership, on behalf of McNally. All Edmonton high schools choose one nominee. Out of the 19 nominees, I was awarded the gold medallion, recognizing my achievements in both academic and leadership settings."
         },
         {
             "id": "td",
             "title": "TD Award of Merit for Community Leadership",
-            "date": "Apr 2019",
-            "website": "https://td.com/ca/en/personal-banking/solutions/student-banking/community-leadership-scholarship-for-canadians",
+            "date": "2019-04-01",
+            "url": "https://td.com/ca/en/personal-banking/solutions/student-banking/community-leadership-scholarship-for-canadians",
             "awarder": "TD Scholarships for Community Leadership",
+            "associatedWith": "ib",
             "summary": "From a field of 2700 applicants, I was selected as one of 59 finalists to be interviewed for the TD Community Leadership Scholarship, which recognizes significant contributions to one's community."
         },
         {
             "id": "loran",
             "title": "ATB Loran Finalist '19",
-            "date": "Feb 2019",
-            "website": "https://loranscholar.ca",
+            "date": "2019-02-01",
+            "url": "https://loranscholar.ca",
             "awarder": "Loran Scholars Foundation",
-            "summary": "The Loran received 5,089 applications for the Loran Award. Their volunteers assessed and interviewed 518 students across the country in order to identify 88 graduating high school and Cegep students. I was thankfully selected as one of the finalists and had the opportunity to attend the National Selections in Toronto."
+            "associatedWith": "ib",
+            "summary": "The Loran received 5,089 applications for the Loran Award. Their volunteers assessed and interviewed 518 students across the country in order to identify 88 students graduating from high school and Cegep. I was thankfully selected as one of the finalists and had the opportunity to attend the National Selections in Toronto."
         },
         {
             "id": "schulich",
             "title": "Schulich Leader Scholarship Nominee",
-            "date": "Feb 2019",
-            "website": "https://schulichleaders.com/",
+            "date": "2019-02-01",
+            "url": "https://schulichleaders.com",
             "awarder": "Schulich Leader Scholarships",
+            "associatedWith": "ib",
             "summary": "Selected as McNally High School's nominee for the Schulich Leadership Scholarship in recognition of achievements in STEM, leadership, and academics."
         }
     ],
@@ -852,44 +1374,101 @@
             "id": "cappies",
             "name": "Cappies reviews",
             "publisher": "The Edmonton Journal",
-            "date": "Apr 2019",
-            "website": "https://edmontonjournal.com/entertainment/theatre/cappies-review-cyrano-de-bergerac",
+            "releaseDate": "2019-05-06",
+            "url": "https://edmontonjournal.com/entertainment/theatre/cappies-review-cyrano-de-bergerac",
             "summary": "Through the Cappies program, I had six play reviews published in The Edmonton Journal."
         }
     ],
-    "skills": {
-        "technical": {
+    "teaching": [],
+    "speaking": [],
+    "skills": [
+        {
+            "id": "software-languages",
+            "name": "Languages",
+            "level": "Expert",
             "keywords": [
-                "TypeScript",
                 "Python",
-                "R",
+                "TypeScript",
+                "JavaScript",
                 "Java",
-                "Node",
-                "React",
-                "MongoDB",
+                "SQL",
+                "NoSQL",
+                "GraphQL",
+                "C",
+                "C++",
+                "HTML",
+                "CSS",
+                "Dart",
+                "TeX",
                 "Bash",
-                "PostgreSQL",
-                "Docker",
-                "AWS",
-                "Azure",
-                "Git",
-                "Jira"
+                "Protobuf"
             ]
         },
-        "nontechnical": {
+        {
+            "id": "software-frameworks",
+            "name": "Frameworks",
+            "level": "Expert",
             "keywords": [
-                "Leadership",
+                "React",
+                "Node",
+                "Flask",
+                "Django",
+                "pandas",
+                "NumPy",
+                "scikit-learn",
+                "pytest",
+                "Spring",
+                "JUnit",
+                "Tailwind"
+            ]
+        },
+        {
+            "id": "software-other",
+            "name": "Other",
+            "level": "Expert",
+            "keywords": [
+                "Git",
+                "Docker",
+                "Kubernetes",
+                "Cloud Computing",
+                "AWS",
+                "GCP",
+                "REST",
+                "gRPC"
+            ]
+        },
+        {
+            "id": "leadership",
+            "name": "Leadership",
+            "level": "Expert",
+            "keywords": [
+                "Teamwork",
                 "communication",
                 "accountability",
                 "tenacity"
             ]
+        },
+        {
+            "id": "interests",
+            "name": "Interests",
+            "level": "Expert",
+            "keywords": [
+                "Linguistics",
+                "Physics",
+                "Economics",
+                "Soccer",
+                "Hockey",
+                "Music",
+                "Piano",
+                "Saxophone"
+            ]
         }
-    },
+    ],
     "languages": [
         {
             "id": "en",
             "language": "English",
-            "fluency": "Fluent"
+            "fluency": "Native"
         },
         {
             "id": "fr",
@@ -898,13 +1477,36 @@
         }
     ],
     "interests": [
-        "Linguistics",
-        "physics",
-        "economics",
-        "reading",
-        "soccer",
-        "jazz",
-        "piano"
+        {
+            "id": "computer-science",
+            "name": "Computer Science",
+            "keywords": [
+                "Computational Complexity",
+                "Computer Systems"
+            ]
+        },
+        {
+            "id": "academic",
+            "name": "Academic",
+            "keywords": [
+                "Linguistics",
+                "Physics"
+            ]
+        },
+        {
+            "id": "sports",
+            "name": "Sports",
+            "keywords": [
+                "Soccer"
+            ]
+        },
+        {
+            "id": "music",
+            "name": "Music",
+            "keywords": [
+                "Piano"
+            ]
+        }
     ],
     "references": [
         {

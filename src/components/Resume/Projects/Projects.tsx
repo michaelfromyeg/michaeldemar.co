@@ -2,6 +2,8 @@ import React, { ReactElement } from "react";
 import Collapsible from "react-collapsible";
 import { Link } from "gatsby";
 
+import { formatDate } from "../../../utils/formatDate";
+
 import resume from "../../../data/resume.json";
 import cv from "../../../data/cv.json";
 
@@ -43,22 +45,13 @@ const Projects = (): ReactElement => {
                         >
                             <div className="entry" key={i}>
                                 <h5>
-                                    {project.location}—{project.date}
+                                    {project.location}—{formatDate(project.startDate)} to {project.endDate ? formatDate(project.endDate) : "present"}
                                 </h5>
                                 <ul className="description">
                                     {project.highlights.map((bullet, i) => {
                                         return <li key={i}>{bullet}</li>;
                                     })}
                                 </ul>
-                                {/* <div className="techstack">
-                                    {proj.technologies.map((tech, i) => {
-                                        return (
-                                            <div key={i} className="tech">
-                                                {tech}
-                                            </div>
-                                        );
-                                    })}
-                                </div> */}
                             </div>
                         </Collapsible>
                     );

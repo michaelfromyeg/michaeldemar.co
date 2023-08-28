@@ -15,7 +15,10 @@
         "node": true,
         "es6": true
     },
-    "plugins": ["@typescript-eslint", "react"],
+    "plugins": [
+        "@typescript-eslint",
+        "react"
+    ],
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -25,12 +28,14 @@
     },
     "rules": {
         "react/prop-types": "off",
-        "@typescript-eslint/explicit-function-return-type": "off"
+        "react/react-in-jsx-scope": "off"
     },
     "overrides": [
         // Override some TypeScript rules just for .js files
         {
-            "files": ["*.js"],
+            "files": [
+                "*.js"
+            ],
             "rules": {
                 "@typescript-eslint/no-var-requires": "off"
             }

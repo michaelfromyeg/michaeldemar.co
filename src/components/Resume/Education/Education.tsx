@@ -2,6 +2,8 @@ import React, { ReactElement } from "react";
 import Collapsible from "react-collapsible";
 import { Link } from "gatsby";
 
+import { formatDate } from "../../../utils/formatDate";
+
 import resume from "../../../data/resume.json";
 import cv from "../../../data/cv.json";
 
@@ -11,11 +13,18 @@ const Education = (): ReactElement => {
         return eduIds.includes(edu.id);
     })
 
-    // TODO: figure out how to implement this nicely
-    // const [open, setOpen] = useState(false)
-    // const changeAll = () => {
-    //   setOpen(true)
-    // }
+    const courseIds = resume.courses;
+    const courses = cv.courses.filter((course) => {
+        return courseIds.includes(course.id);
+    })
+
+    const edusWithCourses = edus.map((edu) => {
+        return {
+            courses: courses.filter((course) => course.associatedWith === edu.id), ...edu
+        }
+    })
+
+
 
     return (
         <div className="section">
@@ -29,13 +38,13 @@ const Education = (): ReactElement => {
             <h5 className="section-redirect" style={{ fontStyle: "oblique" }}>
                 Learn more about my time at UBC <Link to="/blog">here</Link>.
             </h5>
-            {edus.map((edu, i) => {
+            {edusWithCourses.map((edu, i) => {
                 const character = ``;
                 const triggerTitle = (
                     <>
                         <div className="item"></div>
                         <h3 className="entry-title">
-                            {edu.degree} @ <i>{edu.institution}</i> {character}
+                            {edu.studyType} @ <i>{edu.institution}</i> {character}
                         </h3>
                     </>
                 );
@@ -48,17 +57,17 @@ const Education = (): ReactElement => {
                     >
                         <div className="entry" key={i}>
                             <h5>
-                                {edu.location}—{edu.startDate} to {edu.endDate}
+                                {edu.location}—{formatDate(edu.startDate)} to {edu.endDate ? formatDate(edu.endDate) : "present"}
                             </h5>
                             <ul className="description">
-                                <li>{edu.degree}</li>
-                                <li>Grade: {edu.gpa}</li>
+                                <li>{edu.area}</li>
+                                <li>Grade: {edu.score}</li>
                             </ul>
                             <div className="courselist">
                                 {edu.courses.map((course, i) => {
                                     return (
                                         <div className="course" key={i}>
-                                            {course}
+                                            {course.name}
                                         </div>
                                     );
                                 })}

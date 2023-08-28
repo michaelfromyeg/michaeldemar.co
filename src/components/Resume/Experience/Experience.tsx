@@ -2,12 +2,14 @@ import React, { ReactElement } from "react";
 import Collapsible from "react-collapsible";
 import { Link } from "gatsby";
 
+import { formatDate } from "../../../utils/formatDate";
+
 import resume from "../../../data/resume.json";
 import cv from "../../../data/cv.json";
 
 const Experience = (): ReactElement => {
-    const expIds = resume.experience;
-    const exps = cv.experiences.filter((exp) => {
+    const expIds = resume.work;
+    const exps = cv.work.filter((exp) => {
         return expIds.includes(exp.id);
     })
 
@@ -30,7 +32,7 @@ const Experience = (): ReactElement => {
                         <>
                             <div className="item"></div>
                             <h3 className="entry-title">
-                                {exp.position} @ <i>{exp.organization}</i> {character}
+                                {exp.position} @ <i>{exp.name}</i> {character}
                             </h3>
                         </>
                     );
@@ -43,8 +45,8 @@ const Experience = (): ReactElement => {
                         >
                             <div className="entry" key={i}>
                                 <h5>
-                                    {exp.location}—{exp.startDate} to{" "}
-                                    {exp.endDate}
+                                    {exp.location}—{formatDate(exp.startDate)} to{" "}
+                                    {exp.endDate ? formatDate(exp.endDate) : "present"}
                                 </h5>
                                 <ul className="description">
                                     {exp.highlights.map((bullet, i) => {
@@ -52,7 +54,7 @@ const Experience = (): ReactElement => {
                                     })}
                                 </ul>
                                 <div className="techstack">
-                                    {exp.technologies.map((tech, i) => {
+                                    {exp.teams.map((tech, i) => {
                                         return (
                                             <div key={i} className="tech">
                                                 {tech}
