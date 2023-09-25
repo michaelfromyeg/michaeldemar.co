@@ -1,41 +1,13 @@
 {
     "basics": {
-        "profiles": [
-            "gh",
-            "li",
-            "so",
-            "dp",
-            "tw",
-            "yt"
-        ]
+        "profiles": ["gh", "li", "so", "dp", "tw", "yt"]
     },
-    "work": [
-        "csa",
-        "tesla",
-        "amazon",
-        "samsung"
-    ],
-    "projects": [
-        "vscode-puzzles",
-        "cheetcode"
-    ],
-    "volunteer": [
-        "k8s-release",
-        "mlh-workshops"
-    ],
-    "education": [
-        "ubc"
-    ],
-    "awards": [
-        "uta-award",
-        "trek-excellence",
-        "dm"
-    ],
-    "courses": [
-        "cpsc-320",
-        "cpsc-313",
-        "cpsc-317"
-    ],
+    "work": ["csa", "tesla", "amazon", "samsung"],
+    "projects": ["vscode-puzzles", "cheetcode"],
+    "volunteer": ["k8s-release", "mlh-workshops"],
+    "education": ["ubc"],
+    "awards": ["uta-award", "trek-excellence", "dm"],
+    "courses": ["cpsc-320", "cpsc-313", "cpsc-317"],
     "publications": [],
     "skills": [
         "software-languages",
