@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import React, { ReactElement } from "react";
 import Collapsible from "react-collapsible";
+import { parse } from "marked";
 
 import { formatDate } from "../../../utils/formatDate";
 
@@ -52,7 +53,9 @@ const Extracurriculars = (): ReactElement => {
                                 </h5>
                                 <ul className="description">
                                     {ec.highlights.map((bullet, i) => {
-                                        return <li key={i}>{bullet}</li>;
+                                        const parsedBullet = parse(bullet);
+                                        const parsedBulletNoP = parsedBullet.slice(3, parsedBullet.length - 5);
+                                        return <li key={i} dangerouslySetInnerHTML={{ __html: parsedBulletNoP }} />;
                                     })}
                                 </ul>
                             </div>

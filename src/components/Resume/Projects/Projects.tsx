@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
 import Collapsible from "react-collapsible";
 import { Link } from "gatsby";
+import { parse } from "marked";
 
 import { formatDate } from "../../../utils/formatDate";
 
@@ -49,7 +50,9 @@ const Projects = (): ReactElement => {
                                 </h5>
                                 <ul className="description">
                                     {project.highlights.map((bullet, i) => {
-                                        return <li key={i}>{bullet}</li>;
+                                        const parsedBullet = parse(bullet);
+                                        const parsedBulletNoP = parsedBullet.slice(3, parsedBullet.length - 5);
+                                        return <li key={i} dangerouslySetInnerHTML={{ __html: parsedBulletNoP }} />;
                                     })}
                                 </ul>
                             </div>
