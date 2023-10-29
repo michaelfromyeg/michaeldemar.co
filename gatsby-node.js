@@ -112,7 +112,10 @@ const createPagesByType = (postType, allPosts, createPage) => {
  * @returns {boolean} whether or not the post's type matches postType
  */
 const filterPosts = (post, postType) => {
-    return post.node.frontmatter.published === true && post.node.frontmatter.type === postType;
+    return (
+        post.node.frontmatter.published === true &&
+        post.node.frontmatter.type === postType
+    );
 };
 
 /**
