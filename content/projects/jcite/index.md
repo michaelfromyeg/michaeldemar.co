@@ -5,6 +5,7 @@ description: Create and manage your citations without all the headaches!
 type: "projects"
 featuredImage: "zotero.png"
 tags: ["java", "javafx"]
+published: true
 ---
 
 Create and manage your citations without all the headaches!

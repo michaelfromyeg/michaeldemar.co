@@ -5,6 +5,7 @@ description: "I recently figured out where and what I want to study for the next
 type: "blog"
 featuredImage: "ikigai.png"
 tags: ["high school", "advice"]
+published: true
 ---
 
 Some of my readers may know that I recently decided what I'll be doing past high school: studying computer science. This is very exciting as I now feel much more focused and fulfilled. I do find now that it is strange sitting in English classes and the like and trying to stay as motivated as I was. I now know that this subject won't be consequential to my life. However, I still enjoy all of my classes and have loved my school year so far.
@@ -23,4 +24,4 @@ So, there you have it: ikigai. A tangible way to think about what you want to do
 
 Oh, and how did I use ikigai to decide my major? I focussed on the intersection between what I was good at, and what I could be paid for. The world needs a lot of things, and there are lots of bright people working towards those things in their careers, so I didn't want that to necessarily inform my major. I'll put a pause on world domination for now. Moreover, I'm the type that loves virtually all of my work, so I didn't find that helpful in deciding. So, I had narrowed it down to what made money. Countless jobs have a salary I would be more than happy with. Some that stuck out included work in academia, STEM-centered jobs, potentially even law. Then I thought about what I was good at. I'm pretty flexible, but at more core I have a few main talents: math, problem-solving, and communicating. Well, a job that fuses that quite well is in computer science, where problems must be solved and presented to consumers!
 
-If you have any questions about ikigai, you're always welcome to reach out at me@michaeldemar.co. I also encourage you to check out [this](https://forastateofhappiness.com/ikigai-the-happiness-of-always-being-busy-in-japan) article.
+If you have any questions about ikigai, you're always welcome to reach out at <me@michaeldemar.co>. I also encourage you to check out [this](https://forastateofhappiness.com/ikigai-the-happiness-of-always-being-busy-in-japan) article.

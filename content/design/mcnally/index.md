@@ -5,6 +5,7 @@ description: I occasionally did graphic design for school projects. Some of them
 type: "design"
 featuredImage: "lettract-finale.png"
 tags: ["poster"]
+published: true
 ---
 
 I occasionally did graphic design for school projects. Some of them turned out okay!

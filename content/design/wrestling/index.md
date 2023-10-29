@@ -5,6 +5,7 @@ description: "I created merch designs for the wrestling team in high school. The
 type: "design"
 featuredImage: "threebars-01.jpg"
 tags: ["logo", "merch"]
+published: true
 ---
 
 ![Three bars](threebars-01.jpg "Three bars")

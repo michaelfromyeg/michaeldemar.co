@@ -5,6 +5,7 @@ description: "I have an addiction to e-mail newsletters. So I thought I'd put it
 type: "blog"
 featuredImage: "newsletters.png"
 tags: ["newsletters", "recommendations"]
+published: true
 ---
 
 ![Extra! Extra! Read all about it!](newsletters.png)

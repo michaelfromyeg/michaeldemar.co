@@ -5,6 +5,7 @@ description: "CSLC is an event I helped organize. At the beginning of the year, 
 type: "design"
 featuredImage: "cslc-logo-portfolio-01.jpg"
 tags: ["logo"]
+published: true
 ---
 
 CSLC is an event I helped organize. At the beginning of the year, we had a logo contest. My submission was used to inspire the final design.

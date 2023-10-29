@@ -5,6 +5,7 @@ description: "Two years ago, I had my first ever internship offer rescinded due 
 type: "blog"
 featuredImage: "bitgo.png"
 tags: ["technology", "advice"]
+published: true
 ---
 
 This upcoming fall, I was set on making a number of fairly major life changes. Firstly, I was about to move from one of the world's largest technology companies to a cryptocurrency start-up. Secondly, I was going to pack my bags and move from Canada to Palo Alto, California. And thirdly, I was going to do it all basically on my own.

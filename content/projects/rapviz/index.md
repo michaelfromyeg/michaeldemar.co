@@ -5,6 +5,7 @@ description: "See your bars broken down right in the browser. Powered by Spotify
 type: "projects"
 featuredImage: "rapviz-main.png"
 tags: ["flask", "react", "REST", "Genius API", "Spotify API"]
+published: true
 ---
 
 See your bars broken down right in the browser. Powered by Spotify, Genius, and Google Cloud. Check out the GitHub repository [here](https://github.com/michaelfromyeg)!

@@ -5,6 +5,7 @@ description: A week-long trip to South Thailand.
 type: "travel"
 featuredImage: "railay-beach.jpg"
 tags: ["thailand", "one-week"]
+published: true
 ---
 
 🚧 This page is under construction! 🚧

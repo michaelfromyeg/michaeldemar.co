@@ -5,6 +5,7 @@ description: A six-day Malaysia itinerary with an emphasis on nature and hiking.
 type: "travel"
 featuredImage: "tea-plantation.jpg"
 tags: ["malaysia", "one-week"]
+published: true
 ---
 
 🚧 This page is under construction! 🚧

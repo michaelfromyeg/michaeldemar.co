@@ -5,6 +5,7 @@ description: The Gateway is the University of Alberta's student-run newspaper. I
 type: "design"
 featuredImage: "poster.png"
 tags: ["poster", "print"]
+published: true
 ---
 
 The Gateway is the University of Alberta's student-run newspaper. I assisted on their campaign for additional funding.

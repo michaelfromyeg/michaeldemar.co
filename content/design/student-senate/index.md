@@ -5,6 +5,7 @@ description: "In grade 11 and 12 I served on my school board's Student Senate. I
 type: "design"
 featuredImage: "finding-time1.png"
 tags: ["brochure", "print"]
+published: true
 ---
 
 In grade 11 and 12 I served on my school board's Student Senate. In grade 11, I did graphic design work for my committee; I created brochures about time management.

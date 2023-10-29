@@ -20,6 +20,7 @@ tags:
         "SQL",
         "noSQL",
     ]
+published: true
 ---
 
 It's a Friday after classes. I'm grabbing a quick bite at one of UBC's only on-campus sit-down restaurants with a close friend, and a Gmail notification appears on my phone. As soon as I saw "UBC" in the subject line, I already knew what it was going to be.

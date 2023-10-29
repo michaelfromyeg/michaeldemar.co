@@ -5,6 +5,7 @@ description: An adventure-focused, week-long trip to Indonesia, starting in East
 type: "travel"
 featuredImage: "borobodur.jpg"
 tags: ["indonesia", "one-week"]
+published: true
 ---
 
 🚧 This page is under construction! 🚧

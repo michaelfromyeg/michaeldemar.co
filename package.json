@@ -28,12 +28,12 @@
         }
     },
     "scripts": {
-        "s": "yarn start",
+        "s": "npm start",
         "start": "gatsby develop",
-        "dev": "echo \"Use yarn start instead!\" && gatsby develop",
+        "dev": "echo \"Use npm start instead!\" && gatsby develop",
         "serve": "gatsby serve",
         "clean": "gatsby clean",
-        "t": "yarn test",
+        "t": "npm test",
         "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 0",
         "build": "gatsby build",
         "format": "prettier --write \"**/*.{js,jsx,json,yaml,yml,css,scss}\"",

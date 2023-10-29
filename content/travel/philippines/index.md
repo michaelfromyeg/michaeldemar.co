@@ -5,6 +5,7 @@ description: A week-long trip to the Philippines.
 type: "travel"
 featuredImage: "marina-bay-sands.jpg"
 tags: ["philippines", "one-week"]
+published: false
 ---
 
 🚧 This page is coming soon! 🚧

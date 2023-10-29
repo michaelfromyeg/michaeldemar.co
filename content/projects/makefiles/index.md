@@ -5,6 +5,7 @@ description: "A brief guide to Makefiles for compiling and linking small-to-medi
 type: "projects"
 featuredImage: "gnu-make.png"
 tags: ["make", "technical writing"]
+published: true
 ---
 
 A wrote a brief guide to GNU's `make`. Check it out [here](https://michaelfromyeg.github.io/makefiles)!

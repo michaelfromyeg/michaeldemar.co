@@ -5,6 +5,7 @@ description: I created a infographic for my Heritage Festival booth and posters 
 type: "design"
 featuredImage: "greece.png"
 tags: ["infographic", "poster", "print"]
+published: true
 ---
 
 I created a infographic for my Heritage Festival booth and posters to be displayed at the other countries.

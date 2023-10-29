@@ -23,9 +23,9 @@ After cloning the repository, run
 
 ```shellscript
 $ nvm use
-$ yarn install
+$ npm install
 > (unfortunately, many dependency warnings...)
-$ yarn start
+$ npm start
 > You can now view michaeldemar.co in the browser.
 
     http://localhost:8000/

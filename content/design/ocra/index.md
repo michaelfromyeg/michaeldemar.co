@@ -5,6 +5,7 @@ description: "I served on my residence's house council in first year and did a l
 type: "design"
 featuredImage: "tiktok.jpg"
 tags: ["poster", "print", "social media"]
+published: true
 ---
 
 I served on my residence's house council in first year and did a lot of neat graphic design projects!

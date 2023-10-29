@@ -5,6 +5,7 @@ description: "Last weekend, I participated in my first ever hackathon. Here, I r
 type: "blog"
 featuredImage: "hackathon.jpg"
 tags: ["hackathon", "advice", "high school", "java", "swing", "oop"]
+published: true
 ---
 
 ![Hacking away at nwPlus 2019](hackathon.jpg "Hacking away at nwPlus 2019")

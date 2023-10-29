@@ -5,6 +5,7 @@ description: "It's been about two weeks since I wrapped up my position as a Soft
 type: "blog"
 featuredImage: "amazon.png"
 tags: ["reflection", "advice"]
+published: true
 ---
 
 It's been about two weeks since I wrapped up my position as a Software Development Engineer (SDE) Intern at Amazon, and I wanted to reflect on my time there this summer. I often get asked about the full end-to-end experience of my time at Amazon, so before I get into what I worked on and what I learned, I'll first do a full re-wind to my initial application.

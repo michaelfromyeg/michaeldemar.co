@@ -5,6 +5,7 @@ description: I assisted managing a student volunteer club in high school. Here's
 type: "design"
 featuredImage: "logo-facebook-banner.jpg"
 tags: ["banner", "social media"]
+published: true
 ---
 
 I assisted managing a student volunteer club in high school. Here's some example advertising I created.

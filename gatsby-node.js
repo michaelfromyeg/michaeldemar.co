@@ -10,12 +10,14 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     const { createPage } = actions;
 
     // Get all posts by date
+    // TODO: for whatever reason, the filter is not working here; whatever, will come back to it later
     const response = await graphql(
         `
             {
                 allMarkdownRemark(
-                    sort: { fields: [frontmatter___date], order: DESC }
+                    sort: { frontmatter: { date: DESC } }
                     limit: 1000
+                    filter: { frontmatter: { published: { eq: true } } }
                 ) {
                     edges {
                         node {
@@ -25,6 +27,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
                             frontmatter {
                                 title
                                 type
+                                published
                             }
                         }
                     }
@@ -109,7 +112,7 @@ const createPagesByType = (postType, allPosts, createPage) => {
  * @returns {boolean} whether or not the post's type matches postType
  */
 const filterPosts = (post, postType) => {
-    return post.node.frontmatter.type === postType;
+    return post.node.frontmatter.published === true && post.node.frontmatter.type === postType;
 };
 
 /**

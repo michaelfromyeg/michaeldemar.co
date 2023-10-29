@@ -78,40 +78,43 @@ const PostListTemplate = ({
 
 export default PostListTemplate;
 
-export const pageQuery = graphql`query postListQuery($skip: Int!, $limit: Int!, $type: String!) {
-  site {
-    siteMetadata {
-      title
-    }
-  }
-  allMarkdownRemark(
-    sort: {fields: [frontmatter___date], order: DESC}
-    filter: {frontmatter: {type: {eq: $type}}}
-    limit: $limit
-    skip: $skip
-  ) {
-    edges {
-      node {
-        excerpt
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          title
-          description
-          featuredImage {
-            childImageSharp {
-              gatsbyImageData(
-                  placeholder: DOMINANT_COLOR
-                  formats: [AUTO, WEBP, AVIF]
-                  layout: CONSTRAINED
-                )
+export const pageQuery = graphql`
+    query postListQuery($skip: Int!, $limit: Int!, $type: String!) {
+        site {
+            siteMetadata {
+                title
             }
-          }
         }
-      }
+        allMarkdownRemark(
+            sort: { frontmatter: { date: DESC } }
+            filter: {
+                frontmatter: { type: { eq: $type }, published: { eq: true } }
+            }
+            limit: $limit
+            skip: $skip
+        ) {
+            edges {
+                node {
+                    excerpt
+                    fields {
+                        slug
+                    }
+                    frontmatter {
+                        date(formatString: "MMMM DD, YYYY")
+                        title
+                        description
+                        featuredImage {
+                            childImageSharp {
+                                gatsbyImageData(
+                                    placeholder: DOMINANT_COLOR
+                                    formats: [AUTO, WEBP, AVIF]
+                                    layout: CONSTRAINED
+                                )
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
-  }
-}
 `;

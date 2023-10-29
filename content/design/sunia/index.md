@@ -5,6 +5,7 @@ description: "I served as SUNIA's Marketing for our 2018/19 year. Here's some th
 type: "design"
 featuredImage: "summary.png"
 tags: ["marketing", "social media", "print"]
+published: true
 ---
 
 I served as SUNIA's Marketing for our 2018/19 year. Here's some things I made in the role!

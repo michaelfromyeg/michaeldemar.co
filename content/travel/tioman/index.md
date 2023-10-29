@@ -5,6 +5,7 @@ description: Learning how to dive on Tioman Island
 type: "travel"
 featuredImage: "marina-bay-sands.jpg"
 tags: ["malaysia", "one-week", "diving"]
+published: false
 ---
 
 🚧 This page is coming soon! 🚧

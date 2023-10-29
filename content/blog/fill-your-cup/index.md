@@ -5,6 +5,7 @@ description: "We're just passed the halfway point of 2022. One mantra, filling y
 type: "blog"
 featuredImage: "collision.png"
 tags: ["advice"]
+published: true
 ---
 
 Every single day, you start out as an empty cup.

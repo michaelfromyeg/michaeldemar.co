@@ -5,6 +5,7 @@ description: "To date, this is probably my favorite thing I've ever designed. I 
 type: "design"
 featuredImage: "photography-logo.jpg"
 tags: ["logo"]
+published: true
 ---
 
 To date, this is probably my favorite thing I've ever designed. I made a logo for my school's photography club.

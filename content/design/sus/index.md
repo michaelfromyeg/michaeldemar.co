@@ -5,6 +5,7 @@ description: "I joined SUS FYC in my first-year at UBC. Here are some cool thing
 type: "design"
 featuredImage: "glow-dj.jpg"
 tags: ["print", "poster", "social media"]
+published: true
 ---
 
 I joined SUS FYC in my first-year at UBC. Here are some cool things I made planning events with them!

@@ -5,6 +5,7 @@ description: Upload and match CSV data. Simple, but practical!
 type: "projects"
 featuredImage: "succeed.png"
 tags: ["react", "flask", "sqlite", "SQL"]
+published: true
 ---
 
 Upload and match CSV data. Simple, but practical! Check out the project for yourself, [here](https://michaelfromyeg.github.io/CSV-Upload-Tool).

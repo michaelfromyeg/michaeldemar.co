@@ -5,6 +5,7 @@ description: Predicting whether or not individuals will default on their credit 
 type: "projects"
 featuredImage: "ales-nesetril-credit-card-unsplash.jpg"
 tags: ["python", "scikit-learn", "machine learning", "numpy", "pandas"]
+published: true
 ---
 
 _The following blog post was written for the final homework submission of [CPSC 330, UBC's "Applied Machine Learning" course](https://github.com/ubc-cs/cpsc330). In the course, my partner Max and I got a hands-on introduction to machine learning with Python via sklearn._

@@ -5,6 +5,7 @@ description: An AR Android application to let you view the latest Best Buy produ
 type: "projects"
 featuredImage: "small-tv.jpg"
 tags: ["android", "java", "AR", "hackathon"]
+published: true
 ---
 
 ![My friends and I accepting our second place prize!](award.jpg)

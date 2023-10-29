@@ -5,6 +5,7 @@ description: Climbing up Mount Kinabalu
 type: "travel"
 featuredImage: "marina-bay-sands.jpg"
 tags: ["malaysia", "weekend", "mountaineering"]
+published: false
 ---
 
 🚧 This page is coming soon! 🚧

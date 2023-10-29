@@ -5,6 +5,7 @@ description: I created advertising to support funding our high school graduation
 type: "design"
 featuredImage: "grad.png"
 tags: ["brochure", "print"]
+published: true
 ---
 
 I created advertising to support funding our high school graduation, a Snapchat filter for our prom, and the pamphlet distributed at commencement.

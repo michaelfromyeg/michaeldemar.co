@@ -5,6 +5,7 @@ description: A website built to connect high school students with organizations 
 type: "projects"
 featuredImage: "massive-homepage.png"
 tags: ["flask", "PostgreSQL", "SQL", "bootstrap"]
+published: true
 ---
 
 A website built to connect high school students with organizations actively searching for volunteers. [Here's](https://github.com/michaelfromyeg/Massive-Volunteering) the GitHub repository.

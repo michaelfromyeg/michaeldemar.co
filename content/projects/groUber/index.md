@@ -5,6 +5,7 @@ description: Create carpools, without the headache.
 type: "projects"
 featuredImage: "grouber.png"
 tags: ["typescript", "react", "firebase", "node", "github actions"]
+published: true
 ---
 
 ![A 'poster' for groUber](poster-01.png)
@@ -37,10 +38,10 @@ Here's our [whitepaper](https://docs.google.com/document/d/e/2PACX-1vSLo8DhZ7p-V
 
 ### Stack
 
--   TypeScript, React
--   Node.js, npm
--   Firebase, including authentication, hosting, and Firestore
--   GitHub Actions
+- TypeScript, React
+- Node.js, npm
+- Firebase, including authentication, hosting, and Firestore
+- GitHub Actions
 
 ### Usage
 

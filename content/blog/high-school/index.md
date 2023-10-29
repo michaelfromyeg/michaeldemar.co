@@ -5,6 +5,7 @@ description: "High school is complicated in more ways than one. Here are a few p
 type: "blog"
 featuredImage: "mcnally.png"
 tags: ["high school", "advice"]
+published: true
 ---
 
 ![My alma mater, McNally!](mcnally.png "The entrance to McNally, my high school")
