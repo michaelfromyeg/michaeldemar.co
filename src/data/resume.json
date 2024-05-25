@@ -2,7 +2,7 @@
     "basics": {
         "profiles": ["gh", "li", "so", "dp", "tw", "yt"]
     },
-    "work": ["csa", "tesla", "amazon", "samsung"],
+    "work": ["notion", "csa", "tesla", "amazon", "samsung"],
     "projects": ["vscode-puzzles", "cheetcode"],
     "volunteer": ["k8s-release", "mlh-workshops"],
     "education": ["ubc"],
