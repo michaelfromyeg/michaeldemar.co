@@ -24,6 +24,9 @@ export const Destinations = [
         name: "travel",
     },
     {
+        name: "music",
+    },
+    {
         name: "about",
     },
 ];
@@ -36,25 +39,28 @@ const InnerLinks = (props: InnerLinksProps): ReactElement => {
     const { location } = props;
     const prefix = location === Locations.HOMEPAGE ? "homepage" : "";
 
-    const EMOJIS = ["🤠", "🐢", "👾", "🤖", "⚡", "🦅", "🦕", "🐧"]
+    const EMOJIS = ["🤠", "🐢", "👾", "🤖", "⚡", "🦅", "🦕", "🐧"];
     const emoji = EMOJIS[Math.floor(Math.random() * EMOJIS.length)];
 
     return (
         <div className={styles[`${prefix}Links`]}>
             <Link className={styles.headerLink} to={"/"}>
-                <h1 className={styles[`${prefix}Title`]}><span style={{ "marginRight": 5 }}>{emoji}</span>michaeldemar.co</h1>
+                <h1 className={styles[`${prefix}Title`]}>
+                    <span style={{ marginRight: 5 }}>{emoji}</span>
+                    michaeldemar.co
+                </h1>
             </Link>
             <div className={styles.linksAndLights}>
                 {Destinations.map((d, index) => {
-                        return (
-                            <Link
-                                key={index}
-                                className={styles[`${prefix}Link`]}
-                                to={`/${d.name}`}
-                            >
-                                [{d.name}]
-                            </Link>
-                        );
+                    return (
+                        <Link
+                            key={index}
+                            className={styles[`${prefix}Link`]}
+                            to={`/${d.name}`}
+                        >
+                            [{d.name}]
+                        </Link>
+                    );
                 })}
                 {location !== Locations.HOMEPAGE && <br />}
             </div>
@@ -68,7 +74,7 @@ interface LinksProps {
 }
 
 const Links = (props: LinksProps): ReactElement => {
-    const { location }  = props;
+    const { location } = props;
     switch (location) {
         case Locations.HOMEPAGE:
             return (
