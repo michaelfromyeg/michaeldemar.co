@@ -7,7 +7,7 @@ module.exports = {
         title: "michaeldemar.co",
         author: {
             name: "Michael DeMarco",
-            summary: `an aspiring computer scientist completing his undergrad at the University of British Columbia (UBC) in Vancouver, BC.`,
+            summary: `a computer scientist at Notion Labs Inc., and graduate of the University of British Columbia`,
         },
         description:
             "Michael DeMarco's personal blog. Software development, design, travel, and more.",
@@ -156,7 +156,7 @@ module.exports = {
                             }
                         }`,
                         output: "/rss.xml",
-                        title: "Michael's Blog",
+                        title: "Michael DeMarco's Blog",
                         match: "^/blog/",
                     },
                 ],
