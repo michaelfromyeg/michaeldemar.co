@@ -2,13 +2,10 @@ import React, { ReactElement } from "react";
 import Format from "../components/Format/Format";
 import SEO from "../components/SEO/SEO";
 import { graphql, useStaticQuery } from "gatsby";
-import { Client } from "@notionhq/client";
 
 import "../styles/music.scss";
 
 const NOTION_COLLECTION_UUID = "d4aa82bc984a4236a5b2c6e11ce3da8b";
-
-const notion = new Client();
 
 interface Cover {
     name: string;
@@ -45,19 +42,6 @@ const Music = ({ location, serverData }: MusicProps): ReactElement => {
     const data = useStaticQuery(query);
 
     const { title } = data.site.siteMetadata;
-
-    const getPages = async () => {
-        try {
-            const response = await notion.databases.query({
-                database_id: NOTION_COLLECTION_UUID,
-            });
-            console.log(response);
-        } catch (error) {
-            console.error(error);
-        }
-    };
-
-    getPages();
 
     return (
         <Format location={location} title={title}>
