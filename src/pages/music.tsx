@@ -82,7 +82,7 @@ const Music = ({ location, serverData }: MusicProps): ReactElement => {
                             <h2 className="album-title">{album.Album}</h2>
                             <p className="album-artist">{album.Arist}</p>
                             <p className="album-release-date">
-                                {formattedDate}
+                                Released: {formattedDate}
                             </p>
                             <p className="album-rating">{album.Rating}</p>
                             <p className="album-review">{album.Review}</p>
