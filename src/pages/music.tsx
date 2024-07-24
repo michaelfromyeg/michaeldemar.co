@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react";
+import React, { ReactElement, useState, useEffect } from "react";
 import Format from "../components/Format/Format";
 import SEO from "../components/SEO/SEO";
 import { graphql, useStaticQuery } from "gatsby";
@@ -26,10 +26,9 @@ interface Album {
 
 interface MusicProps {
     location: string;
-    serverData: Album[];
 }
 
-const Music = ({ location, serverData }: MusicProps): ReactElement => {
+const Music = ({ location }: MusicProps): ReactElement => {
     const query = graphql`
         query MusicQuery {
             site {
@@ -43,6 +42,31 @@ const Music = ({ location, serverData }: MusicProps): ReactElement => {
 
     const { title } = data.site.siteMetadata;
 
+    const [albums, setAlbums] = useState<Album[]>([]);
+    const getAlbums = async (): Promise<void> => {
+        try {
+            const res = await fetch(
+                `https://notion-api.splitbee.io/v1/table/${NOTION_COLLECTION_UUID}`
+            );
+
+            console.log(res);
+
+            if (!res.ok) {
+                console.error(res);
+                return;
+            }
+
+            const albums = await res.json();
+            setAlbums(albums);
+        } catch (error) {
+            console.error(error);
+        }
+    };
+
+    useEffect(() => {
+        getAlbums();
+    }, []);
+
     return (
         <Format location={location} title={title}>
             <SEO title="About" />
@@ -55,10 +79,11 @@ const Music = ({ location, serverData }: MusicProps): ReactElement => {
                 >
                     here
                 </a>
-                !
+                ! (Note that with an Adblocker, this page may not load
+                correctly.)
             </p>
             <div className="album-grid">
-                {serverData.map(album => {
+                {albums.map(album => {
                     const formattedDate = new Date(
                         album["Release Date"]
                     ).toLocaleDateString("en-US", {
@@ -96,27 +121,5 @@ const Music = ({ location, serverData }: MusicProps): ReactElement => {
         </Format>
     );
 };
-
-export async function getServerData() {
-    try {
-        const res = await fetch(
-            `https://notion-api.splitbee.io/v1/table/${NOTION_COLLECTION_UUID}`
-        );
-
-        if (!res.ok) {
-            throw new Error(`Response failed`);
-        }
-
-        return {
-            props: await res.json(),
-        };
-    } catch (error) {
-        return {
-            status: 500,
-            headers: {},
-            props: {},
-        };
-    }
-}
 
 export default Music;
