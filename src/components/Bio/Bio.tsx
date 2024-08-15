@@ -55,7 +55,7 @@ const Bio = (): ReactElement => {
             />
             <p>
                 Written, designed, and programmed by{" "}
-                <strong>{author.name}</strong> {author.summary}⚡🦅
+                <strong>{author.name}</strong> {author.summary}.⚡🦅
                 <br />
                 <FontAwesomeIcon height={`1em`} icon={faTwitter} />
                 {` `}

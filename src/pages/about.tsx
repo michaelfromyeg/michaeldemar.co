@@ -6,25 +6,18 @@ import Bio from "../components/Bio/Bio";
 import Format from "../components/Format/Format";
 import SEO from "../components/SEO/SEO";
 
-import { UNIVERSITY_YEAR_AS_STRING } from "../data/Constants";
-
-interface AboutBioProps {
-    universityYear: string;
-}
-
-const AboutBio = ({ universityYear }: AboutBioProps): ReactElement => {
+const AboutBio: React.FC = () => {
     return (
         <>
             <p>
-                Hey there! {`I'm`} Michael, a {universityYear} Honours Computer
-                Science student from the{" "}
+                Hey there! {`I'm`} Michael, an Honours Computer Science graduate
+                from the{" "}
                 <a href="https://ubc.ca" target="_blank" rel="noreferrer">
                     University of British Columbia (UBC)
                 </a>{" "}
-                in Vancouver, Canada. I am originally from Edmonton, Alberta; I
-                made the leap one province over to pursue my undergraduate
-                studies in the fall of 2019. Alongside my major, I am working
-                towards a{" "}
+                in Vancouver, Canada. {`I'm`} originally from Edmonton, Alberta;
+                I made the leap one province over to pursue my undergraduate
+                studies in the fall of 2019. Alongside my major, I completed a{" "}
                 <a
                     href="https://datascience.ubc.ca/minor"
                     target="_blank"
@@ -32,7 +25,7 @@ const AboutBio = ({ universityYear }: AboutBioProps): ReactElement => {
                 >
                     minor in Data Science
                 </a>{" "}
-                and am a participant in the{" "}
+                and participated in the{" "}
                 <a
                     href="https://sciencecoop.ubc.ca"
                     target="_blank"
@@ -40,14 +33,14 @@ const AboutBio = ({ universityYear }: AboutBioProps): ReactElement => {
                 >
                     co-op program
                 </a>
-                . I also am completing a study abroad at the{" "}
+                . I also did a study abroad at the{" "}
                 <a href="https://nus.edu.sg">
                     National University of Singapore
                 </a>
                 .
             </p>
             <p>
-                In the past, {`I've`} worked at{" "}
+                In college, I interned or worked at{" "}
                 <a href="https://curo46.com" target="_blank" rel="noreferrer">
                     General Genomics
                 </a>
@@ -75,7 +68,15 @@ const AboutBio = ({ universityYear }: AboutBioProps): ReactElement => {
                 >
                     Tesla
                 </a>{" "}
-                in Supercharging, and as an{" "}
+                in Supercharging,{" "}
+                <a
+                    href="https://asc-csa.gc.ca/eng"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    The Canadian Space Agency
+                </a>{" "}
+                on {`Canada's`} first-ever lunar rover, and as an{" "}
                 <a
                     href="https://cs.ubc.ca/ta/"
                     target="_blank"
@@ -83,20 +84,21 @@ const AboutBio = ({ universityYear }: AboutBioProps): ReactElement => {
                 >
                     Undergraduate Teaching Assistant (UTA)
                 </a>
-                . To date, {`I've`} taught seven separate courses, including
-                introductory programming in Python, introductory data science,
-                computer systems, computer networking, and data structures and
-                algorithms.
+                . I taught nine separate courses, including introductory
+                programming in Python, introductory data science, computer
+                systems, computer networking, data structures and algorithms,
+                and parallel computing.
+            </p>
+            <p>
+                Since graduating, {`I've`} moved to San Francisco to complete a
+                post-graduate internship at Notion.
             </p>
             <p>
                 This blog is my sandbox on the Internet. It has been a passion
                 project for a number of years. It showcases my writing,
                 projects, design, and travel expereinces.
             </p>
-            <p>
-                I hope you enjoy your stay. To wrap up, here are some photos I
-                particularly enjoy.
-            </p>
+            <p>I hope you enjoy your stay. To wrap up, here are some photos.</p>
         </>
     );
 };
@@ -113,19 +115,14 @@ const About = ({ location }: AboutProps): ReactElement => {
                     title
                 }
             }
-            leo1: file(relativePath: { eq: "images/leo1.png" }) {
+            me: file(relativePath: { eq: "images/me.jpg" }) {
                 childImageSharp {
-                    gatsbyImageData(width: 600, layout: CONSTRAINED)
+                    gatsbyImageData(width: 300, layout: CONSTRAINED)
                 }
             }
-            collision: file(relativePath: { eq: "images/collision.jpg" }) {
+            leo: file(relativePath: { eq: "images/leo1.png" }) {
                 childImageSharp {
-                    gatsbyImageData(width: 600, layout: CONSTRAINED)
-                }
-            }
-            amazon3: file(relativePath: { eq: "images/amazon3.jpg" }) {
-                childImageSharp {
-                    gatsbyImageData(width: 600, layout: CONSTRAINED)
+                    gatsbyImageData(width: 300, layout: CONSTRAINED)
                 }
             }
         }
@@ -134,15 +131,10 @@ const About = ({ location }: AboutProps): ReactElement => {
 
     const { title } = data.site.siteMetadata;
 
-    const leoImage = getImage(data.leo1.childImageSharp);
-    const collisionImage = getImage(data.collision.childImageSharp);
-    const amazonImage = getImage(data.amazon3.childImageSharp);
+    const meImage = getImage(data.me.childImageSharp);
+    const leoImage = getImage(data.leo.childImageSharp);
 
-    if (
-        leoImage === undefined ||
-        collisionImage === undefined ||
-        amazonImage === undefined
-    ) {
+    if (meImage === undefined || leoImage === undefined) {
         throw new Error("Could not find image for /about page!");
     }
 
@@ -151,7 +143,7 @@ const About = ({ location }: AboutProps): ReactElement => {
             <SEO title="About" />
             <Bio />
             <h1>A little about me...</h1>
-            <AboutBio universityYear={UNIVERSITY_YEAR_AS_STRING} />
+            <AboutBio />
             <div
                 style={{
                     display: "flex",
@@ -162,24 +154,15 @@ const About = ({ location }: AboutProps): ReactElement => {
                 }}
             >
                 <GatsbyImage
+                    alt={"My headshot from my time at Notion."}
+                    image={meImage}
+                />
+                <p>My face! (July 2024)</p>
+                <GatsbyImage
                     alt={"A picture of my pet tortoise Leo."}
                     image={leoImage}
                 />
                 <p>My pet tortoise Leo! (Jun 2020)</p>
-                <GatsbyImage
-                    alt={
-                        "Sitting in front of the Collision logo at the 2022 edition of the conference."
-                    }
-                    image={collisionImage}
-                />
-                <p>Volunteering at Collision 2022. (June 2022)</p>
-                <GatsbyImage
-                    alt={
-                        "Standing in front of the Amazon logo in the Toronto office."
-                    }
-                    image={amazonImage}
-                />
-                <p>Interning in Toronto, Ontario for the summer. (July 2022)</p>
             </div>
         </Format>
     );

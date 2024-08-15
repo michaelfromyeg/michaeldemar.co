@@ -69,7 +69,7 @@ const universityYearToString = (universityYear: number): string => {
         case UniversityYear.FIFTH:
             return "fifth-year";
         case UniversityYear.GRADUATED:
-            return "recently graduated";
+            return "graduated";
         default:
             throw new Error(
                 `Cannot convert universityYear ${universityYear} to string!`
