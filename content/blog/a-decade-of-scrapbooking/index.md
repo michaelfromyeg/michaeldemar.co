@@ -3,7 +3,7 @@ title: "A decade of scrap booking"
 date: "2024-11-24"
 description: "Reflections on a decade of scrapbooking."
 type: "blog"
-featuredImage: "image 5.png"
+featuredImage: "image5.png"
 tags: ["reflection", "scrapbooking"]
 published: true
 ---
